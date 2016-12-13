@@ -12,6 +12,8 @@ cScripts script component have macros. Here are a list of available macros.
 <pre>
 QUOTE(Quote me);
 </pre></blockquote>
+|-
+| scope="row" colspan="2"|                                                          
 |}
 
 {| style="width: 100%;"
