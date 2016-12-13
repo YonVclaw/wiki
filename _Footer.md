@@ -1,1 +1,1 @@
-[7th Cavalry Gaming](https://7cav.us/) 2016.
+[7th Cavalry Gaming](https://7cav.us/) 2016. | Maintained by CPL.Brostrom.A
