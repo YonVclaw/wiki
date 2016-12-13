@@ -1,4 +1,4 @@
-{|
+{| style="width:100%;
 ! scope="row" colspan="2"| cScripts_fnc_doStarterCrate
 |-
 | scope="row" colspan="2"| Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor inviduntut labore et dolore magna aliquyam erat, sed diam voluptua.
