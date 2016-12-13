@@ -1,5 +1,42 @@
 [[API:-Functions#cScripts_fnc_doStarterCrate]]
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {| style="width: 100%;"
 ! scope="row" colspan="2"| <div id="cScripts_fnc_doStarterCrate">cScripts_fnc_doStarterCrate</div>
 |-
