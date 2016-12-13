@@ -1,6 +1,23 @@
 cScripts script component have macros. Here are a list of available macros.
 
-`QUOTE(var)`
+{|
+! scope="row" colspan="2"| QUOTE()
+|-
+| scope="row" colspan="2"| Adds quotation to a given string.
+|-
+|''Parameters''
+: <code>VARIABLE</code>
+|
+|-
+| scope="row" colspan="2"| **Author:** [CBA](https://github.com/CBATeam/CBA_A3)
+|}
+<blockquote>'''Example'''
+<pre>
+[_this] call cScripts_fnc_doStarterCrate;
+</pre></blockquote>
+
+
+
 
 `DOUBLES(var1,var2)`
 
