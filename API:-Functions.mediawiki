@@ -9,6 +9,6 @@
 * <code>BOOLEAN</code>
 |}
 <blockquote>''Example''
-<codeblock>
+<pre>
 [_this] call cScripts_fnc_doStarterCrate;
-</codeblock></blockquote>
+</pre></blockquote>
