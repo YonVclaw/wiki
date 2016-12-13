@@ -1,7 +1,7 @@
 {| style="width: 100%;"
 ! scope="row" colspan="2"| cScripts_fnc_doStarterCrate
 |-
-| scope="row" colspan="2"| Description:                                                                       
+| scope="row" colspan="2"| Description:                                                                                        
 
 |-
 |''Parameters''
