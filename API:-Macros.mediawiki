@@ -2,7 +2,7 @@ cScripts script component have macros. Here are a list of available macros.
 
 {| style="width: 100%;"
 ! scope="row" colspan="2"| QUOTE()
-------------------------------------------------------------------------------------------------
+___________________________________________________________________________________________________
 |-
 | scope="row" colspan="2"| I am a description.
 |-
