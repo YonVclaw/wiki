@@ -3,18 +3,17 @@ cScripts script component have macros. Here are a list of available macros.
 {| style="width: 100%;"
 ! scope="row" colspan="2"| QUOTE()
 |-
-| scope="row" colspan="2"| Adds quotation to a given string.
+| scope="row" colspan="2"| I am a description.
 |-
 |''Parameters''
-: <code>VARIABLE</code>
+: 0. <code>VARIABLE</code> - Variable
 |
 |-
-| scope="row" colspan="2"| ''Author:'' [https://github.com/CBATeam/CBA_A3 CBA]
-|}
-<blockquote>'''Example'''
+| scope="row" colspan="2"| <blockquote>'''Example'''
 <pre>
 [_this] call cScripts_fnc_doStarterCrate;
 </pre></blockquote>
+|}
 
 
 
