@@ -6,12 +6,7 @@
 |''Parameters''
 : 0. <code>OBJECT</code> - Object
 |''Returns''
-* BOOLEAN
+* <code>BOOLEAN</code>
 |}
-
-{|
-|+ 
-|-
-| EH
-|}
+Example
 > [_this] call cScripts_fnc_doStarterCrate;
