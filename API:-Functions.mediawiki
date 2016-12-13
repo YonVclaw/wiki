@@ -1,5 +1,17 @@
 {|
-|+ cScripts_fnc_doStarterCrate
-|
+! cScripts_fnc_doStarterCrate
+|-
+|Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor inviduntut labore et dolore magna aliquyam erat, sed diam voluptua.
+|-
+|''Parameters''
+0. `OBJECT` - Object
+|''Returns''
+* BOOLEAN
+|}
+
+{|
+|+ 
+|-
+| EH
 |}
 > [_this] call cScripts_fnc_doStarterCrate;
