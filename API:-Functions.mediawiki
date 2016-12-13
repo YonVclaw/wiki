@@ -27,7 +27,7 @@
 * [[API:-Functions#cScripts_fnc_flag|cScripts_fnc_flag]]
 * [[API:-Functions#cScripts_fnc_UH60TailNumber|cScripts_fnc_UH60TailNumber]]
 
-=== <center>cScripts_fnc_doStarterCrate</center> ===
+<center>===cScripts_fnc_doStarterCrate===</center>
 {| style="width: 100%;"
 ! scope="row" colspan="2"| 
 |-
