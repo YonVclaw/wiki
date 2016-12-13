@@ -4,7 +4,6 @@ cScripts script component have macros. Here are a list of available macros.
 ! scope="row" colspan="2"| QUOTE()
 |-
 | scope="row" colspan="2"| I am a description.
-                                                                      
 |-
 | ''Parameters''
 : 0. <code>VARIABLE</code> - Variable
