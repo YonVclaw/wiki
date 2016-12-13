@@ -1,11 +1,17 @@
 cScripts script component have macros. Here are a list of available macros.
 
-`QUOTE` applies quotation to a given line. (CBA macro.)
+`QUOTE(var)`
 
-`DOUBLES` (CBA macro.)
+`DOUBLES(var1,var2)`
 
-`TRIPLES` (CBA macro.)
+`TRIPLES(var1,var2,var3)`
 
-`_QUA` the QUA stands Quantity and it duplicates a lines from a minimum of 0 times to a maximum of 12
-> **Example**<br>
-> ```FOO BOO```
+`GVAR(var)`
+
+`QGVAR(var)`
+
+`FUNC(var)`
+
+`QFUNC(var)`
+
+`MACRO_UNITINSIGNIA(var1,var2)`
