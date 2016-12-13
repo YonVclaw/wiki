@@ -4,7 +4,7 @@
 | scope="row" colspan="2"| Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor inviduntut labore et dolore magna aliquyam erat, sed diam voluptua.
 |-
 |''Parameters''
-: 0. `OBJECT` - Object
+: 0. <code>OBJECT</code> - Object
 |''Returns''
 * BOOLEAN
 |}
