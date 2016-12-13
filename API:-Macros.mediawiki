@@ -1,7 +1,7 @@
 cScripts script component have macros. Here are a list of available macros.
 
-{| class="wikitable"
-! style="width:100%;" scope="row" colspan="2"| QUOTE()
+{| style="width: 100%;"
+! scope="row" colspan="2"| QUOTE()
 |-
 | scope="row" colspan="2"| Adds quotation to a given string.
 |-
