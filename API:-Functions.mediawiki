@@ -1,5 +1,5 @@
 {| style="width: 100%;"
-! scope="row" colspan="2"| cScripts_fnc_doStarterCrate
+! scope="row" colspan="2"| <div id="cScripts_fnc_doStarterCrate">cScripts_fnc_doStarterCrate</div>
 |-
 | scope="row" colspan="2"|'''Description:'''<br>
 I'm description.
