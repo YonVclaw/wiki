@@ -8,7 +8,7 @@
 |''Returns''
 * <code>BOOLEAN</code>
 |}
-<blockquote>''Example''
+<blockquote>'''Example'''
 <pre>
 [_this] call cScripts_fnc_doStarterCrate;
 </pre></blockquote>
