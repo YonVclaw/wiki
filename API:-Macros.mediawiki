@@ -9,7 +9,7 @@ cScripts script component have macros. Here are a list of available macros.
 : <code>VARIABLE</code>
 |
 |-
-| scope="row" colspan="2"| **Author:** [CBA](https://github.com/CBATeam/CBA_A3)
+| scope="row" colspan="2"| **Author:** [https://github.com/CBATeam/CBA_A3 CBA]
 |}
 <blockquote>'''Example'''
 <pre>
