@@ -1,4 +1,5 @@
-{| cScripts_fnc_doStarterCrate
+{|
+|+ cScripts_fnc_doStarterCrate
 |
 |}
 > [_this] call cScripts_fnc_doStarterCrate;
