@@ -1,6 +1,5 @@
 cScripts script component have macros. Here are a list of available macros.
 
-# List
 `QUOTE(var)`
 
 `DOUBLES(var1,var2)`
