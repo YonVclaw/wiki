@@ -14,10 +14,23 @@ QUOTE(Quote me);
 </pre></blockquote>
 |}
 
+{| style="width: 100%;"
+! scope="row" colspan="2"| DOUBLES()
+|-
+| scope="row" colspan="2"| I am a description.
+|-
+| ''Parameters''
+: 0. <code>VARIABLE</code> - Variable
+: 1. <code>VARIABLE</code> - Variable
+|-
+| scope="row" colspan="2"| <blockquote>'''Example'''
+<pre>
+
+</pre></blockquote>
+|}
 
 
-
-`DOUBLES(var1,var2)`
+``
 
 `TRIPLES(var1,var2,var3)`
 
