@@ -35,13 +35,13 @@
 | scope="row" colspan="2"|'''Description:'''<br>
 This populats a given object with items and commands used during operations.
 |-
-|''Parameters''</br>
-0: Object <OBJECT></br>
-1: Quick Select Scale <STRING>   (Default: "none")</br>
-2: ReGear action <BOOL>          (Default: true)</br>
-3: Heal action <BOOL>            (Default: true)</br>
-4: Insignia Selection <BOOL>     (Default: true)</br>
-5: Supply Size <NUMBER>          (Default: 1)
+|''Parameters''
+*0: Object <OBJECT>
+*1: Quick Select Scale <STRING>   (Default: "none")
+*2: ReGear action <BOOL>          (Default: true)
+*3: Heal action <BOOL>            (Default: true)
+*4: Insignia Selection <BOOL>     (Default: true)
+*5: Supply Size <NUMBER>          (Default: 1)
 |''Returns''
 * <code>BOOLEAN</code>
 |-
