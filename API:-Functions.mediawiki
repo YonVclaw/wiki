@@ -33,16 +33,23 @@
 ! scope="row" colspan="2"| <a name="cScripts_fnc_doStarterCrate"/>cScripts_fnc_doStarterCrate
 |-
 | scope="row" colspan="2"|'''Description:'''<br>
-I'm description.
+This populats a given object with items and commands used during operations.
 |-
 |''Parameters''
-: 0. <code>OBJECT</code> - Object
+: 0: Object <OBJECT>
+: 1: Quick Select Scale <STRING>   (Default: "none")
+: 2: ReGear action <BOOL>          (Default: true)
+: 3: Heal action <BOOL>            (Default: true)
+: 4: Insignia Selection <BOOL>     (Default: true)
+: 5: Supply Size <NUMBER>          (Default: 1)
 |''Returns''
 * <code>BOOLEAN</code>
 |-
 | scope="row" colspan="2"| <blockquote>'''Example'''
 <pre>
-[_this] call cScripts_fnc_doStarterCrate;
+[this] call cScripts_fnc_doStarterCrate;
+[this,"none",false] call cScripts_fnc_doStarterCrate;
+[this,"none",true,true,true,1] call cScripts_fnc_doStarterCrate;
 </pre></blockquote>
 |-
 | scope="row" colspan="2"|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
