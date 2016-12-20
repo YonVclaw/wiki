@@ -36,12 +36,12 @@
 This populats a given object with items and commands used during operations.
 |-
 |''Parameters''
-: 0: Object <OBJECT>
-: 1: Quick Select Scale <STRING>   (Default: "none")
-: 2: ReGear action <BOOL>          (Default: true)
-: 3: Heal action <BOOL>            (Default: true)
-: 4: Insignia Selection <BOOL>     (Default: true)
-: 5: Supply Size <NUMBER>          (Default: 1)
+0: Object <OBJECT>
+1: Quick Select Scale <STRING>   (Default: "none")
+2: ReGear action <BOOL>          (Default: true)
+3: Heal action <BOOL>            (Default: true)
+4: Insignia Selection <BOOL>     (Default: true)
+5: Supply Size <NUMBER>          (Default: 1)
 |''Returns''
 * <code>BOOLEAN</code>
 |-
