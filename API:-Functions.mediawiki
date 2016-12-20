@@ -35,7 +35,7 @@
 | scope="row" colspan="2"|'''Description:'''<br>
 This populats a given object with items and commands used during operations.
 |-
-|''Parameters''
+|''Parameters''</br>
 0: Object <OBJECT></br>
 1: Quick Select Scale <STRING>   (Default: "none")</br>
 2: ReGear action <BOOL>          (Default: true)</br>
