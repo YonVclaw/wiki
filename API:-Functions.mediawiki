@@ -27,7 +27,7 @@
 * [[API:-Functions#cScripts_fnc_initVehicle|cScripts_fnc_initVehicle]]
 * [[API:-Functions#cScripts_fnc_UH60TailNumber|cScripts_fnc_UH60TailNumber]]
 
-###
+[HR]
 
 {| style="width: 100%;"
 ! scope="row" colspan="2"| <a name="cScripts_fnc_doStarterCrate"/>cScripts_fnc_doStarterCrate
