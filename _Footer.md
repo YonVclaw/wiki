@@ -1,1 +1,2 @@
-[7th Cavalry Gaming](https://7cav.us/) 2016. | Maintained by S3 1BN Scripting Department)
+[7th Cavalry Gaming](https://7cav.us/) 2016. | Maintained by S3 1BN Scripting Department
+
