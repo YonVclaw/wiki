@@ -22,3 +22,22 @@ useScriptSupplyInventory    =   0;      // 0 or 1 Allow the mission to change Su
 useHeloGetOutRL             =   1;      // 0 or 1 Allow the mission to add Get Out Left/Right on helicopters. (Default: 1)
 addFRIESonZeusSpawn         =   1;      // 0 or 1 Allow the mission to add FRIE to helicopters spawned by Zeus. (Default: 1)
 ```
+# Mission settings
+## isDebugMode
+## isMissionType
+## aiSystemDifficulty
+
+# Hints and documents
+## useStartHint
+## setRedLightTime
+## setTrainingHintTime
+## setCustomHintTopic
+## setCustomHintText
+## showDiaryRecords
+
+# Custom mission start
+## useCustomInit
+## useScriptVehicleInventory
+## useScriptSupplyInventory
+## useHeloGetOutRL
+## addFRIESonZeusSpawn
