@@ -1,7 +1,8 @@
 This is S3 1BN Scripting Department code and development policy.
 
-# Goal
-Our goal Is to ensure everyone have fun and have as great experience as possible! With minimum performance loss.
+# Development and goals
+* Each member of the department work autonomous from each other.
+* Our goal Is to ensure everyone have fun and have as great experience as possible! With minimum performance loss.
 
 # Code standard
 ## Document everything 
