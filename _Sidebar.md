@@ -3,6 +3,6 @@ cScripts Development Wiki
 ** [Readme](https://github.com/7Cav/cScripts/blob/master/README.md)
 * API
 * Loadouts
-= Documents =
+Documents
 * [Development guides](https://github.com/7Cav/cScripts/wiki/Guides)
 * [FAQ](https://github.com/7Cav/cScripts/wiki/FAQ)
