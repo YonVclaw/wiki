@@ -30,7 +30,7 @@ When writing a script document everything by adding comments so it is easy to ma
 * Use `params[]` instead of `_this select 0`. 
 
 ## Use cba functions and script macros
-All our macros can be found in the [script_component.hpp] (https://github.com/7Cav/cScripts/blob/master/cScripts/script_component.hpp).
+All our macros can be found in the [script_component.hpp](https://github.com/7Cav/cScripts/blob/master/cScripts/script_component.hpp).
 
 ## Avoid edits in description.ext and init.sqf
 Instead use `cScripts_preInit.sqf` and or `cScripts_postInit.sqf` or any of the init scripts. 
