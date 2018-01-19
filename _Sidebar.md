@@ -1,4 +1,4 @@
-cScripts Development Wiki
+**cScripts Development Wiki**
 * [Home](https://github.com/7Cav/cScripts/wiki)
 * Development 
    * [API]()
