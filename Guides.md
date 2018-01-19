@@ -4,7 +4,7 @@ _Requires: Aries Achilles Expansion Addon_
 Moduels are split in to 3 section the [initModuels.sqf](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initModules.sqf) were all moduels are defined and the [modules](https://github.com/7Cav/cScripts/tree/master/cScripts/CavFnc/functions/modules) directly were the functions are located. The final section is the function you call for.
 
 # Add a new moduel
-To add a moduel you need to first create the function. Place the moduel in the 
+To add a moduel you need to first create the function. Place the moduel in the... (WIP) 
 
 
 ```
