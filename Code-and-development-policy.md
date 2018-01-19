@@ -1,8 +1,9 @@
 This is S3 1BN Scripting Department code and development policy.
 
 # Development and goals
-* Each member of the department work autonomous from each other.
-* Our goal Is to ensure everyone have fun and have as great experience as possible! With minimum performance loss.
+* Each member of the department work autonomous from each other but are not alone.
+* Each member are free to edit, update create new functions and system if you feal they will benefit the gaming experience. (Note: Settings, rules, equipment, inventories and loadouts are subject for review and needs to be approved by S3 staff before merge) 
+* Our goal is to ensure everyone have fun and have as great experience as possible! With minimum performance loss.
 
 # Code standard
 ## Document everything 
