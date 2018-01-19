@@ -22,6 +22,7 @@ params ["_crate","_pos"];
 
 _pos = _this select 0;
 
+// Defining dialog options
 private _dialogResult = [
     "Topic Shown In The Spawn Window",
     [
@@ -34,6 +35,7 @@ private _dialogResult = [
 // Exit if no option is selected or you abort.
 if (count _dialogResult == 0) exitWith {};
 
+// Add dialog option values
 private _firstSliderOption = _dialogResult select 0;
 private _secondBoolOption = if (_dialogResult select 1 == 0) then {true} else {false};
 private _thirdSelectionOption = switch (_dialogResult select 2) do {
@@ -43,6 +45,6 @@ private _thirdSelectionOption = switch (_dialogResult select 2) do {
     case 3: {"stringOptionD";};
 };
 
-private _crate = "B_CargoNet_01_ammo_F" createVehicle _pos;
-[_crate,_supplieSize] remoteExec ["cScripts_fnc_doSupplyCrate",0,true];
+// Applying moduel effects
+[_firstSliderOption,_secondBoolOption, _thirdSelectionOption] remoteExec ["cScripts_fnc_exampleFunction",0,true];
 ```
