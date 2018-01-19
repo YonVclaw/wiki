@@ -1,7 +1,7 @@
-This is the script department's guide line
+This is S3 1BN Scripting Department code and development policy.
 
 # Goal
-Our goal Is to ensure everyone have funand have as great experience as possible! 
+Our goal Is to ensure everyone have fun and have as great experience as possible! With minimum performance loss.
 
 # Code standard
 ## Document everything 
