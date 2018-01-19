@@ -5,8 +5,9 @@ Our goal Is to ensure everyone have funand have as great experience as possible!
 When writing a script document everything by adding comments so it is easy to maintain.
 Secondly make sure it do not drain the frame rate and avoid loops (if a loop is required use already added CBA functions.)
 Update the script header
+```
 /*
- * Author: Dystopian
+ * Author: myName, aGuyThatFixedTheFuctionName 
  * Description of my function.
  *
  * Arguments:
@@ -22,3 +23,4 @@ Update the script header
  *
  * Public: No
  */
+```
