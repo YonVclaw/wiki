@@ -3,7 +3,7 @@ _Requires: Aries Achilles Expansion Addon_
 
 Moduels are split in to 3 section the [initModuels.sqf](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initModules.sqf) were all moduels are defined and the [modules](https://github.com/7Cav/cScripts/tree/master/cScripts/CavFnc/functions/modules) directly were the functions are located. The final section is the function you call for.
 
-# Add a new moduel
+## Add a new moduel
 To add a moduel you need to create the effect doing what you whant Exsample can be the texture function  [cScripts_fnc_flag](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/texture/fn_flag.sqf). Then you need to create the moduel function that will apply and deal with the moduel place the moduel function in the [modules] (https://github.com/7Cav/cScripts/tree/master/cScripts/CavFnc/functions/modules) folder and define it in the config.
 Finaly add it to the [initModuels.sqf](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initModules.sqf) file exsample below. 
 ```
@@ -12,7 +12,8 @@ Finaly add it to the [initModuels.sqf](https://github.com/7Cav/cScripts/blob/mas
 }] call Ares_fnc_RegisterCustomModule;
 ```
 
-#Moduel Exsamples
+## Moduel Exsamples
+### Location placed
 Here is the exsample on location based placement moduel.
 ```
 #include "..\script_component.hpp";
@@ -47,7 +48,7 @@ private _thirdSelectionOption = switch (_dialogResult select 2) do {
 // Applying moduel effects
 [_firstSliderOption,_secondBoolOption, _thirdSelectionOption] remoteExec ["cScripts_fnc_exampleFunction",0,true];
 ```
-
+### Object placed
 Here is a Exsample for a object placed moduel
 ```
 #include "..\script_component.hpp";
