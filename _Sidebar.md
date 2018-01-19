@@ -3,8 +3,8 @@
 * **Development** 
    * [API]()
    * [Development guides](Guides)
-* [Loadouts]()
 * **Documents**
+  * [Loadouts]()
   * [Moduels]()
   * [Readme](https://github.com/7Cav/cScripts/blob/master/README.md)
   * [FAQ](FAQ)
