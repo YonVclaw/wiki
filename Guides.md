@@ -1,15 +1,13 @@
 # Moduel system
-_Requires: Achilles_
+_Requires: Aries Achilles Expansion Addon_
+Moduels are split in to 2 section [initModuels.sqf](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initModules.sqf), [modules](https://github.com/7Cav/cScripts/tree/master/cScripts/CavFnc/functions/modules)
 
-[initModules](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initModules.sqf)
 ```
 ["7Cav Logistics", "Create Starter Crate",{
     [(_this select 0)] call FUNC(moduleCreateStarterCrate);
 }] call Ares_fnc_RegisterCustomModule;
 ```
 
-
-[modules](https://github.com/7Cav/cScripts/tree/master/cScripts/CavFnc/functions/modules)
 
 
 ```
