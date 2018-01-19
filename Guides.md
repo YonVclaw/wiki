@@ -14,13 +14,13 @@ To add a moduel you need to first create the function. Place the moduel in the..
 ```
 
 
-
+Here is the exsample on location based placement moduel.
 ```
 #include "..\script_component.hpp";
 
 params ["_crate","_pos"];
 
-_pos = _this select 0; // select 0 on position, 1 on target.
+_pos = _this select 0; 
 
 // Defining dialog options
 private _dialogResult = [
