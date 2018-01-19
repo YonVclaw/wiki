@@ -1,9 +1,9 @@
 cScripts Development Wiki
 * [Home](https://github.com/7Cav/cScripts/wiki)
 * Development 
-   * API
+   * [API]()
    * [Development guides](Guides)
-* Loadouts
+* [Loadouts]()
 * Documents
   * [Readme](https://github.com/7Cav/cScripts/blob/master/README.md)
-  * [FAQ](https://github.com/7Cav/cScripts/wiki/FAQ)
+  * [FAQ](FAQ)
