@@ -3,6 +3,7 @@
 ## cScripts_fnc_doStarterCrate
 ### Syntax
 **Syntax:** `[this,"none",true,true,true,true,false] call cScripts_fnc_doStarterCrate;`
+
 **Parameters:**
 ```
  * Arguments:
