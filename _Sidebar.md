@@ -1,10 +1,10 @@
 **cScripts Development Wiki**
 * [Home](https://github.com/7Cav/cScripts/wiki)
-* **Development** 
-   * [API]()
-   * [Development guides](Guides)
+* **Frameworks** 
+   * [Frameworks](Frameworks)
+   * [Development](Development)
 * **Documents**
   * [Loadouts]()
-  * [Moduels]()
+  * [Modules]()
   * [Readme](https://github.com/7Cav/cScripts/blob/master/README.md)
   * [FAQ](FAQ)
