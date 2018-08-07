@@ -2,8 +2,8 @@
 # Logistical function
 ## cScripts_fnc_doStarterCrate
 ### Syntax
-**Syntax: **`[this,"none",true,true,true,true,false] call cScripts_fnc_doStarterCrate;`
-**Parameters**
+**Syntax:** `[this,"none",true,true,true,true,false] call cScripts_fnc_doStarterCrate;`
+**Parameters:**
 ``` * Arguments:
  * 0: Object <OBJECT>
  * 1: Quick Select Scale <STRING>   (Default: "none") ["none","alpha","bravo","charlie","ranger","medical","full"]
