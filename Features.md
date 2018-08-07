@@ -15,7 +15,7 @@
  * 5: Platoon variable <BOOL>       (Default: true)
  * 6: Arsenal <BOOL>                (Default: false)
 ```
-
+**Return Value:** ```Nothing```
 
 [this, true, 1] call cScripts_fnc_doFieldHospital;
 
