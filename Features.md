@@ -2,6 +2,7 @@
 # Logistical function
 
 ## Starter Crate
+The starter crate function transform a given object to a 7th Cavalry Start crate. Allowing to select loadouts, regear and get platoon based equipment.
 ### Syntax
 **Syntax:** `[this,"none",true,true,true,true,false] call cScripts_fnc_doStarterCrate;`
 
