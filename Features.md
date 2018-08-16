@@ -1,6 +1,5 @@
-{|
-|-
-|
+| Functions                                | Systems                                  |
+| ---------------------------------------- | ---------------------------------------- |
 * [[Vehicle Texture Lable|Texture Lable]]
 * [[Starter Crate]]
 * [[Field Hospital]]
@@ -8,5 +7,4 @@
 * [[Logistical Crates]]
 * [[Teleport]]
 * [[7Cav Modules]]
-|-
-|}
+| ---------------------------------------- | ---------------------------------------- |
