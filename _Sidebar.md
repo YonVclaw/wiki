@@ -1,8 +1,7 @@
 **cScripts Development Wiki**
 * [Home](https://github.com/7Cav/cScripts/wiki)
 * **Frameworks** 
-   * [Features](Features) (WIP)
-      * [Logistics](Logistical-function)
+   * [Features](Features)
    * [Frameworks](Frameworks) (WIP)
    * [Development](Development) (WIP)
 * **Documents**
