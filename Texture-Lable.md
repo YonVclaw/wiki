@@ -10,9 +10,8 @@ This function apply a texture to a given supported vehicle (see below). The func
   M2/M3 Bradley      1 PARMS     <SPECIAL>                           (Locations: Side)
 ```
 **Supported textures**
-```
-  A<sup>1</sup>
-```
+ A<sup>1</sup>
+
 <sup>1</sup> UH60 Black Hawks have a special variant of this texture when in use.
 
 
