@@ -1,4 +1,4 @@
-This function apply a texture to a given supported vehicle (see below). The function is applied manually via Eden or can be spawned using a [[7Cav Moduels|7Cav Moduel]].
+This function apply a texture to a given supported vehicle (see below). The function is applied manually via Eden or can be spawned using a [[7Cav Moduel|7Cav Moduels]].
 
 **Supported vehicles**
 ```
