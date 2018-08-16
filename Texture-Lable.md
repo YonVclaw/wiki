@@ -24,6 +24,7 @@ This function apply a texture to a given supported vehicle (see below). The func
 - `vic4` 
 - `vic5` 
 - `vic6`
+
 <sup>[1]</sup> UH60 Black Hawks have a special variant of this texture when in use. <br>
 <sup>[2]</sup> C-130 have a special variant of this texture when in use.
 
