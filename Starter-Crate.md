@@ -13,3 +13,6 @@ The starter crate function transform a given object to a 7th Cavalry Start crate
  6: Arsenal <BOOL>                (Default: false)
 ```
 **Return Value:** ```Nothing```
+
+## See also
+* [[Logistical crates]]
