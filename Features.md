@@ -1,3 +1,4 @@
 * [[Texture Lable]]
-* [[Logistical functions]]
+* [[Starter Crate]]
+* [[Logistical function]]
 * [[Teleport]]
