@@ -19,7 +19,7 @@
 
 **Return Value:** ```Nothing```
 
-# Empty Crate
+## Empty Crate
 ### Syntax
 **Syntax:** `[this] call cScripts_fnc_doEmptyCrate;`
 
@@ -29,3 +29,5 @@
 ```
 
 **Return Value:** ```Nothing```
+
+## See also
