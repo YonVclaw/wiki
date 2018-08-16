@@ -11,13 +11,13 @@ This function apply a texture to a given supported vehicle (see below). The func
 ```
 **Supported textures**
 
-  A<sup>[1]</sup> </br>
-  B<sup>[1]</sup> </br>
-  C<sup>[1]</sup> </br>
-  S<sup>[1]</sup> </br>
+  A<sup>[1]</sup> <br>
+  B<sup>[1]</sup> <br>
+  C<sup>[1]</sup> <br>
+  S<sup>[1]</sup> <br>
   0 to 9<sup>[1]</sup><sup>[2]</sup>
 
-<sup>[1]</sup> UH60 Black Hawks have a special variant of this texture when in use. </ br>
+<sup>[1]</sup> UH60 Black Hawks have a special variant of this texture when in use. <br>
 <sup>[2]</sup> C-130 have a special variant of this texture when in use.
 
 ### Syntax
