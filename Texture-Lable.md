@@ -19,11 +19,11 @@ This function apply a texture to a given supported vehicle (see below). The func
 -  `line`<sup>[A]</sup> 
 -  `stryker`<sup>[B]</sup> 
 -  `vic1` 
-- `vic2` 
-- `vic3` 
-- `vic4` 
-- `vic5` 
-- `vic6`
+-  `vic2` 
+-  `vic3` 
+-  `vic4` 
+-  `vic5` 
+-  `vic6`
 
 <sup>[1]</sup> UH60 Black Hawks have a special variant of this texture when in use. <br>
 <sup>[2]</sup> C-130 have a special variant of this texture when in use. <br>
@@ -49,6 +49,11 @@ This function apply a texture to a given supported vehicle (see below). The func
 **Return Value:** ```Nothing```
 
 ### Example usage
+```
+ [this] call cScripts_fnc_setVehicleLable
+ [this,"vic1"]
+ [this,"B","5"] call cScripts_fnc_setVehicleLable
+```
 
 ## See also
 * [[Logistical Crates]] [[Field Hospital]]
