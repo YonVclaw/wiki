@@ -56,4 +56,5 @@ This function apply a texture to a given supported vehicle (see below). The func
 ```
 
 ## See also
-* [[Logistical Crates]] [[Field Hospital]]
+* [[Logistical Crates]]
+* [[Field Hospital]]
