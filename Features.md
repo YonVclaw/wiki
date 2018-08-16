@@ -1,6 +1,6 @@
 * [[Texture Lable]]
 * [[Starter Crate]]
-* [[Fieald Hostpital]]
+* [[Field Hospital]]
 * [[Flag]]
 * [[Logistical Crates]]
 * [[Teleport]]
