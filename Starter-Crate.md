@@ -15,4 +15,4 @@ The starter crate function transform a given object to a 7th Cavalry Start crate
 **Return Value:** ```Nothing```
 
 ## See also
-* [[Logistical crates]]
+* [[Logistical Crates]] [[Field Hospital]]
