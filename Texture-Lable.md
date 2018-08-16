@@ -11,20 +11,19 @@ This function apply a texture to a given supported vehicle (see below). The func
 ```
 **Supported textures**
 
-  `A`<sup>[1]</sup> <br>
-  `B`<sup>[1]</sup> <br>
-  `C`<sup>[1]</sup> <br>
-  `S`<sup>[1]</sup> <br>
-  `0` to `9`<sup>[1]</sup><sup>[2]</sup>
-  `line` <br>
-  `stryker` <br>
-  `vic1` <br>
-- `vic2` <br>
-- `vic3` <br>
-- `vic4` <br>
-- `vic5` <br>
+-  `A`<sup>[1]</sup>
+-  `B`<sup>[1]</sup> 
+-  `C`<sup>[1]</sup>
+-  `S`<sup>[1]</sup> 
+-  `0` to `9`<sup>[1]</sup><sup>[2]</sup>
+-  `line` 
+-  `stryker` 
+-  `vic1` 
+- `vic2` 
+- `vic3` 
+- `vic4` 
+- `vic5` 
 - `vic6`
-
 <sup>[1]</sup> UH60 Black Hawks have a special variant of this texture when in use. <br>
 <sup>[2]</sup> C-130 have a special variant of this texture when in use.
 
