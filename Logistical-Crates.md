@@ -7,7 +7,7 @@
 [this,1] call cScripts_fnc_doMedicalCrate;
 [this,1] call cScripts_fnc_doSupplyCrate;
 [this,1] call cScripts_fnc_doWeaponsCrate;
-`[this] call cScripts_fnc_doEmptyCrate;`
+[this] call cScripts_fnc_doEmptyCrate;
 ```
 ### Syntax
 **Syntax:** `[this, 1] call cScripts_fnc_[TYPE];`
