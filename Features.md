@@ -1,4 +1,4 @@
-* [[Texture Lable|Vehicle Texture Lable]]
+* [[Vehicle Texture Lable|Texture Lable]]
 * [[Starter Crate]]
 * [[Field Hospital]]
 * [[Flag]]
