@@ -16,8 +16,8 @@ This function apply a texture to a given supported vehicle (see below). The func
 -  `C`<sup>[1]</sup>
 -  `S`<sup>[1]</sup> 
 -  `0` to `9`<sup>[1]</sup><sup>[2]</sup>
--  `line` 
--  `stryker` 
+-  `line` <sup>[A]</sup> 
+-  `stryker` <sup>[B]</sup> 
 -  `vic1` 
 - `vic2` 
 - `vic3` 
@@ -26,7 +26,9 @@ This function apply a texture to a given supported vehicle (see below). The func
 - `vic6`
 
 <sup>[1]</sup> UH60 Black Hawks have a special variant of this texture when in use. <br>
-<sup>[2]</sup> C-130 have a special variant of this texture when in use.
+<sup>[2]</sup> C-130 have a special variant of this texture when in use. <br>
+<sup>[A]</sup> This texture is automatically applyed to the UH 60 when using two parmeters `"B","2"`. <br>
+<sup>[B]</sup> Gets applied to the striker front no arguments required. <br>
 
 ### Syntax
 **Syntax:** `[this,"","","","","","","","",""] call cScripts_fnc_setVehicleLable`
