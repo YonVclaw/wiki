@@ -1,2 +1,3 @@
-
-[[Logistical function]] 
+* [[Texture Lable]]
+* [[Logistical functions]]
+* [[Teleport]]
