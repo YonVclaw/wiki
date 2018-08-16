@@ -1,4 +1,4 @@
-The starter crate function transform a given object to a 7th Cavalry Start crate. Allowing to select loadouts, regear and get platoon based equipment. The function is applied manually via Eden or can be spawned using a [[7Cav Moduel]].
+![Flowers](/flowers.jpeg){.callout}The starter crate function transform a given object to a 7th Cavalry Start crate. Allowing to select loadouts, regear and get platoon based equipment. The function is applied manually via Eden or can be spawned using a [[7Cav Moduel]].
 ### Syntax
 **Syntax:** `[this,"none",true,true,true,true,false] call cScripts_fnc_doStarterCrate;`
 
