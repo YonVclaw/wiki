@@ -16,8 +16,8 @@ This function apply a texture to a given supported vehicle (see below). The func
 -  `C`<sup>[1]</sup>
 -  `S`<sup>[1]</sup> 
 -  `0` to `9`<sup>[1]</sup><sup>[2]</sup>
--  `line` <sup>[A]</sup> 
--  `stryker` <sup>[B]</sup> 
+-  `line`<sup>[A]</sup> 
+-  `stryker`<sup>[B]</sup> 
 -  `vic1` 
 - `vic2` 
 - `vic3` 
