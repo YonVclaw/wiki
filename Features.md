@@ -5,6 +5,7 @@
 * [[Flag]]
 * [[Logistical Crates]]
 * [[Teleport]]
+* [[CBA Mission Settings]]
 
 **Zeus**
 * [[7Cav Modules]]
