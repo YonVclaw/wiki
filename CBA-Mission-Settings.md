@@ -17,5 +17,6 @@ cScripts_Settings_showDiaryRecords = true;
 cScripts_Settings_useCustomSupplyInventory = false;
 cScripts_Settings_useCustomVehicleInventory = true;
 cScripts_Settings_useCustomVehicleSettings = true;
-
 ```
+
+## See also
