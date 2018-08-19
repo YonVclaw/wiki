@@ -1,4 +1,4 @@
-<img align="right" width="300" height="182" src="https://github.com/7Cav/cScripts/resourses/wikigfx/CBA_Mission_Settings.png">cScripts comes equipped with [](CBA mission settings). When you install cScripts for the first time you need to reload the mission in order to access the settings.
+<img align="right" width="300" height="182" src="https://github.com/7Cav/cScripts/resourses/wikigfx/CBA_Mission_Settings.png">cScripts comes equipped with ()[CBA mission settings]. When you install cScripts for the first time you need to reload the mission in order to access the settings.
 
 ### Default Values
 ```
