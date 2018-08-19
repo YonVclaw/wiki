@@ -1,4 +1,4 @@
-<img align="right" width="300" height="204" src="https://steamuserimages-a.akamaihd.net/ugc/232326961979499441/E65AF43CCB6AB5ABE769AF3198DEAAF907C86E3C/">
+<img align="right" width="300" height="204" src="https://github.com/7Cav/cScripts/blob/master/resourses/wikigfx/Logistical_Crates.png">
 
 ### Functions
 ```
