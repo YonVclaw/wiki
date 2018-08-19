@@ -10,7 +10,7 @@ This function apply a texture to a given supported vehicle (see below). The func
   M2/M3 Bradley      1 PARMS     <SPECIAL>                           (Locations: Side)
 ```
 **Supported textures**
-<img align="right" width="300" height="210" src="https://github.com/7Cav/cScripts/blob/master/resourses/wikigfx/Texture_Lable.png">
+<img align="right" width="300" height="210" src="https://github.com/7Cav/cScripts/blob/master/resourses/wikigfx/Texture_Lable.png"><img align="right" width="300" height="210" src="https://github.com/7Cav/cScripts/blob/master/resourses/wikigfx/Texture_Lable.png">
 -  `A`<sup>[1]</sup>
 -  `B`<sup>[1]</sup> 
 -  `C`<sup>[1]</sup>
