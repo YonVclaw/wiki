@@ -1,4 +1,4 @@
-This function apply a texture to a given supported vehicle (see below). The function is applied manually via Eden or can be spawned using a [[7Cav Moduel|7Cav Moduels]].
+<img align="right" width="300" height="210" src="https://github.com/7Cav/cScripts/blob/master/resourses/wikigfx/Texture_Lable.png">This function apply a texture to a given supported vehicle (see below). The function is applied manually via Eden or can be spawned using a [[7Cav Moduel|7Cav Moduels]].
 
 **Supported vehicles**
 ```
