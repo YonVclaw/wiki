@@ -1,4 +1,5 @@
-<img align="right" width="300" height="182" src="https://github.com/7Cav/cScripts/resourses/wikigfx/CBA_Mission_Settings.png">cScripts comes equipped with [CBA settings](https://github.com/CBATeam/CBA_A3/wiki/CBA-Settings-System). When you install cScripts for the first time you need to reload the mission in order to access the mission settings.
+<img align="right" width="300" height="182" src="https://github.com/7Cav/cScripts/resourses/wikigfx/CBA_Mission_Settings.png">cScripts comes equipped with [CBA settings](https://github.com/CBATeam/CBA_A3/wiki/CBA-Settings-System). When you install cScripts for the first time you need to reload the mission in order to access the mission settings. In order to edit the mission settings in Eden-Editor select Settings → Addon Options... (''shortcut: Ctrl + Alt + S'').
+
 
 ### Default Values
 ```
