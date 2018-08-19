@@ -1,3 +1,6 @@
+<img align="right" width="300" height="182" src="https://github.com/7Cav/cScripts/resourses/wikigfx/CBA_Mission_Settings.png">
+cScripts comes equipped with mission 
+
 ### Default Values
 ```
 // cScripts Mission Settings
