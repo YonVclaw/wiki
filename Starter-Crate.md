@@ -14,7 +14,7 @@ The function is applied manually via Eden or can be spawned using a [[7Cav Modue
  2: ReGear action <BOOL>          (Default: true)
  3: Heal action <BOOL>            (Default: true)
  4: Insignia Selection <BOOL>     (Default: true)
- 5: Require Platoon variable <BOOL>       (Default: true)
+ 5: Require Platoon variable <BOOL>     (Default: true)
  6: Arsenal <BOOL>                (Default: false)
 ```
 **Return Value:** ```Nothing```
