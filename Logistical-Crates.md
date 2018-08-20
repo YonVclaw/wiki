@@ -1,14 +1,16 @@
-<img align="right" width="300" height="204" src="https://github.com/7Cav/cScripts/blob/master/resourses/wikigfx/Logistical_Crates.png">
+<img align="right" width="300" height="204" src="https://github.com/7Cav/cScripts/blob/master/resourses/wikigfx/Logistical_Crates.png">The logistical crates are several functions built to give players in the fieald a quick way to resupply and give logistical people a easier way to moving equipment around. When the system is applyed the crate will get the sprayed CAV insignia.
 
 ### Functions
 ```
+[this,1] call cScripts_fnc_doSupplyCrate;
+
 [this,1] call cScripts_fnc_doAmmoCrate;
 [this,1] call cScripts_fnc_doExplosivesCrate;
 [this,1] call cScripts_fnc_doGrenadesCrate;
 [this,1] call cScripts_fnc_doLaunchersCrate;
 [this,1] call cScripts_fnc_doMedicalCrate;
-[this,1] call cScripts_fnc_doSupplyCrate;
 [this,1] call cScripts_fnc_doWeaponsCrate;
+
 [this] call cScripts_fnc_doEmptyCrate;
 ```
 ### Syntax
