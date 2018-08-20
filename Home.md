@@ -1,5 +1,5 @@
 <img align="center" src="https://github.com/7Cav/cScripts/blob/master/resourses/logo.png">
-<center>**Welcome to the cScripts wiki!**</center>
+<p style="text-align: center;">**Welcome to the cScripts wiki!**</p>
 
 
 
