@@ -11,13 +11,11 @@ The function is applied manually via Eden or can be spawned using a [[7Cav Modue
 ```
  0: Object <OBJECT>
  1: Platoon <STRING>            (Default: "none") ["none","alpha","bravo","charlie","ranger","medical","full"]
- 2: ReGear action <BOOL>            (Default: true)
- 3: Heal action <BOOL>             
- (Default: true)
- 4: Insignia Selection <BOOL>      
- (Default: true)
- 5: Require Platoon variable <BOOL> (Default: true)
- 6: Arsenal <BOOL>                (Default: false)
+ 2: ReGear action <BOOL>             (Default: true)
+ 3: Heal action <BOOL>              (Default: true)
+ 4: Insignia Selection <BOOL>       (Default: true)
+ 5: Require Platoon variable <BOOL>  (Default: true)
+ 6: Arsenal <BOOL>              (Default: false)
 ```
 **Return Value:** ```Nothing```
 
