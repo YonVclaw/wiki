@@ -1,6 +1,9 @@
 <img align="center" src="https://github.com/7Cav/cScripts/blob/master/resourses/logo.png">
+
 <p style="text-align: center;">Welcome to the cScripts wiki!</p>
+
 <center>Centered text</center>
+
 -> Centered text <-
 
 
