@@ -2,7 +2,7 @@
 
 The crate inventory as well as loadout selections is based around a given platoon and, as default, only members of the given platoon will be able to select loadouts from this crate. (A player spawned in as charlie trooper will only be able to access a charlie crate loadouts. (This does not effect the crate inventory, jet.))
 
-The function is applied manually via Eden or can be spawned using a [[7Cav Moduel|7Cav Moduels]].
+The function is applied manually via Eden or can be spawned using a [[7Cav Moduel|7Cav-Moduels]].
 
 ### Syntax
 **Syntax:** `[this,"none",true,true,true,true,false] call cScripts_fnc_doStarterCrate;`
