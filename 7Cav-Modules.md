@@ -11,7 +11,7 @@ The 7Cav moduels system uses the Achilles user costume module framework and are 
   * [[Re-supply Crate]]
   * [[Crew-Served Weapons Crate]]
 * **7Cav Vehicle**
-  * [[Add Vehicle Lable]]
+  * [[Add Vehicle Lable|Texture Lable]]
 * **7Cav Utilities**
   * [[Regerar Trooper]]
 * **7Cav Mission**
