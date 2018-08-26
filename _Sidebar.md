@@ -6,6 +6,6 @@
    * [Development](Development) (WIP)
 * **Documents**
   * [Loadouts]() (WIP)
-  * [Modules](7Cav-Modules) (WIP)
+  * [Modules](7Cav-Modules)
   * [Readme](https://github.com/7Cav/cScripts/blob/master/README.md)
   * [FAQ](FAQ) (WIP)
