@@ -1,4 +1,4 @@
-<img align="right" width="0" height="0" src="">This function is a simple function that allow you to change the flag texture of a given flagpole or banner. (moduel support only now) It also alow you to apply a vehicle flag on some vehicles.
+<img align="right" width="0" height="0" src="">This function is a simple function that allow you to change the flag texture of a given flagpole or banner. It also alow you to apply a vehicle flag on some vehicles. (The vehicle texture feature is only a moduel feature for now.)
 
 The function is applied manually via Eden or can be spawned using a [[7Cav Moduel|7Cav-Modules]].
 
