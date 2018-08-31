@@ -1,4 +1,4 @@
-<img align="right" width="0" height="0" src="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dignissim at eros ac sagittis. Curabitur faucibus nibh quis posuere posuere. Maecenas enim erat, gravida luctus urna non, eleifend pretium nisl.
+<img align="right" width="0" height="0" src=""> wip
 
 The function is applied manually via Eden or can be spawned using a [[7Cav Moduel|7Cav-Modules]].
 
