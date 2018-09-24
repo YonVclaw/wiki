@@ -1,8 +1,8 @@
-<img align="right" width="0" height="0" src="">This function is a simple function that allow you to change the flag texture of a given flagpole or banner. It also alow you to apply a vehicle flag on some vehicles. (The vehicle texture feature is only a moduel feature for now.)
+<img align="right" width="0" height="0" src="">This function is a simple function that allow you to change the flag texture of a given flagpole or banner. It also allows you to apply a vehicle flag on some vehicles. (The vehicle texture feature is only a module feature for now.)
 
 The function is applied manually via Eden or can be spawned using a [[7Cav Moduel|7Cav-Modules]].
 
-You can also aply flag texture manually in eden via the fields pressen sometimes in the object attributes. (Below you'll find the texture paths.)
+You can also apply flag texture manually in Eden via the texture field sometimes in the object attributes. (Below you'll find the texture paths.)
 ```
 //Crossed swords
 cScripts\Data\Objects\Flag_7CAV_00.paa
