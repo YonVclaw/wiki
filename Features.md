@@ -4,7 +4,7 @@
 * [[Field Hospital]]
 * [[Flag]]
 * [[Logistical Crates]]
-* [[Teleport]] (Don't exist yet)
+* [[Teleport]]
 * [[CBA Mission Settings]]
 
 *Functions ussaly require you to manually add them to the object or vehicles init line in eden.*
