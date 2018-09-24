@@ -1,4 +1,4 @@
-<img align="right" width="0" height="0" src="">This function allow you to set a teleporter from and to any kind of object.
+<img align="right" width="0" height="0" src="">This function allow you to set a teleporter from and to any kind of object. _Note that Z will always be 0 for MARKER, LOCATION and TASK._
 
 The function is applied manually via Eden.
 
