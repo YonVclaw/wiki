@@ -7,6 +7,7 @@ First off you need the image in a PNG format with a transparent background with 
 1. Naming the insignia (_Follow current name standard_).
 1. Place your insignia in:
    [`cScripts`](https://github.com/7Cav/cScripts/tree/master/cScripts)`\`[`Data`](https://github.com/7Cav/cScripts/tree/master/cScripts/Data)`\`[`Insignia`](https://github.com/7Cav/cScripts/tree/master/cScripts/Data/Insignia)`\`
-1. Add the new patch to [CfgUnitInsignia.hpp](https://github.com/7Cav/cScripts/blob/master/cScripts/CfgUnitInsignia.hpp) located; [`cScripts`](https://github.com/7Cav/cScripts/tree/master/cScripts)`\`[`CfgUnitInsignia.hpp`](https://github.com/7Cav/cScripts/blob/master/cScripts/CfgUnitInsignia.hpp)<br>
+1. Add the new patch to [`CfgUnitInsignia.hpp`](https://github.com/7Cav/cScripts/blob/master/cScripts/CfgUnitInsignia.hpp)<br>
    To make it easy to add more insignias we have developed a macro to be used:
    [`MACRO_UNITINSIGNIA(CONFIGNAME,picture-name.paa);`](https://github.com/7Cav/cScripts/blob/master/cScripts/script_macros.hpp#L39-L44)
+1. Add the insignia to the selector script; [`fn_initInsigniaSelections.sqf`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/selections/fn_initInsigniaSelections.sqf)
