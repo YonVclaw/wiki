@@ -7,6 +7,6 @@ First off you need the image in a PNG format with a transparent background with 
 1. Naming the insignia (_Follow current name standard_).
 1. Place your insignia in:
    `cScripts\Data\Insignia\`
-1. Add the new patch to [`cScripts\CfgUnitInsignia.hpp`](https://github.com/7Cav/cScripts/blob/master/cScripts/CfgUnitInsignia.hpp)
+1. Add the new patch to `cScripts`\[`CfgUnitInsignia.hpp`](https://github.com/7Cav/cScripts/blob/master/cScripts/CfgUnitInsignia.hpp)
    To make it easy for your self the following macro:
    `MACRO_UNITINSIGNIA(CONFIGNAME,picture-name.paa);`
