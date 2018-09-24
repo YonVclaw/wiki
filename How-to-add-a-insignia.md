@@ -1,4 +1,4 @@
-To add an insignia involve three steps; [creation and conversion of an image](#Image-and-format), [some minor scripting](#Image to cScripts) and
+To add an insignia involve two steps; [creation and conversion of an image](#Image-and-format), [some minor scripting](#Image-to-cScripts)
 
 ## Image and format
 First off you need the image in a PNG format with a transparent background with the size 512x512 that is converted to PAA the ARMA 3 image format. This is done with the Arma 3 Tools program; TexView2, ImageToPAA or [ARMAKE](https://github.com/KoffeinFlummi/armake)
