@@ -1,5 +1,5 @@
 * [[Loadouts and selectors]] 
-* [[Insignia and selector]] 
+* [[x|Insignia and selector]] 
 * [[Settings]]
 * [[Debugging]]
 * [[Moduels]]
