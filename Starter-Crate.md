@@ -22,4 +22,4 @@ The function is applied manually via Eden or can be spawned using a [[7Cav Modue
 ## See also
 * [[Field Hospital]]
 * [[Logistical Crates]]
-* [[How to add insignia]]
+* [[How to add a insignia]]
