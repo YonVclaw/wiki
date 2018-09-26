@@ -8,5 +8,5 @@ There are three debug log functions in cScripts; `logError`, `logWarning` and `l
 ```
 >>> private _var = 'exsample';
 >>> format['I am a %1 warning.', _var] call FUNC(logWarning)
-[cScripts] WARNING: I am a Exsample warning.
+[cScripts] WARNING: I am a exsample warning.
 ```
