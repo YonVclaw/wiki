@@ -18,4 +18,4 @@ In order to log only when you have debug is enable you write:
     ["Exsample log"] call FUNC(logInfo);
 #endif
 ```
-This will allow a message to only be shown when `#define DEBUG_MODE`is defined (written att the top of the file or enabled via [script_component.hpp](https://github.com/7Cav/cScripts/blob/master/cScripts/script_component.hpp#L7). 
+This will allow a message to only be shown when `#define DEBUG_MODE` is defined (written att the top of the file or enabled via [script_component.hpp](https://github.com/7Cav/cScripts/blob/master/cScripts/script_component.hpp#L7).)
