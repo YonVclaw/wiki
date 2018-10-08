@@ -1,5 +1,7 @@
 <img align="right" width="300" height="204" src="https://github.com/7Cav/cScripts/blob/master/resourses/wikigfx/Logistical_Crates.png">The logistical crates are several functions built to give players in the fieald a quick way to resupply and give logistical people a easier way to moving equipment around. When the system is applyed the crate will get the sprayed CAV insignia.
 
+The functions is applied manually via Eden or can be spawned using a [[7Cav Moduel|7Cav-Modules]]. Only the supply crate is avalible as a module.
+
 ### Functions
 ```
 [this,1] call cScripts_fnc_doSupplyCrate;
