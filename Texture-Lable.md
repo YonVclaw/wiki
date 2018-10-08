@@ -10,7 +10,7 @@ The function is applied manually via Eden or can be spawned using a [[7Cav Modue
   M1A1 Abrams        2 PARMS     <SPECIAL>                           (Locations: Front, Side)
   M2/M3 Bradley      1 PARMS     <SPECIAL>                           (Locations: Side)
 ```
-**Texture Lable Library**
+**Texture library**
 <img align="right" width="300" height="210" src="https://github.com/7Cav/cScripts/blob/master/resourses/wikigfx/Texture_Lable.png">
 -  `A`<sup>[1]</sup>
 -  `B`<sup>[1]</sup> 
@@ -31,6 +31,7 @@ The function is applied manually via Eden or can be spawned using a [[7Cav Modue
 <sup>[A]</sup> This texture is automatically applyed to the UH 60 when using two parmeters `"B","2"`. <br>
 <sup>[B]</sup> Gets applied to the striker front no arguments required. <br>
 
+**Other textures**
 In addition it is possible to use other custom textures as a vehicle label by using the full path to the texture. Exsample: `cScripts\Data\Insignia\1-1-C-17.paa`
 
 ### Syntax
