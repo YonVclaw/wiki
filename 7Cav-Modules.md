@@ -17,6 +17,6 @@ The 7Cav moduels system uses the Achilles user costume module framework and are 
 * **7Cav Mission**
   * [[Call Endex]]
 * **7Cav Misc**
-  * [[Apply Cav Flag]]
+  * [[Apply Cav Flag|Flag]]
   * [[Assign Doctor]]
   * [[Assign Engineer]]
