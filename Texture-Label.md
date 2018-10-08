@@ -33,7 +33,7 @@ The function is applied manually via Eden or can be spawned using a [[7Cav Modue
 
 **Other textures**
 
-In addition it is possible to use other custom textures as a vehicle label by using the full path to the texture. Exsample: `cScripts\Data\Insignia\1-1-C-17.paa`
+To use other custom textures as a vehicle label by using the full path to the texture. Exsample: `cScripts\Data\Insignia\1-1-C-17.paa`
 
 ### Syntax
 **Syntax:** `[this,"","","","","","","","",""] call cScripts_fnc_setVehicleLable`
