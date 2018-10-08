@@ -8,7 +8,7 @@ The 7Cav moduels system uses the Achilles user costume module framework and are 
 * **7Cav Logistics**
   * [[Starter Crate]]
   * [[Field Hospital]]
-  * [[Re-supply Crate]]
+  * [[Re-supply Crate|Logistical Crates]]
   * [[Crew-Served Weapons Crate]]
 * **7Cav Vehicle**
   * [[Add Vehicle Label|Texture Label]]
