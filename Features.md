@@ -1,7 +1,7 @@
 **Systems**
 * [[Player loadouts]]
 * [[Vehicle loadouts]]
-* [[Vehicle Settings and functions]]
+* [[Vehicle settings and functions]]
 * [[CBA Mission Settings]]
 
 **Eden**
