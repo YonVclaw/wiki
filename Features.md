@@ -1,7 +1,7 @@
 **Systems**
-* [[Player loadouts]]
-* [[Vehicle loadouts]]
-* [[Vehicle settings and functions]]
+* [[Player Loadouts]]
+* [[Vehicle Loadouts]]
+* [[Vehicle Settings and Functions]]
 * [[CBA Mission Settings]]
 
 **Eden**
@@ -12,9 +12,6 @@
 * [[Logistical Crates]]
 * [[Teleport]]
 * [[CBA Mission Settings]]
+* [[7Cav Modules]]
 
 *Functions usually require you to manually add them to the object or vehicles init line in Eden.*
-
-**Zeus**
-* [[7Cav Modules]]
-  * [[Starter Crate]]
