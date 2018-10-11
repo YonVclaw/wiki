@@ -18,4 +18,4 @@ As per default, the `_Base` classes for all companies use a rifleman loadout wit
 Ace arsenal default loadouts **(Not implemented yet)**
 
 ## Known Issues 
-* RHS 'swamped' rifles (carry handle version) cannot be used in ACE Arsenal.
+* RHS 'swamped' rifles (example: Front grip version of a base weapon) cannot be used in ACE Arsenal.
