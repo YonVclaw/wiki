@@ -3,9 +3,9 @@ The system uses config style setup of the loadout files and is located here: [`c
 The loadouts use a simple inheritance system ware the actual unit loadout inherit from a higher class exsamle:
 ```
  >   - CommonBlufor
- >     - CAV_Charlie_Base
- >       - CAV_Charlie_SL
- >         - rhsusf_army_ocp_arb_squadleader
+ >>     - CAV_Charlie_Base
+ >>>       - CAV_Charlie_SL
+ >>>>         - rhsusf_army_ocp_arb_squadleader
 ```
 ## Known Issues 
 * RHS 'swamped' rifles (carry handle version) cannot be used in ACE Arsenal.
