@@ -13,8 +13,8 @@ This means in short if you define anything for `rhsusf_army_ocp_arb_squadleader`
 
 As per default, the `_Base` classes for all companies use a rifleman loadout with its rifle attachments removed.
 
-# Ace arsenal default loadouts
+## Ace arsenal default loadouts
 **Not implemented yet**
 
-# Known Issues 
+## Known Issues 
 * RHS 'swamped' rifles (carry handle version) cannot be used in ACE Arsenal.
