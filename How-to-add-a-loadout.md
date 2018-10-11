@@ -2,7 +2,6 @@ We use [Poppy](https://github.com/BaerMitUmlaut/Poppy) A reliable, self-configur
 The system uses config style setup of the loadout files and is located here: [`cScripts`](https://github.com/7Cav/cScripts/tree/master/cScripts)`\`[`Loadouts`](https://github.com/7Cav/cScripts/tree/master/cScripts/Loadouts).
 The loadouts use a simple inheritance system ware the actual unit loadout inherit from a higher class example:
 >    ... CommonBlufor
->
 >      ... CAV_Charlie_Base
 >
 >        ... CAV_Charlie_SL
