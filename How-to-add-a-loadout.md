@@ -4,9 +4,9 @@ The loadouts use a simple inheritance system ware the actual unit loadout inheri
 
 ```
 > CommonBlufor
->> CAV_Charlie_Base
->>> CAV_Charlie_SL
->>>> rhsusf_army_ocp_arb_squadleader (unit classname)
+> > CAV_Charlie_Base
+> > > CAV_Charlie_SL
+> > > > rhsusf_army_ocp_arb_squadleader (unit classname)
 ```
 
 This means in short if you define anything for `rhsusf_army_ocp_arb_squadleader` it will overwrite all the above. This means that all uniforms for charlie units can be changed by editing the `CAV_Charlie_Base` instead of physically edit all charlie trooper classes.
