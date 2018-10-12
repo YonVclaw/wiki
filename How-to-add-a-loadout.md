@@ -11,8 +11,7 @@ The loadouts use a simple inheritance system ware the actual unit loadout inheri
 
 This means in short if you define anything for `rhsusf_army_ocp_arb_squadleader` it will overwrite all the above. This means that all uniforms for charlie units can be changed by editing the `CAV_Charlie_Base` instead of physically edit all charlie trooper classes.
 
-As per default, the `_Base` classes for all companies use a rifleman loadout with its rifle attachments removed.
-
+As per default, the `_Base` classes for all companies use a rifleman loadout with its rifle attachments removed. This means that riflemens mostly only have a rifle defined in there loadout.
 
 
 Ace arsenal default loadouts **(Not implemented yet)**
