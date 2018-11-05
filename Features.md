@@ -1,5 +1,5 @@
 **Systems**
-* [[Help cards and check lists|Diary Records Documents]]
+* [[Help cards and check lists|Diary Records and Documents]]
 * [[Player Loadouts (WIP)|Player Loadouts]]
 * [[Vehicle Loadouts]]
 * [[Vehicle Settings and Functions]]
