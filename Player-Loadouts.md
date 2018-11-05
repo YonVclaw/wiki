@@ -1,0 +1,1 @@
+cScripts automaticly distribute loadouts via [Poppy](https://github.com/BaerMitUmlaut/Poppy/) "A reliable, self configuring, error finding loadout framework for Arma."
