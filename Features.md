@@ -1,6 +1,6 @@
 **Systems**
 * [[Help cards and check lists|Diary Records Documents]]
-* [[Player Loadouts]]
+* [[Player Loadouts (WIP)|Player Loadouts]]
 * [[Vehicle Loadouts]]
 * [[Vehicle Settings and Functions]]
 * [[CBA Mission Settings]]
