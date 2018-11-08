@@ -13,6 +13,7 @@
 * [[Flag]]
 * [[Logistical Crates]]
 * [[Teleport]]
+* [[Gate]]
 * [[CBA Mission Settings]]
 
 *Functions usually require you to manually add them to the object or vehicles init line in Eden.*
