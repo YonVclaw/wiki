@@ -6,7 +6,7 @@
 * [[CBA Mission Settings]]
 * [[7Cav Modules]]
 
-**Eden**
+**Eden functions**
 * [[Vehicle Texture Lable|Texture Label]]
 * [[Starter Crate]]
 * [[Field Hospital]]
