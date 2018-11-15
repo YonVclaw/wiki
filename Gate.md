@@ -1,4 +1,5 @@
-> **4.2.14**
+> *4.2.14*
+
 <img align="right" width="0" height="0" src="">The gate function creates a automated open and close gate system without requirement of setting up triggers.
 
 The function is applied manually via Eden.
