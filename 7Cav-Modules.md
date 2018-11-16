@@ -13,7 +13,7 @@ The 7Cav modules system uses the Achilles user custom module framework and are d
 * **7Cav Vehicle**
   * [[Add Vehicle Label|Texture Label]]
 * **7Cav Utilities**
-  * [[Regerar Trooper Module|Regerar Trooper]]
+  * [[Regerar Trooper|Regerar Trooper Module]]
 * **7Cav Mission**
   * [[Call Endex]]
 * **7Cav Misc**
