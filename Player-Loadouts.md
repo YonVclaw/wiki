@@ -4,6 +4,7 @@ cScripts automaticly distribute loadouts via [Poppy](https://github.com/BaerMitU
 |:----------|:---------------------------|:-------------------------------|:--------------------------------------|
 | Charlie   | Officer                    | `CAV_Charlie_OFFCR`            | `rhsusf_army_ocp_arb_riflemanl`       |
 | Charlie   | Joint Fires Observer       | `CAV_Charlie_JFO`              | `rhsusf_army_ocp_jfo`                 |
+|           |                            |                                |                                       |
 | Charlie   | Squad Leader               | `CAV_Charlie_SL`               | `rhsusf_army_ocp_arb_squadleader`     |
 | Charlie   | Fire Team Leader           | `CAV_Charlie_TL`               | `rhsusf_army_ocp_arb_teamleader`      |
 | Charlie   | Automatic Rifleman         | `CAV_Charlie_AR`               | `rhsusf_army_ocp_arb_autorifleman`    |
