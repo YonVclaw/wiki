@@ -23,3 +23,4 @@ The function is applied manually via Eden or can be spawned using a [[7Cav Modue
 * [[Field Hospital]]
 * [[Logistical Crates]]
 * [[How to add a insignia]]
+* [[Regear Trooper Module]]
