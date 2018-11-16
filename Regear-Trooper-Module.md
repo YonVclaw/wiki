@@ -5,5 +5,6 @@ If the trooper class or variable is not set there will be no effect.
 _Note! That this effect both AI and Player units._
 
 ## See also
+* [[7Cav Modules]]
 * [[Player Loadouts]]
 * [[Starter Crate]]
