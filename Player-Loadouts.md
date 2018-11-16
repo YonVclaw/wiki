@@ -18,7 +18,7 @@ cScripts automatically distribute loadouts via [Poppy](https://github.com/BaerMi
 | Bravo     | Crew Commander             | `CAV_Bravo_Crew_CDR`           | `rhsusf_army_ocp_combatcrewman`       |
 | Bravo     | Crew Gunner                | `CAV_Bravo_Crew_GNR`           | `rhsusf_army_ocp_crewman`             |
 | Bravo     | Crew                       | `CAV_Bravo_Crew_CREW`          | `rhsusf_army_ocp_driver`              |
-|           |                            |                                |                                       |
+|                                                                                                                 |
 | Bravo     | Squad Leader               | `CAV_Bravo_SL`                 | `rhsusf_army_ocp_squadleader`         |
 | Bravo     | Fire Team Leader           | `CAV_Bravo_TL`                 | `rhsusf_army_ocp_teamleader`          |
 | Bravo     | Automatic Rifleman         | `CAV_Bravo_AR`                 | `rhsusf_army_ocp_autorifleman`        |
