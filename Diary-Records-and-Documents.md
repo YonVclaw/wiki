@@ -1,4 +1,4 @@
-When on the the mapscreen there are cards and checklists to help you do proper; reports, call for fire or establish a LZ.
+<img align="right" width="300" height="210" src="https://github.com/7Cav/cScripts/blob/master/resourses/wikigfx/Diary_Records.png">When on the mapscreen there are cards and checklists to help you do properly; reports, call for fire or establish an LZ.
 
 They are located under the checklists and radio reports tabs. 
 
