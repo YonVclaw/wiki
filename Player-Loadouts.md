@@ -69,3 +69,7 @@ cScripts automatically distribute loadouts via [Poppy](https://github.com/BaerMi
 | Special   | S3 Mission Control         | `ZeusUnit` `_1` to `_5`           | N/A                                   |
 | Special   | S3 Mission Control         | `S3` `_1` to `_5`                 | N/A                                   |
 | Special   | S5 Cameraman               | `S5` `_1` to `_5`                 | N/A                                   |
+
+## See also
+* Starter Crate
+* Regear Trooper Module
