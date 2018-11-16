@@ -1,7 +1,17 @@
-cScripts automaticly distribute loadouts via [Poppy](https://github.com/BaerMitUmlaut/Poppy/) "*A reliable, self configuring, error finding loadout framework for Arma.*". Each loadout is tied to player controlled playable units. Below you find a list of supported classnames and avalible loadouts.
+cScripts automatically distribute loadouts via [Poppy](https://github.com/BaerMitUmlaut/Poppy/) "*A reliable, self configuring, error finding loadout framework for Arma.*". Each loadout is tied to player controlled playable units. Below you find a list of supported classnames and available loadouts.
 
-| Company   | Loadout Name               | Cav Definition Class           | Classname                             |
+| Company   | Loadout Name               | Cav Class Definition           | Classname                             |
 |:----------|:---------------------------|:-------------------------------|:--------------------------------------|
+| Alpha     | Pilot                      | `CAV_Alpha_Helo_PILOT`         | `B_Helipilot_F`                       |
+| Alpha     | Co-Pilot                   | `CAV_Alpha_Helo_COPILOT`       | ``                                    |
+| Alpha     | Crew Chief                 | `CAV_Alpha_Helo_CHIEF`         | `B_T_Helicrew_F`                      |
+| Alpha     | Crew                       | `CAV_Alpha_Helo_GNR`           | `B_Helicrew_F`                        |
+|           |                            |                                |                                       |
+| Alpha     | Pilot                      | `CAV_Alpha_Helo_PILOT_ATT`     | ``                                    |
+| Alpha     | Co-Pilot                   | `CAV_Alpha_Helo_COPILOT_ATT`   | ``                                    |
+|           |                            |                                |                                       |
+| Alpha     | Fixed Wing Pilot           | `CAV_Alpha_Fixed_PILOT`        | `B_Fighter_Pilot_F`                   |
+|           |                            |                                |                                       |
 | Bravo     | Officer                    | `CAV_Bravo_OFFCR`              | `rhsusf_army_ocp_officer`             |
 |           |                            |                                |                                       |
 | Bravo     | Crew Commander             | `CAV_Bravo_Crew_CDR`           | `rhsusf_army_ocp_combatcrewman`       |
@@ -15,9 +25,9 @@ cScripts automaticly distribute loadouts via [Poppy](https://github.com/BaerMitU
 | Bravo     | Rifleman                   | `CAV_Bravo_RM`                 | `rhsusf_army_ocp_rifleman`            |
 | Bravo     | Combat Life Saver          | `CAV_Bravo_CLS`                | `rhsusf_army_ocp_medic`               |
 |           |                            |                                |                                       |
-| Charlie   | HW Fire Team Leader        | `CAV_Bravo_Weapons_TL`        | `rhsusf_army_ocp_machinegunnera`       |
-| Charlie   | HW Automatic Rifleman      | `CAV_Bravo_Weapons_MG`        | `rhsusf_army_ocp_machinegunner`        |
-| Charlie   | HW Grenadier               | `CAV_Bravo_Weapons_GNR`       | `rhsusf_army_ocp_javelin`              |
+| Charlie   | HW Fire Team Leader        | `CAV_Bravo_Weapons_TL`         | `rhsusf_army_ocp_machinegunnera`      |
+| Charlie   | HW Automatic Rifleman      | `CAV_Bravo_Weapons_MG`         | `rhsusf_army_ocp_machinegunner`       |
+| Charlie   | HW Grenadier               | `CAV_Bravo_Weapons_GNR`        | `rhsusf_army_ocp_javelin`             |
 |           |                            |                                |                                       |
 | Charlie   | Officer                    | `CAV_Charlie_OFFCR`            | `rhsusf_army_ocp_arb_riflemanl`       |
 | Charlie   | Joint Fires Observer       | `CAV_Charlie_JFO`              | `rhsusf_army_ocp_jfo`                 |
