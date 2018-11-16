@@ -1,5 +1,6 @@
 *Mod dependencies: [Achilles](https://github.com/ArmaAchilles/Achilles)*
-Module can be found under **7Cav Utilities**.
+
+**7Cav Utilities**.
 
 When dropped on a unit the Regear Trooper module applies a fresh [[loadout|Player Loadouts]] to the given unit based on their classname or variable name.
 
