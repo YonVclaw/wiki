@@ -1,4 +1,12 @@
 cScripts automaticly distribute loadouts via [Poppy](https://github.com/BaerMitUmlaut/Poppy/) "*A reliable, self configuring, error finding loadout framework for Arma.*". Each loadout is tied to player controlled playable units. Below you find a list of supported classnames and avalible loadouts.
 
-| Loadout Name         | cClassname       | Classname                                    |
-|:---------------------|:-----------------|:---------------------------------------------|
+| Platoon   | Loadout Name            | Cav Definition Class   | Classname                             |
+|:----------|:------------------------|:-----------------------|:--------------------------------------|
+| Charlie   | Officer                 | `CAV_Charlie_OFFCR`    | `rhsusf_army_ocp_arb_riflemanl`       |
+| Charlie   | Joint Fires Observer    | `CAV_Charlie_JFO`      | `rhsusf_army_ocp_jfo`                 |
+| Charlie   | Squad Leader            | `CAV_Charlie_SL`       | `rhsusf_army_ocp_arb_squadleader`     |
+| Charlie   | Fire Team Leader        | `CAV_Charlie_TL`       | `rhsusf_army_ocp_arb_teamleader`      |
+| Charlie   | Automatic Rifleman      | `CAV_Charlie_AR`       | `rhsusf_army_ocp_arb_autorifleman`    |
+| Charlie   | Grenadier               | `CAV_Charlie_RM`       | `rhsusf_army_ocp_arb_grenadier`       |
+| Charlie   | Rifleman                | `CAV_Charlie_GR`       | `rhsusf_army_ocp_arb_rifleman`        |
+| Charlie   | Combat Life Saver       | `CAV_Charlie_CLS`      | `rhsusf_army_ocp_arb_medic`           |
