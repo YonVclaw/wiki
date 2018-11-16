@@ -5,7 +5,7 @@
    * [Frameworks](Frameworks)
    * [Development](Development)
 * **Documents**
-  * [Loadouts]()
+  * [Loadouts](Player-Loadouts)
   * [Modules](7Cav-Modules)
   * [Readme](https://github.com/7Cav/cScripts/blob/master/README.md)
   * [FAQ](FAQ) (WIP)
