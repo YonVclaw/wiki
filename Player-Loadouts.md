@@ -3,15 +3,16 @@ cScripts automatically distribute loadouts via [Poppy](https://github.com/BaerMi
 | Company   | Loadout Name               | Cav Class Definition           | Classname                             |
 |:----------|:---------------------------|:-------------------------------|:--------------------------------------|
 | Alpha     | Pilot                      | `CAV_Alpha_Helo_PILOT`         | `B_Helipilot_F`                       |
-| Alpha     | Co-Pilot                   | `CAV_Alpha_Helo_COPILOT`       | ``                                    |
+| Alpha     | Co-Pilot                   | `CAV_Alpha_Helo_COPILOT`       |                                       |
 | Alpha     | Crew Chief                 | `CAV_Alpha_Helo_CHIEF`         | `B_T_Helicrew_F`                      |
 | Alpha     | Crew                       | `CAV_Alpha_Helo_GNR`           | `B_Helicrew_F`                        |
 |           |                            |                                |                                       |
-| Alpha     | Pilot                      | `CAV_Alpha_Helo_PILOT_ATT`     | ``                                    |
-| Alpha     | Co-Pilot                   | `CAV_Alpha_Helo_COPILOT_ATT`   | ``                                    |
+| Alpha     | Pilot                      | `CAV_Alpha_Helo_PILOT_ATT`     |                                       |
+| Alpha     | Co-Pilot                   | `CAV_Alpha_Helo_COPILOT_ATT`   |                                       |
 |           |                            |                                |                                       |
 | Alpha     | Fixed Wing Pilot           | `CAV_Alpha_Fixed_PILOT`        | `B_Fighter_Pilot_F`                   |
 |           |                            |                                |                                       |
+| Bravo     |                            |                                |                                       |
 | Bravo     | Officer                    | `CAV_Bravo_OFFCR`              | `rhsusf_army_ocp_officer`             |
 |           |                            |                                |                                       |
 | Bravo     | Crew Commander             | `CAV_Bravo_Crew_CDR`           | `rhsusf_army_ocp_combatcrewman`       |
@@ -25,6 +26,7 @@ cScripts automatically distribute loadouts via [Poppy](https://github.com/BaerMi
 | Bravo     | Rifleman                   | `CAV_Bravo_RM`                 | `rhsusf_army_ocp_rifleman`            |
 | Bravo     | Combat Life Saver          | `CAV_Bravo_CLS`                | `rhsusf_army_ocp_medic`               |
 |           |                            |                                |                                       |
+| Charlie   |                            |                                |                                       |
 | Charlie   | HW Fire Team Leader        | `CAV_Bravo_Weapons_TL`         | `rhsusf_army_ocp_machinegunnera`      |
 | Charlie   | HW Automatic Rifleman      | `CAV_Bravo_Weapons_MG`         | `rhsusf_army_ocp_machinegunner`       |
 | Charlie   | HW Grenadier               | `CAV_Bravo_Weapons_GNR`        | `rhsusf_army_ocp_javelin`             |
@@ -45,3 +47,20 @@ cScripts automatically distribute loadouts via [Poppy](https://github.com/BaerMi
 | Charlie   | HW Grenadier               | `CAV_Charlie_Weapons_GR`       | `B_T_Soldier_Repair_F`                |
 | Charlie   | HW Rifleman                | `CAV_Charlie_Weapons_RM`       | `B_T_soldier_mine_F`                  |
 | Charlie   | HW Combat Life Saver       | `CAV_Charlie_Weapons_CLS`      | `B_T_Soldier_Exp_F`                   |
+|           |                            |                                |                                       |
+| Medical   |                            |                                |                                       |
+| Medical   | PL/PSG/Bonesaw Team Leader | `CAV_Medical_OFFCR`            | `B_medic_F`                           |
+| Medical   | Platoon Medics             | `CAV_Medical_PLMEDIC`          | `rhsusf_navy_marpat_d_medic`          |
+| Medical   | Bonesaw Team Medic         | `CAV_Medical_BONESAW`          | `rhsusf_navy_marpat_wd_medic`         |
+|           |                            |                                |                                       |
+| Ranger    |                            |                                |                                       |
+| Ranger    | Officer                    | `CAV_Ranger_OIC`               | `rhsusf_socom_marsoc_elementleader`   |
+| Ranger    | Squad Leader               | `CAV_Ranger_2IC`               | `rhsusf_socom_marsoc_teamchief `      |
+| Ranger    | Fire Team Leader           | `CAV_Ranger_TL `               | `rhsusf_socom_marsoc_teamleader`      |
+| Ranger    | Automatic Rifleman         | `CAV_Ranger_AR `               | `rhsusf_socom_marsoc_cso_mechanic`    |
+| Ranger    | Grenadier                  | `CAV_Ranger_GR `               | `rhsusf_socom_marsoc_cso_grenadier`   |
+| Ranger    | Rifleman                   | `CAV_Ranger_RM `               | `rhsusf_socom_marsoc_cso`             |
+| Ranger    | Medic                      | `CAV_Ranger_MEDIC`             | `rhsusf_socom_marsoc_sarc `           |
+|           |                            |                                |                                       |
+| Ranger    | Sniper                     | `CAV_Sniper`                   | `B_sniper_F  `                        |
+| Ranger    | Spotter                    | `CAV_Spotter `                 | `B_spotter_F  `                       |
