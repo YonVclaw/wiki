@@ -10,6 +10,7 @@ cScripts automaticly distribute loadouts via [Poppy](https://github.com/BaerMitU
 | Charlie   | Grenadier                  | `CAV_Charlie_RM`               | `rhsusf_army_ocp_arb_grenadier`       |
 | Charlie   | Rifleman                   | `CAV_Charlie_GR`               | `rhsusf_army_ocp_arb_rifleman`        |
 | Charlie   | Combat Life Saver          | `CAV_Charlie_CLS`              | `rhsusf_army_ocp_arb_medic`           |
+|           |                            |                                |                                       |
 | Charlie   | HW Squad Leader            | `CAV_Charlie_Weapons_SL`       | `B_T_Soldier_SL_F`                    |
 | Charlie   | HW Fire Team Leader        | `CAV_Charlie_Weapons_TL`       | `B_T_Soldier_TL_F`                    |
 | Charlie   | HW Automatic Rifleman      | `CAV_Charlie_Weapons_AR`       | `B_T_Engineer_F`                      |
