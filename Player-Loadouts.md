@@ -7,8 +7,8 @@ cScripts automatically distribute loadouts via [Poppy](https://github.com/BaerMi
 | Alpha     | Crew Chief                 | `CAV_Alpha_Helo_CHIEF`            | `B_T_Helicrew_F`                      |
 | Alpha     | Crew                       | `CAV_Alpha_Helo_GNR`              | `B_Helicrew_F`                        |
 |           |                            |                                   |                                       |
-| Alpha     | Pilot                      | `CAV_Alpha_Helo_PILOT_ATT`        |                                       |
-| Alpha     | Co-Pilot                   | `CAV_Alpha_Helo_COPILOT_ATT`      |                                       |
+| Alpha     | Attack Rotary Pilot        | `CAV_Alpha_Helo_PILOT_ATT`        |                                       |
+| Alpha     | Attack Rotary Co-Pilot     | `CAV_Alpha_Helo_COPILOT_ATT`      |                                       |
 |           |                            |                                   |                                       |
 | Alpha     | Fixed Wing Pilot           | `CAV_Alpha_Fixed_PILOT`           | `B_Fighter_Pilot_F`                   |
 |           |                            |                                   |                                       |
