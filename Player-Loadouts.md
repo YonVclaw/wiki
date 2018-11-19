@@ -70,7 +70,7 @@ cScripts automatically distribute loadouts via [Poppy](https://github.com/BaerMi
 | Special*  | S3 Mission Control         | `S3` `_1` to `_5`                 | N/A                                   |
 | Special   | S5 Cameraman               | `S5` `_1` to `_5`                 | N/A                                   |
 
-_*Loadout use Bravo Officer loadout and are immune to damage and have full engineer and medic abilities_
+_* This loadout use Bravo Officer loadout, are immune to damage and have full engineer and medical abilities._
 
 ## See also
 * [[Starter Crate]]
