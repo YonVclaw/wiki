@@ -61,15 +61,15 @@ cScripts automatically distribute loadouts via [Poppy](https://github.com/BaerMi
 | Ranger    | Sniper                     | `CAV_Sniper`                      | `B_sniper_F  `                        |
 | Ranger    | Spotter                    | `CAV_Spotter `                    | `B_spotter_F  `                       |
 |           |                            |                                   |                                       |
-| Special   | Debug                      | `DEBUG` `_1` to `_5`              | N/A                                   |
-| Special   | S3 Mission Control         | `MissionControl` `_1` to `_5`     | N/A                                   |
-| Special   | S3 Mission Control         | `MissionControlUnit` `_1` to `_5` | N/A                                   |
-| Special   | S3 Mission Control         | `MC ` `_1` to `_5`                | N/A                                   |
-| Special   | S3 Mission Control         | `Zeus` `_1` to `_5`               | N/A                                   |
-| Special   | S3 Mission Control         | `ZeusUnit` `_1` to `_5`           | N/A                                   |
-| Special   | S3 Mission Control         | `S3` `_1` to `_5`                 | N/A                                   |
+| Special*  | Debug                      | `DEBUG` `_1` to `_5`              | N/A                                   |
+| Special*  | S3 Mission Control         | `MissionControl` `_1` to `_5`     | N/A                                   |
+| Special*  | S3 Mission Control         | `MissionControlUnit` `_1` to `_5` | N/A                                   |
+| Special*  | S3 Mission Control         | `MC ` `_1` to `_5`                | N/A                                   |
+| Special*  | S3 Mission Control         | `Zeus` `_1` to `_5`               | N/A                                   |
+| Special*  | S3 Mission Control         | `ZeusUnit` `_1` to `_5`           | N/A                                   |
+| Special*  | S3 Mission Control         | `S3` `_1` to `_5`                 | N/A                                   |
 | Special   | S5 Cameraman               | `S5` `_1` to `_5`                 | N/A                                   |
-
+***loadout use Bravo Officer loadout.**
 ## See also
 * [[Starter Crate]]
 * [[Regear Trooper Module]]
