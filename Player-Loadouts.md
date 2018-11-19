@@ -70,7 +70,7 @@ cScripts automatically distribute loadouts via [Poppy](https://github.com/BaerMi
 | Special*  | S3 Mission Control         | `S3` `_1` to `_5`                 | N/A                                   |
 | Special   | S5 Cameraman               | `S5` `_1` to `_5`                 | N/A                                   |
 
-**loadout use Bravo Officer loadout.*
+* *: Loadoutuse Bravo Officer loadout.*
 
 ## See also
 * [[Starter Crate]]
