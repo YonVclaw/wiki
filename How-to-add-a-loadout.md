@@ -22,7 +22,7 @@ Inorder to add a new loadout you need to do the following:
 ## Add a Ace Arsenal Default Loadout ([Upcoming](https://github.com/7Cav/cScripts/pull/198))
 
 ## Known Issues 
-* RHS 'swamped' rifles (example: Front grip version of a base weapon) cannot be used in ACE Arsenal.
+* RHS 'swamped' rifle classnames (example: Front grip version of a base weapon) cannot be used in ACE Arsenal.
 
 ## See also
 * [[Player Loadouts]]
