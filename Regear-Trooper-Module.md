@@ -4,7 +4,7 @@ When dropped on a unit the Regear Trooper module applies a fresh [[loadout|Playe
 
 If the trooper classname or variable is not matching any of the loadouts pressent nothing will happen.
 
-The module can be found under the 7Cav Utilities in the Zeus module menu.
+The module can be found under the **7Cav Utilities** in the Zeus module menu.
 
 _Note! That this effect both AI and Player units._
 
