@@ -1,4 +1,4 @@
-cScripts automatically distribute loadouts via [Poppy](https://github.com/BaerMitUmlaut/Poppy/) "*A reliable, self configuring, error finding loadout framework for Arma.*". Each loadout is added automatically to a soldier when using the _Cav Class Definition_ as a unit variable name or on a unit with a matching classname and set as playable. Below you find a list of supported loadout and its corresponding classname.
+cScripts automatically distribute loadouts via [Poppy](https://github.com/BaerMitUmlaut/Poppy/) "*A reliable, self configuring, error finding loadout framework for Arma.*". Each loadout is added automatically to a soldier when using the _Cav Class Definition_ as a unit variable name or on a unit with a matching classname and set as playable. Below you find a list of supported loadouts and its corresponding classname.
 
 | Company   | Loadout Name               | Cav Class Definition              | Classname                             |
 |:----------|:---------------------------|:----------------------------------|:--------------------------------------|
