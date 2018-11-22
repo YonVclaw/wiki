@@ -18,6 +18,7 @@ Inorder to add a new loadout you need to do the following:
 1. Add a Ace Arsenal Default Loadout (See documentation below)
 
 ## Add a Poppy Loadout
+In order to create a loadout for Poppy you need the weapon, magazine and item classnames. By reviving them and not the the name make the prosess simple. 
 
 ## Add a ACE Arsenal Loadout ([Upcoming](https://github.com/7Cav/cScripts/pull/198))
 In order to add a ACE Arsenal Loadout you can use the [`cScripts_fnc_exportToArsenal`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/helpers/fn_exportToArsenal.sqf) function or copy the loadout manually by exporting the loadout out from the ACE Arsenal after applying it. We recommend using the function.
