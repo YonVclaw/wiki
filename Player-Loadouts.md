@@ -72,6 +72,13 @@ cScripts automatically distribute loadouts via [Poppy](https://github.com/BaerMi
 
 _* This loadout use Bravo Officer loadout, are immune to damage and have full engineer and medical abilities._
 
+## Loadout change requests
+To simply the process speed and simplicity. When new loadouts are being sent to or requested by S3; send or request them using classnames instead of name.
+
+By doing this it speed up the process of implementation majorly.
+
+If you have the ability use the config setup send it that.
+
 ## See also
 * [[Starter Crate]]
 * [[Regear Trooper Module]]
