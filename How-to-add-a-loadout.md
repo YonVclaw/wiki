@@ -22,6 +22,12 @@ Inorder to add a new loadout you need to do the following:
 ## Add a ACE Arsenal Loadout ([Upcoming](https://github.com/7Cav/cScripts/pull/198))
 In order to add a ACE Arsenal Loadout you can use the `cScripts_fnc_exportArsenal` function or copy the loadout manually by exporting the loadout ut from the Arsenal.
 
+Export script Exsample parameters:
+```
+_loadouts = [true] call cScripts_fnc_exportArsenal; // return all hard coded defined Poppy loadouts.
+_loadouts = ['CAV_Charlie_SL'] call cScripts_fnc_exportArsenal; // Return only the selected loadout.
+```
+
 ## Known Issues 
 * RHS 'swamped' rifle classnames (example: Front grip version of a base weapon) cannot be used in ACE Arsenal.
 
