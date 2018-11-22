@@ -19,7 +19,7 @@ This image should be converted to PAA  with DXT5 encode. This is done with the A
    [_object,"Squad Insignia 1/1/C/1-7","11C_17_Insignia","cScripts\Data\Insignia\1-1-C-17.paa",['ACE_MainActions','cScriptInsigniaSelectionMenu','cScriptInsigniaSelectionCharlie']] call FUNC(addInsigniaSelection);
    ```
 
-## Image to cScripts (Upcoming)
+## Image to cScripts ([Upcoming](https://github.com/7Cav/cScripts/pull/198))
 1. Naming the insignia (_Follow current name standard_).
 1. Place your insignia in:
    [`cScripts`](https://github.com/7Cav/cScripts/tree/master/cScripts)`\`[`Data`](https://github.com/7Cav/cScripts/tree/master/cScripts/Data)`\`[`Insignia`](https://github.com/7Cav/cScripts/tree/master/cScripts/Data/Insignia)`\`
