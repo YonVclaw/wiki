@@ -13,8 +13,13 @@ This means in short if you define anything for `rhsusf_army_ocp_arb_squadleader`
 
 As per default, the `_Base` classes for all companies use a rifleman loadout with its rifle attachments removed. This means that riflemens mostly only have a rifle defined in there loadout.
 
+Inorder to add a new loadout you need to do the following:
+1. Add a Poppy loadout (See documentation below) 
+1. Add a Ace Arsenal Default Loadout (See documentation below)
 
-Ace arsenal default loadouts **(Not implemented yet)**
+## Add a Poppy Loadout
+
+## Add a Ace Arsenal Default Loadout ([Upcoming](https://github.com/7Cav/cScripts/pull/198))
 
 ## Known Issues 
 * RHS 'swamped' rifles (example: Front grip version of a base weapon) cannot be used in ACE Arsenal.
