@@ -24,9 +24,9 @@ In order to add a ACE Arsenal Loadout you can use the `cScripts_fnc_exportArsena
 
 Export script exsample parameters:
 ```
-_loadouts = [true] call cScripts_fnc_exportArsenal; // expoet all hardcoded defined Poppy loadouts to clipboard.
+_loadouts = [true] call cScripts_fnc_exportArsenal; // Export all hardcoded Poppy loadouts to clipboard.
 _loadouts = ['charlie'] call cScripts_fnc_exportArsenal; // Export only the selected company loadout to clipboard.
-_loadouts = ['CAV_Charlie_SL'] call cScripts_fnc_exportArsenal; // Export only the selected loadout to clipboard.
+_loadouts = ['CAV_Charlie_SL'] call cScripts_fnc_exportArsenal; // Export only the selected classname to clipboard.
 ```
 
 ## Known Issues 
