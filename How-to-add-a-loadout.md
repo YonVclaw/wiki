@@ -23,3 +23,6 @@ Inorder to add a new loadout you need to do the following:
 
 ## Known Issues 
 * RHS 'swamped' rifles (example: Front grip version of a base weapon) cannot be used in ACE Arsenal.
+
+## See also
+* [[Player Loadouts]]
