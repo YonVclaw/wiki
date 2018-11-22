@@ -1,5 +1,5 @@
-* [[Loadouts and selectors]] 
-* [[Insignia and selector|How to add a insignia]] 
+* [[Loadouts and selectors|How to add a loadout]] 
+* [[Insignia and selectors|How to add a insignia]] 
 * [[Settings]]
 * [[Debugging]]
 * [[Moduels]]
