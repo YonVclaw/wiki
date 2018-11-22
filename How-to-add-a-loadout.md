@@ -20,13 +20,13 @@ Inorder to add a new loadout you need to do the following:
 ## Add a Poppy Loadout
 
 ## Add a ACE Arsenal Loadout ([Upcoming](https://github.com/7Cav/cScripts/pull/198))
-In order to add a ACE Arsenal Loadout you can use the `cScripts_fnc_exportArsenal` function or copy the loadout manually by exporting the loadout ut from the Arsenal.
+In order to add a ACE Arsenal Loadout you can use the `cScripts_fnc_exportToArsenal` function or copy the loadout manually by exporting the loadout ut from the Arsenal.
 
 Export script exsample parameters:
 ```
-_loadouts = [true] call cScripts_fnc_exportArsenal; // Export all hardcoded Poppy loadouts to clipboard.
-_loadouts = ['charlie'] call cScripts_fnc_exportArsenal; // Export only the selected company loadout to clipboard.
-_loadouts = ['CAV_Charlie_SL'] call cScripts_fnc_exportArsenal; // Export only the selected classname to clipboard.
+_loadouts = [true] call cScripts_fnc_exportToArsenal; // Export all hardcoded Poppy loadouts to clipboard.
+_loadouts = ['charlie'] call cScripts_fnc_exportToArsenal; // Export only the selected company loadout to clipboard.
+_loadouts = ['CAV_Charlie_SL'] call cScripts_fnc_exportToArsenal; // Export only the selected classname to clipboard.
 ```
 
 ## Known Issues 
