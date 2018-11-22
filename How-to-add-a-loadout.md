@@ -20,7 +20,7 @@ Inorder to add a new loadout you need to do the following:
 ## Add a Poppy Loadout
 
 ## Add a ACE Arsenal Loadout ([Upcoming](https://github.com/7Cav/cScripts/pull/198))
-In order to add a ACE Arsenal Loadout you can use the [`cScripts_fnc_exportToArsenal`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/helpers/fn_exportToArsenal.sqf function or copy the loadout manually by exporting the loadout ut from the Arsenal.
+In order to add a ACE Arsenal Loadout you can use the [`cScripts_fnc_exportToArsenal`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/helpers/fn_exportToArsenal.sqf) function or copy the loadout manually by exporting the loadout ut from the Arsenal.
 
 Export script exsample parameters:
 ```
