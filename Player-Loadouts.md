@@ -72,8 +72,7 @@ cScripts automatically distribute loadouts via [Poppy](https://github.com/BaerMi
 
 _* This loadout use Bravo Officer loadout, are immune to damage and have full engineer and medical abilities._
 
-## Add new loadout
-
 ## See also
 * [[Starter Crate]]
 * [[Regear Trooper Module]]
+* [[How to add a loadout]]
