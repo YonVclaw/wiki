@@ -73,7 +73,7 @@ cScripts automatically distribute loadouts via [Poppy](https://github.com/BaerMi
 _* This loadout use Bravo Officer loadout, are immune to damage and have full engineer and medical abilities._
 
 ## Loadout change requests
-To make the prosess easy for everyone as well as speed up thw process of loadout requests refraine from using names and use classnames. You can use use a ACE Arsenal export or send the individual Classname. This will avoid possible questions of what you meen or what variant of the given item you are requesting. 
+To make the prosess easy for everyone as well as speed up the process of loadout requests refraine from using names and use classnames. You can use use a ACE Arsenal export or send the individual Classname. This will avoid possible questions of what you meen or what variant of the given item you are requesting. 
 
 If you have the ability edit the config loadout file directly this is the best way. This allows for a even quicker implementation of the requested loadout.
 
