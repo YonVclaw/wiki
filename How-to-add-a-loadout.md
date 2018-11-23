@@ -21,15 +21,15 @@ Inorder to add a new loadout you need to do the following:
 In order to create a loadout for Poppy you need the weapon, magazine and item classnames.
 
 ## Add a ACE Arsenal Loadout ([Upcoming](https://github.com/7Cav/cScripts/pull/198))
-In order to add a ACE Arsenal Loadout you can use the [`cScripts_fnc_exportToArsenal`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/helpers/fn_exportToArsenal.sqf) function or copy the loadout manually by exporting the loadout out from the ACE Arsenal after applying it. We recommend using the function.
+In order to add a ACE Arsenal Loadout you <!--can use the [`cScripts_fnc_exportToArsenal`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/helpers/fn_exportToArsenal.sqf) function or--> copy the loadout manually by exporting the loadout out from the ACE Arsenal after applying it. 
 
-Export script exsample parameters:
+<!--Export script exsample parameters:
 ```
 _loadouts = [true] call cScripts_fnc_exportToArsenal; // Export all hardcoded Poppy loadouts to clipboard.
 _loadouts = ['charlie'] call cScripts_fnc_exportToArsenal; // Export only the selected company loadout to clipboard.
 _loadouts = ['CAV_Charlie_SL'] call cScripts_fnc_exportToArsenal; // Export only the selected classname to clipboard.
 ```
-
+-->
 ## Known Issues 
 * RHS 'swamped' rifle classnames (example: Front grip version of a base weapon) cannot be used in ACE Arsenal.
 
