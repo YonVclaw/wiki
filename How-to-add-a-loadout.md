@@ -20,6 +20,38 @@ In order to add a new loadout you need to do the following:
 ## Add a Poppy Loadout
 In order to create a loadout for Poppy you need the weapon, magazine and item classnames.
 
+**Empty Template:**
+```
+// This soldier will be completely naked.
+// Even if CAV_Charlie_Base is used, Reason being that the CAV_Charlie_Base is being overridden in this example soldier.
+// To avid map for instance to being empty, you need to remove that line. This will in turn use CAV_Charlie_Base map line instead.
+class emptySoldierExample : CAV_Charlie_Base {
+    backpack[] = {""};
+    goggles[] = {""};
+    headgear[] = {""};
+    uniform[] = {""};
+    vest[] = {""};
+
+    primary[] = {""};
+    secondary[] = {""};
+    launcher[] = {""};
+
+    binoculars[] = {""};
+
+    magazines[] = {""};
+    items[] = {""};
+
+    compass[] = {""};
+    gps[] = {""};
+    map[] = {""};
+    nvgs[] = {""};
+    watch[] = {""};
+
+    insignia[] = {""};
+    preLoadout = "[(_this select 0), 'charlie', 0, 0] call cScripts_fnc_setPreInitPlayerSettings;";
+    postLoadout = "[(_this select 0),true,true] call cScripts_fnc_setPostInitPlayerSettings;";
+};
+```
 ## Add a ACE Arsenal Loadout ([Upcoming](https://github.com/7Cav/cScripts/pull/198))
 In order to add an ACE Arsenal Loadout, you copy the loadout manually by exporting the loadout out from the ACE Arsenal after applying it. 
 
