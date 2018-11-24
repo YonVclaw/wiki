@@ -55,7 +55,7 @@ _**NOTE!** the exsample soldier loadout above will be completely naked. Even if 
 In order to add an ACE Arsenal Loadout you need, at the moment, copy the loadout manually by exporting the loadout out from the ACE Arsenal after applying it. 
 
 ## Export equipment to arsenal filters ([Upcoming](https://github.com/7Cav/cScripts/pull/229))
-To simplify the process of setting up an ACE Arsenal filter you can use `cScripts_fnc_exportBoxToArsenal` and `cScripts_fnc_exportLoadoutsToArsenal` respected function export the given objects to a easy to paste string or array.
+To simplify the process of setting up an ACE Arsenal filter you can use `cScripts_fnc_exportBoxToArsenal` and `cScripts_fnc_exportLoadoutsToArsenal` thease two function export the given objects to a easy to paste string or array.
 
 **Export exsample parameters:**
 ```
