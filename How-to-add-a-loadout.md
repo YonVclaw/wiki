@@ -51,10 +51,14 @@ class emptySoldierExample : CAV_Charlie_Base {
 ```
 _**NOTE!** the exsample soldier loadout above will be completely naked. Even if it use `CAV_Charlie_Base` as a parent. Reason being that the `CAV_Charlie_Base` is being overridden in this example soldier. To avid for instance `map` to be empty you need to remove that line from the exdsample solider. This will in turn use `CAV_Charlie_Base` map line instead if it is defined there._
 
-## Add a ACE Arsenal Loadout ([Upcoming](https://github.com/7Cav/cScripts/pull/198))
+## Add a ACE Arsenal Loadout
+**Added in 4.2.14**
+
 In order to add an ACE Arsenal Loadout you need, at the moment, copy the loadout manually by exporting the loadout out from the ACE Arsenal after applying it. 
 
-## Export equipment to arsenal filters ([Upcoming](https://github.com/7Cav/cScripts/pull/229))
+## Export equipment to arsenal filters
+**Added in 4.2.14**
+
 To simplify the process of setting up an ACE Arsenal filter you can use `cScripts_fnc_exportBoxToArsenal` and `cScripts_fnc_exportLoadoutsToArsenal` thease two function export the given objects to a easy to paste string or array.
 
 **Export exsample parameters:**
