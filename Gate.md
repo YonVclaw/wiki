@@ -1,4 +1,4 @@
-**Added in upcoming 4.2.14**
+**Added in 4.2.14**
 
 <img align="right" width="0" height="0" src="">The gate function creates a automated open and close gate system without requirement of setting up triggers.
 
