@@ -9,6 +9,7 @@ The get out actions allow players to exit thru a desired door of a helicopter (L
 It is possible to manually add the function. This is done by adding it to the init field of the helicopter `[this] call cScripts_fnc_addGetOutHelo;`. By default the options is colored blue and red this can be turned off by adding `false` to the second parameter of the function.
 
 > **NOTE** By adding the function manually this will make a warning in the RPT log. This warning can be ignored cause it is used to control the setting is not be added multiply times mid mission.
+>
 > ```13:36:59 [cScripts] WARNING: Helicopter Get out setting already applied for b1.```
 
 ### Custom Texture
