@@ -2,7 +2,7 @@ Vehicle loadouts are classified by it's role and we currently have classed vehic
 
 Loadouts are automaticly applied, if the [[setting|CBA Mission Settings]] allows it,to [[supported vehicles|Vehicle-Loadouts#supported-vehicles]] Vehicle loadouts are defined and handled in [[cScripts_fnc_setVehicleInventory|https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_setVehicleInventory.sqf]] and is not re added on vehicle respawn.
 ## Supported Vehicles
-| Vehicle Name | Classname | Author |
+| Vehicle Name | Classname | Author/Mod |
 |---|---|---|
 | M1078A1P2 | `rhsusf_M1078A1P2_WD_fmtv_usarmy` | Red Hammer Studios |
 | M1078A1P2 (Flatbed) | `rhsusf_M1078A1P2_WD_flatbed_fmtv_usarmy` | Red Hammer Studios |
