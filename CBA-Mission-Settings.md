@@ -7,6 +7,7 @@
 // cScripts Mission Settings
 cScripts_Settings_allowCustomInit = true;
 cScripts_Settings_allowCustomTagging = true;
+cScripts_Settings_allowInsigniaApplication = true;
 cScripts_Settings_enable7cavZeusModules = true;
 cScripts_Settings_enableStartHint = true;
 cScripts_Settings_enforceEyewereBlacklist = true;
@@ -19,6 +20,7 @@ cScripts_Settings_setCustomHintText = "I have design this mission! Yey for me!";
 cScripts_Settings_setCustomHintTopic = "My custom Mission!";
 cScripts_Settings_setMissionType = 1;
 cScripts_Settings_setPlayerRank = true;
+cScripts_Settings_setRadio = true;
 cScripts_Settings_setStartupDelay = 30;
 cScripts_Settings_showDiaryRecords = true;
 cScripts_Settings_useCustomSupplyInventory = false;
