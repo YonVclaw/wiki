@@ -6,6 +6,9 @@ The jump action allow you to make a simulated static combat jump over a DZ. The 
 ### Get out actions
 The get out actions allow players to exit thru a desired door of a helicopter (Left or Right). This allow for a better and more coordinated insertions in to AO's. The settings is always available when inside of a cargo position of a airframe and is automatically added to all supported helicopter classes.
 
+### Custom Texture
+WIP
+
 ## See also
 * [[Vehicle Loadouts|Vehicle Loadouts]] 
 * [[Vehicle Texture Label|Texture Label]] 
