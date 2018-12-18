@@ -213,4 +213,5 @@ Loadouts are automaticly applied, if the [[setting|CBA Mission Settings]] allows
 | AH-1Z | `RHS_AH1Z_wd` | Red Hammer Studios |
 
 ## See also
-* [[Vehicle Texture Lable|Texture Label]] 
+* [[Vehicle Settings and Functions|Vehicle Settings and Functions]] 
+* [[Vehicle Texture Label|Texture Label]] 
