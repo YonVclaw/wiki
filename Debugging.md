@@ -8,7 +8,7 @@ There are three [debug functions](https://github.com/7Cav/cScripts/tree/master/c
 ```
 >>> private _var = 'exsample';
 >>> [format['I am a %1 warning.', _var]] call FUNC(logWarning)
-[cScripts] WARNING: I am a exsample warning.
+13:36:59 [cScripts] WARNING: I am a exsample warning.
 ```
 This allow you to easy see and follow  your function in the rpt log.
 
