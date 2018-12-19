@@ -18,3 +18,4 @@ The function is applied manually via Eden.
 
 ## See also
 * [[Starter Crate]]
+* [[Teleport]]
