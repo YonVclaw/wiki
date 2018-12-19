@@ -16,3 +16,4 @@ The function is applied manually via Eden.
 
 ## See also
 * [[Flag]]
+  [[Gate]]
