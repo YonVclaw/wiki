@@ -1,4 +1,4 @@
-cScripts make use of CBA post and pre init this to allow usage of CBA Settings. 
+cScripts make use of CBA pre and post-init this to allow usage of CBA Settings. 
 
 The pre init hold the settings and global variables allowing eden to access them.
 
