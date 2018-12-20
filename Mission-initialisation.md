@@ -1,6 +1,6 @@
 cScripts make use of CBA [pre](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/cScripts_preInit.sqf) and [post](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/cScripts_postInit.sqf)-init this to allow usage of CBA Settings. 
 
-The pre init hold the settings and global variables allowing eden to access them.
+The pre-init hold the cba settings and global variables allowing eden to access them. This also means that code can be loaded in eden editor. The ACE Arsenal loadouts is one such exsample. 
 
 On mission start the pre init is loaded setting up the global variables. Then Init is executed, after this post init.
 
