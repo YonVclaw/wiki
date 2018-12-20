@@ -9,4 +9,4 @@ On mission start the pre init is loaded setting up the global variables. Then In
 When on the map screen more or less everything is setup. When you launch your loadout is propperly applied this also have a pre loadout and post loadout system.
 
 We use pre loadout to handle permissions and abilities. (Medical, Engineer immortality etc.)
-In post loadout whitelists, blacklists, gear manipulation and earplugs are handled as well as radio and insignias. 
+In post loadout whitelists, blacklists, gear manipulation and earplugs are handled as well as radio channels and insignias. 
