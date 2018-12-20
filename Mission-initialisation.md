@@ -1,4 +1,4 @@
-cScripts make use of CBA pre and post-init this to allow usage of CBA Settings. 
+cScripts make use of CBA [pre](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/cScripts_preInit.sqf) and [post](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/cScripts_postInit.sqf)-init this to allow usage of CBA Settings. 
 
 The pre init hold the settings and global variables allowing eden to access them.
 
