@@ -1,4 +1,4 @@
-<img align="right" width="300" height="210" src="https://github.com/7Cav/cScripts/blob/master/resourses/wikigfx/Insignias.png">To add an insignia involve two steps; [creation and conversion of an image](#Image-and-format) and [some minor scripting](#Image-to-cScripts)
+<img align="right" width="300" height="210" src="https://github.com/7Cav/cScripts/blob/master/resourses/wikigfx/Insignias_crate.png">To add an insignia involve two steps; [creation and conversion of an image](#Image-and-format) and [some minor scripting](#Image-to-cScripts)
 
 ## Image and format
 First off you need the image in a PNG format with a transparent background with the size of 512x512.
