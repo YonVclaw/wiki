@@ -1,7 +1,7 @@
 **Features**
 * [[Help cards and check lists|Diary Records and Documents]]
 * [[Player Loadouts|Player Loadouts]]
-* [[Platoon & Squad Insignias]]
+* [[Platoon and Squad Insignias|Platoon & Squad Insignias]]
 * [[Vehicle Loadouts]]
 * [[Vehicle Settings and Functions]]
 * [[CBA Mission Settings]]
