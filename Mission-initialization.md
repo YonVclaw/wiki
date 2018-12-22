@@ -9,7 +9,7 @@ On mission start the pre init is loaded setting up the global variables. Then In
 When on the map screen more or less everything is setup. When you launch your loadout is properly applied this also have a pre loadout and post loadout system.
 
 We use [pre loadout](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_setPreInitPlayerSettings.sqf) to handle permissions and abilities. (Medical, Engineer immortality etc.)
-In [post loadout] (https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_setPostInitPlayerSettings.sqf) whitelists, blacklists, gear manipulation and earplugs are handled as well as radio channels and insignia's. 
+In [post loadout](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_setPostInitPlayerSettings.sqf) whitelists, blacklists, gear manipulation and earplugs are handled as well as radio channels and insignia's. 
 
 
 ## Initialization order
