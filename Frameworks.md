@@ -4,4 +4,4 @@
 * [[Mission initialization]]
 * [[Settings]]
 * [[Debugging]]
-* [[Moduels]]
+* [[Modules|7Cav Modules]]
