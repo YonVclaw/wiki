@@ -1,6 +1,7 @@
 * [[Loadouts and selectors|How to add a loadout]] 
 * [[Insignia and selectors|How to add a insignia]]
-* [[Mission initialisation]]
+* [[Player Variables]]
+* [[Mission initialization]]
 * [[Settings]]
 * [[Debugging]]
 * [[Moduels]]
