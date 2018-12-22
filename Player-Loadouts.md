@@ -1,3 +1,16 @@
+---
+layout: wiki
+title: Cargo Framework
+description: Explains how to set-up the cargo framework for custom objects and vehicles.
+group: framework
+order: 5
+parent: wiki
+mod: ace
+version:
+  major: 3
+  minor: 3
+  patch: 0
+---
 cScripts automatically distribute loadouts via [Poppy](https://github.com/BaerMitUmlaut/Poppy/) "*A reliable, self configuring, error finding loadout framework for Arma.*". Each loadout is added automatically to a soldier when using the _Cav Class Definition_ as a unit variable name or on a unit with a matching classname and set as playable. Below you find a list of supported loadouts and its corresponding classname.
 
 | Company   | Loadout Name               | Cav Class Definition              | Classname                             |
