@@ -14,8 +14,8 @@ In [post loadout whitelists](https://github.com/7Cav/cScripts/blob/master/cScrip
 
 ## Initialization order
 Here is the basic initialization order when mission is loaded on the server.
-1. Pre-init 
-1. Init
-1. Post-init
-1. Pre loadout
-1. Post loadout
+1. **Pre-init** (_Half also in eden_)
+1. **Init**
+1. **Post-init**
+1. **Pre loadout**
+1. **Post loadout**
