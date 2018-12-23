@@ -17,6 +17,7 @@ Here is the basic initialization order when mission is loaded on the server.
 1. **cScripts Pre-init** (_Half also in eden_)
 1. **Init**
 1. **Unit initfields**
+1. **BIS post-init** (_Poppy is inizialised_) 
 1. **cScripts Post-init**
 1. **Poppy Pre loadout** (_If applied_)
 1. **Poppy Post loadout** (_If applied_) 
