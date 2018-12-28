@@ -5,7 +5,7 @@
 * [[Vehicle Loadouts]]
 * [[Vehicle Settings and Functions]]
 * [[CBA Mission Settings]]
-* [[7Cav Modules]]
+* [[Modules|7Cav Modules]]
 
 **Functions**
 * [[Vehicle Texture Lable|Texture Label]]
