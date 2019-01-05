@@ -1,10 +1,10 @@
-To add an insignia involve two steps; [creation and conversion of an image](#Image-and-format) and [some minor scripting](#Image-to-cScripts)
+<img align="right" width="320" src="https://github.com/7Cav/cScripts/blob/master/resourses/wikigfx/Insignia_Crate.png">To add an insignia involve two steps; [creation and conversion of an image](#Image-and-format) and [some minor scripting](#Image-to-cScripts)
 
 ## Image and format
 First off you need the image in a PNG format with a transparent background with the size of 512x512.
 
 This image should be converted to PAA  with DXT5 encode. This is done with the Arma 3 Tools program; TexView2, ImageToPAA or [ARMAKE](https://github.com/KoffeinFlummi/armake). 
-
+<!--
 ## Image to cScripts
 1. Naming the insignia (_Follow current name standard_).
 1. Place your insignia in:
@@ -18,8 +18,8 @@ This image should be converted to PAA  with DXT5 encode. This is done with the A
    ```
    [_object,"Squad Insignia 1/1/C/1-7","11C_17_Insignia","cScripts\Data\Insignia\1-1-C-17.paa",['ACE_MainActions','cScriptInsigniaSelectionMenu','cScriptInsigniaSelectionCharlie']] call FUNC(addInsigniaSelection);
    ```
-
-## Image to cScripts (Upcoming)
+-->
+## Image to cScripts
 1. Naming the insignia (_Follow current name standard_).
 1. Place your insignia in:
    [`cScripts`](https://github.com/7Cav/cScripts/tree/master/cScripts)`\`[`Data`](https://github.com/7Cav/cScripts/tree/master/cScripts/Data)`\`[`Insignia`](https://github.com/7Cav/cScripts/tree/master/cScripts/Data/Insignia)`\`
@@ -35,3 +35,4 @@ This image should be converted to PAA  with DXT5 encode. This is done with the A
 
 ## See also
 * [[Starter Crate]] 
+* [[Platoon & Squad Insignia's|Platoon and Squad Insignias]]

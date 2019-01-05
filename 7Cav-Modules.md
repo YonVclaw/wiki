@@ -2,9 +2,9 @@
 
 The 7Cav modules system uses the Achilles user custom module framework and are designed to help you during operations. The modules can be found in the zeus module tab during a mission with the label 7Cav followed by it's category (logistics, etc).
 
-***NOTE:** The modules are optional and can be turned off using the [[CBA Mission Settings]] or if you don't have the mod it self activated.*
+***NOTE:** The modules are optional and can be turned off using the [[CBA Mission Settings]] or if you don't have the required mod activated.*
 
-### Avalible moduels
+### Avalible modules
 * **7Cav Logistics**
   * [[Starter Crate]]
   * [[Field Hospital]]
@@ -13,7 +13,7 @@ The 7Cav modules system uses the Achilles user custom module framework and are d
 * **7Cav Vehicle**
   * [[Add Vehicle Label|Texture Label]]
 * **7Cav Utilities**
-  * [[Regerar Trooper]]
+  * [[Regear Trooper|Regear Trooper Module]]
 * **7Cav Mission**
   * [[Call Endex]]
 * **7Cav Misc**
