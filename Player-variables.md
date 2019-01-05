@@ -8,4 +8,4 @@ On spawn your character gets assigned a bunch of variable to retrieve them you s
 | `cScripts_Player_Announced`    | Store a True value if player have announced have been setup.   | `BOOL`                             |
 | `cScripts_Player_Documents`    | Store a True value if documents have been setup.               | `BOOL`                             |
 | `cScripts_Player_RadioChannel` | Store a array of radio and its channels.                       | `ARRAY` of `STRINGS` and `NUMBERS` |
-| `cScripts_Player_Name`         | Store a trimmed player name with the rank removed.             | `STRING`                           |
+| `cScripts_Player_Name`         | Store a trimmed player name with the cav rank removed.         | `STRING`                           |
