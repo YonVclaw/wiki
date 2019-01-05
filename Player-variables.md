@@ -1,3 +1,5 @@
+On spawn your character gets assigned a bunch of variable to retrieve them you simply run `player getVariable 'my_variable'`. The variables are used in different parts of the script to assign or check if a system is initialized added or if the player have certain permissions and/or functionality. Below you find a list of player variables and what they store.
+
 | Variable                       | Description                                                    | Value                              |
 |--------------------------------|----------------------------------------------------------------|------------------------------------|
 | `cScripts_Cav_Company`         | Store the loadout company selected on spawn or selected.       | `STRING`                           |
