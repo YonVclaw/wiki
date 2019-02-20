@@ -71,7 +71,7 @@ To simplify the process of setting up an ACE Arsenal filter you can use `cScript
 ## Disable the automatic loadout system
 In order to compleetly disable the automatic loadout system you need to remove the loadout includes from the [description.ext](https://github.com/7Cav/cScripts/blob/master/description.ext) file. Line [51](https://github.com/7Cav/cScripts/blob/b4568cfa310ab151992211c60b710906d0f98c53/description.ext#L51), [55](https://github.com/7Cav/cScripts/blob/b4568cfa310ab151992211c60b710906d0f98c53/description.ext#L55) and alternatively [58](https://github.com/7Cav/cScripts/blob/b4568cfa310ab151992211c60b710906d0f98c53/description.ext#L58)
 
-You can also disable the auto distrubution by simply stop the initialisation from being executed by editing line [4 and 5](https://github.com/7Cav/cScripts/blob/master/cScripts/Loadouts/script/CfgFunctions.hpp#L4-L5) of the Poppy [fgFunctions.hpp](https://github.com/7Cav/cScripts/blob/master/cScripts/Loadouts/script/CfgFunctions.hpp). This will stop player from reviving loadouts in spawn and respawn but stil allow you to manually select them from a starter crate.
+You can also disable the auto distrubution by simply stop the initialisation from being executed by editing line [4 and 5](https://github.com/7Cav/cScripts/blob/master/cScripts/Loadouts/script/CfgFunctions.hpp#L4-L5) of the Poppy [CfgFunctions.hpp](https://github.com/7Cav/cScripts/blob/master/cScripts/Loadouts/script/CfgFunctions.hpp). This will stop player from reviving loadouts in spawn and respawn but stil allow you to manually select them from a starter crate.
 
 ## Known Issues 
 * RHS 'swamped' rifle classnames (example: Front grip version of a base weapon) cannot be used in ACE Arsenal.
