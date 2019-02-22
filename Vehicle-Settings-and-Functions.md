@@ -12,9 +12,6 @@ It is possible to manually add the function. This is done by adding it to the in
 > _Adding the function manually will cause a warning in the RPT log. This warning can be ignored. It is used to control the setting is not be added multiply times mid mission._<br>
 > _The warning look like this:<br>```13:36:59 [cScripts] WARNING: Helicopter Get out setting already applied for b1.```_
 
-### Custom Texture
-WIP
-
 ## See also
 * [[Vehicle Loadouts|Vehicle Loadouts]] 
 * [[Vehicle Texture Label|Texture Label]] 
