@@ -6,5 +6,6 @@ Here you can read on how cScripts is being deployed.
    - ***Topic***: ADDED, CHANGED, FIXED
    - ***#PR***: Pull request number exsample: `#652`
    - ***NAME:*** Person that made the changed.
-   - Exsample: ```ADDED: Check for rifles in the inventory (#10) (***Tully.B***)```
+   - Exsample:<br>
+     ADDED: Check for rifles in the inventory (#10) (***Tully.B***)
 1. Create patch release
