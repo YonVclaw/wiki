@@ -1,4 +1,5 @@
-[cScripts Tools](https://github.com/7Cav/cScripts/tree/4.3.2/tools)
+cScripts use [tools and scripts](https://github.com/7Cav/cScripts/tree/master/tools) to make sure this pack keep a hight standard and make sure releases and code to be smooth. 
+
 * build.py (build.exe)
 * deploy.sh
 * config_style_checker.py
