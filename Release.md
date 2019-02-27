@@ -8,5 +8,5 @@ Here you can read on how cScripts is being deployed.
      **#PR**: Pull request number exsample: `#652`<br>
      **NAME:** Person that made the changed.<br>
      **Exsample:**<br>
-     ADDED: Check for rifles in the inventory (#10) (**Tully.B**)
+     ADDED: Check for rifles in the inventory (#10) **Tully.B**
 1. Create patch release
