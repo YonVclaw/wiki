@@ -81,3 +81,4 @@ If you have the ability edit the config loadout file directly this is the best w
 * [[Starter Crate]]
 * [[Regear Trooper Module]]
 * [[How to add a loadout]]
+* [[How to disable loadout system|How-to-add-a-loadout#disable-the-automatic-loadout-system]]
