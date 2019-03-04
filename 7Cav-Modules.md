@@ -9,6 +9,7 @@ The 7Cav modules system uses the Achilles user custom module framework and are d
   - [[Starter Crate]]
   - [[Field Hospital]]
   - [[Re-supply Crate|Logistical Crates]]
+  - [[Medical Re-supply Crate]] 
   - [[Crew-Served Weapons Crate]]
 - **7Cav Vehicle**
   - [[Add Vehicle Label|Texture Label]]
