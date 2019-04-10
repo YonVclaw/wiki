@@ -4,6 +4,7 @@
    * [Features](Features)
    * [Frameworks](Frameworks)
    * [Development](Development)
+   * [Compositions](Compositions)
 * **Documents**
   * [Loadouts](Player-Loadouts)
   * [Modules](7Cav-Modules)
