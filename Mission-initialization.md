@@ -14,7 +14,7 @@ In [post loadout](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/f
 
 ## Initialization order
 Here is the basic initialization order when mission is loaded on the server.
-1. **cScripts Pre-init** (_Half also in eden_)
+1. **cScripts Pre-init** (_Parts in eden_)
 1. **Init**
 1. **Unit initfields**
 1. **cScripts Post-init**
