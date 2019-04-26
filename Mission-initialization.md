@@ -39,3 +39,6 @@ Once the mission have reached the mission screen the Poppy loadout system take o
    1. stored or squad Insignia is applied
    1. team color is set and stored based on classname name
    1. radio channel is changed based on squad name or, if exist, unit variable (manually applied)
+
+## See also
+* [Player variables] (https://github.com/7Cav/cScripts/wiki/Player-variables) 
