@@ -30,4 +30,11 @@ Once the mission have reached the mission screen the Poppy loadout system take o
    1. Ace WOD settings is applied
    1. Player_Rank is changed to reflect cav rank
    1. Player announcement runs
+1. **Loadouts is applied**
 1. **Poppy Post loadout** (_If applied_)
+   1. Current weapon is set to safe
+   1. Earplugs is applied
+   1. Banned eye were is removed
+   1. stored or squad Insignia is applied
+   1. team color is set and stored based on classname name
+   1. radio channel is changed based on squad name or, if exist, unit variable (manually applied)
