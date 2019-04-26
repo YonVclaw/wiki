@@ -30,7 +30,7 @@ Once the mission have reached the mission screen the Poppy loadout system take o
    1. Ace WOD settings is applied
    1. Player_Rank is changed to reflect cav rank
    1. Player announcement runs
-1. **Loadouts is applied**
+1. **Poppy Loadout is applied**
 1. **Poppy Post loadout** (_If applied_)
    1. Current weapon is set to safe
    1. Earplugs is applied
