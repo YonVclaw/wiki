@@ -18,5 +18,16 @@ Here is the basic initialization order when mission is loaded on the server.
 1. **Init**
 1. **Unit initfields**
 1. **cScripts Post-init**
+
+### Player init
+Once the mission have reached the mission screen the Poppy loadout system take over for players.
 1. **Poppy Pre loadout** (_If applied_)
-1. **Poppy Post loadout** (_If applied_) 
+   1. Cav_Trooper variable is set true
+   1. Cav_Company variable is set to selected slot company (Usaly Alpha, Bravo or Charlie)
+   1. Player_Name variable store player named with firmed clan rank.
+   1. Ace medical settings is applied
+   1. Ace engineer settings is applied
+   1. Ace WOD settings is applied
+   1. Player_Rank is changed to reflect cav rank
+   1. Player announcement runs
+1. **Poppy Post loadout** (_If applied_)
