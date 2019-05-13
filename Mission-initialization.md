@@ -41,4 +41,5 @@ Once the mission have reached the mission screen the Poppy loadout system take o
    1. radio channel is changed based on squad name or, if exist, unit variable (manually applied)
 
 ## See also
-* [Player variables](https://github.com/7Cav/cScripts/wiki/Player-variables) 
+* [Player variables](https://github.com/7Cav/cScripts/wiki/Player-variables)
+* [BIS Initialization Order](https://community.bistudio.com/wiki/Initialization_Order) 
