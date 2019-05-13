@@ -23,22 +23,22 @@ Here is the basic initialization order when mission is loaded on the server.
 ### Player init
 Once the mission have reached the mission screen the Poppy loadout system take over for players.
 1. **Poppy Pre loadout** (_If applied_)
-   1. Cav_Trooper variable is set true
-   1. Cav_Company variable is set to selected slot company (Usaly Alpha, Bravo or Charlie)
-   1. Player_Name variable store player named with firmed clan rank.
+   1. `Cav_Trooper` variable is set true
+   1. `Cav_Company` variable is set to selected slot company (Usaly Alpha, Bravo or Charlie)
+   1. `Player_Name` variable store player named with tried clan rank if any
    1. Ace medical settings is applied
    1. Ace engineer settings is applied
-   1. Ace WOD settings is applied
-   1. Player_Rank is changed to reflect cav rank
+   1. Ace EOD settings is applied
+   1. `Player_Rank` is changed to reflect cav rank
    1. Player announcement runs
 1. **Poppy Loadout is applied**
 1. **Poppy Post loadout** (_If applied_)
    1. Current weapon is set to safe
    1. Earplugs is applied
    1. Banned eye were is removed
-   1. stored or squad Insignia is applied
-   1. team color is set and stored based on classname name
-   1. radio channel is changed based on squad name or, if exist, unit variable (manually applied)
+   1. Stored or platoon or squad Insignias is applied
+   1. Team color is set and stored based on classname name
+   1. Radio channel is changed based on squad name or, if exist, unit variable (manually applied)
 
 ## See also
 * [Player variables](https://github.com/7Cav/cScripts/wiki/Player-variables)
