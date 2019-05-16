@@ -18,7 +18,7 @@ Here is the basic initialization order when mission is loaded on the server.
 1. **Init**
 1. **Unit initfields**
 1. **cScripts Post-init**
-1. **Poppy a loadouts is applied**
+1. **Poppy loadouts is applied**
 
 ### Player init
 Once the mission have reached the mission screen the Poppy loadout system take over for players.
