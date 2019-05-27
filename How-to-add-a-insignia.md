@@ -5,7 +5,7 @@ First off you need the image in a PNG format with a transparent background with 
 
 This image should be converted to PAA  with DXT5 encode. This is done with the Arma 3 Tools program; TexView2, ImageToPAA or [ARMAKE](https://github.com/KoffeinFlummi/armake). 
 <!--
-## Image to cScripts
+## Image to 7CavAddon and cScripts
 1. Naming the insignia (_Follow current name standard_).
 1. Place your insignia in:
    [`cScripts`](https://github.com/7Cav/cScripts/tree/master/cScripts)`\`[`Data`](https://github.com/7Cav/cScripts/tree/master/cScripts/Data)`\`[`Insignia`](https://github.com/7Cav/cScripts/tree/master/cScripts/Data/Insignia)`\`
