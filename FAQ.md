@@ -1,4 +1,3 @@
-# S3 Mission making
-## How to apply a function?
 
-# What is cScripts 
+
+#### How can I see what Version of cScripts I have?
