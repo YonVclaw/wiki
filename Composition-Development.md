@@ -31,3 +31,13 @@ init="call{this setVariable [""cScripts_Player_Unit"", ""BANDIT-1""];}";
 cav_{Optional Sort Tag}_{Name And Squad or Team Type}_Deployment_{Optional Terrain Type}
 ```
 
+## Header 
+
+Template:
+```
+version=53;
+name="Apollo Team And Vehicle Deployment (D) [DEVBUILD]";
+author="";
+category="Cav_EdSubcat_Deploy_Platoon";
+```
+
