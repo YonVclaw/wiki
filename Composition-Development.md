@@ -18,7 +18,7 @@ Below here you can find two exsamples extracted from the Bandit composition:
 
 Squad leader:
 ``` cpp
-init="call{this setgroupID[""BANDIT-1""];" \n "this setVariable [""cScripts_Player_Unit"", ""BANDIT-1""];}";				
+init="call{this setgroupID[""BANDIT-1""];" \n "this setVariable [""cScripts_Player_Unit"", ""BANDIT-1""];}";
 ```
 Trooper in Bandit one:
 ``` cpp
