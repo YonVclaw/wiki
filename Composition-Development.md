@@ -27,13 +27,12 @@ Trooper in Bandit one:
 init="call{this setVariable [""cScripts_Player_Unit"", ""BANDIT-1""];}";
 ```
 
-# Saving
-## Naming A 7Cav deployment
+### Naming A 7Cav deployment
 ``` cpp
 cav_{Optional Sort Tag}_{Name And Squad or Team Type}_Deployment_{Optional Terrain Type}
 ```
 
-### Header 
+### Header of unit placement
 
 Template:
 ```
