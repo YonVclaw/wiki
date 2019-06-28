@@ -28,8 +28,9 @@ When writing a script document everything by adding comments so it is easy to ma
  */
 ```
 ## Follow format
+* Use up to date syntax and code.
+* Use CBA and ACE3 code standard. 
 * Use 4 spaces instead of tabs. 
-* Use `params[]` instead of `_this select 0`. 
 
 ## Use cba functions and script macros
 All our macros can be found in the [script_component.hpp](https://github.com/7Cav/cScripts/blob/master/cScripts/script_component.hpp).
