@@ -34,7 +34,7 @@ When writing a script document as much as possible by adding comments and utaliz
 _(Linter will complain)_
 
 ## Use cba functions and script macros
-All our macros can be found in the [script_component.hpp](https://github.com/7Cav/cScripts/blob/master/cScripts/script_component.hpp).
+All our macros can be found in the [script_macros.hpp](https://github.com/7Cav/cScripts/blob/master/cScripts/script_macros.hpp).
 
 ## Avoid edits in description.ext and init.sqf
 Instead use `cScripts_preInit.sqf` and or `cScripts_postInit.sqf` or any of the init scripts. 
