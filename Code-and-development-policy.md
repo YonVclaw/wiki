@@ -2,12 +2,12 @@ This is S3 1BN Scripting Department code and development policy.
 
 # Development and goals
 * Each member of the department work autonomous from each other but are not alone.
-* Each member are free to edit, update create new functions and system if you feal they will benefit the gaming experience. (Note: Settings, rules, equipment, inventories and loadouts are subject for review and needs to be approved by S3 staff before merge) 
-* Our goal is to ensure everyone have fun and have as great experience as possible! With minimum performance loss.
+* Anyone are free to edit, update create new functions and systems. If you feal they will benefit the gaming experience your more then welcome to do it. _(__Note:__ Settings, rules, and alterations to equipment, inventories and loadouts are subject for review and needs to be approved by S3 lead and Platoon staff before merge. )_ 
+* Our goal is to ensure everyone have fun and have as great experience as possible! With no performance loss.
 
 # Code standard
-## Document everything 
-When writing a script document everything by adding comments so it is easy to maintain.
+## Documentation
+When writing a script document as much as possible by adding comments and utalize the script header. If it's not clear what the script do. This to make it for anyone else to maintain later. 
 ```
 /*
  * Author: myName, aGuyThatFixedTheFuctionName 
