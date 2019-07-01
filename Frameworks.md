@@ -2,7 +2,7 @@
 * [[Insignia and selectors|How to add a insignia]]
 * [[Player Variables]]
 * [[Mission initialization]]
-* [[Settings]]
+* [[Settings|CBA-Mission-Settings]]
 * [[Debugging]]
 * [[Modules|Module Framework]]
 
