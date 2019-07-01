@@ -1,3 +1,3 @@
 cScripts distribute compositivos that uses classnames from the [7th Cavalry Community Addon](https://github.com/7Cav/7CavAddon) the compositions are presets that allow a quick setup. The compositions also attach some variables to each soldier making some extra functionalities avalible to each group. This include insignia and radio channel being automaticly set on spawn and respawn based on [variable](Player-variables). Instead of the units squad name allowing for a better and faster deployment. 
 
-Read more about how to develop new compostions [here](Composition Development).
+Read more about how to develop new compostions [[here|Composition Development]].
