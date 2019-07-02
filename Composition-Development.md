@@ -41,3 +41,5 @@ author="";
 category="Cav_EdSubcat_Deploy_Platoon";
 ```
 
+# See also
+- BIS [Custom Composition](https://community.bistudio.com/wiki/Eden_Editor:_Custom_Composition)
