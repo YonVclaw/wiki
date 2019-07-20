@@ -8,6 +8,7 @@
 cScripts_Settings_allowCustomInit = true;
 cScripts_Settings_allowCustomTagging = true;
 cScripts_Settings_allowInsigniaApplication = true;
+cScripts_Settings_curatorImmortality = true;
 cScripts_Settings_enable7cavZeusModules = true;
 cScripts_Settings_enableStartHint = true;
 cScripts_Settings_enforceEyewereBlacklist = true;
