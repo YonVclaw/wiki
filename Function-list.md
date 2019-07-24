@@ -128,6 +128,9 @@
 
 
 ### fn_logError
+[`cScripts_fnc_fn_logError`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/debug/fn_logError.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -147,6 +150,9 @@
 
 
 ### fn_logInfo
+[`cScripts_fnc_fn_logInfo`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/debug/fn_logInfo.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -166,6 +172,9 @@
 
 
 ### fn_logWarning
+[`cScripts_fnc_fn_logWarning`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/debug/fn_logWarning.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -188,6 +197,9 @@
 
 
 ### fn_DocChklist_CFF
+[`cScripts_fnc_fn_DocChklist_CFF`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocChklist_CFF.sqf)
+
+
 **Author:** CPL.Brostrom.A and SGT.Argus.J
 
 
@@ -207,6 +219,9 @@ call cScripts_fnc_Doc_CFF
 
 
 ### fn_DocChklist_JMTASKS
+[`cScripts_fnc_fn_DocChklist_JMTASKS`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocChklist_JMTASKS.sqf)
+
+
 **Author:** CPL.Brostrom.A and SGT.Argus.J
 
 
@@ -226,6 +241,9 @@ call cScripts_fnc_Doc_JMTASKS
 
 
 ### fn_DocChklist_LZEXTRACT
+[`cScripts_fnc_fn_DocChklist_LZEXTRACT`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocChklist_LZEXTRACT.sqf)
+
+
 **Author:** CPL.Brostrom.A and SGT.Argus.J
 
 
@@ -245,6 +263,9 @@ call cScripts_fnc_Doc_LZEXTRACT
 
 
 ### fn_DocChklist_LZINSERT
+[`cScripts_fnc_fn_DocChklist_LZINSERT`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocChklist_LZINSERT.sqf)
+
+
 **Author:** CPL.Brostrom.A and SGT.Argus.J
 
 
@@ -264,6 +285,9 @@ call cScripts_fnc_Doc_LZINSERT
 
 
 ### fn_DocChklist_LZSPECS
+[`cScripts_fnc_fn_DocChklist_LZSPECS`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocChklist_LZSPECS.sqf)
+
+
 **Author:** CPL.Brostrom.A and SGT.Argus.J
 
 
@@ -283,6 +307,9 @@ call cScripts_fnc_Doc_LZSPECS
 
 
 ### fn_DocRadio_LACEACE
+[`cScripts_fnc_fn_DocRadio_LACEACE`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocRadio_LACEACE.sqf)
+
+
 **Author:** CPL.Brostrom.A and SGT.Argus.J
 
 
@@ -302,6 +329,9 @@ call cScripts_fnc_Doc_LANEACE
 
 
 ### fn_DocRadio_MEDEVAC
+[`cScripts_fnc_fn_DocRadio_MEDEVAC`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocRadio_MEDEVAC.sqf)
+
+
 **Author:** CPL.Brostrom.A and SGT.Argus.J
 
 
@@ -321,6 +351,9 @@ call cScripts_fnc_Doc_MEDEVAC
 
 
 ### fn_DocRadio_ROTARYPICKUP
+[`cScripts_fnc_fn_DocRadio_ROTARYPICKUP`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocRadio_ROTARYPICKUP.sqf)
+
+
 **Author:** CPL.Brostrom.A and SGT.Argus.J
 
 
@@ -340,6 +373,9 @@ call cScripts_fnc_Doc_ROTARYOICUP
 
 
 ### fn_DocRadio_SPOTREP
+[`cScripts_fnc_fn_DocRadio_SPOTREP`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocRadio_SPOTREP.sqf)
+
+
 **Author:** CPL.Brostrom.A and SGT.Argus.J
 
 
@@ -359,6 +395,9 @@ call cScripts_fnc_Doc_SPOTREP
 
 
 ### fn_Doc_Info
+[`cScripts_fnc_fn_Doc_Info`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_Doc_Info.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -378,6 +417,9 @@ call cScripts_fnc_Doc_Info
 
 
 ### fn_Doc_MissionControl
+[`cScripts_fnc_fn_Doc_MissionControl`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_Doc_MissionControl.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -400,6 +442,9 @@ call cScripts_fnc_Doc_MissionControl
 
 
 ### fn_exportBoxToArsenal
+[`cScripts_fnc_fn_exportBoxToArsenal`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/helpers/fn_exportBoxToArsenal.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -427,6 +472,9 @@ call cScripts_fnc_Doc_MissionControl
 
 
 ### fn_exportLoadoutsToArsenal
+[`cScripts_fnc_fn_exportLoadoutsToArsenal`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/helpers/fn_exportLoadoutsToArsenal.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -457,6 +505,9 @@ call cScripts_fnc_Doc_MissionControl
 
 
 ### fn_initACELoadouts
+[`cScripts_fnc_fn_initACELoadouts`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initACELoadouts.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -479,6 +530,9 @@ call cScripts_fnc_initAceLoadouts
 
 
 ### fn_initCuratorObjectPlaced
+[`cScripts_fnc_fn_initCuratorObjectPlaced`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initCuratorObjectPlaced.sqf)
+
+
 **Author:** SSG.Argus.J, CPL.Brostrom.A
 
 
@@ -506,6 +560,9 @@ call cScripts_fnc_initCuratorObjectPlaced
 
 
 ### fn_initDocuments
+[`cScripts_fnc_fn_initDocuments`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initDocuments.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -533,6 +590,9 @@ call cScripts_fnc_initDocuments
 
 
 ### fn_initModules
+[`cScripts_fnc_fn_initModules`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initModules.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -560,6 +620,9 @@ call cScripts_fnc_initModules
 
 
 ### fn_initStartupHint
+[`cScripts_fnc_fn_initStartupHint`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initStartupHint.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -591,6 +654,9 @@ call cScripts_fnc_initStartupHint
 
 
 ### fn_initSupply
+[`cScripts_fnc_fn_initSupply`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initSupply.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -618,6 +684,9 @@ call cScripts_fnc_initSupply
 
 
 ### fn_initTagging
+[`cScripts_fnc_fn_initTagging`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initTagging.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -645,6 +714,9 @@ call cScripts_fnc_initTagging
 
 
 ### fn_initVehicle
+[`cScripts_fnc_fn_initVehicle`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initVehicle.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -670,6 +742,9 @@ call cScripts_fnc_initVehicle
 
 
 ### fn_doAmmoCrate
+[`cScripts_fnc_fn_doAmmoCrate`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doAmmoCrate.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -694,6 +769,9 @@ call cScripts_fnc_initVehicle
 
 
 ### fn_doEmptyCrate
+[`cScripts_fnc_fn_doEmptyCrate`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doEmptyCrate.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -713,6 +791,9 @@ call cScripts_fnc_initVehicle
 
 
 ### fn_doExplosivesCrate
+[`cScripts_fnc_fn_doExplosivesCrate`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doExplosivesCrate.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -737,6 +818,9 @@ call cScripts_fnc_initVehicle
 
 
 ### fn_doFieldHospital
+[`cScripts_fnc_fn_doFieldHospital`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doFieldHospital.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -762,6 +846,9 @@ call cScripts_fnc_initVehicle
 
 
 ### fn_doGrenadesCrate
+[`cScripts_fnc_fn_doGrenadesCrate`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doGrenadesCrate.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -786,6 +873,9 @@ call cScripts_fnc_initVehicle
 
 
 ### fn_doLaunchersCrate
+[`cScripts_fnc_fn_doLaunchersCrate`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doLaunchersCrate.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -810,6 +900,9 @@ call cScripts_fnc_initVehicle
 
 
 ### fn_doMedicalCrate
+[`cScripts_fnc_fn_doMedicalCrate`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doMedicalCrate.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -834,6 +927,9 @@ call cScripts_fnc_initVehicle
 
 
 ### fn_doSpecialWeaponsCrate
+[`cScripts_fnc_fn_doSpecialWeaponsCrate`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doSpecialWeaponsCrate.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -863,6 +959,9 @@ call cScripts_fnc_initVehicle
 
 
 ### fn_doStarterCrate
+[`cScripts_fnc_fn_doStarterCrate`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doStarterCrate.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -901,6 +1000,9 @@ call cScripts_fnc_initVehicle
 
 
 ### fn_doStarterCrateSupplies
+[`cScripts_fnc_fn_doStarterCrateSupplies`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doStarterCrateSupplies.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -930,6 +1032,9 @@ call cScripts_fnc_initVehicle
 
 
 ### fn_doSupplyCrate
+[`cScripts_fnc_fn_doSupplyCrate`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doSupplyCrate.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -954,6 +1059,9 @@ call cScripts_fnc_initVehicle
 
 
 ### fn_doWeaponsCrate
+[`cScripts_fnc_fn_doWeaponsCrate`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doWeaponsCrate.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -981,6 +1089,9 @@ call cScripts_fnc_initVehicle
 
 
 ### fn_moduleApplyVehicleInventory
+[`cScripts_fnc_fn_moduleApplyVehicleInventory`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleApplyVehicleInventory.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1003,6 +1114,9 @@ this call cScripts_fnc_moduleApplyVehicleInventory
 
 
 ### fn_moduleApplyVehicleLable
+[`cScripts_fnc_fn_moduleApplyVehicleLable`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleApplyVehicleLable.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1025,6 +1139,9 @@ this call cScripts_fnc_moduleApplyVehicleLable
 
 
 ### fn_moduleCallEndex
+[`cScripts_fnc_fn_moduleCallEndex`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleCallEndex.sqf)
+
+
 **Author:** CPL.Brostrom.A, CPL.Dunn.W
 
 
@@ -1047,6 +1164,9 @@ call cScripts_fnc_moduleCallEndex;
 
 
 ### fn_moduleCreateFieldHospital
+[`cScripts_fnc_fn_moduleCreateFieldHospital`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleCreateFieldHospital.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1069,6 +1189,9 @@ this call cScripts_fnc_moduleCreateFieldHostpital
 
 
 ### fn_moduleCreateMedicalCrate
+[`cScripts_fnc_fn_moduleCreateMedicalCrate`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleCreateMedicalCrate.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1091,6 +1214,9 @@ this call cScripts_fnc_moduleCreateMedicalCrate
 
 
 ### fn_moduleCreateSpecialWeaponsCrate
+[`cScripts_fnc_fn_moduleCreateSpecialWeaponsCrate`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleCreateSpecialWeaponsCrate.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1113,6 +1239,9 @@ this call cScripts_fnc_moduleCreateSupplyCrate
 
 
 ### fn_moduleCreateStarterCrate
+[`cScripts_fnc_fn_moduleCreateStarterCrate`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleCreateStarterCrate.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1135,6 +1264,9 @@ this call cScripts_fnc_moduleCreateStarterCrate;
 
 
 ### fn_moduleCreateSupplyCrate
+[`cScripts_fnc_fn_moduleCreateSupplyCrate`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleCreateSupplyCrate.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1157,6 +1289,9 @@ this call cScripts_fnc_moduleCreateSupplyCrate
 
 
 ### fn_moduleMakeDoctor
+[`cScripts_fnc_fn_moduleMakeDoctor`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleMakeDoctor.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1179,6 +1314,9 @@ this call cScripts_fnc_moduleMakeDoctor
 
 
 ### fn_moduleMakeEngineer
+[`cScripts_fnc_fn_moduleMakeEngineer`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleMakeEngineer.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1201,6 +1339,9 @@ this call cScripts_fnc_moduleMakeEngineer
 
 
 ### fn_moduleRegearTrooper
+[`cScripts_fnc_fn_moduleRegearTrooper`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleRegearTrooper.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1226,6 +1367,9 @@ this call cScripts_fnc_moduleRegearTrooper
 
 
 ### fn_doPlayerAnnouncement
+[`cScripts_fnc_fn_doPlayerAnnouncement`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_doPlayerAnnouncement.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1250,6 +1394,9 @@ this call cScripts_fnc_moduleRegearTrooper
 
 
 ### fn_getCavSquadName
+[`cScripts_fnc_fn_getCavSquadName`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getCavSquadName.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1276,6 +1423,9 @@ this call cScripts_fnc_moduleRegearTrooper
 
 
 ### fn_getCompanyVariable
+[`cScripts_fnc_fn_getCompanyVariable`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getCompanyVariable.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1300,6 +1450,9 @@ this call cScripts_fnc_moduleRegearTrooper
 
 
 ### fn_getPlayerClan
+[`cScripts_fnc_fn_getPlayerClan`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getPlayerClan.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1324,6 +1477,9 @@ this call cScripts_fnc_moduleRegearTrooper
 
 
 ### fn_getPlayerName
+[`cScripts_fnc_fn_getPlayerName`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getPlayerName.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1349,6 +1505,9 @@ this call cScripts_fnc_moduleRegearTrooper
 
 
 ### fn_getPlayerRank
+[`cScripts_fnc_fn_getPlayerRank`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getPlayerRank.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1374,6 +1533,9 @@ this call cScripts_fnc_moduleRegearTrooper
 
 
 ### fn_getPlayerRole
+[`cScripts_fnc_fn_getPlayerRole`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getPlayerRole.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1398,6 +1560,9 @@ call cScripts_fnc_getPlayerRole
 
 
 ### fn_getRadioChannel
+[`cScripts_fnc_fn_getRadioChannel`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getRadioChannel.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1424,6 +1589,9 @@ call cScripts_fnc_getPlayerRole
 
 
 ### fn_getSquadInsignia
+[`cScripts_fnc_fn_getSquadInsignia`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getSquadInsignia.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1450,6 +1618,9 @@ call cScripts_fnc_getPlayerRole
 
 
 ### fn_hasCompanyVariable
+[`cScripts_fnc_fn_hasCompanyVariable`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_hasCompanyVariable.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1475,6 +1646,9 @@ call cScripts_fnc_getPlayerRole
 
 
 ### fn_isPlayerClan
+[`cScripts_fnc_fn_isPlayerClan`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_isPlayerClan.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1500,6 +1674,9 @@ call cScripts_fnc_getPlayerRole
 
 
 ### fn_setPlayerRank
+[`cScripts_fnc_fn_setPlayerRank`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_setPlayerRank.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1524,6 +1701,9 @@ call cScripts_fnc_getPlayerRole
 
 
 ### fn_setPostInitPlayerSettings
+[`cScripts_fnc_fn_setPostInitPlayerSettings`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_setPostInitPlayerSettings.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1549,6 +1729,9 @@ call cScripts_fnc_getPlayerRole
 
 
 ### fn_setPreInitPlayerSettings
+[`cScripts_fnc_fn_setPreInitPlayerSettings`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_setPreInitPlayerSettings.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1586,6 +1769,9 @@ call cScripts_fnc_getPlayerRole
 
 
 ### fn_setRadioChannel
+[`cScripts_fnc_fn_setRadioChannel`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_setRadioChannel.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1613,6 +1799,9 @@ call cScripts_fnc_getPlayerRole
 
 
 ### fn_setTeamColor
+[`cScripts_fnc_fn_setTeamColor`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_setTeamColor.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1640,6 +1829,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_initInsigniaSelections
+[`cScripts_fnc_fn_initInsigniaSelections`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/selections/fn_initInsigniaSelections.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1662,6 +1854,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_initQuickSelections
+[`cScripts_fnc_fn_initQuickSelections`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/selections/fn_initQuickSelections.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1690,6 +1885,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_sim_jump
+[`cScripts_fnc_fn_sim_jump`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/simulation/fn_sim_jump.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1720,6 +1918,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_addAceCategory
+[`cScripts_fnc_fn_addAceCategory`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addAceCategory.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1748,6 +1949,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_addArsenal
+[`cScripts_fnc_fn_addArsenal`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addArsenal.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1768,6 +1972,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_addGetOutHelo
+[`cScripts_fnc_fn_addGetOutHelo`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addGetOutHelo.sqf)
+
+
 **Author:** CPL.Brostrom.A (With the help from; 654wak654)
 
 
@@ -1791,6 +1998,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_addHeal
+[`cScripts_fnc_fn_addHeal`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addHeal.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1810,6 +2020,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_addInsigniaSelection
+[`cScripts_fnc_fn_addInsigniaSelection`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addInsigniaSelection.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1841,6 +2054,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_addJump
+[`cScripts_fnc_fn_addJump`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addJump.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1868,6 +2084,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_addLoadoutAction
+[`cScripts_fnc_fn_addLoadoutAction`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addLoadoutAction.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1892,6 +2111,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_addObjectToCurator
+[`cScripts_fnc_fn_addObjectToCurator`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addObjectToCurator.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1914,6 +2136,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_addQuickSelection
+[`cScripts_fnc_fn_addQuickSelection`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addQuickSelection.sqf)
+
+
 **Author:** CPL.Brostrom.A (With help from Commy2)
 
 
@@ -1947,6 +2172,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_addReGear
+[`cScripts_fnc_fn_addReGear`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addReGear.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -1967,6 +2195,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_doGetOutHeloLeft
+[`cScripts_fnc_fn_doGetOutHeloLeft`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_doGetOutHeloLeft.sqf)
+
+
 **Author:** CPL.Brostrom.A (With the help from; 654wak654)
 
 
@@ -1986,6 +2217,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_doGetOutHeloRight
+[`cScripts_fnc_fn_doGetOutHeloRight`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_doGetOutHeloRight.sqf)
+
+
 **Author:** CPL.Brostrom.A (With the help from; 654wak654)
 
 
@@ -2005,6 +2239,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_doJump
+[`cScripts_fnc_fn_doJump`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_doJump.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -2030,6 +2267,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_gate
+[`cScripts_fnc_fn_gate`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_gate.sqf)
+
+
 **Author:** CPL.Brostrom.A, with help from Commy2
 
 
@@ -2067,6 +2307,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_setVehicleInventory
+[`cScripts_fnc_fn_setVehicleInventory`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_setVehicleInventory.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -2086,6 +2329,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_setVehicleSettings
+[`cScripts_fnc_fn_setVehicleSettings`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_setVehicleSettings.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -2105,6 +2351,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_teleport
+[`cScripts_fnc_fn_teleport`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_teleport.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -2149,6 +2398,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_createVehicleLable
+[`cScripts_fnc_fn_createVehicleLable`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/texture/fn_createVehicleLable.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -2176,6 +2428,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_flag
+[`cScripts_fnc_fn_flag`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/texture/fn_flag.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -2200,6 +2455,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_getVehicleLable
+[`cScripts_fnc_fn_getVehicleLable`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/texture/fn_getVehicleLable.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
@@ -2224,6 +2482,9 @@ call cScripts_fnc_setTeamColor
 
 
 ### fn_setVehicleLable
+[`cScripts_fnc_fn_setVehicleLable`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/texture/fn_setVehicleLable.sqf)
+
+
 **Author:** CPL.Brostrom.A
 
 
