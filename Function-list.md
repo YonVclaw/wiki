@@ -127,1653 +127,2100 @@
 ## Debug
 
 
-#### fn_logError
+### fn_logError
 **Author:** CPL.Brostrom.A
-
 > This function print debug information in the RPT log
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Message <STRING>
-</br>
-
-**Example:**</br>
-```["Something is wrong here."] call cScripts_fnc_logError```</br>
 
 
-#### fn_logInfo
+**Example:**
+
+```
+["Something is wrong here."] call cScripts_fnc_logError
+```
+
+
+### fn_logInfo
 **Author:** CPL.Brostrom.A
-
 > This function print debug information in the RPT log
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Message <STRING>
-</br>
-
-**Example:**</br>
-```["Something is wrong here."] call cScripts_fnc_logInfo```</br>
 
 
-#### fn_logWarning
+**Example:**
+
+```
+["Something is wrong here."] call cScripts_fnc_logInfo
+```
+
+
+### fn_logWarning
 **Author:** CPL.Brostrom.A
-
 > This function print debug information in the RPT log
 >
 
 
-**Arguments:**</br>
-0: Message <STRING>
-</br>
+**Arguments:**
 
-**Example:**</br>
-```["Something is wrong here."] call cScripts_fnc_logWarning```</br>
+0: Message <STRING>
+
+
+**Example:**
+
+```
+["Something is wrong here."] call cScripts_fnc_logWarning
+```
 
 
 ## Documents
 
 
-#### fn_DocChklist_CFF
+### fn_DocChklist_CFF
 **Author:** CPL.Brostrom.A and SGT.Argus.J
-
 > This function write a diary record.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 None
-</br>
-
-**Example:**</br>
-```call cScripts_fnc_Doc_CFF```</br>
 
 
-#### fn_DocChklist_JMTASKS
+**Example:**
+
+```
+call cScripts_fnc_Doc_CFF
+```
+
+
+### fn_DocChklist_JMTASKS
 **Author:** CPL.Brostrom.A and SGT.Argus.J
-
 > This function write a diary record.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 None
-</br>
-
-**Example:**</br>
-```call cScripts_fnc_Doc_JMTASKS```</br>
 
 
-#### fn_DocChklist_LZEXTRACT
+**Example:**
+
+```
+call cScripts_fnc_Doc_JMTASKS
+```
+
+
+### fn_DocChklist_LZEXTRACT
 **Author:** CPL.Brostrom.A and SGT.Argus.J
-
 > This function write a diary record.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 None
-</br>
-
-**Example:**</br>
-```call cScripts_fnc_Doc_LZEXTRACT```</br>
 
 
-#### fn_DocChklist_LZINSERT
+**Example:**
+
+```
+call cScripts_fnc_Doc_LZEXTRACT
+```
+
+
+### fn_DocChklist_LZINSERT
 **Author:** CPL.Brostrom.A and SGT.Argus.J
-
 > This function write a diary record.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 None
-</br>
-
-**Example:**</br>
-```call cScripts_fnc_Doc_LZINSERT```</br>
 
 
-#### fn_DocChklist_LZSPECS
+**Example:**
+
+```
+call cScripts_fnc_Doc_LZINSERT
+```
+
+
+### fn_DocChklist_LZSPECS
 **Author:** CPL.Brostrom.A and SGT.Argus.J
-
 > This function write a diary record.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 None
-</br>
-
-**Example:**</br>
-```call cScripts_fnc_Doc_LZSPECS```</br>
 
 
-#### fn_DocRadio_LACEACE
+**Example:**
+
+```
+call cScripts_fnc_Doc_LZSPECS
+```
+
+
+### fn_DocRadio_LACEACE
 **Author:** CPL.Brostrom.A and SGT.Argus.J
-
 > This function write a diary record.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 None
-</br>
-
-**Example:**</br>
-```call cScripts_fnc_Doc_LANEACE```</br>
 
 
-#### fn_DocRadio_MEDEVAC
+**Example:**
+
+```
+call cScripts_fnc_Doc_LANEACE
+```
+
+
+### fn_DocRadio_MEDEVAC
 **Author:** CPL.Brostrom.A and SGT.Argus.J
-
 > This function write a diary record.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 None
-</br>
-
-**Example:**</br>
-```call cScripts_fnc_Doc_MEDEVAC```</br>
 
 
-#### fn_DocRadio_ROTARYPICKUP
+**Example:**
+
+```
+call cScripts_fnc_Doc_MEDEVAC
+```
+
+
+### fn_DocRadio_ROTARYPICKUP
 **Author:** CPL.Brostrom.A and SGT.Argus.J
-
 > This function write a diary record.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 None
-</br>
-
-**Example:**</br>
-```call cScripts_fnc_Doc_ROTARYOICUP```</br>
 
 
-#### fn_DocRadio_SPOTREP
+**Example:**
+
+```
+call cScripts_fnc_Doc_ROTARYOICUP
+```
+
+
+### fn_DocRadio_SPOTREP
 **Author:** CPL.Brostrom.A and SGT.Argus.J
-
 > This function write a diary record.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 None
-</br>
-
-**Example:**</br>
-```call cScripts_fnc_Doc_SPOTREP```</br>
 
 
-#### fn_Doc_Info
+**Example:**
+
+```
+call cScripts_fnc_Doc_SPOTREP
+```
+
+
+### fn_Doc_Info
 **Author:** CPL.Brostrom.A
-
 > This function write a diary record.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 None
-</br>
-
-**Example:**</br>
-```call cScripts_fnc_Doc_Info```</br>
 
 
-#### fn_Doc_MissionControl
+**Example:**
+
+```
+call cScripts_fnc_Doc_Info
+```
+
+
+### fn_Doc_MissionControl
 **Author:** CPL.Brostrom.A
-
 > This function write a diary record.
 >
 
 
-**Arguments:**</br>
-None
-</br>
+**Arguments:**
 
-**Example:**</br>
-```call cScripts_fnc_Doc_MissionControl```</br>
+None
+
+
+**Example:**
+
+```
+call cScripts_fnc_Doc_MissionControl
+```
 
 
 ## Helpers
 
 
-#### fn_exportBoxToArsenal
+### fn_exportBoxToArsenal
 **Author:** CPL.Brostrom.A
-
 > This function is used used to export objects to clipboard from a object to be used in the Cav Arsenal.
 >
 > The function also retun a array or strings as well as clipboard export.
 >
 
 
-**Arguments:**</br>
-0: Object <OBJECT>
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+0: Object <OBJECT>
+
+
+**Return Value:**
+
 Equipment <ARRAY of STRINGS>
 
 
-**Example:**</br>
-```[cursorTarget] call cScripts_fnc_exportBoxToArsenal```</br>
+**Example:**
+
+```
+[cursorTarget] call cScripts_fnc_exportBoxToArsenal
+```
+
 
 **Public:** Yes
 
 
-
-#### fn_exportLoadoutsToArsenal
+### fn_exportLoadoutsToArsenal
 **Author:** CPL.Brostrom.A
-
 > This function is used used to export a companies loadouts to be used in the Cav Arsenal function.
 >
 > The function also retun a array or strings as well as clipboard export.
 >
 
 
-**Arguments:**</br>
-0: Company <STRING>    ["cfgLoadoutsClassname","alpha","bravo","charlie","heavyweapons","ranger","medical","full"]
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+0: Company <STRING>    ["cfgLoadoutsClassname","alpha","bravo","charlie","heavyweapons","ranger","medical","full"]
+
+
+**Return Value:**
+
 Equipment <ARRAY of STRINGS>
 
 
-**Example:**</br>
-```["charlie"] call cScripts_fnc_exportLoadoutsToArsenal```</br>
+**Example:**
+
+```
+["charlie"] call cScripts_fnc_exportLoadoutsToArsenal
+```
+
 
 **Public:** Yes
-
 
 
 ## Init
 
 
-#### fn_initACELoadouts
+### fn_initACELoadouts
 **Author:** CPL.Brostrom.A
-
 > This function initzialises all the default mission loadouts.
 >
 
 
-**Arguments:**</br>
-None
-</br>
+**Arguments:**
 
-**Example:**</br>
-```call cScripts_fnc_initAceLoadouts```</br>
+None
+
+
+**Example:**
+
+```
+call cScripts_fnc_initAceLoadouts
+```
+
 
 **Public:** No
 
 
-
-#### fn_initCuratorObjectPlaced
+### fn_initCuratorObjectPlaced
 **Author:** SSG.Argus.J, CPL.Brostrom.A
-
 > This function adds a jump out action to a curator spawned C130.
 >
 
 
-**Arguments:**</br>
-None
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+None
+
+
+**Return Value:**
+
 Nothing
 
 
-**Example:**</br>
-```call cScripts_fnc_initCuratorObjectPlaced```</br>
+**Example:**
+
+```
+call cScripts_fnc_initCuratorObjectPlaced
+```
+
 
 **Public:** No
 
 
-
-#### fn_initDocuments
+### fn_initDocuments
 **Author:** CPL.Brostrom.A
-
 > This function add diary records for all players.
 >
 
 
-**Arguments:**</br>
-None
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+None
+
+
+**Return Value:**
+
 Nothing
 
 
-**Example:**</br>
-```call cScripts_fnc_initDocuments```</br>
+**Example:**
+
+```
+call cScripts_fnc_initDocuments
+```
+
 
 **Public:** No
 
 
-
-#### fn_initModules
+### fn_initModules
 **Author:** CPL.Brostrom.A
-
 > This function load all Cav modules. Requires Achilles to run propperly will not load this function otherwise.
 >
 
 
-**Arguments:**</br>
-None
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+None
+
+
+**Return Value:**
+
 Nothing
 
 
-**Example:**</br>
-```call cScripts_fnc_initModules```</br>
+**Example:**
+
+```
+call cScripts_fnc_initModules
+```
+
 
 **Public:** No
 
 
-
-#### fn_initStartupHint
+### fn_initStartupHint
 **Author:** CPL.Brostrom.A
-
 > This function give all players a hint on mission start only.
 >
 
 
-**Arguments:**</br>
-0: Time <NUMBER> (Default; 60)
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+0: Time <NUMBER> (Default; 60)
+
+
+**Return Value:**
+
 Nothing
 
 
-**Example:**</br>
-```call cScripts_fnc_initStartupHint```</br>
-```[60,1,"My custom Mission!","I have design this mission!"] call cScripts_fnc_initStartupHint```</br>
+**Example:**
+
+```
+call cScripts_fnc_initStartupHint
+```
+
+```
+[60,1,"My custom Mission!","I have design this mission!"] call cScripts_fnc_initStartupHint
+```
+
 
 **Public:** No
 
 
-
-#### fn_initSupply
+### fn_initSupply
 **Author:** CPL.Brostrom.A
-
 > This function add eventhandelers chaning the inventory of all crates.
 >
 
 
-**Arguments:**</br>
-None
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+None
+
+
+**Return Value:**
+
 Nothing
 
 
-**Example:**</br>
-```call cScripts_fnc_initSupply```</br>
+**Example:**
+
+```
+call cScripts_fnc_initSupply
+```
+
 
 **Public:** No
 
 
-
-#### fn_initTagging
+### fn_initTagging
 **Author:** CPL.Brostrom.A
-
 > This adds custom spray tags to all units.
 >
 
 
-**Arguments:**</br>
-None
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+None
+
+
+**Return Value:**
+
 Nothing
 
 
-**Example:**</br>
-```call cScripts_fnc_initTagging```</br>
+**Example:**
+
+```
+call cScripts_fnc_initTagging
+```
+
 
 **Public:** No
 
 
-
-#### fn_initVehicle
+### fn_initVehicle
 **Author:** CPL.Brostrom.A
-
 > This function add eventhandelers adding cav functionality to all vehicles.
 >
 
 
-**Return Value:**</br>
+**Return Value:**
+
 Nothing
 
 
-**Example:**</br>
-```call cScripts_fnc_initVehicle```</br>
+**Example:**
+
+```
+call cScripts_fnc_initVehicle
+```
+
 
 **Public:** No
-
 
 
 ## Logistics
 
 
-#### fn_doAmmoCrate
+### fn_doAmmoCrate
 **Author:** CPL.Brostrom.A
-
 > This function resupply a crate and changes it's texture.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Crate <OBJECT>
-</br>1: Scale cargo ammount <NUMBER> (Default: 1)
-</br>
 
-**Example:**</br>
-```[this,0.5] call cScripts_fnc_doAmmoCrate;```</br>
-```[this,1] call cScripts_fnc_doAmmoCrate;```</br>
+1: Scale cargo ammount <NUMBER> (Default: 1)
 
 
-#### fn_doEmptyCrate
+**Example:**
+
+```
+[this,0.5] call cScripts_fnc_doAmmoCrate;
+```
+
+```
+[this,1] call cScripts_fnc_doAmmoCrate;
+```
+
+
+### fn_doEmptyCrate
 **Author:** CPL.Brostrom.A
-
 > This function resupply a crate and changes it's texture.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Crate <OBJECT>
-</br>
-
-**Example:**</br>
-```[this] call cScripts_fnc_doEmptyCrate;```</br>
 
 
-#### fn_doExplosivesCrate
+**Example:**
+
+```
+[this] call cScripts_fnc_doEmptyCrate;
+```
+
+
+### fn_doExplosivesCrate
 **Author:** CPL.Brostrom.A
-
 > This function resupply a crate and changes it's texture.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Crate <OBJECT>
-</br>1: Scale cargo ammount <NUMBER> (Default: 1)
-</br>
 
-**Example:**</br>
-```[this,0.5] call cScripts_fnc_doExplosivesCrate;```</br>
-```[this,1] call cScripts_fnc_doExplosivesCrate;```</br>
+1: Scale cargo ammount <NUMBER> (Default: 1)
 
 
-#### fn_doFieldHospital
+**Example:**
+
+```
+[this,0.5] call cScripts_fnc_doExplosivesCrate;
+```
+
+```
+[this,1] call cScripts_fnc_doExplosivesCrate;
+```
+
+
+### fn_doFieldHospital
 **Author:** CPL.Brostrom.A
-
 > This scripts crate the 7th cavalry field hostpital.
 >
 > It adds equipment and some optional selections to a given object.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Crate <OBJECT>
-</br>1: Medical Facility <BOOL> (Default: true)
-</br>2: Scale cargo ammount <NUMBER> (Default: 1)
-</br>
 
-**Example:**</br>
-```[this] call cScripts_fnc_doFieldHospital;```</br>
-```[this, true, 1] call cScripts_fnc_doFieldHospital;```</br>
+1: Medical Facility <BOOL> (Default: true)
+
+2: Scale cargo ammount <NUMBER> (Default: 1)
 
 
-#### fn_doGrenadesCrate
+**Example:**
+
+```
+[this] call cScripts_fnc_doFieldHospital;
+```
+
+```
+[this, true, 1] call cScripts_fnc_doFieldHospital;
+```
+
+
+### fn_doGrenadesCrate
 **Author:** CPL.Brostrom.A
-
 > This function resupply a crate and changes it's texture.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Crate <OBJECT>
-</br>1: Scale cargo ammount <NUMBER> (Default: 1)
-</br>
 
-**Example:**</br>
-```[this,0.5] call cScripts_fnc_doGrenadesCrate;```</br>
-```[this,1] call cScripts_fnc_doGrenadesCrate;```</br>
+1: Scale cargo ammount <NUMBER> (Default: 1)
 
 
-#### fn_doLaunchersCrate
+**Example:**
+
+```
+[this,0.5] call cScripts_fnc_doGrenadesCrate;
+```
+
+```
+[this,1] call cScripts_fnc_doGrenadesCrate;
+```
+
+
+### fn_doLaunchersCrate
 **Author:** CPL.Brostrom.A
-
 > This function resupply a crate and changes it's texture.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Crate <OBJECT>
-</br>1: Scale cargo ammount <NUMBER> (Default: 1)
-</br>
 
-**Example:**</br>
-```[this,0.5] call cScripts_fnc_doLaunchersCrate;```</br>
-```[this,1] call cScripts_fnc_doLaunchersCrate;```</br>
+1: Scale cargo ammount <NUMBER> (Default: 1)
 
 
-#### fn_doMedicalCrate
+**Example:**
+
+```
+[this,0.5] call cScripts_fnc_doLaunchersCrate;
+```
+
+```
+[this,1] call cScripts_fnc_doLaunchersCrate;
+```
+
+
+### fn_doMedicalCrate
 **Author:** CPL.Brostrom.A
-
 > This function resupply a crate and changes it's texture.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Unit <OBJECT>
-</br>1: Scale <AMMOUNT>
-</br>
 
-**Example:**</br>
-```[this,0.5] call cScripts_fnc_doMedicalCrate;```</br>
-```[this,1] call cScripts_fnc_doMedicalCrate;```</br>
+1: Scale <AMMOUNT>
 
 
-#### fn_doSpecialWeaponsCrate
+**Example:**
+
+```
+[this,0.5] call cScripts_fnc_doMedicalCrate;
+```
+
+```
+[this,1] call cScripts_fnc_doMedicalCrate;
+```
+
+
+### fn_doSpecialWeaponsCrate
 **Author:** CPL.Brostrom.A
-
 > This function resupply a crate and changes it's texture.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Crate <OBJECT>
-</br>1: Scale cargo ammount <NUMBER> (Default: 1)
-</br>2: Type
-</br>
 
-**Example:**</br>
-```[this] call cScripts_fnc_doSpecialWeaponsCrate;```</br>
-```[this,"Full",0.5] call cScripts_fnc_doSpecialWeaponsCrate;```</br>
-```[this,"Full",1] call cScripts_fnc_doSpecialWeaponsCrate;```</br>
+1: Scale cargo ammount <NUMBER> (Default: 1)
+
+2: Type
 
 
-#### fn_doStarterCrate
+**Example:**
+
+```
+[this] call cScripts_fnc_doSpecialWeaponsCrate;
+```
+
+```
+[this,"Full",0.5] call cScripts_fnc_doSpecialWeaponsCrate;
+```
+
+```
+[this,"Full",1] call cScripts_fnc_doSpecialWeaponsCrate;
+```
+
+
+### fn_doStarterCrate
 **Author:** CPL.Brostrom.A
-
 > This scripts crate the 7th cavalry starter crate.
 >
 > It adds equipment and some selections to a given object.
 >
 
 
-**Arguments:**</br>
-0: Object <OBJECT>
-</br>1: Quick Select Scale <STRING>   (Default: "none") ["none","alpha","bravo","charlie","ranger","medical","full"]
-</br>2: ReGear action <BOOL>          (Default: true)
-</br>3: Heal action <BOOL>            (Default: true)
-</br>4: Insignia Selection <BOOL>     (Default: true)
-</br>5: Company variable <BOOL>       (Default: true)
-</br>6: Arsenal <BOOL>                (Default: false)
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+0: Object <OBJECT>
+
+1: Quick Select Scale <STRING>   (Default: "none") ["none","alpha","bravo","charlie","ranger","medical","full"]
+
+2: ReGear action <BOOL>          (Default: true)
+
+3: Heal action <BOOL>            (Default: true)
+
+4: Insignia Selection <BOOL>     (Default: true)
+
+5: Company variable <BOOL>       (Default: true)
+
+6: Arsenal <BOOL>                (Default: false)
+
+
+**Return Value:**
+
 Nothing
 
 
-**Example:**</br>
-```[this] call cScripts_fnc_doStarterCrate;```</br>
-```[this,"none",true] call cScripts_fnc_doStarterCrate;```</br>
-```[this,"none",true,true,true,true,false] call cScripts_fnc_doStarterCrate;```</br>
+**Example:**
+
+```
+[this] call cScripts_fnc_doStarterCrate;
+```
+
+```
+[this,"none",true] call cScripts_fnc_doStarterCrate;
+```
+
+```
+[this,"none",true,true,true,true,false] call cScripts_fnc_doStarterCrate;
+```
 
 
-#### fn_doStarterCrateSupplies
+### fn_doStarterCrateSupplies
 **Author:** CPL.Brostrom.A
-
 > This function adds equipment to a given item baserd on company type.
 >
 
 
-**Arguments:**</br>
-0: Crate <OBJECT>
-</br>1: Set company type. <STRING> ["none","alpha","bravo","charlie","ranger","medical","full"]
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+0: Crate <OBJECT>
+
+1: Set company type. <STRING> ["none","alpha","bravo","charlie","ranger","medical","full"]
+
+
+**Return Value:**
+
 Nothing
 
 
-**Example:**</br>
-```[this] call cScripts_fnc_doStarterCrateSupplies;```</br>
-```[this,"none"] call cScripts_fnc_doStarterCrateSupplies;```</br>
+**Example:**
+
+```
+[this] call cScripts_fnc_doStarterCrateSupplies;
+```
+
+```
+[this,"none"] call cScripts_fnc_doStarterCrateSupplies;
+```
 
 
-#### fn_doSupplyCrate
+### fn_doSupplyCrate
 **Author:** CPL.Brostrom.A
-
 > This populats a given object with items.
 >
 > Use for mission resupplies.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Crate <OBJECT>
-</br>1: Scale cargo ammount <NUMBER> (Default: 1)
-</br>
 
-**Example:**</br>
-```[this,0.5] call cScripts_fnc_doSupplyCrate;```</br>
-```[this,1] call cScripts_fnc_doSupplyCrate;```</br>
+1: Scale cargo ammount <NUMBER> (Default: 1)
 
 
-#### fn_doWeaponsCrate
+**Example:**
+
+```
+[this,0.5] call cScripts_fnc_doSupplyCrate;
+```
+
+```
+[this,1] call cScripts_fnc_doSupplyCrate;
+```
+
+
+### fn_doWeaponsCrate
 **Author:** CPL.Brostrom.A
-
 > This function resupply a crate and changes it's texture.
 >
 
 
-**Arguments:**</br>
-0: Crate <OBJECT>
-</br>1: Scale cargo ammount <NUMBER> (Default: 1)
-</br>
+**Arguments:**
 
-**Example:**</br>
-```[this,0.5] call cScripts_fnc_doWeaponsCrate;```</br>
-```[this,1] call cScripts_fnc_doWeaponsCrate;```</br>
+0: Crate <OBJECT>
+
+1: Scale cargo ammount <NUMBER> (Default: 1)
+
+
+**Example:**
+
+```
+[this,0.5] call cScripts_fnc_doWeaponsCrate;
+```
+
+```
+[this,1] call cScripts_fnc_doWeaponsCrate;
+```
 
 
 ## Modules
 
 
-#### fn_moduleApplyVehicleInventory
+### fn_moduleApplyVehicleInventory
 **Author:** CPL.Brostrom.A
-
 > This module function allow you to retrofitt a given vehicle to utalize a better and more awesome inventory.
 >
 
 
-**Arguments:**</br>
-0: Object <OBJECT>
-</br>
+**Arguments:**
 
-**Example:**</br>
-```this call cScripts_fnc_moduleApplyVehicleInventory```</br>
+0: Object <OBJECT>
+
+
+**Example:**
+
+```
+this call cScripts_fnc_moduleApplyVehicleInventory
+```
+
 
 **Public:** No
 
 
-
-#### fn_moduleApplyVehicleLable
+### fn_moduleApplyVehicleLable
 **Author:** CPL.Brostrom.A
-
 > This module function allow you to apply a texture lable to a given vehicle.
 >
 
 
-**Arguments:**</br>
-0: Object <OBJECT>
-</br>
+**Arguments:**
 
-**Example:**</br>
-```this call cScripts_fnc_moduleApplyVehicleLable```</br>
+0: Object <OBJECT>
+
+
+**Example:**
+
+```
+this call cScripts_fnc_moduleApplyVehicleLable
+```
+
 
 **Public:** No
 
 
-
-#### fn_moduleCallEndex
+### fn_moduleCallEndex
 **Author:** CPL.Brostrom.A, CPL.Dunn.W
-
 > This module function can disable ai set player weapon to safe and print some hints and spam the chat with ENDEX.
 >
 
 
-**Arguments:**</br>
-Nothing
-</br>
+**Arguments:**
 
-**Example:**</br>
-```call cScripts_fnc_moduleCallEndex;```</br>
+Nothing
+
+
+**Example:**
+
+```
+call cScripts_fnc_moduleCallEndex;
+```
+
 
 **Public:** No
 
 
-
-#### fn_moduleCreateFieldHospital
+### fn_moduleCreateFieldHospital
 **Author:** CPL.Brostrom.A
-
 > This module function spawn a 7th Cavalry Fieald Hostpital.
 >
 
 
-**Arguments:**</br>
-0: Object <OBJECT>
-</br>
+**Arguments:**
 
-**Example:**</br>
-```this call cScripts_fnc_moduleCreateFieldHostpital```</br>
+0: Object <OBJECT>
+
+
+**Example:**
+
+```
+this call cScripts_fnc_moduleCreateFieldHostpital
+```
+
 
 **Public:** No
 
 
-
-#### fn_moduleCreateMedicalCrate
+### fn_moduleCreateMedicalCrate
 **Author:** CPL.Brostrom.A
-
 > This module function spawn a supply medical crate.
 >
 
 
-**Arguments:**</br>
-0: Object <OBJECT>
-</br>
+**Arguments:**
 
-**Example:**</br>
-```this call cScripts_fnc_moduleCreateMedicalCrate```</br>
+0: Object <OBJECT>
+
+
+**Example:**
+
+```
+this call cScripts_fnc_moduleCreateMedicalCrate
+```
+
 
 **Public:** No
 
 
-
-#### fn_moduleCreateSpecialWeaponsCrate
+### fn_moduleCreateSpecialWeaponsCrate
 **Author:** CPL.Brostrom.A
-
 > This module function spawn a special weapons crate.
 >
 
 
-**Arguments:**</br>
-0: Object <OBJECT>
-</br>
+**Arguments:**
 
-**Example:**</br>
-```this call cScripts_fnc_moduleCreateSupplyCrate```</br>
+0: Object <OBJECT>
+
+
+**Example:**
+
+```
+this call cScripts_fnc_moduleCreateSupplyCrate
+```
+
 
 **Public:** No
 
 
-
-#### fn_moduleCreateStarterCrate
+### fn_moduleCreateStarterCrate
 **Author:** CPL.Brostrom.A
-
 > Modified by: PVT.Schouten.M
 >
 > This module function spawn a 7th Cavalry Starter Crate.
 >
 
 
-**Arguments:**</br>
-0: Object <OBJECT>
-</br>
+**Arguments:**
 
-**Example:**</br>
-```this call cScripts_fnc_moduleCreateStarterCrate;```</br>
+0: Object <OBJECT>
+
+
+**Example:**
+
+```
+this call cScripts_fnc_moduleCreateStarterCrate;
+```
+
 
 **Public:** No
 
 
-
-#### fn_moduleCreateSupplyCrate
+### fn_moduleCreateSupplyCrate
 **Author:** CPL.Brostrom.A
-
 > This module function spawn a supply crate.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Object <OBJECT>
-</br>
 
-**Example:**</br>
-```this call cScripts_fnc_moduleCreateSupplyCrate```</br>
+
+**Example:**
+
+```
+this call cScripts_fnc_moduleCreateSupplyCrate
+```
+
 
 **Public:** No
 
 
-
-#### fn_moduleMakeDoctor
+### fn_moduleMakeDoctor
 **Author:** CPL.Brostrom.A
-
 > This module function apply the doctor ability to a given unit.
 >
 
 
-**Arguments:**</br>
-0: Unit <OBJECT>
-</br>
+**Arguments:**
 
-**Example:**</br>
-```this call cScripts_fnc_moduleMakeDoctor```</br>
+0: Unit <OBJECT>
+
+
+**Example:**
+
+```
+this call cScripts_fnc_moduleMakeDoctor
+```
+
 
 **Public:** No
 
 
-
-#### fn_moduleMakeEngineer
+### fn_moduleMakeEngineer
 **Author:** CPL.Brostrom.A
-
 > This module function apply the doctor ability to a given unit.
 >
 
 
-**Arguments:**</br>
-0: Unit <OBJECT>
-</br>
+**Arguments:**
 
-**Example:**</br>
-```this call cScripts_fnc_moduleMakeEngineer```</br>
+0: Unit <OBJECT>
+
+
+**Example:**
+
+```
+this call cScripts_fnc_moduleMakeEngineer
+```
+
 
 **Public:** No
 
 
-
-#### fn_moduleRegearTrooper
+### fn_moduleRegearTrooper
 **Author:** CPL.Brostrom.A
-
 > This module function regear to a given unit.
 >
 
 
-**Arguments:**</br>
-0: Unit <OBJECT>
-</br>
+**Arguments:**
 
-**Example:**</br>
-```this call cScripts_fnc_moduleRegearTrooper```</br>
+0: Unit <OBJECT>
+
+
+**Example:**
+
+```
+this call cScripts_fnc_moduleRegearTrooper
+```
+
 
 **Public:** No
-
 
 
 ## Players
 
 
-#### fn_doPlayerAnnouncement
+### fn_doPlayerAnnouncement
 **Author:** CPL.Brostrom.A
-
 > This function announce the player once on mission join when the loadout is set.
 >
 
 
-**Arguments:**</br>
-0: Player <STRING>
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+0: Player <STRING>
+
+
+**Return Value:**
+
 Nothing
 
 
-**Example:**</br>
-```[this] call cScripts_fnc_doPlayerAnnouncement;```</br>
+**Example:**
+
+```
+[this] call cScripts_fnc_doPlayerAnnouncement;
+```
 
 
-#### fn_getCavSquadName
+### fn_getCavSquadName
 **Author:** CPL.Brostrom.A
-
 > This function fetch a squad name of a unit variable squad name
 >
 
 
-**Arguments:**</br>
+**Arguments:**
 
 
-**Return Value:**</br>
+**Return Value:**
+
 Squad Name <STRING>
 
 
-**Example:**</br>
-```[] call cScripts_fnc_getCavSquadName```</br>
+**Example:**
+
+```
+[] call cScripts_fnc_getCavSquadName
+```
+
 
 **Public:** No
 
 
-
-#### fn_getCompanyVariable
+### fn_getCompanyVariable
 **Author:** CPL.Brostrom.A
-
 > Show you your current company variable.
 >
 
 
-**Arguments:**</br>
-0: player <STRING>
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+0: player <STRING>
+
+
+**Return Value:**
+
 Company variable <STRING>
 
 
-**Example:**</br>
-```[player] call cScripts_fnc_getCompanyVariable```</br>
+**Example:**
+
+```
+[player] call cScripts_fnc_getCompanyVariable
+```
 
 
-#### fn_getPlayerClan
+### fn_getPlayerClan
 **Author:** CPL.Brostrom.A
-
 > Retun the player clan tag
 >
 
 
-**Arguments:**</br>
-0: player <STRING>
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+0: player <STRING>
+
+
+**Return Value:**
+
 Clan Tag <STRING>
 
 
-**Example:**</br>
-```[player] call cScripts_fnc_getPlayerClan```</br>
+**Example:**
+
+```
+[player] call cScripts_fnc_getPlayerClan
+```
 
 
-#### fn_getPlayerName
+### fn_getPlayerName
 **Author:** CPL.Brostrom.A
-
 > This function fetches your name based on your name BIS profile or Steam Profile name.
 >
 
 
-**Arguments:**</br>
-0: player <STRING>
-</br>1: type <STRING>     ['PROFILE', 'STEAM']
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+0: player <STRING>
+
+1: type <STRING>     ['PROFILE', 'STEAM']
+
+
+**Return Value:**
+
 Player name <STRING>
 
 
-**Example:**</br>
-```[player,'PROFILE'] call cScripts_fnc_getPlayerName```</br>
+**Example:**
+
+```
+[player,'PROFILE'] call cScripts_fnc_getPlayerName
+```
 
 
-#### fn_getPlayerRank
+### fn_getPlayerRank
 **Author:** CPL.Brostrom.A
-
 > This function fetches your rank based on your name prefix.
 >
 
 
-**Arguments:**</br>
-0: player <STRING>
-</br>1: type <STRING>     ['CAV', 'BIS', 'FORMAT']
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+0: player <STRING>
+
+1: type <STRING>     ['CAV', 'BIS', 'FORMAT']
+
+
+**Return Value:**
+
 Rank based on name <STRING>
 
 
-**Example:**</br>
-```[player,'BIS'] call cScripts_fnc_getPlayerRank```</br>
+**Example:**
+
+```
+[player,'BIS'] call cScripts_fnc_getPlayerRank
+```
 
 
-#### fn_getPlayerRole
+### fn_getPlayerRole
 **Author:** CPL.Brostrom.A
-
 > This function fetches your rank based on your name description prefix or unit config display text.
 >
 
 
-**Arguments:**</br>
-None
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+None
+
+
+**Return Value:**
+
 Role name <STRING>
 
 
-**Example:**</br>
-```call cScripts_fnc_getPlayerRole```</br>
+**Example:**
+
+```
+call cScripts_fnc_getPlayerRole
+```
 
 
-#### fn_getRadioChannel
+### fn_getRadioChannel
 **Author:** CPL.Brostrom.A
-
 > This function fetch a squad radio channel based on your squad name.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
 
 
-**Return Value:**</br>
+**Return Value:**
+
 Radio Channel <NUMBER>
 
 
-**Example:**</br>
-```[] call cScripts_fnc_getRadioChannel```</br>
+**Example:**
+
+```
+[] call cScripts_fnc_getRadioChannel
+```
+
 
 **Public:** No
 
 
-
-#### fn_getSquadInsignia
+### fn_getSquadInsignia
 **Author:** CPL.Brostrom.A
-
 > This function fetch a squad radio channel based on your squad name.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
 
 
-**Return Value:**</br>
+**Return Value:**
+
 Radio Channel <NUMBER>
 
 
-**Example:**</br>
-```[] call cScripts_fnc_getSquadInsignia```</br>
+**Example:**
+
+```
+[] call cScripts_fnc_getSquadInsignia
+```
+
 
 **Public:** No
 
 
-
-#### fn_hasCompanyVariable
+### fn_hasCompanyVariable
 **Author:** CPL.Brostrom.A
-
 > Retun true or false if a player have the given company.
 >
 
 
-**Arguments:**</br>
-0: player <STRING>
-</br>1: hasVariable <STRING>
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+0: player <STRING>
+
+1: hasVariable <STRING>
+
+
+**Return Value:**
+
 HasVariable <BOOL>
 
 
-**Example:**</br>
-```[player] call cScripts_fnc_hasCompanyVariable```</br>
+**Example:**
+
+```
+[player] call cScripts_fnc_hasCompanyVariable
+```
 
 
-#### fn_isPlayerClan
+### fn_isPlayerClan
 **Author:** CPL.Brostrom.A
-
 > Compare given clan tag to compare clan tag and return true or false.
 >
 
 
-**Arguments:**</br>
-0: player <STRING>
-</br>1: Compare clan tag <STRING>
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+0: player <STRING>
+
+1: Compare clan tag <STRING>
+
+
+**Return Value:**
+
 True or False <BOOL>
 
 
-**Example:**</br>
-```[player,"7CAV"] call cScripts_fnc_isPlayerClan```</br>
+**Example:**
+
+```
+[player,"7CAV"] call cScripts_fnc_isPlayerClan
+```
 
 
-#### fn_setPlayerRank
+### fn_setPlayerRank
 **Author:** CPL.Brostrom.A
-
 > This function is used to apply a player rank to a player.
 >
 
 
-**Arguments:**</br>
-0: Player <STRING>
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+0: Player <STRING>
+
+
+**Return Value:**
+
 Nothing
 
 
-**Example:**</br>
-```["bob"] call cScripts_fnc_setPlayerRank;```</br>
+**Example:**
+
+```
+["bob"] call cScripts_fnc_setPlayerRank;
+```
 
 
-#### fn_setPostInitPlayerSettings
+### fn_setPostInitPlayerSettings
 **Author:** CPL.Brostrom.A
-
 > This function is used to handle player premissions and some player functions.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Player <STRING>
-</br>1: Safe Mode <BOOL>
-</br>2: Put in Earplugs <BOOL>
-</br>3: Facewere blacklist <BOOL>
-</br>4: Set radio channel <BOOL>
-</br>5: Set Squad insignia <BOOL>
-</br>6: Set Team coloring at start <BOOL>
-</br>
 
-**Example:**</br>
-```["bob",true,true,true,true,true,true] call cScripts_fnc_setPostInitPlayerSettings;```</br>
+1: Safe Mode <BOOL>
+
+2: Put in Earplugs <BOOL>
+
+3: Facewere blacklist <BOOL>
+
+4: Set radio channel <BOOL>
+
+5: Set Squad insignia <BOOL>
+
+6: Set Team coloring at start <BOOL>
 
 
-#### fn_setPreInitPlayerSettings
+**Example:**
+
+```
+["bob",true,true,true,true,true,true] call cScripts_fnc_setPostInitPlayerSettings;
+```
+
+
+### fn_setPreInitPlayerSettings
 **Author:** CPL.Brostrom.A
-
 > This function is used to handle player premissions
 >
 
 
-**Arguments:**</br>
-0: Player <STRING>
-</br>1: Company <STRING>
-</br>2: Medic Type <NUMBER>       (Optional)      (Default; 0)
-</br>3: Engineer Type <NUMBER>    (Optional)      (Default; 0)
-</br>4: EOD <BOOL>                (Optional)      (Default; false)
-</br>5: Set Rank <BOOL>           (Optional)      (Default; true)
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+0: Player <STRING>
+
+1: Company <STRING>
+
+2: Medic Type <NUMBER>       (Optional)      (Default; 0)
+
+3: Engineer Type <NUMBER>    (Optional)      (Default; 0)
+
+4: EOD <BOOL>                (Optional)      (Default; false)
+
+5: Set Rank <BOOL>           (Optional)      (Default; true)
+
+
+**Return Value:**
+
 Nothing
 
 
-**Example:**</br>
-```["bob"] call cScripts_fnc_setPreInitPlayerSettings;```</br>
-```["bob", "charlie",0] call cScripts_fnc_setPreInitPlayerSettings;```</br>
-```["bob", "charlie", 0, 0, false, true] call cScripts_fnc_setPreInitPlayerSettings;```</br>
+**Example:**
+
+```
+["bob"] call cScripts_fnc_setPreInitPlayerSettings;
+```
+
+```
+["bob", "charlie",0] call cScripts_fnc_setPreInitPlayerSettings;
+```
+
+```
+["bob", "charlie", 0, 0, false, true] call cScripts_fnc_setPreInitPlayerSettings;
+```
 
 
-#### fn_setRadioChannel
+### fn_setRadioChannel
 **Author:** CPL.Brostrom.A
-
 > This function sets a player radio channels based on squad name. If -1 no radio will be set.
 >
 
 
-**Arguments:**</br>
-0: Argument Name <OBJECT/BOOL/NUMBER/STRING/ARRAY/CODE> (Optional) (Default; MyDefaultValue)
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+0: Argument Name <OBJECT/BOOL/NUMBER/STRING/ARRAY/CODE> (Optional) (Default; MyDefaultValue)
+
+
+**Return Value:**
+
 Return Name <BOOL/NUMBER/STRING>
 
 
-**Example:**</br>
-```["bob"] call cScripts_fnc_setRadioChannel```</br>
+**Example:**
+
+```
+["bob"] call cScripts_fnc_setRadioChannel
+```
+
 
 **Public:** No
 
 
-
-#### fn_setTeamColor
+### fn_setTeamColor
 **Author:** CPL.Brostrom.A
-
 > Set a team color based on the units name.
 >
 
 
-**Arguments:**</br>
-None
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+None
+
+
+**Return Value:**
+
 Team color <STRING>
 
 
-**Example:**</br>
-```call cScripts_fnc_setTeamColor```</br>
+**Example:**
+
+```
+call cScripts_fnc_setTeamColor
+```
 
 
 ## Selections
 
 
-#### fn_initInsigniaSelections
+### fn_initInsigniaSelections
 **Author:** CPL.Brostrom.A
-
 > This function sets up a list of insignias as aceAction or addAction on a given object. (Ussaly the Starter Crate).
 >
 
 
-**Arguments:**</br>
-0: Object <OBJECT>
-</br>
+**Arguments:**
 
-**Example:**</br>
-```["my_box"] call cScripts_fnc_initInsigniaSelections;```</br>
+0: Object <OBJECT>
+
+
+**Example:**
+
+```
+["my_box"] call cScripts_fnc_initInsigniaSelections;
+```
+
 
 **Public:** No
 
 
-
-#### fn_initQuickSelections
+### fn_initQuickSelections
 **Author:** CPL.Brostrom.A
-
 > This function contain quick selection buttons and categorys via the arsenal menu.
 >
 > The crates can be filterd via squad, platoon or just ignore filters and write "all".
 >
 
 
-**Arguments:**</br>
-0: Object <OBJECT>
-</br>1: Size Type <SIZE> ["none","all","officer","alpha","bravo","charlie","ranger" and Squad Names etc...]
-</br>2: Require correct company to select loadout. <BOOL> (default: true)
-</br>
+**Arguments:**
 
-**Example:**</br>
-```[this] call cScripts_fnc_initQuickSelections;```</br>
-```[this,"full",true] call cScripts_fnc_initQuickSelections;```</br>
+0: Object <OBJECT>
+
+1: Size Type <SIZE> ["none","all","officer","alpha","bravo","charlie","ranger" and Squad Names etc...]
+
+2: Require correct company to select loadout. <BOOL> (default: true)
+
+
+**Example:**
+
+```
+[this] call cScripts_fnc_initQuickSelections;
+```
+
+```
+[this,"full",true] call cScripts_fnc_initQuickSelections;
+```
 
 
 ## Simulation
 
 
-#### fn_sim_jump
+### fn_sim_jump
 **Author:** CPL.Brostrom.A
-
 > This function run a para jump simulation on a given player.
 >
 
 
-**Arguments:**</br>
-0: Player <OBJECT>
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+0: Player <OBJECT>
+
+
+**Return Value:**
+
 None
 
 
-**Example:**</br>
-```["bob"] call cScripts_fnc_sim_jump```</br>
+**Example:**
+
+```
+["bob"] call cScripts_fnc_sim_jump
+```
+
 
 **Public:** No
-
 
 
 ## Systems
 
 
-#### fn_addAceCategory
+### fn_addAceCategory
 **Author:** CPL.Brostrom.A
-
 > This script auto generates the selections.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Object <OBJECT>
-</br>1: actionName <STRING>
-</br>2: Lable <STRING>
-</br>3: Path to icon <STRING>
-</br>4: Categorys <ARRAY> (Optional)
-</br>5: Condition <CODE> (Optional)
-</br>
 
-**Example:**</br>
-```[this,"MyCategory","Insignia","icon.paa",["ACE_MainActions"]] call cScripts_fnc_addAceCategory;```</br>
-```[this,"MySecondCategory","Misc","data/icon.paa",["ACE_MainActions","MyCategory"]] call cScripts_fnc_addAceCategory;```</br>
+1: actionName <STRING>
+
+2: Lable <STRING>
+
+3: Path to icon <STRING>
+
+4: Categorys <ARRAY> (Optional)
+
+5: Condition <CODE> (Optional)
 
 
-#### fn_addArsenal
+**Example:**
+
+```
+[this,"MyCategory","Insignia","icon.paa",["ACE_MainActions"]] call cScripts_fnc_addAceCategory;
+```
+
+```
+[this,"MySecondCategory","Misc","data/icon.paa",["ACE_MainActions","MyCategory"]] call cScripts_fnc_addAceCategory;
+```
+
+
+### fn_addArsenal
 **Author:** CPL.Brostrom.A
-
 > This function crates a arsenal on the given object with items used in each company.
 >
 > If full, none, or empty value is given the arsenal will be "full".
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Object <OBJECT>
-</br>1: Company <STRING>
-</br>
 
-**Example:**</br>
-```["box","full"] call cScripts_fnc_addArsenal```</br>
+1: Company <STRING>
 
 
-#### fn_addGetOutHelo
+**Example:**
+
+```
+["box","full"] call cScripts_fnc_addArsenal
+```
+
+
+### fn_addGetOutHelo
 **Author:** CPL.Brostrom.A (With the help from; 654wak654)
-
 > This function add two get out addAction that is only avaible for players in cargo
 >
 > as well is ffv cargoIndex position. Postions effected are 0 to 11 in other words not -1.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Object <OBJECT>
-</br>
-
-**Example:**</br>
-```[this] call cScripts_fnc_addGetOutHelo;```</br>
-```[this, true] call cScripts_fnc_addGetOutHelo;```</br>
 
 
-#### fn_addHeal
+**Example:**
+
+```
+[this] call cScripts_fnc_addGetOutHelo;
+```
+
+```
+[this, true] call cScripts_fnc_addGetOutHelo;
+```
+
+
+### fn_addHeal
 **Author:** CPL.Brostrom.A
-
 > This adds a adda ction as well as a ACE interaction reGear selection. The script reapplyes the players start loadout.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Object <OBJECT>
-</br>
-
-**Example:**</br>
-```[this] call cScripts_fnc_addHeal;```</br>
 
 
-#### fn_addInsigniaSelection
+**Example:**
+
+```
+[this] call cScripts_fnc_addHeal;
+```
+
+
+### fn_addInsigniaSelection
 **Author:** CPL.Brostrom.A
-
 > This function generates a insignia selection button.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Object <OBJECT>
-</br>1: Lable <STRING>
-</br>2: actionName <STRING>
-</br>3: Path to icon <STRING>
-</br>4: Categorys <ARRAY> (Optional)
-</br>
 
-**Example:**</br>
-```[this,"Remove Insignia"] call cScripts_fnc_addInsigniaSelection;```</br>
-```[this,"Squad Insignia 1/1/C/1-7","11C_17_Insignia","cScripts\Data\Insignia\1-1-C-17.paa"] call cScripts_fnc_addInsigniaSelection;```</br>
-```[this,"Platoon Insignia 1/1/C/1-7","2C_17_Insignia","cScripts\Data\Insignia\2-C-17.paa"] call cScripts_fnc_addInsigniaSelection;```</br>
+1: Lable <STRING>
+
+2: actionName <STRING>
+
+3: Path to icon <STRING>
+
+4: Categorys <ARRAY> (Optional)
 
 
-#### fn_addJump
+**Example:**
+
+```
+[this,"Remove Insignia"] call cScripts_fnc_addInsigniaSelection;
+```
+
+```
+[this,"Squad Insignia 1/1/C/1-7","11C_17_Insignia","cScripts\Data\Insignia\1-1-C-17.paa"] call cScripts_fnc_addInsigniaSelection;
+```
+
+```
+[this,"Platoon Insignia 1/1/C/1-7","2C_17_Insignia","cScripts\Data\Insignia\2-C-17.paa"] call cScripts_fnc_addInsigniaSelection;
+```
+
+
+### fn_addJump
 **Author:** CPL.Brostrom.A
-
 > This function adds a Jump out option to a vehicle.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Vehicle <OBJECT>
-</br>
-
-**Example:**</br>
-```["my_c130"] call cScripts_fnc_addJump```</br>
-```["my_c130",180] call cScripts_fnc_addJump```</br>
-```["my_c130",180,350,300] call cScripts_fnc_addJump```</br>
 
 
-#### fn_addLoadoutAction
+**Example:**
+
+```
+["my_c130"] call cScripts_fnc_addJump
+```
+
+```
+["my_c130",180] call cScripts_fnc_addJump
+```
+
+```
+["my_c130",180,350,300] call cScripts_fnc_addJump
+```
+
+
+### fn_addLoadoutAction
 **Author:** CPL.Brostrom.A
-
 > This adds a addAction option to the given item for a given loadout defined in cfgLoadouts.
 >
 
 
-**Arguments:**</br>
-0: Object <OBJECT>
-</br>1: Lable <STRING>
-</br>1: Loadout classname <CLASSNAME>
-</br>
+**Arguments:**
 
-**Example:**</br>
-```[this,"My Custom Loadout", "My_Loadout_Classname"] call cScripts_fnc_addLoadoutAction```</br>
+0: Object <OBJECT>
+
+1: Lable <STRING>
+
+1: Loadout classname <CLASSNAME>
+
+
+**Example:**
+
+```
+[this,"My Custom Loadout", "My_Loadout_Classname"] call cScripts_fnc_addLoadoutAction
+```
+
 
 **Public:** Yes
 
 
-
-#### fn_addObjectToCurator
+### fn_addObjectToCurator
 **Author:** CPL.Brostrom.A
-
 > Add object to all curators on next frame.
 >
 
 
-**Arguments:**</br>
-0: Object <OBJECT>
-</br>
+**Arguments:**
 
-**Example:**</br>
-```[this] call cScripts_fnc_addObjectToCurator```</br>
+0: Object <OBJECT>
+
+
+**Example:**
+
+```
+[this] call cScripts_fnc_addObjectToCurator
+```
+
 
 **Public:** No
 
 
-
-#### fn_addQuickSelection
+### fn_addQuickSelection
 **Author:** CPL.Brostrom.A (With help from Commy2)
-
 > This function generates a quick selection button.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Object <STRING>
-</br>1: Lable <STRING>
-</br>2: Loadout classname <STRING>
-</br>3: Path to icon <STRING>                                 (Optional)  [Default: ""]
-</br>4: Categorys <ARRAY>                                     (Optional)  [Default: ["ACE_MainActions","cScriptQuickSelectionMenu"]]
-</br>5: Platoon required to use                               (Optional)  [Default: ""]
-</br>6: Require Company Variable <BOOL>                       (Optional)  [Default: false]
-</br>
 
-**Example:**</br>
-```[this,"Rifleman","Class_Rifleman"] call cScripts_fnc_addQuickSelection;```</br>
-```[this,"Rifleman","Class_Rifleman","",["ACE_MainActions","cScriptQuickSelectionMenu"],""] call cScripts_fnc_addQuickSelection;```</br>
-```[this,"Rifleman","Class_Rifleman","",["ACE_MainActions","cScriptQuickSelectionMenu"],"", false] call cScripts_fnc_addQuickSelection;```</br>
+1: Lable <STRING>
+
+2: Loadout classname <STRING>
+
+3: Path to icon <STRING>                                 (Optional)  [Default: ""]
+
+4: Categorys <ARRAY>                                     (Optional)  [Default: ["ACE_MainActions","cScriptQuickSelectionMenu"]]
+
+5: Platoon required to use                               (Optional)  [Default: ""]
+
+6: Require Company Variable <BOOL>                       (Optional)  [Default: false]
 
 
-#### fn_addReGear
+**Example:**
+
+```
+[this,"Rifleman","Class_Rifleman"] call cScripts_fnc_addQuickSelection;
+```
+
+```
+[this,"Rifleman","Class_Rifleman","",["ACE_MainActions","cScriptQuickSelectionMenu"],""] call cScripts_fnc_addQuickSelection;
+```
+
+```
+[this,"Rifleman","Class_Rifleman","",["ACE_MainActions","cScriptQuickSelectionMenu"],"", false] call cScripts_fnc_addQuickSelection;
+```
+
+
+### fn_addReGear
 **Author:** CPL.Brostrom.A
-
 > This adds a reGear selection option. The script reApplyes the players start loadout. But may also heal you if option is allowed.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Object <OBJECT>
-</br>1: Allow Heal <BOOL>
-</br>
 
-**Example:**</br>
-```[this,true] call cScripts_fnc_addReGear```</br>
+1: Allow Heal <BOOL>
 
 
-#### fn_doGetOutHeloLeft
+**Example:**
+
+```
+[this,true] call cScripts_fnc_addReGear
+```
+
+
+### fn_doGetOutHeloLeft
 **Author:** CPL.Brostrom.A (With the help from; 654wak654)
-
 > Move the player outside the passanger door on the left side.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Object <OBJECT>
-</br>
-
-**Example:**</br>
-```[this] call cScripts_fnc_doGetOutHeloLeft;```</br>
 
 
-#### fn_doGetOutHeloRight
+**Example:**
+
+```
+[this] call cScripts_fnc_doGetOutHeloLeft;
+```
+
+
+### fn_doGetOutHeloRight
 **Author:** CPL.Brostrom.A (With the help from; 654wak654)
-
 > Move the player outside the passanger door on the right side.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Object <OBJECT>
-</br>
-
-**Example:**</br>
-```[this] call cScripts_fnc_doGetOutHeloRight;```</br>
 
 
-#### fn_doJump
+**Example:**
+
+```
+[this] call cScripts_fnc_doGetOutHeloRight;
+```
+
+
+### fn_doJump
 **Author:** CPL.Brostrom.A
-
 > This jump throw a player out of a aircraft and ataches a parashoot.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Player <PLAYER>
-</br>1: Vehicle <OBJECT>
-</br>1: Chute Vehicle <OBJECT> (Optional) [Default; "NonSteerable_Parachute_F"]
-</br>
 
-**Example:**</br>
-```["bob","my_C130"] call cScripts_fnc_doJump```</br>
-```["bob","my_C130", "NonSteerable_Parachute_F"] call cScripts_fnc_doJump```</br>
+1: Vehicle <OBJECT>
+
+1: Chute Vehicle <OBJECT> (Optional) [Default; "NonSteerable_Parachute_F"]
 
 
-#### fn_gate
+**Example:**
+
+```
+["bob","my_C130"] call cScripts_fnc_doJump
+```
+
+```
+["bob","my_C130", "NonSteerable_Parachute_F"] call cScripts_fnc_doJump
+```
+
+
+### fn_gate
 **Author:** CPL.Brostrom.A, with help from Commy2
-
 > This function make a given gate the ability to open and close automaticly whitout much fiddeling with triggers.
 >
 
 
-**Arguments:**</br>
-0: Object <OBJECT>
-</br>1: Side <STRING> (Optional) (Default; WEST)
-</br>2: Distance <STRING> (Optional) (Default; 30)
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+0: Object <OBJECT>
+
+1: Side <STRING> (Optional) (Default; WEST)
+
+2: Distance <STRING> (Optional) (Default; 30)
+
+
+**Return Value:**
+
 None
 
 
-**Example:**</br>
-```["gate"] call cScripts_fnc_gate```</br>
-```["gate","WEST"] call cScripts_fnc_gate```</br>
-```["gate","WEST", 30] call cScripts_fnc_gate```</br>
+**Example:**
+
+```
+["gate"] call cScripts_fnc_gate
+```
+
+```
+["gate","WEST"] call cScripts_fnc_gate
+```
+
+```
+["gate","WEST", 30] call cScripts_fnc_gate
+```
+
 
 **Public:** Yes
 
 
-
-#### fn_setVehicleInventory
+### fn_setVehicleInventory
 **Author:** CPL.Brostrom.A
-
 > This function changes the inventory of defined vehicles.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Vehicle <OBJECT>
-</br>
-
-**Example:**</br>
-```["vic"] call cScripts_fnc_setVehicleInventory;```</br>
 
 
-#### fn_setVehicleSettings
+**Example:**
+
+```
+["vic"] call cScripts_fnc_setVehicleInventory;
+```
+
+
+### fn_setVehicleSettings
 **Author:** CPL.Brostrom.A
-
 > This function apply settigns to vehicles.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Vehicle <OBJECT>
-</br>
-
-**Example:**</br>
-```["vic"] call cScripts_fnc_setVehicleSettings```</br>
 
 
-#### fn_teleport
+**Example:**
+
+```
+["vic"] call cScripts_fnc_setVehicleSettings
+```
+
+
+### fn_teleport
 **Author:** CPL.Brostrom.A
-
 > This teleports a target to a given marker or any other kind of object.
 >
 > Z will always be 0 for MARKER, LOCATION and TASK.
 >
 
 
-**Arguments:**</br>
-0: Object <OBJECT>
-</br>1: Label text <STRING>
-</br>2: Destination <MARKER/OBJECT/LOCATION/GROUP/TASK>
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+0: Object <OBJECT>
+
+1: Label text <STRING>
+
+2: Destination <MARKER/OBJECT/LOCATION/GROUP/TASK>
+
+
+**Return Value:**
+
 Nothing
 
 
-**Example:**</br>
-```[this,"Teleport - Airfield", Airstrip] call cScripts_fnc_teleport```</br>
-```[this,"Teleport - Base", MyBase] call cScripts_fnc_teleport```</br>
-```[this,"Teleport - Talon", "FOB_Talon"] call cScripts_fnc_teleport```</br>
-```[this,"Teleport - Base", "respawn_west"] call cScripts_fnc_teleport```</br>
+**Example:**
+
+```
+[this,"Teleport - Airfield", Airstrip] call cScripts_fnc_teleport
+```
+
+```
+[this,"Teleport - Base", MyBase] call cScripts_fnc_teleport
+```
+
+```
+[this,"Teleport - Talon", "FOB_Talon"] call cScripts_fnc_teleport
+```
+
+```
+[this,"Teleport - Base", "respawn_west"] call cScripts_fnc_teleport
+```
+
 
 **Public:** Yes
-
 
 
 ## Texture
 
 
-#### fn_createVehicleLable
+### fn_createVehicleLable
 **Author:** CPL.Brostrom.A
-
 > This function create a texture that is attached to a given object.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Vehicle <OBJECT>
-</br>1: Position <ARRAY>
-</br>2: Rotation <NUMBER>
-</br>3: Texture <STRING>
-</br>4: Vector <ARRAY> (Optional) (Default; [0,0,1])
-</br>
 
-**Example:**</br>
-```["UH60",[-0.49,-2.45,-1.3],87,"path/to/texture.paa"] call cScripts_fnc_createVehicleLable```</br>
-```["C130",[0.205,-11.9,8.920],-90,"path/to/texture.paa",[-0.05,0,1]] call cScripts_fnc_createVehicleLable```</br>
+1: Position <ARRAY>
+
+2: Rotation <NUMBER>
+
+3: Texture <STRING>
+
+4: Vector <ARRAY> (Optional) (Default; [0,0,1])
 
 
-#### fn_flag
+**Example:**
+
+```
+["UH60",[-0.49,-2.45,-1.3],87,"path/to/texture.paa"] call cScripts_fnc_createVehicleLable
+```
+
+```
+["C130",[0.205,-11.9,8.920],-90,"path/to/texture.paa",[-0.05,0,1]] call cScripts_fnc_createVehicleLable
+```
+
+
+### fn_flag
 **Author:** CPL.Brostrom.A
-
 > This add or change a given flag poles flag to a new and better one.
 >
 
 
-**Arguments:**</br>
+**Arguments:**
+
 0: Object <OBJECT>
-</br>1: flagType <INTEGER>   (Default: 0)  [0 (Crossed swords),1 (Crossed swords with Cut),2 (Black Coat of arms)]
-</br>
 
-**Example:**</br>
-```[this] call cScripts_fnc_flag;```</br>
-```[this,0] call cScripts_fnc_flag;```</br>
+1: flagType <INTEGER>   (Default: 0)  [0 (Crossed swords),1 (Crossed swords with Cut),2 (Black Coat of arms)]
 
 
-#### fn_getVehicleLable
+**Example:**
+
+```
+[this] call cScripts_fnc_flag;
+```
+
+```
+[this,0] call cScripts_fnc_flag;
+```
+
+
+### fn_getVehicleLable
 **Author:** CPL.Brostrom.A
-
 > This function returns a texture path from a given string name..
 >
 
 
-**Arguments:**</br>
-0: Texture <STRING> (Optional)
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+0: Texture <STRING> (Optional)
+
+
+**Return Value:**
+
 Texture path <STRING>
 
 
-**Example:**</br>
-```["MyExsampleTexture"] call cScripts_fnc_getVehicleLable```</br>
+**Example:**
+
+```
+["MyExsampleTexture"] call cScripts_fnc_getVehicleLable
+```
 
 
-#### fn_setVehicleLable
+### fn_setVehicleLable
 **Author:** CPL.Brostrom.A
-
 > This function fetches a texture from the getVehicleLable texture list and apply it to a supported vechicle.
 >
 > Supported vehicles:
@@ -1792,25 +2239,48 @@ Texture path <STRING>
 >
 
 
-**Arguments:**</br>
-0: Vehicles <OBJECT>
-</br>1: Texture <STRING> (Optional)
-</br>2: Texture <STRING> (Optional)
-</br>3: Texture <STRING> (Optional)
-</br>4: Texture <STRING> (Optional)
-</br>5: Texture <STRING> (Optional)
-</br>6: Texture <STRING> (Optional)
-</br>7: Texture <STRING> (Optional)
-</br>8: Texture <STRING> (Optional)
-</br>9: Texture <STRING> (Optional)
-</br>
+**Arguments:**
 
-**Return Value:**</br>
+0: Vehicles <OBJECT>
+
+1: Texture <STRING> (Optional)
+
+2: Texture <STRING> (Optional)
+
+3: Texture <STRING> (Optional)
+
+4: Texture <STRING> (Optional)
+
+5: Texture <STRING> (Optional)
+
+6: Texture <STRING> (Optional)
+
+7: Texture <STRING> (Optional)
+
+8: Texture <STRING> (Optional)
+
+9: Texture <STRING> (Optional)
+
+
+**Return Value:**
+
 Nothing
 
 
-**Example:**</br>
-```[this] call cScripts_fnc_setVehicleLable```</br>
-```[this,"B","5"] call cScripts_fnc_setVehicleLable```</br>
-```[this,"RedCross"] call cScripts_fnc_setVehicleLable```</br>
-```[this,"RedCross",RedCross,"S","6"] call cScripts_fnc_setVehicleLable```</br>
+**Example:**
+
+```
+[this] call cScripts_fnc_setVehicleLable
+```
+
+```
+[this,"B","5"] call cScripts_fnc_setVehicleLable
+```
+
+```
+[this,"RedCross"] call cScripts_fnc_setVehicleLable
+```
+
+```
+[this,"RedCross",RedCross,"S","6"] call cScripts_fnc_setVehicleLable
+```
