@@ -139,7 +139,7 @@
 
 **Arguments:**
 
-0: Message <STRING><br>
+0: Message &#60;STRING&#62;<br>
 
 
 **Example:**
@@ -161,7 +161,7 @@
 
 **Arguments:**
 
-0: Message <STRING><br>
+0: Message &#60;STRING&#62;<br>
 
 
 **Example:**
@@ -183,7 +183,7 @@
 
 **Arguments:**
 
-0: Message <STRING><br>
+0: Message &#60;STRING&#62;<br>
 
 
 **Example:**
@@ -453,11 +453,11 @@ call cScripts_fnc_Doc_MissionControl
 
 **Arguments:**
 
-0: Object <OBJECT><br>
+0: Object &#60;OBJECT&#62;<br>
 
 
 **Return Value:**
-`Equipment <ARRAY of STRINGS>`
+`Equipment &#60;ARRAY of STRINGS&#62;`
 
 
 
@@ -483,11 +483,11 @@ call cScripts_fnc_Doc_MissionControl
 
 **Arguments:**
 
-0: Company <STRING>    ["cfgLoadoutsClassname","alpha","bravo","charlie","heavyweapons","ranger","medical","full"]<br>
+0: Company &#60;STRING&#62;    ["cfgLoadoutsClassname","alpha","bravo","charlie","heavyweapons","ranger","medical","full"]<br>
 
 
 **Return Value:**
-`Equipment <ARRAY of STRINGS>`
+`Equipment &#60;ARRAY of STRINGS&#62;`
 
 
 
@@ -631,7 +631,7 @@ call cScripts_fnc_initModules
 
 **Arguments:**
 
-0: Time <NUMBER> (Default; 60)<br>
+0: Time &#60;NUMBER&#62; (Default; 60)<br>
 
 
 **Return Value:**
@@ -753,8 +753,8 @@ call cScripts_fnc_initVehicle
 
 **Arguments:**
 
-0: Crate <OBJECT><br>
-1: Scale cargo ammount <NUMBER> (Default: 1)<br>
+0: Crate &#60;OBJECT&#62;<br>
+1: Scale cargo ammount &#60;NUMBER&#62; (Default: 1)<br>
 
 
 **Example:**
@@ -780,7 +780,7 @@ call cScripts_fnc_initVehicle
 
 **Arguments:**
 
-0: Crate <OBJECT><br>
+0: Crate &#60;OBJECT&#62;<br>
 
 
 **Example:**
@@ -802,8 +802,8 @@ call cScripts_fnc_initVehicle
 
 **Arguments:**
 
-0: Crate <OBJECT><br>
-1: Scale cargo ammount <NUMBER> (Default: 1)<br>
+0: Crate &#60;OBJECT&#62;<br>
+1: Scale cargo ammount &#60;NUMBER&#62; (Default: 1)<br>
 
 
 **Example:**
@@ -829,9 +829,9 @@ call cScripts_fnc_initVehicle
 
 **Arguments:**
 
-0: Crate <OBJECT><br>
-1: Medical Facility <BOOL> (Default: true)<br>
-2: Scale cargo ammount <NUMBER> (Default: 1)<br>
+0: Crate &#60;OBJECT&#62;<br>
+1: Medical Facility &#60;BOOL&#62; (Default: true)<br>
+2: Scale cargo ammount &#60;NUMBER&#62; (Default: 1)<br>
 
 
 **Example:**
@@ -857,8 +857,8 @@ call cScripts_fnc_initVehicle
 
 **Arguments:**
 
-0: Crate <OBJECT><br>
-1: Scale cargo ammount <NUMBER> (Default: 1)<br>
+0: Crate &#60;OBJECT&#62;<br>
+1: Scale cargo ammount &#60;NUMBER&#62; (Default: 1)<br>
 
 
 **Example:**
@@ -884,8 +884,8 @@ call cScripts_fnc_initVehicle
 
 **Arguments:**
 
-0: Crate <OBJECT><br>
-1: Scale cargo ammount <NUMBER> (Default: 1)<br>
+0: Crate &#60;OBJECT&#62;<br>
+1: Scale cargo ammount &#60;NUMBER&#62; (Default: 1)<br>
 
 
 **Example:**
@@ -911,8 +911,8 @@ call cScripts_fnc_initVehicle
 
 **Arguments:**
 
-0: Unit <OBJECT><br>
-1: Scale <AMMOUNT><br>
+0: Unit &#60;OBJECT&#62;<br>
+1: Scale &#60;AMMOUNT&#62;<br>
 
 
 **Example:**
@@ -938,8 +938,8 @@ call cScripts_fnc_initVehicle
 
 **Arguments:**
 
-0: Crate <OBJECT><br>
-1: Scale cargo ammount <NUMBER> (Default: 1)<br>
+0: Crate &#60;OBJECT&#62;<br>
+1: Scale cargo ammount &#60;NUMBER&#62; (Default: 1)<br>
 2: Type<br>
 
 
@@ -970,13 +970,13 @@ call cScripts_fnc_initVehicle
 
 **Arguments:**
 
-0: Object <OBJECT><br>
-1: Quick Select Scale <STRING>   (Default: "none") ["none","alpha","bravo","charlie","ranger","medical","full"]<br>
-2: ReGear action <BOOL>          (Default: true)<br>
-3: Heal action <BOOL>            (Default: true)<br>
-4: Insignia Selection <BOOL>     (Default: true)<br>
-5: Company variable <BOOL>       (Default: true)<br>
-6: Arsenal <BOOL>                (Default: false)<br>
+0: Object &#60;OBJECT&#62;<br>
+1: Quick Select Scale &#60;STRING&#62;   (Default: "none") ["none","alpha","bravo","charlie","ranger","medical","full"]<br>
+2: ReGear action &#60;BOOL&#62;          (Default: true)<br>
+3: Heal action &#60;BOOL&#62;            (Default: true)<br>
+4: Insignia Selection &#60;BOOL&#62;     (Default: true)<br>
+5: Company variable &#60;BOOL&#62;       (Default: true)<br>
+6: Arsenal &#60;BOOL&#62;                (Default: false)<br>
 
 
 **Return Value:**
@@ -1011,8 +1011,8 @@ call cScripts_fnc_initVehicle
 
 **Arguments:**
 
-0: Crate <OBJECT><br>
-1: Set company type. <STRING> ["none","alpha","bravo","charlie","ranger","medical","full"]<br>
+0: Crate &#60;OBJECT&#62;<br>
+1: Set company type. &#60;STRING&#62; ["none","alpha","bravo","charlie","ranger","medical","full"]<br>
 
 
 **Return Value:**
@@ -1043,8 +1043,8 @@ call cScripts_fnc_initVehicle
 
 **Arguments:**
 
-0: Crate <OBJECT><br>
-1: Scale cargo ammount <NUMBER> (Default: 1)<br>
+0: Crate &#60;OBJECT&#62;<br>
+1: Scale cargo ammount &#60;NUMBER&#62; (Default: 1)<br>
 
 
 **Example:**
@@ -1070,8 +1070,8 @@ call cScripts_fnc_initVehicle
 
 **Arguments:**
 
-0: Crate <OBJECT><br>
-1: Scale cargo ammount <NUMBER> (Default: 1)<br>
+0: Crate &#60;OBJECT&#62;<br>
+1: Scale cargo ammount &#60;NUMBER&#62; (Default: 1)<br>
 
 
 **Example:**
@@ -1100,7 +1100,7 @@ call cScripts_fnc_initVehicle
 
 **Arguments:**
 
-0: Object <OBJECT><br>
+0: Object &#60;OBJECT&#62;<br>
 
 
 **Example:**
@@ -1125,7 +1125,7 @@ this call cScripts_fnc_moduleApplyVehicleInventory
 
 **Arguments:**
 
-0: Object <OBJECT><br>
+0: Object &#60;OBJECT&#62;<br>
 
 
 **Example:**
@@ -1175,7 +1175,7 @@ call cScripts_fnc_moduleCallEndex;
 
 **Arguments:**
 
-0: Object <OBJECT><br>
+0: Object &#60;OBJECT&#62;<br>
 
 
 **Example:**
@@ -1200,7 +1200,7 @@ this call cScripts_fnc_moduleCreateFieldHostpital
 
 **Arguments:**
 
-0: Object <OBJECT><br>
+0: Object &#60;OBJECT&#62;<br>
 
 
 **Example:**
@@ -1225,7 +1225,7 @@ this call cScripts_fnc_moduleCreateMedicalCrate
 
 **Arguments:**
 
-0: Object <OBJECT><br>
+0: Object &#60;OBJECT&#62;<br>
 
 
 **Example:**
@@ -1250,7 +1250,7 @@ this call cScripts_fnc_moduleCreateSupplyCrate
 
 **Arguments:**
 
-0: Object <OBJECT><br>
+0: Object &#60;OBJECT&#62;<br>
 
 
 **Example:**
@@ -1275,7 +1275,7 @@ this call cScripts_fnc_moduleCreateStarterCrate;
 
 **Arguments:**
 
-0: Object <OBJECT><br>
+0: Object &#60;OBJECT&#62;<br>
 
 
 **Example:**
@@ -1300,7 +1300,7 @@ this call cScripts_fnc_moduleCreateSupplyCrate
 
 **Arguments:**
 
-0: Unit <OBJECT><br>
+0: Unit &#60;OBJECT&#62;<br>
 
 
 **Example:**
@@ -1325,7 +1325,7 @@ this call cScripts_fnc_moduleMakeDoctor
 
 **Arguments:**
 
-0: Unit <OBJECT><br>
+0: Unit &#60;OBJECT&#62;<br>
 
 
 **Example:**
@@ -1350,7 +1350,7 @@ this call cScripts_fnc_moduleMakeEngineer
 
 **Arguments:**
 
-0: Unit <OBJECT><br>
+0: Unit &#60;OBJECT&#62;<br>
 
 
 **Example:**
@@ -1378,7 +1378,7 @@ this call cScripts_fnc_moduleRegearTrooper
 
 **Arguments:**
 
-0: Player <STRING><br>
+0: Player &#60;STRING&#62;<br>
 
 
 **Return Value:**
@@ -1408,7 +1408,7 @@ this call cScripts_fnc_moduleRegearTrooper
 
 
 **Return Value:**
-`Squad Name <STRING>`
+`Squad Name &#60;STRING&#62;`
 
 
 
@@ -1434,11 +1434,11 @@ this call cScripts_fnc_moduleRegearTrooper
 
 **Arguments:**
 
-0: player <STRING><br>
+0: player &#60;STRING&#62;<br>
 
 
 **Return Value:**
-`Company variable <STRING>`
+`Company variable &#60;STRING&#62;`
 
 
 
@@ -1461,11 +1461,11 @@ this call cScripts_fnc_moduleRegearTrooper
 
 **Arguments:**
 
-0: player <STRING><br>
+0: player &#60;STRING&#62;<br>
 
 
 **Return Value:**
-`Clan Tag <STRING>`
+`Clan Tag &#60;STRING&#62;`
 
 
 
@@ -1488,12 +1488,12 @@ this call cScripts_fnc_moduleRegearTrooper
 
 **Arguments:**
 
-0: player <STRING><br>
-1: type <STRING>     ['PROFILE', 'STEAM']<br>
+0: player &#60;STRING&#62;<br>
+1: type &#60;STRING&#62;     ['PROFILE', 'STEAM']<br>
 
 
 **Return Value:**
-`Player name <STRING>`
+`Player name &#60;STRING&#62;`
 
 
 
@@ -1516,12 +1516,12 @@ this call cScripts_fnc_moduleRegearTrooper
 
 **Arguments:**
 
-0: player <STRING><br>
-1: type <STRING>     ['CAV', 'BIS', 'FORMAT']<br>
+0: player &#60;STRING&#62;<br>
+1: type &#60;STRING&#62;     ['CAV', 'BIS', 'FORMAT']<br>
 
 
 **Return Value:**
-`Rank based on name <STRING>`
+`Rank based on name &#60;STRING&#62;`
 
 
 
@@ -1548,7 +1548,7 @@ None<br>
 
 
 **Return Value:**
-`Role name <STRING>`
+`Role name &#60;STRING&#62;`
 
 
 
@@ -1574,7 +1574,7 @@ call cScripts_fnc_getPlayerRole
 
 
 **Return Value:**
-`Radio Channel <NUMBER>`
+`Radio Channel &#60;NUMBER&#62;`
 
 
 
@@ -1603,7 +1603,7 @@ call cScripts_fnc_getPlayerRole
 
 
 **Return Value:**
-`Radio Channel <NUMBER>`
+`Radio Channel &#60;NUMBER&#62;`
 
 
 
@@ -1629,12 +1629,12 @@ call cScripts_fnc_getPlayerRole
 
 **Arguments:**
 
-0: player <STRING><br>
-1: hasVariable <STRING><br>
+0: player &#60;STRING&#62;<br>
+1: hasVariable &#60;STRING&#62;<br>
 
 
 **Return Value:**
-`HasVariable <BOOL>`
+`HasVariable &#60;BOOL&#62;`
 
 
 
@@ -1657,12 +1657,12 @@ call cScripts_fnc_getPlayerRole
 
 **Arguments:**
 
-0: player <STRING><br>
-1: Compare clan tag <STRING><br>
+0: player &#60;STRING&#62;<br>
+1: Compare clan tag &#60;STRING&#62;<br>
 
 
 **Return Value:**
-`True or False <BOOL>`
+`True or False &#60;BOOL&#62;`
 
 
 
@@ -1685,7 +1685,7 @@ call cScripts_fnc_getPlayerRole
 
 **Arguments:**
 
-0: Player <STRING><br>
+0: Player &#60;STRING&#62;<br>
 
 
 **Return Value:**
@@ -1712,13 +1712,13 @@ call cScripts_fnc_getPlayerRole
 
 **Arguments:**
 
-0: Player <STRING><br>
-1: Safe Mode <BOOL><br>
-2: Put in Earplugs <BOOL><br>
-3: Facewere blacklist <BOOL><br>
-4: Set radio channel <BOOL><br>
-5: Set Squad insignia <BOOL><br>
-6: Set Team coloring at start <BOOL><br>
+0: Player &#60;STRING&#62;<br>
+1: Safe Mode &#60;BOOL&#62;<br>
+2: Put in Earplugs &#60;BOOL&#62;<br>
+3: Facewere blacklist &#60;BOOL&#62;<br>
+4: Set radio channel &#60;BOOL&#62;<br>
+5: Set Squad insignia &#60;BOOL&#62;<br>
+6: Set Team coloring at start &#60;BOOL&#62;<br>
 
 
 **Example:**
@@ -1740,12 +1740,12 @@ call cScripts_fnc_getPlayerRole
 
 **Arguments:**
 
-0: Player <STRING><br>
-1: Company <STRING><br>
-2: Medic Type <NUMBER>       (Optional)      (Default; 0)<br>
-3: Engineer Type <NUMBER>    (Optional)      (Default; 0)<br>
-4: EOD <BOOL>                (Optional)      (Default; false)<br>
-5: Set Rank <BOOL>           (Optional)      (Default; true)<br>
+0: Player &#60;STRING&#62;<br>
+1: Company &#60;STRING&#62;<br>
+2: Medic Type &#60;NUMBER&#62;       (Optional)      (Default; 0)<br>
+3: Engineer Type &#60;NUMBER&#62;    (Optional)      (Default; 0)<br>
+4: EOD &#60;BOOL&#62;                (Optional)      (Default; false)<br>
+5: Set Rank &#60;BOOL&#62;           (Optional)      (Default; true)<br>
 
 
 **Return Value:**
@@ -1780,11 +1780,11 @@ call cScripts_fnc_getPlayerRole
 
 **Arguments:**
 
-0: Argument Name <OBJECT/BOOL/NUMBER/STRING/ARRAY/CODE> (Optional) (Default; MyDefaultValue)<br>
+0: Argument Name &#60;OBJECT/BOOL/NUMBER/STRING/ARRAY/CODE&#62; (Optional) (Default; MyDefaultValue)<br>
 
 
 **Return Value:**
-`Return Name <BOOL/NUMBER/STRING>`
+`Return Name &#60;BOOL/NUMBER/STRING&#62;`
 
 
 
@@ -1814,7 +1814,7 @@ None<br>
 
 
 **Return Value:**
-`Team color <STRING>`
+`Team color &#60;STRING&#62;`
 
 
 
@@ -1840,7 +1840,7 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Object <OBJECT><br>
+0: Object &#60;OBJECT&#62;<br>
 
 
 **Example:**
@@ -1865,9 +1865,9 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Object <OBJECT><br>
-1: Size Type <SIZE> ["none","all","officer","alpha","bravo","charlie","ranger" and Squad Names etc...]<br>
-2: Require correct company to select loadout. <BOOL> (default: true)<br>
+0: Object &#60;OBJECT&#62;<br>
+1: Size Type &#60;SIZE&#62; ["none","all","officer","alpha","bravo","charlie","ranger" and Squad Names etc...]<br>
+2: Require correct company to select loadout. &#60;BOOL&#62; (default: true)<br>
 
 
 **Example:**
@@ -1896,7 +1896,7 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Player <OBJECT><br>
+0: Player &#60;OBJECT&#62;<br>
 
 
 **Return Value:**
@@ -1929,12 +1929,12 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Object <OBJECT><br>
-1: actionName <STRING><br>
-2: Lable <STRING><br>
-3: Path to icon <STRING><br>
-4: Categorys <ARRAY> (Optional)<br>
-5: Condition <CODE> (Optional)<br>
+0: Object &#60;OBJECT&#62;<br>
+1: actionName &#60;STRING&#62;<br>
+2: Lable &#60;STRING&#62;<br>
+3: Path to icon &#60;STRING&#62;<br>
+4: Categorys &#60;ARRAY&#62; (Optional)<br>
+5: Condition &#60;CODE&#62; (Optional)<br>
 
 
 **Example:**
@@ -1960,8 +1960,8 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Object <OBJECT><br>
-1: Company <STRING><br>
+0: Object &#60;OBJECT&#62;<br>
+1: Company &#60;STRING&#62;<br>
 
 
 **Example:**
@@ -1983,7 +1983,7 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Object <OBJECT><br>
+0: Object &#60;OBJECT&#62;<br>
 
 
 **Example:**
@@ -2009,7 +2009,7 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Object <OBJECT><br>
+0: Object &#60;OBJECT&#62;<br>
 
 
 **Example:**
@@ -2031,11 +2031,11 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Object <OBJECT><br>
-1: Lable <STRING><br>
-2: actionName <STRING><br>
-3: Path to icon <STRING><br>
-4: Categorys <ARRAY> (Optional)<br>
+0: Object &#60;OBJECT&#62;<br>
+1: Lable &#60;STRING&#62;<br>
+2: actionName &#60;STRING&#62;<br>
+3: Path to icon &#60;STRING&#62;<br>
+4: Categorys &#60;ARRAY&#62; (Optional)<br>
 
 
 **Example:**
@@ -2065,7 +2065,7 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Vehicle <OBJECT><br>
+0: Vehicle &#60;OBJECT&#62;<br>
 
 
 **Example:**
@@ -2095,9 +2095,9 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Object <OBJECT><br>
-1: Lable <STRING><br>
-1: Loadout classname <CLASSNAME><br>
+0: Object &#60;OBJECT&#62;<br>
+1: Lable &#60;STRING&#62;<br>
+1: Loadout classname &#60;CLASSNAME&#62;<br>
 
 
 **Example:**
@@ -2122,7 +2122,7 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Object <OBJECT><br>
+0: Object &#60;OBJECT&#62;<br>
 
 
 **Example:**
@@ -2147,13 +2147,13 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Object <STRING><br>
-1: Lable <STRING><br>
-2: Loadout classname <STRING><br>
-3: Path to icon <STRING>                                 (Optional)  [Default: ""]<br>
-4: Categorys <ARRAY>                                     (Optional)  [Default: ["ACE_MainActions","cScriptQuickSelectionMenu"]]<br>
+0: Object &#60;STRING&#62;<br>
+1: Lable &#60;STRING&#62;<br>
+2: Loadout classname &#60;STRING&#62;<br>
+3: Path to icon &#60;STRING&#62;                                 (Optional)  [Default: ""]<br>
+4: Categorys &#60;ARRAY&#62;                                     (Optional)  [Default: ["ACE_MainActions","cScriptQuickSelectionMenu"]]<br>
 5: Platoon required to use                               (Optional)  [Default: ""]<br>
-6: Require Company Variable <BOOL>                       (Optional)  [Default: false]<br>
+6: Require Company Variable &#60;BOOL&#62;                       (Optional)  [Default: false]<br>
 
 
 **Example:**
@@ -2183,8 +2183,8 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Object <OBJECT><br>
-1: Allow Heal <BOOL><br>
+0: Object &#60;OBJECT&#62;<br>
+1: Allow Heal &#60;BOOL&#62;<br>
 
 
 **Example:**
@@ -2206,7 +2206,7 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Object <OBJECT><br>
+0: Object &#60;OBJECT&#62;<br>
 
 
 **Example:**
@@ -2228,7 +2228,7 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Object <OBJECT><br>
+0: Object &#60;OBJECT&#62;<br>
 
 
 **Example:**
@@ -2250,9 +2250,9 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Player <PLAYER><br>
-1: Vehicle <OBJECT><br>
-1: Chute Vehicle <OBJECT> (Optional) [Default; "NonSteerable_Parachute_F"]<br>
+0: Player &#60;PLAYER&#62;<br>
+1: Vehicle &#60;OBJECT&#62;<br>
+1: Chute Vehicle &#60;OBJECT&#62; (Optional) [Default; "NonSteerable_Parachute_F"]<br>
 
 
 **Example:**
@@ -2278,9 +2278,9 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Object <OBJECT><br>
-1: Side <STRING> (Optional) (Default; WEST)<br>
-2: Distance <STRING> (Optional) (Default; 30)<br>
+0: Object &#60;OBJECT&#62;<br>
+1: Side &#60;STRING&#62; (Optional) (Default; WEST)<br>
+2: Distance &#60;STRING&#62; (Optional) (Default; 30)<br>
 
 
 **Return Value:**
@@ -2318,7 +2318,7 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Vehicle <OBJECT><br>
+0: Vehicle &#60;OBJECT&#62;<br>
 
 
 **Example:**
@@ -2340,7 +2340,7 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Vehicle <OBJECT><br>
+0: Vehicle &#60;OBJECT&#62;<br>
 
 
 **Example:**
@@ -2362,9 +2362,9 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Object <OBJECT><br>
-1: Label text <STRING><br>
-2: Destination <MARKER/OBJECT/LOCATION/GROUP/TASK><br>
+0: Object &#60;OBJECT&#62;<br>
+1: Label text &#60;STRING&#62;<br>
+2: Destination &#60;MARKER/OBJECT/LOCATION/GROUP/TASK&#62;<br>
 
 
 **Return Value:**
@@ -2409,11 +2409,11 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Vehicle <OBJECT><br>
-1: Position <ARRAY><br>
-2: Rotation <NUMBER><br>
-3: Texture <STRING><br>
-4: Vector <ARRAY> (Optional) (Default; [0,0,1])<br>
+0: Vehicle &#60;OBJECT&#62;<br>
+1: Position &#60;ARRAY&#62;<br>
+2: Rotation &#60;NUMBER&#62;<br>
+3: Texture &#60;STRING&#62;<br>
+4: Vector &#60;ARRAY&#62; (Optional) (Default; [0,0,1])<br>
 
 
 **Example:**
@@ -2439,8 +2439,8 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Object <OBJECT><br>
-1: flagType <INTEGER>   (Default: 0)  [0 (Crossed swords),1 (Crossed swords with Cut),2 (Black Coat of arms)]<br>
+0: Object &#60;OBJECT&#62;<br>
+1: flagType &#60;INTEGER&#62;   (Default: 0)  [0 (Crossed swords),1 (Crossed swords with Cut),2 (Black Coat of arms)]<br>
 
 
 **Example:**
@@ -2466,11 +2466,11 @@ call cScripts_fnc_setTeamColor
 
 **Arguments:**
 
-0: Texture <STRING> (Optional)<br>
+0: Texture &#60;STRING&#62; (Optional)<br>
 
 
 **Return Value:**
-`Texture path <STRING>`
+`Texture path &#60;STRING&#62;`
 
 
 
@@ -2488,21 +2488,21 @@ call cScripts_fnc_setTeamColor
 **Author:** CPL.Brostrom.A
 
 
-> This function fetches a texture from the getVehicleLable texture list and apply it to a supported vechicle.<br>> Supported vehicles:<br>> C-130              3 PARMS     <LETTER and NUMBER> OR <SPECIAL>    (Locations: Tail)<br>> UH60 Black Hawks   2 PARMS     <LETTER and NUMBER> OR <SPECIAL>    (Locations: Tail)<br>> STRYKER            NONE        NONE                                (Locations: Front)<br>> MRAP               5 PARMS     <LETTER and NUMBER> OR <SPECIAL>    (Locations: Side)<br>> M1A1 Abrams        2 PARMS     <SPECIAL>                           (Locations: Front, Side)<br>> M2/M3 Bradley      1 PARMS     <SPECIAL>                           (Locations: Side)<br>
+> This function fetches a texture from the getVehicleLable texture list and apply it to a supported vechicle.<br>> Supported vehicles:<br>> C-130              3 PARMS     &#60;LETTER and NUMBER&#62; OR &#60;SPECIAL&#62;    (Locations: Tail)<br>> UH60 Black Hawks   2 PARMS     &#60;LETTER and NUMBER&#62; OR &#60;SPECIAL&#62;    (Locations: Tail)<br>> STRYKER            NONE        NONE                                (Locations: Front)<br>> MRAP               5 PARMS     &#60;LETTER and NUMBER&#62; OR &#60;SPECIAL&#62;    (Locations: Side)<br>> M1A1 Abrams        2 PARMS     &#60;SPECIAL&#62;                           (Locations: Front, Side)<br>> M2/M3 Bradley      1 PARMS     &#60;SPECIAL&#62;                           (Locations: Side)<br>
 
 
 **Arguments:**
 
-0: Vehicles <OBJECT><br>
-1: Texture <STRING> (Optional)<br>
-2: Texture <STRING> (Optional)<br>
-3: Texture <STRING> (Optional)<br>
-4: Texture <STRING> (Optional)<br>
-5: Texture <STRING> (Optional)<br>
-6: Texture <STRING> (Optional)<br>
-7: Texture <STRING> (Optional)<br>
-8: Texture <STRING> (Optional)<br>
-9: Texture <STRING> (Optional)<br>
+0: Vehicles &#60;OBJECT&#62;<br>
+1: Texture &#60;STRING&#62; (Optional)<br>
+2: Texture &#60;STRING&#62; (Optional)<br>
+3: Texture &#60;STRING&#62; (Optional)<br>
+4: Texture &#60;STRING&#62; (Optional)<br>
+5: Texture &#60;STRING&#62; (Optional)<br>
+6: Texture &#60;STRING&#62; (Optional)<br>
+7: Texture &#60;STRING&#62; (Optional)<br>
+8: Texture &#60;STRING&#62; (Optional)<br>
+9: Texture &#60;STRING&#62; (Optional)<br>
 
 
 **Return Value:**
