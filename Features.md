@@ -13,7 +13,6 @@
 * [[Vehicle Texture Lable|Texture Label]]
 * [[Starter Crate]]
 * [[Field Hospital]]
-* [[Flag]]
 * [[Logistical Crates]]
 * [[Teleport]]
 * [[Gate]]
