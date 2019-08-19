@@ -8,6 +8,8 @@ Placing down units is rather straight forward. To ensure the that they come in a
 
 Make sure to place down the CavAddon Named Squads.
 
+*Tips! Place them down as symmetric as posible.*
+
 ### Functions and variables
 cScripts comes with a bunch of functions and autoassignation systems. For a players **group name** or **variable** is important in order to get the correct radio channel, insignia or other hidden functionalities. 
 
