@@ -12,7 +12,7 @@ This image should be converted to PAA  with DXT5 encode. This is done with the A
    To make it easy to add more insignia's we have developed a [macro](https://github.com/7Cav/7CavAddon/blob/master/addons/insignia/CfgUnitInsignia.hpp#L2-L8) to be used:
    `MACRO_UNITINSIGNIA(insigna_name);`
 1. _(OPTIONAL)_ If you add a complete new insignia remeber to also add the name to the [stringtable](https://github.com/7Cav/7CavAddon/blob/master/addons/insignia/stringtable.xml). 
-1. Add the insignia to the selector script; [`fn_initInsigniaSelections.sqf`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/selections/fn_initInsigniaSelections.sqf)
+1. Add the insignia to the selector script; [`fn_addInsigniaSelectionList.sqf`](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addInsigniaSelectionList.sqf)
    To make it easy for your self to add more insignia to the selector just copy paste an insignia function from a previous category.
    Example:
    ```
