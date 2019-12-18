@@ -113,7 +113,7 @@
 
 ## Debug
 ### fn_logError
-[Go to cScripts_fnc_logError](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/debug/fn_logError.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_logError](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/debug/fn_logError.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function print debug information in the RPT log
 
@@ -129,7 +129,7 @@ This function print debug information in the RPT log
 ```
 
 ### fn_logInfo
-[Go to cScripts_fnc_logInfo](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/debug/fn_logInfo.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_logInfo](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/debug/fn_logInfo.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function print debug information in the RPT log
 
@@ -145,7 +145,7 @@ This function print debug information in the RPT log
 ```
 
 ### fn_logWarning
-[Go to cScripts_fnc_logWarning](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/debug/fn_logWarning.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_logWarning](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/debug/fn_logWarning.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function print debug information in the RPT log
 
@@ -163,7 +163,7 @@ This function print debug information in the RPT log
 
 ## Documents
 ### fn_DocChklist_CFF
-[Go to cScripts_fnc_DocChklist_CFF](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocChklist_CFF.sqf), Written by: CPL.Brostrom.A and SGT.Argus.J
+[Go to cScripts_fnc_DocChklist_CFF](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocChklist_CFF.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul) and SGT.Argus.J
 
 This function write a diary record.
 
@@ -179,7 +179,7 @@ None
 ```
 
 ### fn_DocChklist_JMTASKS
-[Go to cScripts_fnc_DocChklist_JMTASKS](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocChklist_JMTASKS.sqf), Written by: CPL.Brostrom.A and SGT.Argus.J
+[Go to cScripts_fnc_DocChklist_JMTASKS](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocChklist_JMTASKS.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul) and SGT.Argus.J
 
 This function write a diary record.
 
@@ -195,7 +195,7 @@ None
 ```
 
 ### fn_DocChklist_LZEXTRACT
-[Go to cScripts_fnc_DocChklist_LZEXTRACT](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocChklist_LZEXTRACT.sqf), Written by: CPL.Brostrom.A and SGT.Argus.J
+[Go to cScripts_fnc_DocChklist_LZEXTRACT](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocChklist_LZEXTRACT.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul) and SGT.Argus.J
 
 This function write a diary record.
 
@@ -211,7 +211,7 @@ None
 ```
 
 ### fn_DocChklist_LZINSERT
-[Go to cScripts_fnc_DocChklist_LZINSERT](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocChklist_LZINSERT.sqf), Written by: CPL.Brostrom.A and SGT.Argus.J
+[Go to cScripts_fnc_DocChklist_LZINSERT](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocChklist_LZINSERT.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul) and SGT.Argus.J
 
 This function write a diary record.
 
@@ -227,7 +227,7 @@ None
 ```
 
 ### fn_DocChklist_LZSPECS
-[Go to cScripts_fnc_DocChklist_LZSPECS](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocChklist_LZSPECS.sqf), Written by: CPL.Brostrom.A and SGT.Argus.J
+[Go to cScripts_fnc_DocChklist_LZSPECS](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocChklist_LZSPECS.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul) and SGT.Argus.J
 
 This function write a diary record.
 
@@ -243,7 +243,7 @@ None
 ```
 
 ### fn_DocRadio_LACEACE
-[Go to cScripts_fnc_DocRadio_LACEACE](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocRadio_LACEACE.sqf), Written by: CPL.Brostrom.A and SGT.Argus.J
+[Go to cScripts_fnc_DocRadio_LACEACE](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocRadio_LACEACE.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul) and SGT.Argus.J
 
 This function write a diary record.
 
@@ -259,7 +259,7 @@ None
 ```
 
 ### fn_DocRadio_MEDEVAC
-[Go to cScripts_fnc_DocRadio_MEDEVAC](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocRadio_MEDEVAC.sqf), Written by: CPL.Brostrom.A and SGT.Argus.J
+[Go to cScripts_fnc_DocRadio_MEDEVAC](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocRadio_MEDEVAC.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul) and SGT.Argus.J
 
 This function write a diary record.
 
@@ -275,7 +275,7 @@ None
 ```
 
 ### fn_DocRadio_ROTARYPICKUP
-[Go to cScripts_fnc_DocRadio_ROTARYPICKUP](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocRadio_ROTARYPICKUP.sqf), Written by: CPL.Brostrom.A and SGT.Argus.J
+[Go to cScripts_fnc_DocRadio_ROTARYPICKUP](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocRadio_ROTARYPICKUP.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul) and SGT.Argus.J
 
 This function write a diary record.
 
@@ -291,7 +291,7 @@ None
 ```
 
 ### fn_DocRadio_SPOTREP
-[Go to cScripts_fnc_DocRadio_SPOTREP](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocRadio_SPOTREP.sqf), Written by: CPL.Brostrom.A and SGT.Argus.J
+[Go to cScripts_fnc_DocRadio_SPOTREP](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_DocRadio_SPOTREP.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul) and SGT.Argus.J
 
 This function write a diary record.
 
@@ -307,7 +307,7 @@ None
 ```
 
 ### fn_Doc_Info
-[Go to cScripts_fnc_Doc_Info](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_Doc_Info.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_Doc_Info](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_Doc_Info.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function write a diary record.
 
@@ -323,7 +323,7 @@ call cScripts_fnc_Doc_Info
 ```
 
 ### fn_Doc_MissionControl
-[Go to cScripts_fnc_Doc_MissionControl](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_Doc_MissionControl.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_Doc_MissionControl](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/documents/fn_Doc_MissionControl.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function write a diary record.
 
@@ -341,7 +341,7 @@ None
 
 ## Helpers
 ### fn_exportBoxToArsenal
-[Go to cScripts_fnc_exportBoxToArsenal](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/helpers/fn_exportBoxToArsenal.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_exportBoxToArsenal](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/helpers/fn_exportBoxToArsenal.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function is used used to export objects to clipboard from a object to be used in the Cav Arsenal.
 The function also retun a array or strings as well as clipboard export.
@@ -358,7 +358,7 @@ The function also retun a array or strings as well as clipboard export.
 ```
 
 ### fn_exportLoadoutsToArsenal
-[Go to cScripts_fnc_exportLoadoutsToArsenal](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/helpers/fn_exportLoadoutsToArsenal.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_exportLoadoutsToArsenal](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/helpers/fn_exportLoadoutsToArsenal.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function is used used to export a companies loadouts to be used in the Cav Arsenal function.
 The function also retun a array or strings as well as clipboard export.
@@ -377,7 +377,7 @@ The function also retun a array or strings as well as clipboard export.
 
 ## Init
 ### fn_initACELoadouts
-[Go to cScripts_fnc_initACELoadouts](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initACELoadouts.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_initACELoadouts](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initACELoadouts.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function initzialise ace arsenal default loadouts in eden and in mission.
 
@@ -393,7 +393,7 @@ call cScripts_fnc_initAceLoadouts
 ```
 
 ### fn_initCuratorObjectPlaced
-[Go to cScripts_fnc_initCuratorObjectPlaced](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initCuratorObjectPlaced.sqf), Written by: SSG.Argus.J, CPL.Brostrom.A
+[Go to cScripts_fnc_initCuratorObjectPlaced](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initCuratorObjectPlaced.sqf), Written by: SSG.Argus.J, CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function make sure that systems are added to a curator spawned objects.
 
@@ -409,7 +409,7 @@ call cScripts_fnc_initCuratorObjectPlaced
 ```
 
 ### fn_initDocuments
-[Go to cScripts_fnc_initDocuments](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initDocuments.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_initDocuments](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initDocuments.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function add diary records for all players.
 
@@ -425,7 +425,7 @@ call cScripts_fnc_initDocuments
 ```
 
 ### fn_initFortify
-[Go to cScripts_fnc_initFortify](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initFortify.sqf), Written by: SGT.Brostrom.A
+[Go to cScripts_fnc_initFortify](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initFortify.sqf), Written by: SGT.[Brostrom.A](https://github.com/ColdEvul)
 
 This function is partly based on Bojan and PFC.Vex.W Fortify system.
 This function handles Fortify regeistrated objects.
@@ -442,7 +442,7 @@ call cScripts_fnc_handleFortify
 ```
 
 ### fn_initModules
-[Go to cScripts_fnc_initModules](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initModules.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_initModules](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initModules.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function load all Cav modules. Requires Achilles to run propperly will not load this function otherwise.
 
@@ -458,7 +458,7 @@ call cScripts_fnc_initModules
 ```
 
 ### fn_initStartupHint
-[Go to cScripts_fnc_initStartupHint](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initStartupHint.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_initStartupHint](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initStartupHint.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function give all players a hint on mission start only.
 
@@ -477,7 +477,7 @@ call cScripts_fnc_initStartupHint
 ```
 
 ### fn_initSupply
-[Go to cScripts_fnc_initSupply](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initSupply.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_initSupply](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initSupply.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function add eventhandelers chaning the inventory of all crates.
 
@@ -493,7 +493,7 @@ call cScripts_fnc_initSupply
 ```
 
 ### fn_initTagging
-[Go to cScripts_fnc_initTagging](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initTagging.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_initTagging](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initTagging.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This adds custom spray tags to all units.
 
@@ -509,7 +509,7 @@ call cScripts_fnc_initTagging
 ```
 
 ### fn_initVehicle
-[Go to cScripts_fnc_initVehicle](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initVehicle.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_initVehicle](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initVehicle.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function add eventhandelers adding cav functionality to all vehicles.
 
@@ -525,7 +525,7 @@ call cScripts_fnc_initVehicle
 
 ## Logistics
 ### fn_doAmmoCrate
-[Go to cScripts_fnc_doAmmoCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doAmmoCrate.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_doAmmoCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doAmmoCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function resupply a crate and changes it's texture.
 
@@ -546,7 +546,7 @@ This function resupply a crate and changes it's texture.
 ```
 
 ### fn_doEmptyCrate
-[Go to cScripts_fnc_doEmptyCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doEmptyCrate.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_doEmptyCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doEmptyCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function resupply a crate and changes it's texture.
 
@@ -562,7 +562,7 @@ This function resupply a crate and changes it's texture.
 ```
 
 ### fn_doExplosivesCrate
-[Go to cScripts_fnc_doExplosivesCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doExplosivesCrate.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_doExplosivesCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doExplosivesCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function resupply a crate and changes it's texture.
 
@@ -583,7 +583,7 @@ This function resupply a crate and changes it's texture.
 ```
 
 ### fn_doFieldHospital
-[Go to cScripts_fnc_doFieldHospital](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doFieldHospital.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_doFieldHospital](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doFieldHospital.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This scripts crate the 7th cavalry field hostpital.
 It adds equipment and some optional selections to a given object.
@@ -607,7 +607,7 @@ It adds equipment and some optional selections to a given object.
 ```
 
 ### fn_doGrenadesCrate
-[Go to cScripts_fnc_doGrenadesCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doGrenadesCrate.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_doGrenadesCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doGrenadesCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function resupply a crate and changes it's texture.
 
@@ -628,7 +628,7 @@ This function resupply a crate and changes it's texture.
 ```
 
 ### fn_doLaunchersCrate
-[Go to cScripts_fnc_doLaunchersCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doLaunchersCrate.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_doLaunchersCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doLaunchersCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function resupply a crate and changes it's texture.
 
@@ -649,7 +649,7 @@ This function resupply a crate and changes it's texture.
 ```
 
 ### fn_doMedicalCrate
-[Go to cScripts_fnc_doMedicalCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doMedicalCrate.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_doMedicalCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doMedicalCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function resupply a crate and changes it's texture.
 
@@ -670,7 +670,7 @@ This function resupply a crate and changes it's texture.
 ```
 
 ### fn_doSpecialWeaponsCrate
-[Go to cScripts_fnc_doSpecialWeaponsCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doSpecialWeaponsCrate.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_doSpecialWeaponsCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doSpecialWeaponsCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function resupply a crate and changes it's texture.
 
@@ -696,7 +696,7 @@ This function resupply a crate and changes it's texture.
 ```
 
 ### fn_doStarterCrate
-[Go to cScripts_fnc_doStarterCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doStarterCrate.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_doStarterCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doStarterCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This scripts crate the 7th cavalry starter crate.
 It adds equipment and some selections to a given object.
@@ -731,7 +731,7 @@ It adds equipment and some selections to a given object.
 ```
 
 ### fn_doStarterCrateSupplies
-[Go to cScripts_fnc_doStarterCrateSupplies](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doStarterCrateSupplies.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_doStarterCrateSupplies](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doStarterCrateSupplies.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function adds equipment to a given item baserd on company type.
 
@@ -752,7 +752,7 @@ This function adds equipment to a given item baserd on company type.
 ```
 
 ### fn_doSupplyCrate
-[Go to cScripts_fnc_doSupplyCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doSupplyCrate.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_doSupplyCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doSupplyCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This populats a given object with items.
 Use for mission resupplies.
@@ -774,7 +774,7 @@ Use for mission resupplies.
 ```
 
 ### fn_doWeaponsCrate
-[Go to cScripts_fnc_doWeaponsCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doWeaponsCrate.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_doWeaponsCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doWeaponsCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function resupply a crate and changes it's texture.
 
@@ -797,7 +797,7 @@ This function resupply a crate and changes it's texture.
 
 ## Mission
 ### fn_addGetOutHelo
-[Go to cScripts_fnc_addGetOutHelo](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/mission/fn_addGetOutHelo.sqf), Written by: CPL.Brostrom.A (With the help from; 654wak654)
+[Go to cScripts_fnc_addGetOutHelo](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/mission/fn_addGetOutHelo.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul) (With the help from; 654wak654)
 
 This function add two get out addAction that is only avaible for players in cargo
 as well is ffv cargoIndex position. Postions effected are 0 to 11 in other words not -1.
@@ -817,7 +817,7 @@ as well is ffv cargoIndex position. Postions effected are 0 to 11 in other words
 ```
 
 ### fn_addJump
-[Go to cScripts_fnc_addJump](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/mission/fn_addJump.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_addJump](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/mission/fn_addJump.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function adds a Jump out option to a vehicle.
 
@@ -850,7 +850,7 @@ This function adds a Jump out option to a vehicle.
 ```
 
 ### fn_gate
-[Go to cScripts_fnc_gate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/mission/fn_gate.sqf), Written by: CPL.Brostrom.A, with help from Commy2
+[Go to cScripts_fnc_gate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/mission/fn_gate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul), with help from Commy2
 
 This function make a given gate the ability to open and close automaticly whitout much fiddeling with triggers. 
 
@@ -876,7 +876,7 @@ This function make a given gate the ability to open and close automaticly whitou
 ```
 
 ### fn_setVehicleLable
-[Go to cScripts_fnc_setVehicleLable](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/mission/fn_setVehicleLable.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_setVehicleLable](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/mission/fn_setVehicleLable.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function fetches a texture from the getVehicleLable texture list and apply it to a supported vechicle.
 Supported vehicles:
@@ -926,7 +926,7 @@ Supported vehicles:
 ```
 
 ### fn_teleport
-[Go to cScripts_fnc_teleport](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/mission/fn_teleport.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_teleport](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/mission/fn_teleport.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This teleports a target to a given marker or any other kind of object.
 Z will always be 0 for MARKER, LOCATION and TASK.
@@ -958,7 +958,7 @@ Z will always be 0 for MARKER, LOCATION and TASK.
 
 ## Modules
 ### fn_moduleApplyVehicleInventory
-[Go to cScripts_fnc_moduleApplyVehicleInventory](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleApplyVehicleInventory.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_moduleApplyVehicleInventory](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleApplyVehicleInventory.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This module function allow you to retrofitt a given vehicle to utalize a better and more awesome inventory.
 
@@ -974,7 +974,7 @@ this call cScripts_fnc_moduleApplyVehicleInventory
 ```
 
 ### fn_moduleApplyVehicleLable
-[Go to cScripts_fnc_moduleApplyVehicleLable](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleApplyVehicleLable.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_moduleApplyVehicleLable](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleApplyVehicleLable.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This module function allow you to apply a texture lable to a given vehicle.
 
@@ -990,7 +990,7 @@ this call cScripts_fnc_moduleApplyVehicleLable
 ```
 
 ### fn_moduleCallEndex
-[Go to cScripts_fnc_moduleCallEndex](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleCallEndex.sqf), Written by: CPL.Brostrom.A, CPL.Dunn.W
+[Go to cScripts_fnc_moduleCallEndex](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleCallEndex.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul), CPL.[Dunn.W](https://github.com/VinoEtCaseus)
 
 This module function can disable ai set player weapon to safe and print some hints and spam the chat with ENDEX. 
 
@@ -1006,7 +1006,7 @@ call cScripts_fnc_moduleCallEndex;
 ```
 
 ### fn_moduleCreateFieldHospital
-[Go to cScripts_fnc_moduleCreateFieldHospital](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleCreateFieldHospital.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_moduleCreateFieldHospital](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleCreateFieldHospital.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This module function spawn a 7th Cavalry Fieald Hostpital.
 
@@ -1022,7 +1022,7 @@ this call cScripts_fnc_moduleCreateFieldHostpital
 ```
 
 ### fn_moduleCreateMedicalCrate
-[Go to cScripts_fnc_moduleCreateMedicalCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleCreateMedicalCrate.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_moduleCreateMedicalCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleCreateMedicalCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This module function spawn a supply medical crate.
 
@@ -1038,7 +1038,7 @@ this call cScripts_fnc_moduleCreateMedicalCrate
 ```
 
 ### fn_moduleCreateSpecialWeaponsCrate
-[Go to cScripts_fnc_moduleCreateSpecialWeaponsCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleCreateSpecialWeaponsCrate.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_moduleCreateSpecialWeaponsCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleCreateSpecialWeaponsCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This module function spawn a special weapons crate.
 
@@ -1054,7 +1054,7 @@ this call cScripts_fnc_moduleCreateSupplyCrate
 ```
 
 ### fn_moduleCreateStarterCrate
-[Go to cScripts_fnc_moduleCreateStarterCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleCreateStarterCrate.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_moduleCreateStarterCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleCreateStarterCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 Modified by: PVT.Schouten.M
 This module function spawn a 7th Cavalry Starter Crate.
@@ -1071,7 +1071,7 @@ this call cScripts_fnc_moduleCreateStarterCrate;
 ```
 
 ### fn_moduleCreateSupplyCrate
-[Go to cScripts_fnc_moduleCreateSupplyCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleCreateSupplyCrate.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_moduleCreateSupplyCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleCreateSupplyCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This module function spawn a supply crate.
 
@@ -1087,7 +1087,7 @@ this call cScripts_fnc_moduleCreateSupplyCrate
 ```
 
 ### fn_moduleMakeDoctor
-[Go to cScripts_fnc_moduleMakeDoctor](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleMakeDoctor.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_moduleMakeDoctor](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleMakeDoctor.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This module function apply the doctor ability to a given unit.
 
@@ -1103,7 +1103,7 @@ this call cScripts_fnc_moduleMakeDoctor
 ```
 
 ### fn_moduleMakeEngineer
-[Go to cScripts_fnc_moduleMakeEngineer](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleMakeEngineer.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_moduleMakeEngineer](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleMakeEngineer.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This module function apply the doctor ability to a given unit.
 
@@ -1119,7 +1119,7 @@ this call cScripts_fnc_moduleMakeEngineer
 ```
 
 ### fn_moduleRegearTrooper
-[Go to cScripts_fnc_moduleRegearTrooper](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleRegearTrooper.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_moduleRegearTrooper](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleRegearTrooper.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This module function regear to a given unit.
 
@@ -1137,7 +1137,7 @@ this call cScripts_fnc_moduleRegearTrooper
 
 ## Players
 ### fn_doPlayerAnnouncement
-[Go to cScripts_fnc_doPlayerAnnouncement](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_doPlayerAnnouncement.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_doPlayerAnnouncement](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_doPlayerAnnouncement.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function announce the player once on mission join when the loadout is set.
 
@@ -1153,7 +1153,7 @@ This function announce the player once on mission join when the loadout is set.
 ```
 
 ### fn_getCompanyVariable
-[Go to cScripts_fnc_getCompanyVariable](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getCompanyVariable.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_getCompanyVariable](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getCompanyVariable.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 Show you your current company variable.
 
@@ -1169,7 +1169,7 @@ Show you your current company variable.
 ```
 
 ### fn_getPlayerClan
-[Go to cScripts_fnc_getPlayerClan](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getPlayerClan.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_getPlayerClan](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getPlayerClan.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 Retun the player clan tag
 
@@ -1185,7 +1185,7 @@ Retun the player clan tag
 ```
 
 ### fn_getPlayerName
-[Go to cScripts_fnc_getPlayerName](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getPlayerName.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_getPlayerName](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getPlayerName.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function fetches your name based on your name BIS profile or Steam Profile name.
 
@@ -1203,7 +1203,7 @@ This function fetches your name based on your name BIS profile or Steam Profile 
 ```
 
 ### fn_getPlayerRank
-[Go to cScripts_fnc_getPlayerRank](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getPlayerRank.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_getPlayerRank](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getPlayerRank.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function fetches your rank based on your name prefix.
 
@@ -1221,7 +1221,7 @@ This function fetches your rank based on your name prefix.
 ```
 
 ### fn_getPlayerRole
-[Go to cScripts_fnc_getPlayerRole](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getPlayerRole.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_getPlayerRole](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getPlayerRole.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function fetches your rank based on your name description prefix or unit config display text.
 
@@ -1237,7 +1237,7 @@ None
 ```
 
 ### fn_getRadioChannel
-[Go to cScripts_fnc_getRadioChannel](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getRadioChannel.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_getRadioChannel](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getRadioChannel.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function fetch a squad radio channel based on radio type and squad name.
 
@@ -1255,7 +1255,7 @@ This function fetch a squad radio channel based on radio type and squad name.
 ```
 
 ### fn_getSquadInsignia
-[Go to cScripts_fnc_getSquadInsignia](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getSquadInsignia.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_getSquadInsignia](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getSquadInsignia.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function fetch a squad radio channel based on your squad name.
 
@@ -1269,7 +1269,7 @@ This function fetch a squad radio channel based on your squad name.
 ```
 
 ### fn_getSquadName
-[Go to cScripts_fnc_getSquadName](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getSquadName.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_getSquadName](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getSquadName.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function fetch a squad name of a unit variable squad name
 
@@ -1285,7 +1285,7 @@ This function fetch a squad name of a unit variable squad name
 ```
 
 ### fn_hasCompanyVariable
-[Go to cScripts_fnc_hasCompanyVariable](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_hasCompanyVariable.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_hasCompanyVariable](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_hasCompanyVariable.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 Retun true or false if a player have the given company.
 
@@ -1303,7 +1303,7 @@ Retun true or false if a player have the given company.
 ```
 
 ### fn_isPlayerClan
-[Go to cScripts_fnc_isPlayerClan](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_isPlayerClan.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_isPlayerClan](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_isPlayerClan.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 Compare given clan tag to compare clan tag and return true or false.
 
@@ -1321,7 +1321,7 @@ Compare given clan tag to compare clan tag and return true or false.
 ```
 
 ### fn_setPlayerRank
-[Go to cScripts_fnc_setPlayerRank](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_setPlayerRank.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_setPlayerRank](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_setPlayerRank.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function is used to apply a player rank to a player.
 
@@ -1337,7 +1337,7 @@ This function is used to apply a player rank to a player.
 ```
 
 ### fn_setPostInitPlayerSettings
-[Go to cScripts_fnc_setPostInitPlayerSettings](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_setPostInitPlayerSettings.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_setPostInitPlayerSettings](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_setPostInitPlayerSettings.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function is used to handle player premissions and some player functions.
 
@@ -1365,7 +1365,7 @@ This function is used to handle player premissions and some player functions.
 ```
 
 ### fn_setPreInitPlayerSettings
-[Go to cScripts_fnc_setPreInitPlayerSettings](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_setPreInitPlayerSettings.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_setPreInitPlayerSettings](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_setPreInitPlayerSettings.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function is used to handle player premissions
 
@@ -1397,7 +1397,7 @@ This function is used to handle player premissions
 ```
 
 ### fn_setRadioChannel
-[Go to cScripts_fnc_setRadioChannel](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_setRadioChannel.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_setRadioChannel](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_setRadioChannel.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function sets a player radio channels based on squad name. If -1 no radio will be set. 
 
@@ -1413,7 +1413,7 @@ This function sets a player radio channels based on squad name. If -1 no radio w
 ```
 
 ### fn_setTeamColor
-[Go to cScripts_fnc_setTeamColor](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_setTeamColor.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_setTeamColor](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_setTeamColor.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 Set a team color based on the units name.
 
@@ -1431,7 +1431,7 @@ call cScripts_fnc_setTeamColor
 
 ## Systems
 ### fn_addAceCategory
-[Go to cScripts_fnc_addAceCategory](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addAceCategory.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_addAceCategory](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addAceCategory.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This script auto generates the selections.
 
@@ -1460,7 +1460,7 @@ This script auto generates the selections.
 ```
 
 ### fn_addArsenal
-[Go to cScripts_fnc_addArsenal](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addArsenal.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_addArsenal](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addArsenal.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function crates a arsenal on the given object with items used in each company.
 If full, none, or empty value is given the arsenal will be "full".
@@ -1479,7 +1479,7 @@ If full, none, or empty value is given the arsenal will be "full".
 ```
 
 ### fn_addFortifyArea
-[Go to cScripts_fnc_addFortifyArea](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addFortifyArea.sqf), Written by: SGT.Brostrom.A
+[Go to cScripts_fnc_addFortifyArea](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addFortifyArea.sqf), Written by: SGT.[Brostrom.A](https://github.com/ColdEvul)
 
 This function is partly based on Bojan and PFC.Vex.W Fortify system.
 This function setup a aria around the given vehicle to alow construction of fortification structures
@@ -1499,7 +1499,7 @@ This function setup a aria around the given vehicle to alow construction of fort
 ```
 
 ### fn_addHeal
-[Go to cScripts_fnc_addHeal](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addHeal.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_addHeal](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addHeal.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This adds a adda ction as well as a ACE interaction reGear selection. The script reapplyes the players start loadout.
 
@@ -1515,7 +1515,7 @@ This adds a adda ction as well as a ACE interaction reGear selection. The script
 ```
 
 ### fn_addInsigniaSelection
-[Go to cScripts_fnc_addInsigniaSelection](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addInsigniaSelection.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_addInsigniaSelection](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addInsigniaSelection.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function generates a insignia selection button.
 
@@ -1545,7 +1545,7 @@ This function generates a insignia selection button.
 ```
 
 ### fn_addInsigniaSelectionList
-[Go to cScripts_fnc_addInsigniaSelectionList](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addInsigniaSelectionList.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_addInsigniaSelectionList](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addInsigniaSelectionList.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function sets up a list of insignias as aceAction or addAction on a given object. (Ussaly the Starter Crate).
 
@@ -1561,7 +1561,7 @@ This function sets up a list of insignias as aceAction or addAction on a given o
 ```
 
 ### fn_addJump
-[Go to cScripts_fnc_addJump](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addJump.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_addJump](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addJump.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function adds a Jump out option to a vehicle.
 
@@ -1594,7 +1594,7 @@ This function adds a Jump out option to a vehicle.
 ```
 
 ### fn_addLoadoutAction
-[Go to cScripts_fnc_addLoadoutAction](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addLoadoutAction.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_addLoadoutAction](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addLoadoutAction.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This adds a addAction option to the given item for a given loadout defined in cfgLoadouts.
 
@@ -1614,7 +1614,7 @@ This adds a addAction option to the given item for a given loadout defined in cf
 ```
 
 ### fn_addObjectToCurator
-[Go to cScripts_fnc_addObjectToCurator](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addObjectToCurator.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_addObjectToCurator](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addObjectToCurator.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 Add object to all curators on next frame.
 
@@ -1630,7 +1630,7 @@ Add object to all curators on next frame.
 ```
 
 ### fn_addQuickSelection
-[Go to cScripts_fnc_addQuickSelection](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addQuickSelection.sqf), Written by: CPL.Brostrom.A (With help from Commy2)
+[Go to cScripts_fnc_addQuickSelection](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addQuickSelection.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul) (With help from Commy2)
 
 This function generates a quick selection button.
 
@@ -1664,7 +1664,7 @@ This function generates a quick selection button.
 ```
 
 ### fn_addQuickSelectionList
-[Go to cScripts_fnc_addQuickSelectionList](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addQuickSelectionList.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_addQuickSelectionList](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addQuickSelectionList.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function contain quick selection buttons and categorys via the arsenal menu.
 The crates can be filterd via squad, platoon or just ignore filters and write "all".
@@ -1688,7 +1688,7 @@ The crates can be filterd via squad, platoon or just ignore filters and write "a
 ```
 
 ### fn_addReGear
-[Go to cScripts_fnc_addReGear](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addReGear.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_addReGear](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addReGear.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This adds a reGear selection option. The script reApplyes the players start loadout. But may also heal you if option is allowed.
 
@@ -1706,7 +1706,7 @@ This adds a reGear selection option. The script reApplyes the players start load
 ```
 
 ### fn_createVehicleLable
-[Go to cScripts_fnc_createVehicleLable](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_createVehicleLable.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_createVehicleLable](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_createVehicleLable.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function create a texture that is attached to a given object.
 
@@ -1733,7 +1733,7 @@ This function create a texture that is attached to a given object.
 ```
 
 ### fn_doGetOutHeloLeft
-[Go to cScripts_fnc_doGetOutHeloLeft](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_doGetOutHeloLeft.sqf), Written by: CPL.Brostrom.A (With the help from; 654wak654)
+[Go to cScripts_fnc_doGetOutHeloLeft](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_doGetOutHeloLeft.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul) (With the help from; 654wak654)
 
 Move the player outside the passanger door on the left side.
 
@@ -1749,7 +1749,7 @@ Move the player outside the passanger door on the left side.
 ```
 
 ### fn_doGetOutHeloRight
-[Go to cScripts_fnc_doGetOutHeloRight](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_doGetOutHeloRight.sqf), Written by: CPL.Brostrom.A (With the help from; 654wak654)
+[Go to cScripts_fnc_doGetOutHeloRight](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_doGetOutHeloRight.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul) (With the help from; 654wak654)
 
 Move the player outside the passanger door on the right side.
 
@@ -1765,7 +1765,7 @@ Move the player outside the passanger door on the right side.
 ```
 
 ### fn_doJump
-[Go to cScripts_fnc_doJump](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_doJump.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_doJump](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_doJump.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This jump throw a player out of a aircraft and ataches a parashoot.
 
@@ -1788,7 +1788,7 @@ This jump throw a player out of a aircraft and ataches a parashoot.
 ```
 
 ### fn_getChannelName
-[Go to cScripts_fnc_getChannelName](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_getChannelName.sqf), Written by: CPL.Brostrom.A 
+[Go to cScripts_fnc_getChannelName](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_getChannelName.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul) 
 
 This function return channel name or number based on radio.
 
@@ -1808,7 +1808,7 @@ Radio name as string
 ```
 
 ### fn_getVehicleLable
-[Go to cScripts_fnc_getVehicleLable](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_getVehicleLable.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_getVehicleLable](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_getVehicleLable.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function returns a texture path from a given string name..
 
@@ -1824,7 +1824,7 @@ This function returns a texture path from a given string name..
 ```
 
 ### fn_handleJump
-[Go to cScripts_fnc_handleJump](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_handleJump.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_handleJump](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_handleJump.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function run a para jump simulation on a given player. 
 
@@ -1840,7 +1840,7 @@ This function run a para jump simulation on a given player.
 ```
 
 ### fn_setVehicleInventory
-[Go to cScripts_fnc_setVehicleInventory](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_setVehicleInventory.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_setVehicleInventory](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_setVehicleInventory.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function changes the inventory of defined vehicles.
 
@@ -1856,7 +1856,7 @@ This function changes the inventory of defined vehicles.
 ```
 
 ### fn_setVehicleSettings
-[Go to cScripts_fnc_setVehicleSettings](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_setVehicleSettings.sqf), Written by: CPL.Brostrom.A
+[Go to cScripts_fnc_setVehicleSettings](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_setVehicleSettings.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function apply settigns to vehicles.
 
@@ -1870,4 +1870,3 @@ This function apply settigns to vehicles.
 ```
 ["vic"] call cScripts_fnc_setVehicleSettings
 ```
-
