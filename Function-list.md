@@ -120,6 +120,7 @@ This function print debug information in the RPT log
 **Arguments:**
 0: Message <STRING>
 
+
 **Exsamples:**
 ```
 ["Something is wrong here."] call cScripts_fnc_logError
@@ -133,6 +134,7 @@ This function print debug information in the RPT log
 **Arguments:**
 0: Message <STRING>
 
+
 **Exsamples:**
 ```
 ["Something is wrong here."] call cScripts_fnc_logInfo
@@ -145,6 +147,7 @@ This function print debug information in the RPT log
 
 **Arguments:**
 0: Message <STRING>
+
 
 **Exsamples:**
 ```
@@ -161,6 +164,7 @@ This function write a diary record.
 **Arguments:**
 None
 
+
 **Exsamples:**
 ```
  call cScripts_fnc_Doc_CFF
@@ -173,6 +177,7 @@ This function write a diary record.
 
 **Arguments:**
 None
+
 
 **Exsamples:**
 ```
@@ -187,6 +192,7 @@ This function write a diary record.
 **Arguments:**
 None
 
+
 **Exsamples:**
 ```
  call cScripts_fnc_Doc_LZEXTRACT
@@ -199,6 +205,7 @@ This function write a diary record.
 
 **Arguments:**
 None
+
 
 **Exsamples:**
 ```
@@ -213,6 +220,7 @@ This function write a diary record.
 **Arguments:**
 None
 
+
 **Exsamples:**
 ```
  call cScripts_fnc_Doc_LZSPECS
@@ -225,6 +233,7 @@ This function write a diary record.
 
 **Arguments:**
 None
+
 
 **Exsamples:**
 ```
@@ -239,6 +248,7 @@ This function write a diary record.
 **Arguments:**
 None
 
+
 **Exsamples:**
 ```
  call cScripts_fnc_Doc_MEDEVAC
@@ -251,6 +261,7 @@ This function write a diary record.
 
 **Arguments:**
 None
+
 
 **Exsamples:**
 ```
@@ -265,6 +276,7 @@ This function write a diary record.
 **Arguments:**
 None
 
+
 **Exsamples:**
 ```
  call cScripts_fnc_Doc_SPOTREP
@@ -278,6 +290,7 @@ This function write a diary record.
 **Arguments:**
 None
 
+
 **Exsamples:**
 ```
 call cScripts_fnc_Doc_Info
@@ -290,6 +303,7 @@ This function write a diary record.
 
 **Arguments:**
 None
+
 
 **Exsamples:**
 ```
@@ -307,6 +321,7 @@ The function also retun a array or strings as well as clipboard export.
 **Arguments:**
 0: Object <OBJECT>
 
+
 **Exsamples:**
 ```
 [cursorTarget] call cScripts_fnc_exportBoxToArsenal
@@ -320,6 +335,7 @@ The function also retun a array or strings as well as clipboard export.
 
 **Arguments:**
 0: Company <STRING>    ["cfgLoadoutsClassname","alpha","bravo","charlie","heavyweapons","medical","full"]
+
 
 **Exsamples:**
 ```
@@ -336,6 +352,7 @@ This function initzialise ace arsenal default loadouts in eden and in mission.
 **Arguments:**
 None
 
+
 **Exsamples:**
 ```
 call cScripts_fnc_initAceLoadouts
@@ -349,6 +366,7 @@ This function make sure that systems are added to a curator spawned objects.
 **Arguments:**
 None
 
+
 **Exsamples:**
 ```
 call cScripts_fnc_initCuratorObjectPlaced
@@ -361,6 +379,7 @@ This function add diary records for all players.
 
 **Arguments:**
 None
+
 
 **Exsamples:**
 ```
@@ -376,6 +395,7 @@ This function handles Fortify regeistrated objects.
 **Arguments:**
 None
 
+
 **Exsamples:**
 ```
 call cScripts_fnc_handleFortify
@@ -389,6 +409,7 @@ This function load all Cav modules. Requires Achilles to run propperly will not 
 **Arguments:**
 None
 
+
 **Exsamples:**
 ```
 call cScripts_fnc_initModules
@@ -401,6 +422,7 @@ This function give all players a hint on mission start only.
 
 **Arguments:**
 0: Time <NUMBER> (Default; 60)
+
 
 **Exsamples:**
 ```
@@ -418,6 +440,7 @@ This function add eventhandelers chaning the inventory of all crates.
 **Arguments:**
 None
 
+
 **Exsamples:**
 ```
 call cScripts_fnc_initSupply
@@ -430,6 +453,7 @@ This adds custom spray tags to all units.
 
 **Arguments:**
 None
+
 
 **Exsamples:**
 ```
@@ -457,7 +481,9 @@ This function resupply a crate and changes it's texture.
 
 **Arguments:**
 0: Crate <OBJECT>
+
 1: Scale cargo ammount <NUMBER> (Default: 1)
+
 
 **Exsamples:**
 ```
@@ -475,6 +501,7 @@ This function resupply a crate and changes it's texture.
 **Arguments:**
 0: Crate <OBJECT>
 
+
 **Exsamples:**
 ```
 [this] call cScripts_fnc_doEmptyCrate;
@@ -487,7 +514,9 @@ This function resupply a crate and changes it's texture.
 
 **Arguments:**
 0: Crate <OBJECT>
+
 1: Scale cargo ammount <NUMBER> (Default: 1)
+
 
 **Exsamples:**
 ```
@@ -505,8 +534,11 @@ It adds equipment and some optional selections to a given object.
 
 **Arguments:**
 0: Crate <OBJECT>
+
 1: Medical Facility <BOOL> (Default: true)
+
 2: Scale cargo ammount <NUMBER> (Default: 1)
+
 
 **Exsamples:**
 ```
@@ -523,7 +555,9 @@ This function resupply a crate and changes it's texture.
 
 **Arguments:**
 0: Crate <OBJECT>
+
 1: Scale cargo ammount <NUMBER> (Default: 1)
+
 
 **Exsamples:**
 ```
@@ -540,7 +574,9 @@ This function resupply a crate and changes it's texture.
 
 **Arguments:**
 0: Crate <OBJECT>
+
 1: Scale cargo ammount <NUMBER> (Default: 1)
+
 
 **Exsamples:**
 ```
@@ -557,7 +593,9 @@ This function resupply a crate and changes it's texture.
 
 **Arguments:**
 0: Unit <OBJECT>
+
 1: Scale <AMMOUNT>
+
 
 **Exsamples:**
 ```
@@ -574,8 +612,11 @@ This function resupply a crate and changes it's texture.
 
 **Arguments:**
 0: Crate <OBJECT>
+
 1: Scale cargo ammount <NUMBER> (Default: 1)
+
 2: Type
+
 
 **Exsamples:**
 ```
@@ -596,12 +637,19 @@ It adds equipment and some selections to a given object.
 
 **Arguments:**
 0: Object <OBJECT>
+
 1: Selection type <STRING>       (Default: "none") ["none","all","officer","alpha","bravo","charlie"]
+
 2: ReGear action <BOOL>          (Default: true)
+
 3: Heal action <BOOL>            (Default: true)
+
 4: Insignia Selection <BOOL>     (Default: true)
+
 5: Company variable <BOOL>       (Default: true)
+
 6: Arsenal <BOOL>                (Default: false)
+
 
 **Exsamples:**
 ```
@@ -621,7 +669,9 @@ This function adds equipment to a given item baserd on company type.
 
 **Arguments:**
 0: Crate <OBJECT>
+
 1: Set company type. <STRING> ["none","alpha","bravo","charlie","medical","full"]
+
 
 **Exsamples:**
 ```
@@ -639,7 +689,9 @@ Use for mission resupplies.
 
 **Arguments:**
 0: Crate <OBJECT>
+
 1: Scale cargo ammount <NUMBER> (Default: 1)
+
 
 **Exsamples:**
 ```
@@ -656,7 +708,9 @@ This function resupply a crate and changes it's texture.
 
 **Arguments:**
 0: Crate <OBJECT>
+
 1: Scale cargo ammount <NUMBER> (Default: 1)
+
 
 **Exsamples:**
 ```
@@ -677,6 +731,7 @@ as well is ffv cargoIndex position. Postions effected are 0 to 11 in other words
 **Arguments:**
 0: Object <OBJECT>
 
+
 **Exsamples:**
 ```
 [this] call cScripts_fnc_addGetOutHelo;
@@ -692,10 +747,15 @@ This function adds a Jump out option to a vehicle.
 
 **Arguments:**
 0: Vehicle             <OBJECT>
+
 1: Minimum altetude    <NUMBER> (Optional) (Default; 180)
+
 2: Maximum altetude    <NUMBER> (Optional) (Default; 350)
+
 3: Maximum speed       <NUMBER> (Optional) (Default; 310)
+
 4: Chute Vehicle Class <OBJECT> (Optional) (Default; "rhs_d6_Parachute")
+
 
 **Exsamples:**
 ```
@@ -718,8 +778,11 @@ This function make a given gate the ability to open and close automaticly whitou
 
 **Arguments:**
 0: Object <OBJECT>
+
 1: Side <STRING> (Optional) (Default; WEST)
+
 2: Distance <STRING> (Optional) (Default; 30)
+
 
 **Exsamples:**
 ```
@@ -746,15 +809,25 @@ Supported vehicles:
 
 **Arguments:**
 0: Vehicles <OBJECT>
+
 1: Texture <STRING> (Optional)
+
 2: Texture <STRING> (Optional)
+
 3: Texture <STRING> (Optional)
+
 4: Texture <STRING> (Optional)
+
 5: Texture <STRING> (Optional)
+
 6: Texture <STRING> (Optional)
+
 7: Texture <STRING> (Optional)
+
 8: Texture <STRING> (Optional)
+
 9: Texture <STRING> (Optional)
+
 
 **Exsamples:**
 ```
@@ -778,8 +851,11 @@ Z will always be 0 for MARKER, LOCATION and TASK.
 
 **Arguments:**
 0: Object <OBJECT>
+
 1: Label text <STRING>
+
 2: Destination <MARKER/OBJECT/LOCATION/GROUP/TASK>
+
 
 **Exsamples:**
 ```
@@ -805,6 +881,7 @@ This module function allow you to retrofitt a given vehicle to utalize a better 
 **Arguments:**
 0: Object <OBJECT>
 
+
 **Exsamples:**
 ```
 this call cScripts_fnc_moduleApplyVehicleInventory
@@ -817,6 +894,7 @@ This module function allow you to apply a texture lable to a given vehicle.
 
 **Arguments:**
 0: Object <OBJECT>
+
 
 **Exsamples:**
 ```
@@ -831,6 +909,7 @@ This module function can disable ai set player weapon to safe and print some hin
 **Arguments:**
 Nothing
 
+
 **Exsamples:**
 ```
 call cScripts_fnc_moduleCallEndex;
@@ -843,6 +922,7 @@ This module function spawn a 7th Cavalry Fieald Hostpital.
 
 **Arguments:**
 0: Object <OBJECT>
+
 
 **Exsamples:**
 ```
@@ -857,6 +937,7 @@ This module function spawn a supply medical crate.
 **Arguments:**
 0: Object <OBJECT>
 
+
 **Exsamples:**
 ```
 this call cScripts_fnc_moduleCreateMedicalCrate
@@ -869,6 +950,7 @@ This module function spawn a special weapons crate.
 
 **Arguments:**
 0: Object <OBJECT>
+
 
 **Exsamples:**
 ```
@@ -884,6 +966,7 @@ This module function spawn a 7th Cavalry Starter Crate.
 **Arguments:**
 0: Object <OBJECT>
 
+
 **Exsamples:**
 ```
 this call cScripts_fnc_moduleCreateStarterCrate;
@@ -896,6 +979,7 @@ This module function spawn a supply crate.
 
 **Arguments:**
 0: Object <OBJECT>
+
 
 **Exsamples:**
 ```
@@ -910,6 +994,7 @@ This module function apply the doctor ability to a given unit.
 **Arguments:**
 0: Unit <OBJECT>
 
+
 **Exsamples:**
 ```
 this call cScripts_fnc_moduleMakeDoctor
@@ -923,6 +1008,7 @@ This module function apply the doctor ability to a given unit.
 **Arguments:**
 0: Unit <OBJECT>
 
+
 **Exsamples:**
 ```
 this call cScripts_fnc_moduleMakeEngineer
@@ -935,6 +1021,7 @@ This module function regear to a given unit.
 
 **Arguments:**
 0: Unit <OBJECT>
+
 
 **Exsamples:**
 ```
@@ -951,6 +1038,7 @@ This function announce the player once on mission join when the loadout is set.
 **Arguments:**
 0: Player <STRING>
 
+
 **Exsamples:**
 ```
 [this] call cScripts_fnc_doPlayerAnnouncement;
@@ -963,6 +1051,7 @@ Show you your current company variable.
 
 **Arguments:**
 0: player <STRING>
+
 
 **Exsamples:**
 ```
@@ -977,6 +1066,7 @@ Retun the player clan tag
 **Arguments:**
 0: player <STRING>
 
+
 **Exsamples:**
 ```
 [player] call cScripts_fnc_getPlayerClan
@@ -989,7 +1079,9 @@ This function fetches your name based on your name BIS profile or Steam Profile 
 
 **Arguments:**
 0: player <STRING>
+
 1: type <STRING>     ['PROFILE', 'STEAM']
+
 
 **Exsamples:**
 ```
@@ -1003,7 +1095,9 @@ This function fetches your rank based on your name prefix.
 
 **Arguments:**
 0: player <STRING>
+
 1: type <STRING>     ['CAV', 'BIS', 'FORMAT']
+
 
 **Exsamples:**
 ```
@@ -1018,6 +1112,7 @@ This function fetches your rank based on your name description prefix or unit co
 **Arguments:**
 None
 
+
 **Exsamples:**
 ```
  call cScripts_fnc_getPlayerRole
@@ -1030,7 +1125,9 @@ This function fetch a squad radio channel based on radio type and squad name.
 
 **Arguments:**
 0: Group name <STRING>
+
 1: Radio type <STRING> (Optional) (Default; ACRE_PRC343) 
+
 
 **Exsamples:**
 ```
@@ -1057,6 +1154,7 @@ This function fetch a squad name of a unit variable squad name
 **Arguments:**
 0: Unit <OBJECT>
 
+
 **Exsamples:**
 ```
 [Bob] call cScripts_fnc_getSquadName;
@@ -1069,7 +1167,9 @@ Retun true or false if a player have the given company.
 
 **Arguments:**
 0: player <STRING>
+
 1: hasVariable <STRING>
+
 
 **Exsamples:**
 ```
@@ -1083,7 +1183,9 @@ Compare given clan tag to compare clan tag and return true or false.
 
 **Arguments:**
 0: player <STRING>
+
 1: Compare clan tag <STRING>
+
 
 **Exsamples:**
 ```
@@ -1098,6 +1200,7 @@ This function is used to apply a player rank to a player.
 **Arguments:**
 0: Player <STRING>
 
+
 **Exsamples:**
 ```
 ["bob"] call cScripts_fnc_setPlayerRank;
@@ -1110,12 +1213,19 @@ This function is used to handle player premissions and some player functions.
 
 **Arguments:**
 0: Player <STRING>
+
 1: Safe Mode <BOOL>
+
 2: Put in Earplugs <BOOL>
+
 3: Facewere blacklist <BOOL>
+
 4: Set radio channel <BOOL>
+
 5: Set Squad insignia <BOOL>
+
 6: Set Team coloring at start <BOOL>
+
 
 **Exsamples:**
 ```
@@ -1129,11 +1239,17 @@ This function is used to handle player premissions
 
 **Arguments:**
 0: Player <STRING>
+
 1: Company <STRING>
+
 2: Medic Type <NUMBER>       (Optional)      (Default; 0)
+
 3: Engineer Type <NUMBER>    (Optional)      (Default; 0)
+
 4: EOD <BOOL>                (Optional)      (Default; false)
+
 5: Set Rank <BOOL>           (Optional)      (Default; true)
+
 
 **Exsamples:**
 ```
@@ -1154,6 +1270,7 @@ This function sets a player radio channels based on squad name. If -1 no radio w
 **Arguments:**
 0: Argument Name <OBJECT/BOOL/NUMBER/STRING/ARRAY/CODE> (Optional) (Default; MyDefaultValue)
 
+
 **Exsamples:**
 ```
 ["bob"] call cScripts_fnc_setRadioChannel
@@ -1166,6 +1283,7 @@ Set a team color based on the units name.
 
 **Arguments:**
 None
+
 
 **Exsamples:**
 ```
@@ -1181,11 +1299,17 @@ This script auto generates the selections.
 
 **Arguments:**
 0: Object <OBJECT>
+
 1: actionName <STRING>
+
 2: Lable <STRING>
+
 3: Path to icon <STRING>
+
 4: Categorys <ARRAY> (Optional)
+
 5: Condition <CODE> (Optional)
+
 
 **Exsamples:**
 ```
@@ -1203,7 +1327,9 @@ If full, none, or empty value is given the arsenal will be "full".
 
 **Arguments:**
 0: Object <OBJECT>
+
 1: Company <STRING>
+
 
 **Exsamples:**
 ```
@@ -1218,6 +1344,7 @@ This function setup a aria around the given vehicle to alow construction of fort
 
 **Arguments:**
 0: Vehicle <OBJECT>
+
 
 **Exsamples:**
 ```
@@ -1235,6 +1362,7 @@ This adds a adda ction as well as a ACE interaction reGear selection. The script
 **Arguments:**
 0: Object <OBJECT>
 
+
 **Exsamples:**
 ```
 [this] call cScripts_fnc_addHeal;
@@ -1247,10 +1375,15 @@ This function generates a insignia selection button.
 
 **Arguments:**
 0: Object <OBJECT>
+
 1: Lable <STRING>
+
 2: actionName <STRING>
+
 3: Path to icon <STRING>
+
 4: Categorys <ARRAY> (Optional)
+
 
 **Exsamples:**
 ```
@@ -1271,6 +1404,7 @@ This function sets up a list of insignias as aceAction or addAction on a given o
 **Arguments:**
 0: Object <OBJECT>
 
+
 **Exsamples:**
 ```
 ["my_box"] call cScripts_fnc_initInsigniaSelections;
@@ -1283,10 +1417,15 @@ This function adds a Jump out option to a vehicle.
 
 **Arguments:**
 0: Vehicle             <OBJECT>
+
 1: Minimum altetude    <NUMBER> (Optional) (Default; 180)
+
 2: Maximum altetude    <NUMBER> (Optional) (Default; 350)
+
 3: Maximum speed       <NUMBER> (Optional) (Default; 310)
+
 4: Chute Vehicle Class <OBJECT> (Optional) (Default; "rhs_d6_Parachute")
+
 
 **Exsamples:**
 ```
@@ -1309,8 +1448,11 @@ This adds a addAction option to the given item for a given loadout defined in cf
 
 **Arguments:**
 0: Object <OBJECT>
+
 1: Lable <STRING>
+
 1: Loadout classname <CLASSNAME>
+
 
 **Exsamples:**
 ```
@@ -1325,6 +1467,7 @@ Add object to all curators on next frame.
 **Arguments:**
 0: Object <OBJECT>
 
+
 **Exsamples:**
 ```
 [this] call cScripts_fnc_addObjectToCurator
@@ -1337,12 +1480,19 @@ This function generates a quick selection button.
 
 **Arguments:**
 0: Object <STRING>
+
 1: Lable <STRING>
+
 2: Loadout classname <STRING>
+
 3: Path to icon <STRING>                                 (Optional)  [Default: ""]
+
 4: Categorys <ARRAY>                                     (Optional)  [Default: ["ACE_MainActions","cScriptQuickSelectionMenu"]]
+
 5: Platoon required to use                               (Optional)  [Default: ""]
+
 6: Require Company Variable <BOOL>                       (Optional)  [Default: false]
+
 
 **Exsamples:**
 ```
@@ -1363,8 +1513,11 @@ The crates can be filterd via squad, platoon or just ignore filters and write "a
 
 **Arguments:**
 0: Object <OBJECT>
+
 1: Selection type <SIZE> ["none","all","officer","alpha","bravo","charlie"]
+
 2: Require correct company to select loadout. <BOOL> (default: true)
+
 
 **Exsamples:**
 ```
@@ -1381,7 +1534,9 @@ This adds a reGear selection option. The script reApplyes the players start load
 
 **Arguments:**
 0: Object <OBJECT>
+
 1: Allow Heal <BOOL>
+
 
 **Exsamples:**
 ```
@@ -1395,10 +1550,15 @@ This function create a texture that is attached to a given object.
 
 **Arguments:**
 0: Vehicle <OBJECT>
+
 1: Position <ARRAY>
+
 2: Rotation <NUMBER>
+
 3: Texture <STRING>
+
 4: Vector <ARRAY> (Optional) (Default; [0,0,1])
+
 
 **Exsamples:**
 ```
@@ -1416,6 +1576,7 @@ Move the player outside the passanger door on the left side.
 **Arguments:**
 0: Object <OBJECT>
 
+
 **Exsamples:**
 ```
 [this] call cScripts_fnc_doGetOutHeloLeft;
@@ -1429,6 +1590,7 @@ Move the player outside the passanger door on the right side.
 **Arguments:**
 0: Object <OBJECT>
 
+
 **Exsamples:**
 ```
 [this] call cScripts_fnc_doGetOutHeloRight;
@@ -1441,8 +1603,11 @@ This jump throw a player out of a aircraft and ataches a parashoot.
 
 **Arguments:**
 0: Player <PLAYER>
+
 1: Vehicle <OBJECT>
+
 1: Chute Vehicle <OBJECT> (Optional) [Default; "NonSteerable_Parachute_F"]
+
 
 **Exsamples:**
 ```
@@ -1459,8 +1624,11 @@ This function return channel name or number based on radio.
 
 **Arguments:**
 0: Channel Number <NUMBER>
+
 Return:
+
 Radio name as string
+
 
 **Exsamples:**
 ```
@@ -1475,6 +1643,7 @@ This function returns a texture path from a given string name..
 **Arguments:**
 0: Texture <STRING> (Optional)
 
+
 **Exsamples:**
 ```
 ["MyExsampleTexture"] call cScripts_fnc_getVehicleLable
@@ -1487,6 +1656,7 @@ This function run a para jump simulation on a given player.
 
 **Arguments:**
 0: Player <OBJECT>
+
 
 **Exsamples:**
 ```
@@ -1501,6 +1671,7 @@ This function changes the inventory of defined vehicles.
 **Arguments:**
 0: Vehicle <OBJECT>
 
+
 **Exsamples:**
 ```
 ["vic"] call cScripts_fnc_setVehicleInventory;
@@ -1514,7 +1685,9 @@ This function apply settigns to vehicles.
 **Arguments:**
 0: Vehicle <OBJECT>
 
+
 **Exsamples:**
 ```
 ["vic"] call cScripts_fnc_setVehicleSettings
 ```
+
