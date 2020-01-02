@@ -92,7 +92,6 @@
 - [[cScripts_fnc_addHeal|Function-list#fn_addHeal]]
 - [[cScripts_fnc_addInsigniaSelection|Function-list#fn_addInsigniaSelection]]
 - [[cScripts_fnc_addInsigniaSelectionList|Function-list#fn_addInsigniaSelectionList]]
-- [[cScripts_fnc_addJump|Function-list#fn_addJump]]
 - [[cScripts_fnc_addLoadoutAction|Function-list#fn_addLoadoutAction]]
 - [[cScripts_fnc_addObjectToCurator|Function-list#fn_addObjectToCurator]]
 - [[cScripts_fnc_addQuickSelection|Function-list#fn_addQuickSelection]]
@@ -114,7 +113,7 @@
 ### fn_logError
 [Go to cScripts_fnc_logError](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/debug/fn_logError.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
-This function print debug information in the RPT log
+This function print debug information in the RPT log and in the system chat in eden multiplayer
 
 **Arguments:**
 
@@ -457,13 +456,19 @@ call cScripts_fnc_initModules
 ```
 
 ### fn_initStartupHint
-[Go to cScripts_fnc_initStartupHint](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initStartupHint.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+[Go to cScripts_fnc_initStartupHint](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initStartupHint.sqf), Written by: SGT.[Brostrom.A](https://github.com/ColdEvul), CPL.Citarelli.D
 
-This function give all players a hint on mission start only.
+This function give all players a hint on mission start or every join. Based on mission type.
 
 **Arguments:**
 
-0: Time <NUMBER> (Default; 60)
+0: Time          <NUMBER>    (Default; 30)
+
+0: Mission type  <NUMBER>    (Default; 1)
+
+0: Custom Topic  <STRING>    (Default; "My custom Mission!")
+
+0: Custom Text   <STRING>    (Default; "I have design this mission!")
 
 
 **Exsamples:**
@@ -1557,39 +1562,6 @@ This function sets up a list of insignias as aceAction or addAction on a given o
 
 ```
 ["my_box"] call cScripts_fnc_initInsigniaSelections;
-```
-
-### fn_addJump
-[Go to cScripts_fnc_addJump](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addJump.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This function adds a Jump out option to a vehicle.
-
-**Arguments:**
-
-0: Vehicle             <OBJECT>
-
-1: Minimum altetude    <NUMBER> (Optional) (Default; 180)
-
-2: Maximum altetude    <NUMBER> (Optional) (Default; 350)
-
-3: Maximum speed       <NUMBER> (Optional) (Default; 310)
-
-4: Chute Vehicle Class <OBJECT> (Optional) (Default; "rhs_d6_Parachute")
-
-
-**Exsamples:**
-
-```
-["my_c130"] call cScripts_fnc_addJump
-```
-```
-["my_c130", 180] call cScripts_fnc_addJump
-```
-```
-["my_c130", 180, 350, 300] call cScripts_fnc_addJump
-```
-```
-["my_c130", 180, 350, 300, "rhs_d6_Parachute"] call cScripts_fnc_addJump
 ```
 
 ### fn_addLoadoutAction
