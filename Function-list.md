@@ -19,7 +19,7 @@
 - [[cScripts_fnc_Doc_MissionControl|Function-list#fn_Doc_MissionControl]]
 
 #### Helpers
-- [[cScripts_fnc_exportBoxToArsenal|Function-list#fn_exportBoxToArsenal]]
+- [[cScripts_fnc_exportContainerToArsenal|Function-list#fn_exportContainerToArsenal]]
 - [[cScripts_fnc_exportLoadoutsToArsenal|Function-list#fn_exportLoadoutsToArsenal]]
 
 #### Init
@@ -27,6 +27,7 @@
 - [[cScripts_fnc_initCuratorObjectPlaced|Function-list#fn_initCuratorObjectPlaced]]
 - [[cScripts_fnc_initDocuments|Function-list#fn_initDocuments]]
 - [[cScripts_fnc_initFortify|Function-list#fn_initFortify]]
+- [[cScripts_fnc_initItemReplace|Function-list#fn_initItemReplace]]
 - [[cScripts_fnc_initModules|Function-list#fn_initModules]]
 - [[cScripts_fnc_initStartupHint|Function-list#fn_initStartupHint]]
 - [[cScripts_fnc_initSupply|Function-list#fn_initSupply]]
@@ -338,11 +339,11 @@ None
 
 
 ## Helpers
-### fn_exportBoxToArsenal
-[Go to cScripts_fnc_exportBoxToArsenal](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/helpers/fn_exportBoxToArsenal.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_exportContainerToArsenal
+[Go to cScripts_fnc_exportContainerToArsenal](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/helpers/fn_exportContainerToArsenal.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
-This function is used used to export objects to clipboard from a object to be used in the Cav Arsenal.
-The function also retun a array or strings as well as clipboard export.
+This function export objects to clipboard from a given object. Primarly used for the Cav Arsenal function.
+The function retun a array or strings as well as clipboard export.
 
 **Arguments:**
 
@@ -352,18 +353,18 @@ The function also retun a array or strings as well as clipboard export.
 **Exsamples:**
 
 ```
-[cursorTarget] call cScripts_fnc_exportBoxToArsenal
+[cursorTarget] call cScripts_fnc_exportContainerToArsenal
 ```
 
 ### fn_exportLoadoutsToArsenal
 [Go to cScripts_fnc_exportLoadoutsToArsenal](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/helpers/fn_exportLoadoutsToArsenal.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
-This function is used used to export a companies loadouts to be used in the Cav Arsenal function.
-The function also retun a array or strings as well as clipboard export.
+This function export a given company or a classname loadout. Primarly used for the Cav Arsenal function.
+The function retun a array or strings as well as clipboard export.
 
 **Arguments:**
 
-0: Company <STRING>    ["cfgLoadoutsClassname","alpha","bravo","charlie","heavyweapons","medical","full"]
+0: Company <STRING>    ["cfgLoadoutsClassname","alpha","bravo","charlie"]
 
 
 **Exsamples:**
@@ -439,6 +440,22 @@ None
 call cScripts_fnc_handleFortify
 ```
 
+### fn_initItemReplace
+[Go to cScripts_fnc_initItemReplace](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initItemReplace.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+Thius function handle item convertions
+
+**Arguments:**
+
+None
+
+
+**Exsamples:**
+
+```
+call cScripts_fnc_initItemReplace
+```
+
 ### fn_initModules
 [Go to cScripts_fnc_initModules](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initModules.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
@@ -456,7 +473,7 @@ call cScripts_fnc_initModules
 ```
 
 ### fn_initStartupHint
-[Go to cScripts_fnc_initStartupHint](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initStartupHint.sqf), Written by: SGT.[Brostrom.A](https://github.com/ColdEvul), CPL.Citarelli.D
+[Go to cScripts_fnc_initStartupHint](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initStartupHint.sqf), Written by: SGT.[Brostrom.A](https://github.com/ColdEvul), CPL.[Citarelli.D](https://github.com/davidcit646)
 
 This function give all players a hint on mission start or every join. Based on mission type.
 
@@ -1841,3 +1858,4 @@ This function apply settigns to vehicles.
 ```
 ["vic"] call cScripts_fnc_setVehicleSettings
 ```
+
