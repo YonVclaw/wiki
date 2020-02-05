@@ -12,7 +12,7 @@
 * [[Starter Crate]]
 * [[Field Hospital]]
 * [[Logistical Crates]]
-* [[Teleporter function]]
+* [[Teleporter function|Teleport]]
 * [[Automated gate function|Gate]]
 * [[CBA Mission Settings]]
 
