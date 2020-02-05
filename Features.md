@@ -8,12 +8,12 @@
 
 **Deployed or manual Features**
 * [[Modules|7Cav Modules]]
-* [[Vehicle Texture Lable|Texture Label]]
+* [[Vehicle Texture Lables|Texture Label]]
 * [[Starter Crate]]
 * [[Field Hospital]]
 * [[Logistical Crates]]
-* [[Teleport]]
-* [[Gate]]
+* [[Teleporter function]]
+* [[Automated gate function|Gate]]
 * [[CBA Mission Settings]]
 
 *Functions usually require you to manually add them to the object or vehicles init line in Eden.*
