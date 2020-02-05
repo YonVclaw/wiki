@@ -15,5 +15,4 @@ The function is applied manually via Eden.
 **Return Value:** ```Nothing```
 
 ## See also
-* [[Flag]]
 * [[Gate]]
