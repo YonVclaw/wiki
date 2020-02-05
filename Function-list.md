@@ -80,6 +80,7 @@
 - [[cScripts_fnc_getSquadName|Function-list#fn_getSquadName]]
 - [[cScripts_fnc_hasCompanyVariable|Function-list#fn_hasCompanyVariable]]
 - [[cScripts_fnc_isPlayerClan|Function-list#fn_isPlayerClan]]
+- [[cScripts_fnc_setActiveRadio|Function-list#fn_setActiveRadio]]
 - [[cScripts_fnc_setPlayerRank|Function-list#fn_setPlayerRank]]
 - [[cScripts_fnc_setPostInitPlayerSettings|Function-list#fn_setPostInitPlayerSettings]]
 - [[cScripts_fnc_setPreInitPlayerSettings|Function-list#fn_setPreInitPlayerSettings]]
@@ -126,6 +127,9 @@ This function print debug information in the RPT log and in the system chat in e
 ```
 ["Something is wrong here."] call cScripts_fnc_logError
 ```
+```
+[formatText["%1 is a player.", player]] call cScripts_fnc_logError
+```
 
 ### fn_logInfo
 [Go to cScripts_fnc_logInfo](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/debug/fn_logInfo.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
@@ -142,6 +146,9 @@ This function print debug information in the RPT log
 ```
 ["Something is wrong here."] call cScripts_fnc_logInfo
 ```
+```
+[formatText["%1 is a player.", player]] call cScripts_fnc_logInfo
+```
 
 ### fn_logWarning
 [Go to cScripts_fnc_logWarning](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/debug/fn_logWarning.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
@@ -157,6 +164,9 @@ This function print debug information in the RPT log
 
 ```
 ["Something is wrong here."] call cScripts_fnc_logWarning
+```
+```
+[formatText["%1 is a player.", player]] call cScripts_fnc_logWarning
 ```
 
 
@@ -481,11 +491,11 @@ This function give all players a hint on mission start or every join. Based on m
 
 0: Time          <NUMBER>    (Default; 30)
 
-0: Mission type  <NUMBER>    (Default; 1)
+1: Mission type  <NUMBER>    (Default; 1)
 
-0: Custom Topic  <STRING>    (Default; "My custom Mission!")
+2: Custom Topic  <STRING>    (Default; "My custom Mission!")
 
-0: Custom Text   <STRING>    (Default; "I have design this mission!")
+3: Custom Text   <STRING>    (Default; "I have design this mission!")
 
 
 **Exsamples:**
@@ -609,6 +619,8 @@ This function resupply a crate and changes it's texture.
 This scripts crate the 7th cavalry field hostpital.
 It adds equipment and some optional selections to a given object.
 
+You can read more about this function [here](https://github.com/7Cav/cScripts/wiki/Field-Hospital).
+
 **Arguments:**
 
 0: Crate <OBJECT>
@@ -722,6 +734,8 @@ This function resupply a crate and changes it's texture.
 This scripts crate the 7th cavalry starter crate.
 It adds equipment and some selections to a given object.
 
+You can read more about this function [here](https://github.com/7Cav/cScripts/wiki/Starter-Crate).
+
 **Arguments:**
 
 0: Object <OBJECT>
@@ -755,6 +769,8 @@ It adds equipment and some selections to a given object.
 [Go to cScripts_fnc_doStarterCrateSupplies](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doStarterCrateSupplies.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function adds equipment to a given item baserd on company type.
+
+You can read more about this function [here](https://github.com/7Cav/cScripts/wiki/Starter-Crate).
 
 **Arguments:**
 
@@ -875,6 +891,8 @@ This function adds a Jump out option to a vehicle.
 
 This function make a given gate the ability to open and close automaticly whitout much fiddeling with triggers. 
 
+You can read more about this function [here](https://github.com/7Cav/cScripts/wiki/Gate).
+
 **Arguments:**
 
 0: Object <OBJECT>
@@ -907,6 +925,8 @@ Supported vehicles:
   MRAP               5 PARMS     <LETTER and NUMBER> OR <SPECIAL>    (Locations: Side)
   M1A1 Abrams        2 PARMS     <SPECIAL>                           (Locations: Front, Side)
   M2/M3 Bradley      1 PARMS     <SPECIAL>                           (Locations: Side)
+
+You can read more about this function [here](https://github.com/7Cav/cScripts/wiki/Texture-Label).
 
 **Arguments:**
 
@@ -952,6 +972,8 @@ Supported vehicles:
 This teleports a target to a given marker or any other kind of object.
 Z will always be 0 for MARKER, LOCATION and TASK.
 
+You can read more about this function [here](https://github.com/7Cav/cScripts/wiki/Teleport).
+
 **Arguments:**
 
 0: Object <OBJECT>
@@ -983,6 +1005,8 @@ Z will always be 0 for MARKER, LOCATION and TASK.
 
 This module function allow you to retrofitt a given vehicle to utalize a better and more awesome inventory.
 
+You can read more about this function [here](https://github.com/7Cav/cScripts/wiki/7Cav-Modules).
+
 **Arguments:**
 
 0: Object <OBJECT>
@@ -998,6 +1022,8 @@ this call cScripts_fnc_moduleApplyVehicleInventory
 [Go to cScripts_fnc_moduleApplyVehicleLable](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleApplyVehicleLable.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This module function allow you to apply a texture lable to a given vehicle.
+
+You can read more about this function [here](https://github.com/7Cav/cScripts/wiki/7Cav-Modules).
 
 **Arguments:**
 
@@ -1015,6 +1041,8 @@ this call cScripts_fnc_moduleApplyVehicleLable
 
 This module function can disable ai set player weapon to safe and print some hints and spam the chat with ENDEX. 
 
+You can read more about this function [here](https://github.com/7Cav/cScripts/wiki/7Cav-Modules).
+
 **Arguments:**
 
 Nothing
@@ -1030,6 +1058,8 @@ call cScripts_fnc_moduleCallEndex;
 [Go to cScripts_fnc_moduleCreateFieldHospital](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleCreateFieldHospital.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This module function spawn a 7th Cavalry Fieald Hostpital.
+
+You can read more about this function [here](https://github.com/7Cav/cScripts/wiki/7Cav-Modules).
 
 **Arguments:**
 
@@ -1047,6 +1077,8 @@ this call cScripts_fnc_moduleCreateFieldHostpital
 
 This module function spawn a supply medical crate.
 
+You can read more about this function [here](https://github.com/7Cav/cScripts/wiki/7Cav-Modules).
+
 **Arguments:**
 
 0: Object <OBJECT>
@@ -1062,6 +1094,8 @@ this call cScripts_fnc_moduleCreateMedicalCrate
 [Go to cScripts_fnc_moduleCreateSpecialWeaponsCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleCreateSpecialWeaponsCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This module function spawn a special weapons crate.
+
+You can read more about this function [here](https://github.com/7Cav/cScripts/wiki/7Cav-Modules).
 
 **Arguments:**
 
@@ -1080,6 +1114,8 @@ this call cScripts_fnc_moduleCreateSupplyCrate
 Modified by: PVT.Schouten.M
 This module function spawn a 7th Cavalry Starter Crate.
 
+You can read more about this function [here](https://github.com/7Cav/cScripts/wiki/7Cav-Modules).
+
 **Arguments:**
 
 0: Object <OBJECT>
@@ -1095,6 +1131,8 @@ this call cScripts_fnc_moduleCreateStarterCrate;
 [Go to cScripts_fnc_moduleCreateSupplyCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleCreateSupplyCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This module function spawn a supply crate.
+
+You can read more about this function [here](https://github.com/7Cav/cScripts/wiki/7Cav-Modules).
 
 **Arguments:**
 
@@ -1112,6 +1150,8 @@ this call cScripts_fnc_moduleCreateSupplyCrate
 
 This module function apply the doctor ability to a given unit.
 
+You can read more about this function [here](https://github.com/7Cav/cScripts/wiki/7Cav-Modules).
+
 **Arguments:**
 
 0: Unit <OBJECT>
@@ -1128,6 +1168,8 @@ this call cScripts_fnc_moduleMakeDoctor
 
 This module function apply the doctor ability to a given unit.
 
+You can read more about this function [here](https://github.com/7Cav/cScripts/wiki/7Cav-Modules).
+
 **Arguments:**
 
 0: Unit <OBJECT>
@@ -1143,6 +1185,8 @@ this call cScripts_fnc_moduleMakeEngineer
 [Go to cScripts_fnc_moduleRegearTrooper](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleRegearTrooper.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This module function regear to a given unit.
+
+You can read more about this function [here](https://github.com/7Cav/cScripts/wiki/7Cav-Modules).
 
 **Arguments:**
 
@@ -1341,6 +1385,22 @@ Compare given clan tag to compare clan tag and return true or false.
 [player,"7CAV"] call cScripts_fnc_isPlayerClan
 ```
 
+### fn_setActiveRadio
+[Go to cScripts_fnc_setActiveRadio](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_setActiveRadio.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function sets a defined radio to be the active radio after radio init.
+
+**Arguments:**
+
+0: Radio <STRING> (Default; MyDefaultValue)
+
+
+**Exsamples:**
+
+```
+["ACRE_PRC343"] call cScripts_fnc_setActiveRadio
+```
+
 ### fn_setPlayerRank
 [Go to cScripts_fnc_setPlayerRank](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_setPlayerRank.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
@@ -1424,7 +1484,7 @@ This function sets a player radio channels based on squad name. If -1 no radio w
 
 **Arguments:**
 
-0: Argument Name <OBJECT/BOOL/NUMBER/STRING/ARRAY/CODE> (Optional) (Default; MyDefaultValue)
+0: Player <OBJECT>
 
 
 **Exsamples:**
@@ -1698,6 +1758,8 @@ This adds a reGear selection option. The script reApplyes the players start load
 
 This function create a texture that is attached to a given object.
 
+You can read more about this function [here](https://github.com/7Cav/cScripts/wiki/Texture-Label).
+
 **Arguments:**
 
 0: Vehicle <OBJECT>
@@ -1800,6 +1862,8 @@ Radio name as string
 
 This function returns a texture path from a given string name..
 
+You can read more about this function [here](https://github.com/7Cav/cScripts/wiki/Texture-Label).
+
 **Arguments:**
 
 0: Texture <STRING> (Optional)
@@ -1858,4 +1922,3 @@ This function apply settigns to vehicles.
 ```
 ["vic"] call cScripts_fnc_setVehicleSettings
 ```
-
