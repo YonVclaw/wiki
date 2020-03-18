@@ -7,7 +7,7 @@ This image should be converted to PAA  with DXT5 encode. This is done with the A
 ## Image to 7CavAddon and cScripts
 1. Naming the insignia (_Follow current name standard_).
 1. Add your insignia to the [insignia addon](https://github.com/7Cav/7CavAddon/tree/master/addons/insignia) located:
-   [`7CavAddon`](https://github.com/7Cav/7CavAddon/tree/master/addons/insignia/)`\`[`Data`](https://github.com/7Cav/7CavAddon/tree/master/addons/insignia/data)
+   [`insignia`](https://github.com/7Cav/7CavAddon/tree/master/addons/insignia/)`\`[`Data`](https://github.com/7Cav/7CavAddon/tree/master/addons/insignia/data)
 1. Add the new insignia to [`CfgUnitInsignia.hpp`](https://github.com/7Cav/7CavAddon/blob/master/addons/insignia/CfgUnitInsignia.hpp)<br>
    To make it easy to add more insignia's we have developed a [macro](https://github.com/7Cav/7CavAddon/blob/master/addons/insignia/CfgUnitInsignia.hpp#L2-L8) to be used:
    `MACRO_UNITINSIGNIA(insigna_name);`
