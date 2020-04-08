@@ -1,10 +1,10 @@
 * [[Release]]
 * [[Scripts]]
+* [[Mission initialization]]
 * [[Debugging]]
 * [[Add a insignia|How to add a insignia]]
 * [[Add a module|How to add new modules]]
 * [[Add a loadout|How to add a loadout]]
 * [[Add a cba setting|How to add a cba setting]]
-* [[Mission initialization]]
 * [[Composition Development]]
 * [Code and development policy](Code-and-development-policy)
