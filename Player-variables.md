@@ -9,6 +9,7 @@ On spawn your character gets assigned a bunch of variable to retrieve them you s
 | `cScripts_Player_Team`         | Store a string of your players team color you got assigned at mission start its ether `white`, `blue`, `red`  | `STRING`                            |
 | `cScripts_Player_Announced`    | Store a True value if player have been announced.              | `BOOL`                             |
 | `cScripts_Player_Documents`    | Store a True value if documents for the player have been setup.| `BOOL`                             |
+| `cScripts_Player_VehiclePermission` | Store a array of permitted vehicles                       | `ARRAY` of `STRINGS` |
 | `cScripts_Player_RadioChannel` | Store a array of radio and its channels.                       | `ARRAY` of `STRINGS` and `NUMBERS` |
 | `cScripts_Player_Name`         | Store a trimmed player name with the cav rank removed.         | `STRING`                           |
 
