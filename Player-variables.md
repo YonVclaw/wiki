@@ -13,7 +13,7 @@ On spawn your character gets assigned a bunch of variable to retrieve them you s
 | `cScripts_Player_RadioChannel` | Store a array of radio and its channels.                       | `ARRAY` of `STRINGS` and `NUMBERS` |
 | `cScripts_Player_Name`         | Store a trimmed player name with the cav rank removed.         | `STRING`                           |
 
-`*` = Variable is manually allied 
+`*` = Variable is manually applyed 
 
 ## See also
 - [Mission initialization](https://github.com/7Cav/cScripts/wiki/Mission-initialization)
