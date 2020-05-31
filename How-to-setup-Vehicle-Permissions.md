@@ -1,3 +1,4 @@
+**_Added in: 4.3.20_**
 The cScripts Vehicle Permissions utilizes the CBA event handlers applied to vehicles automatically and is enabled via [[CBA Mission Settings]]. The restrictions are automatically applied to all Tanks, Helicopters, Planes, APC, and IFV of all factions and sides. Making it impossible for a Player not trained to operate a aircraft to steal and operate enemy aircraft's.
 
 # How to
