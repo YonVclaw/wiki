@@ -14,3 +14,5 @@ _this setVariable ["cScripts_player_AllowedVehicle", ["Helicopters"]]; // Allow 
 _this setVariable ["cScripts_player_AllowedVehicle", ["RHS_UH60M_d"]]; // Allow only this classname
 _this setVariable ["cScripts_player_AllowedVehicle", ["RHS_UH60M_d", "RHS_UH60M2_d"]]; // Allow only this classnames
 ```
+# See also
+- [[CBA Mission Settings]]
