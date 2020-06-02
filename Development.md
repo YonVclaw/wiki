@@ -1,6 +1,7 @@
 * [[Release]]
 * [[Scripts]]
 * [[Mission initialization]]
+* [[Functions dealing with squad and platoon names]]
 * [[Debugging]]
 * [[Add a insignia|How to add a insignia]]
 * [[Add a module|How to add new modules]]
