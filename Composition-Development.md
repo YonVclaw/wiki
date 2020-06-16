@@ -23,9 +23,17 @@ Squad leader:
 ``` cpp
 init="call{this setgroupID[""BANDIT-1""];" \n "this setVariable [""cScripts_Player_Unit"", ""BANDIT-1""];}";
 ```
+```cpp
+this setgroupID["BANDIT-1"];
+this setVariable ["cScripts_Player_Unit", "BANDIT-1"];
+```
+
 Trooper in Bandit one:
 ``` cpp
 init="call{this setVariable [""cScripts_Player_Unit"", ""BANDIT-1""];}";
+```
+```cpp
+this setVariable ["cScripts_Player_Unit", "BANDIT-1"];
 ```
 
 ### Naming A 7Cav deployment
