@@ -35,18 +35,12 @@
 - [[cScripts_fnc_initVehicle|Function-list#fn_initVehicle]]
 
 #### Logistics
-- [[cScripts_fnc_doAmmoCrate|Function-list#fn_doAmmoCrate]]
 - [[cScripts_fnc_doEmptyCrate|Function-list#fn_doEmptyCrate]]
-- [[cScripts_fnc_doExplosivesCrate|Function-list#fn_doExplosivesCrate]]
 - [[cScripts_fnc_doFieldHospital|Function-list#fn_doFieldHospital]]
-- [[cScripts_fnc_doGrenadesCrate|Function-list#fn_doGrenadesCrate]]
-- [[cScripts_fnc_doLaunchersCrate|Function-list#fn_doLaunchersCrate]]
 - [[cScripts_fnc_doMedicalCrate|Function-list#fn_doMedicalCrate]]
-- [[cScripts_fnc_doSpecialWeaponsCrate|Function-list#fn_doSpecialWeaponsCrate]]
 - [[cScripts_fnc_doStarterCrate|Function-list#fn_doStarterCrate]]
 - [[cScripts_fnc_doStarterCrateSupplies|Function-list#fn_doStarterCrateSupplies]]
 - [[cScripts_fnc_doSupplyCrate|Function-list#fn_doSupplyCrate]]
-- [[cScripts_fnc_doWeaponsCrate|Function-list#fn_doWeaponsCrate]]
 
 #### Mission
 - [[cScripts_fnc_addGetOutHelo|Function-list#fn_addGetOutHelo]]
@@ -124,10 +118,10 @@ This function print debug information in the RPT log and in the system chat in e
 
 **Exsamples:**
 
-```
+```cpp
 ["Something is wrong here."] call cScripts_fnc_logError
 ```
-```
+```cpp
 [formatText["%1 is a player.", player]] call cScripts_fnc_logError
 ```
 
@@ -143,10 +137,10 @@ This function print debug information in the RPT log
 
 **Exsamples:**
 
-```
+```cpp
 ["Something is wrong here."] call cScripts_fnc_logInfo
 ```
-```
+```cpp
 [formatText["%1 is a player.", player]] call cScripts_fnc_logInfo
 ```
 
@@ -162,10 +156,10 @@ This function print debug information in the RPT log
 
 **Exsamples:**
 
-```
+```cpp
 ["Something is wrong here."] call cScripts_fnc_logWarning
 ```
-```
+```cpp
 [formatText["%1 is a player.", player]] call cScripts_fnc_logWarning
 ```
 
@@ -183,7 +177,7 @@ None
 
 **Exsamples:**
 
-```
+```cpp
  call cScripts_fnc_Doc_CFF
 ```
 
@@ -199,7 +193,7 @@ None
 
 **Exsamples:**
 
-```
+```cpp
  call cScripts_fnc_Doc_JMTASKS
 ```
 
@@ -215,7 +209,7 @@ None
 
 **Exsamples:**
 
-```
+```cpp
  call cScripts_fnc_Doc_LZEXTRACT
 ```
 
@@ -231,7 +225,7 @@ None
 
 **Exsamples:**
 
-```
+```cpp
  call cScripts_fnc_Doc_LZINSERT
 ```
 
@@ -247,7 +241,7 @@ None
 
 **Exsamples:**
 
-```
+```cpp
  call cScripts_fnc_Doc_LZSPECS
 ```
 
@@ -263,7 +257,7 @@ None
 
 **Exsamples:**
 
-```
+```cpp
  call cScripts_fnc_Doc_LANEACE
 ```
 
@@ -279,7 +273,7 @@ None
 
 **Exsamples:**
 
-```
+```cpp
  call cScripts_fnc_Doc_MEDEVAC
 ```
 
@@ -295,7 +289,7 @@ None
 
 **Exsamples:**
 
-```
+```cpp
  call cScripts_fnc_Doc_ROTARYOICUP
 ```
 
@@ -311,7 +305,7 @@ None
 
 **Exsamples:**
 
-```
+```cpp
  call cScripts_fnc_Doc_SPOTREP
 ```
 
@@ -327,7 +321,7 @@ None
 
 **Exsamples:**
 
-```
+```cpp
 call cScripts_fnc_Doc_Info
 ```
 
@@ -343,7 +337,7 @@ None
 
 **Exsamples:**
 
-```
+```cpp
  call cScripts_fnc_Doc_MissionControl
 ```
 
@@ -362,7 +356,7 @@ The function retun a array or strings as well as clipboard export.
 
 **Exsamples:**
 
-```
+```cpp
 [cursorTarget] call cScripts_fnc_exportContainerToArsenal
 ```
 
@@ -379,7 +373,7 @@ The function retun a array or strings as well as clipboard export.
 
 **Exsamples:**
 
-```
+```cpp
 ["charlie"] call cScripts_fnc_exportLoadoutsToArsenal
 ```
 
@@ -397,7 +391,7 @@ None
 
 **Exsamples:**
 
-```
+```cpp
 call cScripts_fnc_initAceLoadouts
 ```
 
@@ -413,7 +407,7 @@ None
 
 **Exsamples:**
 
-```
+```cpp
 call cScripts_fnc_initCuratorObjectPlaced
 ```
 
@@ -429,7 +423,7 @@ None
 
 **Exsamples:**
 
-```
+```cpp
 call cScripts_fnc_initDocuments
 ```
 
@@ -446,7 +440,7 @@ None
 
 **Exsamples:**
 
-```
+```cpp
 call cScripts_fnc_handleFortify
 ```
 
@@ -462,7 +456,7 @@ None
 
 **Exsamples:**
 
-```
+```cpp
 call cScripts_fnc_initItemReplace
 ```
 
@@ -478,7 +472,7 @@ None
 
 **Exsamples:**
 
-```
+```cpp
 call cScripts_fnc_initModules
 ```
 
@@ -500,10 +494,10 @@ This function give all players a hint on mission start or every join. Based on m
 
 **Exsamples:**
 
-```
+```cpp
 call cScripts_fnc_initStartupHint
 ```
-```
+```cpp
 [60,1,"My custom Mission!","I have design this mission!"] call cScripts_fnc_initStartupHint
 ```
 
@@ -519,7 +513,7 @@ None
 
 **Exsamples:**
 
-```
+```cpp
 call cScripts_fnc_initSupply
 ```
 
@@ -535,7 +529,7 @@ None
 
 **Exsamples:**
 
-```
+```cpp
 call cScripts_fnc_initTagging
 ```
 
@@ -549,33 +543,12 @@ This function add eventhandelers adding cav functionality to all vehicles.
 
 **Exsamples:**
 
-```
+```cpp
 call cScripts_fnc_initVehicle
 ```
 
 
 ## Logistics
-### fn_doAmmoCrate
-[Go to cScripts_fnc_doAmmoCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doAmmoCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This function resupply a crate and changes it's texture.
-
-**Arguments:**
-
-0: Crate <OBJECT>
-
-1: Scale cargo ammount <NUMBER> (Default: 1)
-
-
-**Exsamples:**
-
-```
-[this,0.5] call cScripts_fnc_doAmmoCrate;
-```
-```
-[this,1] call cScripts_fnc_doAmmoCrate;
-```
-
 ### fn_doEmptyCrate
 [Go to cScripts_fnc_doEmptyCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doEmptyCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
@@ -588,29 +561,8 @@ This function resupply a crate and changes it's texture.
 
 **Exsamples:**
 
-```
+```cpp
 [this] call cScripts_fnc_doEmptyCrate;
-```
-
-### fn_doExplosivesCrate
-[Go to cScripts_fnc_doExplosivesCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doExplosivesCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This function resupply a crate and changes it's texture.
-
-**Arguments:**
-
-0: Crate <OBJECT>
-
-1: Scale cargo ammount <NUMBER> (Default: 1)
-
-
-**Exsamples:**
-
-```
-[this,0.5] call cScripts_fnc_doExplosivesCrate;
-```
-```
-[this,1] call cScripts_fnc_doExplosivesCrate;
 ```
 
 ### fn_doFieldHospital
@@ -632,53 +584,11 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 
 **Exsamples:**
 
-```
+```cpp
 [this] call cScripts_fnc_doFieldHospital;
 ```
-```
+```cpp
 [this, true, 1] call cScripts_fnc_doFieldHospital;
-```
-
-### fn_doGrenadesCrate
-[Go to cScripts_fnc_doGrenadesCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doGrenadesCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This function resupply a crate and changes it's texture.
-
-**Arguments:**
-
-0: Crate <OBJECT>
-
-1: Scale cargo ammount <NUMBER> (Default: 1)
-
-
-**Exsamples:**
-
-```
-[this,0.5] call cScripts_fnc_doGrenadesCrate;
-```
-```
-[this,1] call cScripts_fnc_doGrenadesCrate;
-```
-
-### fn_doLaunchersCrate
-[Go to cScripts_fnc_doLaunchersCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doLaunchersCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This function resupply a crate and changes it's texture.
-
-**Arguments:**
-
-0: Crate <OBJECT>
-
-1: Scale cargo ammount <NUMBER> (Default: 1)
-
-
-**Exsamples:**
-
-```
-[this,0.5] call cScripts_fnc_doLaunchersCrate;
-```
-```
-[this,1] call cScripts_fnc_doLaunchersCrate;
 ```
 
 ### fn_doMedicalCrate
@@ -695,37 +605,11 @@ This function resupply a crate and changes it's texture.
 
 **Exsamples:**
 
-```
+```cpp
 [this,0.5] call cScripts_fnc_doMedicalCrate;
 ```
-```
+```cpp
 [this,1] call cScripts_fnc_doMedicalCrate;
-```
-
-### fn_doSpecialWeaponsCrate
-[Go to cScripts_fnc_doSpecialWeaponsCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doSpecialWeaponsCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This function resupply a crate and changes it's texture.
-
-**Arguments:**
-
-0: Crate <OBJECT>
-
-1: Scale cargo ammount <NUMBER> (Default: 1)
-
-2: Type
-
-
-**Exsamples:**
-
-```
-[this] call cScripts_fnc_doSpecialWeaponsCrate;
-```
-```
-[this,"Full",0.5] call cScripts_fnc_doSpecialWeaponsCrate;
-```
-```
-[this,"Full",1] call cScripts_fnc_doSpecialWeaponsCrate;
 ```
 
 ### fn_doStarterCrate
@@ -755,13 +639,13 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 
 **Exsamples:**
 
-```
+```cpp
 [this] call cScripts_fnc_doStarterCrate;
 ```
-```
+```cpp
 [this,"none",true] call cScripts_fnc_doStarterCrate;
 ```
-```
+```cpp
 [this,"none",true,true,true,true,false] call cScripts_fnc_doStarterCrate;
 ```
 
@@ -781,10 +665,10 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 
 **Exsamples:**
 
-```
+```cpp
 [this] call cScripts_fnc_doStarterCrateSupplies;
 ```
-```
+```cpp
 [this,"none"] call cScripts_fnc_doStarterCrateSupplies;
 ```
 
@@ -803,32 +687,11 @@ Use for mission resupplies.
 
 **Exsamples:**
 
-```
+```cpp
 [this,0.5] call cScripts_fnc_doSupplyCrate;
 ```
-```
+```cpp
 [this,1] call cScripts_fnc_doSupplyCrate;
-```
-
-### fn_doWeaponsCrate
-[Go to cScripts_fnc_doWeaponsCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doWeaponsCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This function resupply a crate and changes it's texture.
-
-**Arguments:**
-
-0: Crate <OBJECT>
-
-1: Scale cargo ammount <NUMBER> (Default: 1)
-
-
-**Exsamples:**
-
-```
-[this,0.5] call cScripts_fnc_doWeaponsCrate;
-```
-```
-[this,1] call cScripts_fnc_doWeaponsCrate;
 ```
 
 
@@ -846,10 +709,10 @@ as well is ffv cargoIndex position. Postions effected are 0 to 11 in other words
 
 **Exsamples:**
 
-```
+```cpp
 [this] call cScripts_fnc_addGetOutHelo;
 ```
-```
+```cpp
 [this, true] call cScripts_fnc_addGetOutHelo;
 ```
 
@@ -873,16 +736,16 @@ This function adds a Jump out option to a vehicle.
 
 **Exsamples:**
 
-```
+```cpp
 ["my_c130"] call cScripts_fnc_addJump
 ```
-```
+```cpp
 ["my_c130", 180] call cScripts_fnc_addJump
 ```
-```
+```cpp
 ["my_c130", 180, 350, 300] call cScripts_fnc_addJump
 ```
-```
+```cpp
 ["my_c130", 180, 350, 300, "rhs_d6_Parachute"] call cScripts_fnc_addJump
 ```
 
@@ -904,13 +767,13 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 
 **Exsamples:**
 
-```
+```cpp
 ["gate"] call cScripts_fnc_gate
 ```
-```
+```cpp
 ["gate","WEST"] call cScripts_fnc_gate
 ```
-```
+```cpp
 ["gate","WEST", 30] call cScripts_fnc_gate
 ```
 
@@ -953,16 +816,16 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 
 **Exsamples:**
 
-```
+```cpp
 [this] call cScripts_fnc_setVehicleLable
 ```
-```
+```cpp
 [this,"B","5"] call cScripts_fnc_setVehicleLable
 ```
-```
+```cpp
 [this,"RedCross"] call cScripts_fnc_setVehicleLable
 ```
-```
+```cpp
 [this,"RedCross",RedCross,"S","6"] call cScripts_fnc_setVehicleLable
 ```
 
@@ -985,16 +848,16 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 
 **Exsamples:**
 
-```
+```cpp
 [this,"Teleport - Airfield", Airstrip] call cScripts_fnc_teleport
 ```
-```
+```cpp
 [this,"Teleport - Base", MyBase] call cScripts_fnc_teleport
 ```
-```
+```cpp
 [this,"Teleport - Talon", "FOB_Talon"] call cScripts_fnc_teleport
 ```
-```
+```cpp
 [this,"Teleport - Base", "respawn_west"] call cScripts_fnc_teleport
 ```
 
@@ -1014,7 +877,7 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 
 **Exsamples:**
 
-```
+```cpp
 this call cScripts_fnc_moduleApplyVehicleInventory
 ```
 
@@ -1032,7 +895,7 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 
 **Exsamples:**
 
-```
+```cpp
 this call cScripts_fnc_moduleApplyVehicleLable
 ```
 
@@ -1050,7 +913,7 @@ Nothing
 
 **Exsamples:**
 
-```
+```cpp
 call cScripts_fnc_moduleCallEndex;
 ```
 
@@ -1068,7 +931,7 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 
 **Exsamples:**
 
-```
+```cpp
 this call cScripts_fnc_moduleCreateFieldHostpital
 ```
 
@@ -1086,7 +949,7 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 
 **Exsamples:**
 
-```
+```cpp
 this call cScripts_fnc_moduleCreateMedicalCrate
 ```
 
@@ -1104,7 +967,7 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 
 **Exsamples:**
 
-```
+```cpp
 this call cScripts_fnc_moduleCreateSupplyCrate
 ```
 
@@ -1123,7 +986,7 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 
 **Exsamples:**
 
-```
+```cpp
 this call cScripts_fnc_moduleCreateStarterCrate;
 ```
 
@@ -1141,7 +1004,7 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 
 **Exsamples:**
 
-```
+```cpp
 this call cScripts_fnc_moduleCreateSupplyCrate
 ```
 
@@ -1159,7 +1022,7 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 
 **Exsamples:**
 
-```
+```cpp
 this call cScripts_fnc_moduleMakeDoctor
 ```
 
@@ -1177,7 +1040,7 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 
 **Exsamples:**
 
-```
+```cpp
 this call cScripts_fnc_moduleMakeEngineer
 ```
 
@@ -1195,7 +1058,7 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 
 **Exsamples:**
 
-```
+```cpp
 this call cScripts_fnc_moduleRegearTrooper
 ```
 
@@ -1213,7 +1076,7 @@ This function announce the player once on mission join when the loadout is set.
 
 **Exsamples:**
 
-```
+```cpp
 [this] call cScripts_fnc_doPlayerAnnouncement;
 ```
 
@@ -1229,7 +1092,7 @@ Show you your current company variable.
 
 **Exsamples:**
 
-```
+```cpp
 [player] call cScripts_fnc_getCompanyVariable
 ```
 
@@ -1245,7 +1108,7 @@ Retun the player clan tag
 
 **Exsamples:**
 
-```
+```cpp
 [player] call cScripts_fnc_getPlayerClan
 ```
 
@@ -1263,7 +1126,7 @@ This function fetches your name based on your name BIS profile or Steam Profile 
 
 **Exsamples:**
 
-```
+```cpp
 [player,'PROFILE'] call cScripts_fnc_getPlayerName
 ```
 
@@ -1281,7 +1144,7 @@ This function fetches your rank based on your name prefix.
 
 **Exsamples:**
 
-```
+```cpp
 [player,'BIS'] call cScripts_fnc_getPlayerRank
 ```
 
@@ -1297,7 +1160,7 @@ None
 
 **Exsamples:**
 
-```
+```cpp
  call cScripts_fnc_getPlayerRole
 ```
 
@@ -1315,7 +1178,7 @@ This function fetch a squad radio channel based on radio type and squad name.
 
 **Exsamples:**
 
-```
+```cpp
 ["BANDIT-1", "ACRE_PRC343"] call cScripts_fnc_getRadioChannel
 ```
 
@@ -1329,7 +1192,7 @@ This function fetch a squad radio channel based on your squad name.
 
 **Exsamples:**
 
-```
+```cpp
 [] call cScripts_fnc_getSquadInsignia
 ```
 
@@ -1345,7 +1208,7 @@ This function fetch a squad name of a unit variable squad name
 
 **Exsamples:**
 
-```
+```cpp
 [Bob] call cScripts_fnc_getSquadName;
 ```
 
@@ -1358,12 +1221,12 @@ Retun true or false if a player have the given company.
 
 0: player <STRING>
 
-1: hasVariable <STRING>
+1: Compare string <STRING>
 
 
 **Exsamples:**
 
-```
+```cpp
 [player] call cScripts_fnc_hasCompanyVariable
 ```
 
@@ -1381,7 +1244,7 @@ Compare given clan tag to compare clan tag and return true or false.
 
 **Exsamples:**
 
-```
+```cpp
 [player,"7CAV"] call cScripts_fnc_isPlayerClan
 ```
 
@@ -1397,7 +1260,7 @@ This function sets a defined radio to be the active radio after radio init.
 
 **Exsamples:**
 
-```
+```cpp
 ["ACRE_PRC343"] call cScripts_fnc_setActiveRadio
 ```
 
@@ -1413,7 +1276,7 @@ This function is used to apply a player rank to a player.
 
 **Exsamples:**
 
-```
+```cpp
 ["bob"] call cScripts_fnc_setPlayerRank;
 ```
 
@@ -1441,7 +1304,7 @@ This function is used to handle player premissions and some player functions.
 
 **Exsamples:**
 
-```
+```cpp
 ["bob",true,true,true,true,true,true] call cScripts_fnc_setPostInitPlayerSettings;
 ```
 
@@ -1467,13 +1330,13 @@ This function is used to handle player premissions
 
 **Exsamples:**
 
-```
+```cpp
 ["bob"] call cScripts_fnc_setPreInitPlayerSettings;
 ```
-```
+```cpp
 ["bob", "charlie",0] call cScripts_fnc_setPreInitPlayerSettings;
 ```
-```
+```cpp
 ["bob", "charlie", 0, 0, false, true] call cScripts_fnc_setPreInitPlayerSettings;
 ```
 
@@ -1489,7 +1352,7 @@ This function sets a player radio channels based on squad name. If -1 no radio w
 
 **Exsamples:**
 
-```
+```cpp
 ["bob"] call cScripts_fnc_setRadioChannel
 ```
 
@@ -1505,7 +1368,7 @@ None
 
 **Exsamples:**
 
-```
+```cpp
 call cScripts_fnc_setTeamColor
 ```
 
@@ -1533,10 +1396,10 @@ This script auto generates the selections.
 
 **Exsamples:**
 
-```
+```cpp
 [this,"MyCategory","Insignia","icon.paa",["ACE_MainActions"]] call cScripts_fnc_addAceCategory;
 ```
-```
+```cpp
 [this,"MySecondCategory","Misc","data/icon.paa",["ACE_MainActions","MyCategory"]] call cScripts_fnc_addAceCategory;
 ```
 
@@ -1555,7 +1418,7 @@ If full, none, or empty value is given the arsenal will be "full".
 
 **Exsamples:**
 
-```
+```cpp
 ["box","full"] call cScripts_fnc_addArsenal
 ```
 
@@ -1572,10 +1435,10 @@ This function setup a aria around the given vehicle to alow construction of fort
 
 **Exsamples:**
 
-```
+```cpp
 ["myTruck"] call cScripts_fnc_addFortifyArea
 ```
-```
+```cpp
 ["myTruck", 50] call cScripts_fnc_addFortifyArea
 ```
 
@@ -1591,7 +1454,7 @@ This adds a adda ction as well as a ACE interaction reGear selection. The script
 
 **Exsamples:**
 
-```
+```cpp
 [this] call cScripts_fnc_addHeal;
 ```
 
@@ -1615,13 +1478,13 @@ This function generates a insignia selection button.
 
 **Exsamples:**
 
-```
+```cpp
 [this,"Remove Insignia"] call cScripts_fnc_addInsigniaSelection;
 ```
-```
+```cpp
 [this,"Squad Insignia 1/1/C/1-7","11C_17_Insignia","cScripts\Data\Insignia\1-1-C-17.paa"] call cScripts_fnc_addInsigniaSelection;
 ```
-```
+```cpp
 [this,"Platoon Insignia 1/1/C/1-7","2C_17_Insignia","cScripts\Data\Insignia\2-C-17.paa"] call cScripts_fnc_addInsigniaSelection;
 ```
 
@@ -1637,7 +1500,7 @@ This function sets up a list of insignias as aceAction or addAction on a given o
 
 **Exsamples:**
 
-```
+```cpp
 ["my_box"] call cScripts_fnc_initInsigniaSelections;
 ```
 
@@ -1657,7 +1520,7 @@ This adds a addAction option to the given item for a given loadout defined in cf
 
 **Exsamples:**
 
-```
+```cpp
 [this,"My Custom Loadout", "My_Loadout_Classname"] call cScripts_fnc_addLoadoutAction
 ```
 
@@ -1673,7 +1536,7 @@ Add object to all curators on next frame.
 
 **Exsamples:**
 
-```
+```cpp
 [this] call cScripts_fnc_addObjectToCurator
 ```
 
@@ -1701,13 +1564,13 @@ This function generates a quick selection button.
 
 **Exsamples:**
 
-```
+```cpp
 [this,"Rifleman","Class_Rifleman"] call cScripts_fnc_addQuickSelection;
 ```
-```
+```cpp
 [this,"Rifleman","Class_Rifleman","",["ACE_MainActions","cScriptQuickSelectionMenu"],""] call cScripts_fnc_addQuickSelection;
 ```
-```
+```cpp
 [this,"Rifleman","Class_Rifleman","",["ACE_MainActions","cScriptQuickSelectionMenu"],"", false] call cScripts_fnc_addQuickSelection;
 ```
 
@@ -1728,10 +1591,10 @@ The crates can be filterd via squad, platoon or just ignore filters and write "a
 
 **Exsamples:**
 
-```
+```cpp
 [this] call cScripts_fnc_initQuickSelections;
 ```
-```
+```cpp
 [this,"full",true] call cScripts_fnc_initQuickSelections;
 ```
 
@@ -1749,7 +1612,7 @@ This adds a reGear selection option. The script reApplyes the players start load
 
 **Exsamples:**
 
-```
+```cpp
 [this,true] call cScripts_fnc_addReGear
 ```
 
@@ -1775,10 +1638,10 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 
 **Exsamples:**
 
-```
+```cpp
 ["UH60",[-0.49,-2.45,-1.3],87,"path/to/texture.paa"] call cScripts_fnc_createVehicleLable
 ```
-```
+```cpp
 ["C130",[0.205,-11.9,8.920],-90,"path/to/texture.paa",[-0.05,0,1]] call cScripts_fnc_createVehicleLable
 ```
 
@@ -1794,7 +1657,7 @@ Move the player outside the passanger door on the left side.
 
 **Exsamples:**
 
-```
+```cpp
 [this] call cScripts_fnc_doGetOutHeloLeft;
 ```
 
@@ -1810,7 +1673,7 @@ Move the player outside the passanger door on the right side.
 
 **Exsamples:**
 
-```
+```cpp
 [this] call cScripts_fnc_doGetOutHeloRight;
 ```
 
@@ -1830,10 +1693,10 @@ This jump throw a player out of a aircraft and ataches a parashoot.
 
 **Exsamples:**
 
-```
+```cpp
 ["bob","my_C130"] call cScripts_fnc_doJump
 ```
-```
+```cpp
 ["bob","my_C130", "NonSteerable_Parachute_F"] call cScripts_fnc_doJump
 ```
 
@@ -1853,7 +1716,7 @@ Radio name as string
 
 **Exsamples:**
 
-```
+```cpp
 [1] call cScripts_fnc_getChannelName;
 ```
 
@@ -1871,7 +1734,7 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 
 **Exsamples:**
 
-```
+```cpp
 ["MyExsampleTexture"] call cScripts_fnc_getVehicleLable
 ```
 
@@ -1887,7 +1750,7 @@ This function run a para jump simulation on a given player.
 
 **Exsamples:**
 
-```
+```cpp
 ["bob"] call cScripts_fnc_handleJump
 ```
 
@@ -1903,7 +1766,7 @@ This function changes the inventory of defined vehicles.
 
 **Exsamples:**
 
-```
+```cpp
 ["vic"] call cScripts_fnc_setVehicleInventory;
 ```
 
@@ -1919,6 +1782,6 @@ This function apply settigns to vehicles.
 
 **Exsamples:**
 
-```
+```cpp
 ["vic"] call cScripts_fnc_setVehicleSettings
 ```
