@@ -20,7 +20,8 @@
 
 #### Helpers
 - [[cScripts_fnc_exportContainerToArsenal|Function-list#fn_exportContainerToArsenal]]
-- [[cScripts_fnc_exportLoadoutsToArsenal|Function-list#fn_exportLoadoutsToArsenal]]
+- [[cScripts_fnc_exportLoadoutContentToArsenal|Function-list#fn_exportLoadoutContentToArsenal]]
+- [[cScripts_fnc_exportLoadoutToArsenal|Function-list#fn_exportLoadoutToArsenal]]
 
 #### Init
 - [[cScripts_fnc_initACELoadouts|Function-list#fn_initACELoadouts]]
@@ -44,12 +45,14 @@
 
 #### Mission
 - [[cScripts_fnc_addGetOutHelo|Function-list#fn_addGetOutHelo]]
+- [[cScripts_fnc_addHaloJump|Function-list#fn_addHaloJump]]
 - [[cScripts_fnc_addJump|Function-list#fn_addJump]]
 - [[cScripts_fnc_gate|Function-list#fn_gate]]
 - [[cScripts_fnc_setVehicleLable|Function-list#fn_setVehicleLable]]
 - [[cScripts_fnc_teleport|Function-list#fn_teleport]]
 
 #### Modules
+- [[cScripts_fnc_moduleAddToAlive|Function-list#fn_moduleAddToAlive]]
 - [[cScripts_fnc_moduleApplyVehicleInventory|Function-list#fn_moduleApplyVehicleInventory]]
 - [[cScripts_fnc_moduleApplyVehicleLable|Function-list#fn_moduleApplyVehicleLable]]
 - [[cScripts_fnc_moduleCallEndex|Function-list#fn_moduleCallEndex]]
@@ -93,11 +96,14 @@
 - [[cScripts_fnc_addQuickSelection|Function-list#fn_addQuickSelection]]
 - [[cScripts_fnc_addQuickSelectionList|Function-list#fn_addQuickSelectionList]]
 - [[cScripts_fnc_addReGear|Function-list#fn_addReGear]]
+- [[cScripts_fnc_checkVehicle|Function-list#fn_checkVehicle]]
 - [[cScripts_fnc_createVehicleLable|Function-list#fn_createVehicleLable]]
-- [[cScripts_fnc_doGetOutHeloLeft|Function-list#fn_doGetOutHeloLeft]]
-- [[cScripts_fnc_doGetOutHeloRight|Function-list#fn_doGetOutHeloRight]]
+- [[cScripts_fnc_deleteDroppedObjects|Function-list#fn_deleteDroppedObjects]]
+- [[cScripts_fnc_doGetOutHeloSide|Function-list#fn_doGetOutHeloSide]]
+- [[cScripts_fnc_doHaloJump|Function-list#fn_doHaloJump]]
 - [[cScripts_fnc_doJump|Function-list#fn_doJump]]
 - [[cScripts_fnc_getChannelName|Function-list#fn_getChannelName]]
+- [[cScripts_fnc_getServerMetrics|Function-list#fn_getServerMetrics]]
 - [[cScripts_fnc_getVehicleLable|Function-list#fn_getVehicleLable]]
 - [[cScripts_fnc_handleJump|Function-list#fn_handleJump]]
 - [[cScripts_fnc_setVehicleInventory|Function-list#fn_setVehicleInventory]]
@@ -360,8 +366,8 @@ The function retun a array or strings as well as clipboard export.
 [cursorTarget] call cScripts_fnc_exportContainerToArsenal
 ```
 
-### fn_exportLoadoutsToArsenal
-[Go to cScripts_fnc_exportLoadoutsToArsenal](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/helpers/fn_exportLoadoutsToArsenal.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_exportLoadoutContentToArsenal
+[Go to cScripts_fnc_exportLoadoutContentToArsenal](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/helpers/fn_exportLoadoutContentToArsenal.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function export a given company or a classname loadout. Primarly used for the Cav Arsenal function.
 The function retun a array or strings as well as clipboard export.
@@ -374,7 +380,24 @@ The function retun a array or strings as well as clipboard export.
 **Exsamples:**
 
 ```cpp
-["charlie"] call cScripts_fnc_exportLoadoutsToArsenal
+["charlie"] call cScripts_fnc_exportLoadoutContentToArsenal
+```
+
+### fn_exportLoadoutToArsenal
+[Go to cScripts_fnc_exportLoadoutToArsenal](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/helpers/fn_exportLoadoutToArsenal.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function export a given company or a classname loadout. Primarly used for the Cav Arsenal function.
+The function retun a array or strings as well as clipboard export.
+
+**Arguments:**
+
+None
+
+
+**Exsamples:**
+
+```cpp
+call cScripts_fnc_exportLoadoutToArsenal
 ```
 
 
@@ -716,6 +739,39 @@ as well is ffv cargoIndex position. Postions effected are 0 to 11 in other words
 [this, true] call cScripts_fnc_addGetOutHelo;
 ```
 
+### fn_addHaloJump
+[Go to cScripts_fnc_addHaloJump](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/mission/fn_addHaloJump.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function adds a Jump out option to a vehicle.
+
+**Arguments:**
+
+0: Vehicle             <OBJECT>
+
+1: Minimum altetude    <NUMBER> (Optional) (Default; 180)
+
+2: Maximum altetude    <NUMBER> (Optional) (Default; 350)
+
+3: Maximum speed       <NUMBER> (Optional) (Default; 310)
+
+4: Chute Vehicle Class <OBJECT> (Optional) (Default; "rhs_d6_Parachute")
+
+
+**Exsamples:**
+
+```cpp
+["my_c130"] call cScripts_fnc_addHaloJump
+```
+```cpp
+["my_c130", 180] call cScripts_fnc_addHaloJump
+```
+```cpp
+["my_c130", 180, 350, 300] call cScripts_fnc_addHaloJump
+```
+```cpp
+["my_c130", 180, 350, 300, "rhs_d6_Parachute"] call cScripts_fnc_addHaloJump
+```
+
 ### fn_addJump
 [Go to cScripts_fnc_addJump](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/mission/fn_addJump.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
@@ -863,6 +919,23 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 
 
 ## Modules
+### fn_moduleAddToAlive
+[Go to cScripts_fnc_moduleAddToAlive](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleAddToAlive.sqf), Written by: AR.Zlobin.N, 1LT.Sweetwater.I
+
+This module function add object to Alive
+Grants unit authorization to speak to civilians
+
+**Arguments:**
+
+0: Unit <OBJECT>
+
+
+**Exsamples:**
+
+```cpp
+bob call cScripts_fnc_moduleAddToAlive
+```
+
 ### fn_moduleApplyVehicleInventory
 [Go to cScripts_fnc_moduleApplyVehicleInventory](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_moduleApplyVehicleInventory.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
@@ -1616,6 +1689,23 @@ This adds a reGear selection option. The script reApplyes the players start load
 [this,true] call cScripts_fnc_addReGear
 ```
 
+### fn_checkVehicle
+[Go to cScripts_fnc_checkVehicle](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_checkVehicle.sqf), Written by: 
+
+This function checks if hte vehicle have a given setting set to it.
+If it does it return a local messages for the user telling you about them.
+
+**Arguments:**
+
+0: Object
+
+
+**Exsamples:**
+
+```cpp
+[BotyMcBotface] call cScripts_fnc_checkVehicle
+```
+
 ### fn_createVehicleLable
 [Go to cScripts_fnc_createVehicleLable](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_createVehicleLable.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
@@ -1645,36 +1735,66 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 ["C130",[0.205,-11.9,8.920],-90,"path/to/texture.paa",[-0.05,0,1]] call cScripts_fnc_createVehicleLable
 ```
 
-### fn_doGetOutHeloLeft
-[Go to cScripts_fnc_doGetOutHeloLeft](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_doGetOutHeloLeft.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul) (With the help from; 654wak654)
+### fn_deleteDroppedObjects
+[Go to cScripts_fnc_deleteDroppedObjects](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_deleteDroppedObjects.sqf), Written by: 
 
-Move the player outside the passanger door on the left side.
+This function deletes objects and junk on the ground in a given radius.
 
 **Arguments:**
 
-0: Object <OBJECT>
+0: Object
+
+1: Radius
 
 
 **Exsamples:**
 
 ```cpp
-[this] call cScripts_fnc_doGetOutHeloLeft;
+[this,100] call cScripts_fnc_deleteDroppedObjects
+```
+```cpp
+[_object,100] call cScripts_fnc_deleteDroppedObjects
 ```
 
-### fn_doGetOutHeloRight
-[Go to cScripts_fnc_doGetOutHeloRight](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_doGetOutHeloRight.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul) (With the help from; 654wak654)
+### fn_doGetOutHeloSide
+[Go to cScripts_fnc_doGetOutHeloSide](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_doGetOutHeloSide.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul) (With the help from; 654wak654)
 
-Move the player outside the passanger door on the right side.
+Move the player outside the passanger door on the left or right side.
 
 **Arguments:**
 
 0: Object <OBJECT>
 
+1: Door side <BOOLEAN> (Default Left/true)
+
 
 **Exsamples:**
 
 ```cpp
-[this] call cScripts_fnc_doGetOutHeloRight;
+[this, true] call cScripts_fnc_doGetOutHeloSide;
+```
+
+### fn_doHaloJump
+[Go to cScripts_fnc_doHaloJump](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_doHaloJump.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This jump throw a player out of a aircraft and ataches a parashoot.
+
+**Arguments:**
+
+0: Player <PLAYER>
+
+1: Vehicle <OBJECT>
+
+1: Chute Vehicle <OBJECT> (Optional) [Default; "NonSteerable_Parachute_F"]
+
+
+**Exsamples:**
+
+```cpp
+["bob","my_C130"] call cScripts_fnc_doHaloJump
+```
+```cpp
+["bob","my_C130", "NonSteerable_Parachute_F"] call cScripts_fnc_doHaloJump
 ```
 
 ### fn_doJump
@@ -1718,6 +1838,22 @@ Radio name as string
 
 ```cpp
 [1] call cScripts_fnc_getChannelName;
+```
+
+### fn_getServerMetrics
+[Go to cScripts_fnc_getServerMetrics](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_getServerMetrics.sqf), Written by: Liber.N
+
+This function allow you to get statistics from the server.
+
+**Arguments:**
+
+0: Client ID <NUMBER>
+
+
+**Exsamples:**
+
+```cpp
+[owner player] call cScripts_fnc_getServerMetrics
 ```
 
 ### fn_getVehicleLable
@@ -1785,3 +1921,4 @@ This function apply settigns to vehicles.
 ```cpp
 ["vic"] call cScripts_fnc_setVehicleSettings
 ```
+
