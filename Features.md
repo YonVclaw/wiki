@@ -1,14 +1,18 @@
 **Automated Features**
 * [[Help cards and check lists|Diary Records and Documents]]
 * [[Player Loadouts|Player Loadouts]]
-* [[Player cosmetics]]
-* [[Platoon & Squad Insignias|Platoon and Squad Insignias]]
+** [[Player cosmetics]]
+** [[Platoon & Squad Insignias|Platoon and Squad Insignias]]
 * [[Vehicle Loadouts]]
 * [[Vehicle Settings and Functions]]
-* [[Get out side]]
-* [[Static line jump]]
-* [[HALO jump]]
+** [[Get out side]]
+** [[Static line jump]]
+** [[HALO jump]]
 * [[CBA Mission Settings]]
+* [[Garage]] (WIP)
+* [[Gear]] (WIP)
+* [[Staging]] (WIP)
+
 
 **Deployed or manual Features**
 * [[Modules|7Cav Modules]]
