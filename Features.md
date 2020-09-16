@@ -4,6 +4,9 @@
 * [[Platoon & Squad Insignias|Platoon and Squad Insignias]]
 * [[Vehicle Loadouts]]
 * [[Vehicle Settings and Functions]]
+* [[Get out side]]
+* [[Static line jump]]
+* [[HALO jump]]
 * [[CBA Mission Settings]]
 
 **Deployed or manual Features**
