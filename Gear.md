@@ -1,4 +1,7 @@
-cScripts Gear are a loadout script built from components from poppy loadout script. Gear uses similar setup but is more tailored to our community needs. The loadout utalized a loadout array obtained from earher a ace export loadout or the bis `getUnitLoadout` script command.The config also apply permissions, abilities and cosmetics.
+cScripts Gear are our loadout heavenly built appon [Poppy](https://github.com/BaerMitUmlaut/Poppy/) our old loadout script. Gear uses similar setup but is more tailored to our community needs. The loadout utalized a loadout array obtained from earher a ace export loadout or the bis `getUnitLoadout` script command. The config also handle permissions, abilities and cosmetics.
+
+### Loadouts
+Loadouts are automatically applied to units soon spawn based on the variable, variableName, classname or side.
 
 ### Loadout Saving
 When you alter your loadout it automatically get saved and reapplied on respawn. The save event is run when you alter the loadout in arsenal or open the starter crate inventory. All gear related functions will honer the saved loadout. Permissions are also kept based on the core loadout used befor the save was committed.
