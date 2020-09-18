@@ -6,6 +6,9 @@ Loadouts are automatically applied to units soon spawn based on the variable, va
 ### Loadout Saving
 When you alter your loadout it automatically get saved and reapplied on respawn. The save event is run when you alter the loadout in arsenal or open the starter crate inventory. All gear related functions will honer the saved loadout. Permissions are also kept based on the core loadout used befor the save was committed.
 
+## How to gear up
+
+
 ## See Also
 - [[Staging]]
 - [[Starter Crate]]
