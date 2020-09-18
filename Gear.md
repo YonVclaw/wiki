@@ -30,7 +30,7 @@ class My_Loadout : CommonBlufor {
 };
 ```
 ### Config Properties
-`Regiment` (***String***)
+`Regiment` (**String**)
 
 
 ## See Also
