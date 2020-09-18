@@ -30,8 +30,10 @@ class My_Loadout : CommonBlufor {
 };
 ```
 ### Config Properties
-`Regiment` (**String**)
-
+- `Regiment` (*STRING*) Value is not used yet
+- `Company` (*STRING*) Platoon prefix shown in documents and ACE Arsenal.
+- `displayName` (*STRING*) Loadout name shown in documents and ACE Arsenal.
+- `category[]` (*ARRAY*)
 
 ## See Also
 - [[Staging]]
