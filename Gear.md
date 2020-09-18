@@ -33,6 +33,7 @@ class My_Loadout : CommonBlufor {
 - `Regiment` (*STRING*) Value is not used yet
 - `Company` (*STRING*) Platoon prefix shown in documents and ACE Arsenal.
 - `displayName` (*STRING*) Loadout name shown in documents and ACE Arsenal.
+- `scope` (*NUMBER*) 0 private, 1 Protected, Public
 - `category[]` (*ARRAY*) Under where the loadout should be placed this values are for the time being hardcoded and are listed below.
 - `loadout` (*STRING ARRAY*) a loadout array with no wrapping quote
 - `insignia` (*STRING*) classname for a insignia
