@@ -33,7 +33,7 @@ class My_Loadout : CommonBlufor {
 - `Regiment` (*STRING*) Value is not used yet
 - `Company` (*STRING*) Platoon prefix shown in documents and ACE Arsenal.
 - `displayName` (*STRING*) Loadout name shown in documents and ACE Arsenal.
-- `scope` (*NUMBER*) 0 private, 1 Protected, Public
+- `scope` (*NUMBER*) 0 private, 1 Protected, Public. This is used to destinguish loadout types as well as for the script to know what is allowed to use for ACE Arsenal and selectors. 0 means that the the loadout will not be applied or used. 1 means it can be applied but not added to any selectors. 2 means it can be used and will be used by ACE Arsenal and selectors
 - `category[]` (*ARRAY*) Under where the loadout should be placed this values are for the time being hardcoded and are listed below.
 - `loadout` (*STRING ARRAY*) a loadout array with no wrapping quote
 - `insignia` (*STRING*) classname for a insignia
