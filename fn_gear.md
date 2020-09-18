@@ -1,1 +1,1 @@
-cScriprs Gear is THE built in loadout system we use.
+cScriprs Gear is the built in loadout system we use.
