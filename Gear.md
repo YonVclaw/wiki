@@ -39,8 +39,9 @@ class My_Loadout : CommonBlufor {
 - `abilityMedic` (*NUMBER*)
 - `abilityEngineer` (*NUMBER*)
 - `abilityEOD` (*NUMBER*)
-- `preLoadout`
-- `postLoadout`
+- `preLoadout` (*STRING CODE*)
+- `postLoadout` (*STRING CODE*)
+
 ## See Also
 - [[Staging]]
 - [[Starter Crate]]
