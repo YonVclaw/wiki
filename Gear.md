@@ -34,7 +34,13 @@ class My_Loadout : CommonBlufor {
 - `Company` (*STRING*) Platoon prefix shown in documents and ACE Arsenal.
 - `displayName` (*STRING*) Loadout name shown in documents and ACE Arsenal.
 - `category[]` (*ARRAY*) Under where the loadout should be placed this values are for the time being hardcoded and are listed below.
-- `loadout` (*STRING ARRAY*)
+- `loadout` (*STRING ARRAY*) a loadout array with no wrapping quote
+- `insignia` (*STRING*) classname for a insignia
+- `abilityMedic` (*NUMBER*)
+- `abilityEngineer` (*NUMBER*)
+- `abilityEOD` (*NUMBER*)
+- `preLoadout`
+- `postLoadout`
 ## See Also
 - [[Staging]]
 - [[Starter Crate]]
