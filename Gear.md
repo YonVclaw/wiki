@@ -1,4 +1,4 @@
-cScripts Gear are our loadout heavenly built appon [Poppy](https://github.com/BaerMitUmlaut/Poppy/) our old loadout script. Gear uses similar setup but is more tailored to our community needs. The loadout utalized a loadout array obtained from earher a ace export loadout or the bis `getUnitLoadout` script command. The config also handle permissions, abilities and cosmetics.
+cScripts Gear are our loadout heavenly built appon [Poppy](https://github.com/BaerMitUmlaut/Poppy/) our old loadout script. Gear uses similar setup but is more tailored to our community needs. The loadout utalized a loadout array obtained from earher a ace export loadout or the bis [https://community.bistudio.com/wiki/setUnitLoadout|`getUnitLoadout`] script command. The config also handle permissions, abilities and cosmetics.
 
 ### Loadouts
 Loadouts are automatically applied to units soon spawn based on the variable, variableName, classname or side.
