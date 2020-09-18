@@ -33,8 +33,8 @@ class My_Loadout : CommonBlufor {
 - `Regiment` (*STRING*) Value is not used yet
 - `Company` (*STRING*) Platoon prefix shown in documents and ACE Arsenal.
 - `displayName` (*STRING*) Loadout name shown in documents and ACE Arsenal.
-- `category[]` (*ARRAY*)
-
+- `category[]` (*ARRAY*) Under where the loadout should be placed this values are for the time being hardcoded and are listed below.
+- `loadout` (*STRING ARRAY*)
 ## See Also
 - [[Staging]]
 - [[Starter Crate]]
