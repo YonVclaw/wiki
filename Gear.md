@@ -8,7 +8,26 @@ When you alter your loadout it automatically get saved and reapplied on respawn.
 
 ## How to gear up
 
+```cpp
+class CommonBlufor {};
+class My_Loadout : CommonBlufor {
+    regiment = "";
+    company = "";
 
+    displayName = "";
+    scope = 0;
+    category[] = {};
+    loadout = [[],[],[],[],[],[],"","",[],["","","","","",""]];
+    insignia = "";
+
+    abilityMedic = 0;
+    abilityEngineer = 0;
+    abilityEOD = 0;
+
+    preLoadout = "";
+    postLoadout = "";
+};
+```
 ## See Also
 - [[Staging]]
 - [[Starter Crate]]
