@@ -36,7 +36,7 @@ class My_Loadout : CommonBlufor {
 - `category[]` (*ARRAY*) Under where the loadout should be placed this values are for the time being hardcoded and are listed below.
 - `loadout` (*STRING ARRAY*) a loadout array with no wrapping quote
 - `insignia` (*STRING*) classname for a insignia
-- `abilityMedic` (*NUMBER*)
+- `abilityMedic` (*NUMBER*) 0 nothing, 1 Medic, 2 Doctor
 - `abilityEngineer` (*NUMBER*)
 - `abilityEOD` (*NUMBER*)
 - `preLoadout` (*STRING CODE*)
