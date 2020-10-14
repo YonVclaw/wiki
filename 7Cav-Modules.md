@@ -17,7 +17,7 @@ The 7Cav modules system uses the Achilles user custom module framework and are d
 - **7Cav Utilities**
   - [[Regear Trooper|Regear Trooper Module]]
 - **7Cav Mission**
-  - [[Call Endex]]
+  - [[Call Endex|Call Endex Moduel]]
 - **7Cav Misc**
   - [[Apply Cav Flag|Flag]]
   - [[Assign Doctor]]
