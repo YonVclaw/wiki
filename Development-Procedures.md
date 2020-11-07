@@ -14,3 +14,6 @@ Squad patches can be submitted changed via delegation of or by a squad leader
 
 ### Platoon Insignia 
 Platoon patches can be requested or changed by platoon staff. 
+
+## Loadout
+Loadouts within the standard build is only chagable by platoon staff and battalion.
