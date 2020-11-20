@@ -16,7 +16,7 @@
 
 **Deployed or manual Features**
 * [[Modules|7Cav Modules]]
-* [[Vehicle Texture Lables|Texture Label]]
+* [[Vehicle Labels|Texture Label]]
 * [[Starter Crate]]
 * [[Field Hospital]]
 * [[Logistical Crates]]
