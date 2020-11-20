@@ -1,4 +1,4 @@
-**Automated Features**
+## Features
 * [[Help cards and check lists|Diary Records and Documents]]
 * [[Player Loadouts|Player Loadouts]]
   * [[Cosmetics and quick features|Player cosmetics and quick deployment features]]
@@ -14,7 +14,7 @@
 * [[Staging]] (WIP)
 
 
-**Deployed or manual Features**
+## Mission Makers
 * [[Modules|7Cav Modules]]
 * [[Vehicle Labels|Texture Label]]
 * [[Starter Crate]]
