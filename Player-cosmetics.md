@@ -1,4 +1,4 @@
 
 ## See also
-* [[Starter Crate]] 
-* [[Insignia]]
+* [[Player Loadouts]] 
+* [[Platoon and Squad Insignias]]
