@@ -1,4 +1,4 @@
-All vehicles that have there parent class as `RHS_C130J_Base` (_the RHS C130_) or `Helicopter_Base_F` (_basically all two door helicopters_) will get settings applied to them. The settings varies depending on the type of vehicle.
+Vehicles that we use as well as a select others automatically get functions and systems applied to them
 
 ## Get out side
 The get out actions allow players to exit thru a desired door of a helicopter (Left or Right). This allow for a better and more coordinated insertions in to a AO. The settings is always available when inside of a cargo position of a airframe and is automatically added to all helicopter with two side door exits.
@@ -11,11 +11,11 @@ It is also possible for a mission maker to manually add the function. This is do
 
 
 ## Static line jump
-The jump action allow you to make a simulated static combat jump over a DZ. The action is only visible when the conditions have been met (_Default conditions; Altitude min 180 max 350, Max speed 310, and the door or ramp need to be leveled or fully open_). The function is added to all supportad airframes automaticly.
+The jump action allow you to make a simulated static combat jump over a DZ. The action is only visible when the conditions have been met (_Default conditions; Altitude min 180 max 350, Max speed 310, and the door or ramp need to be leveled or fully open_). The function is added to all supportad airframes automatically.
 
 ## HALO jump
 **Added in 4.3.31**
-The HALO jump action allow you to make a simulated HALO combat jump over a DZ. The action is only visible when the conditions have been met (Default conditions; Min altetude 5000m, and the door or ramp need to be leveled or fully open). The function is added to all supportad airframes automaticly.
+The HALO jump action allow you to make a simulated HALO combat jump over a DZ. The action is only visible when the conditions have been met (Default conditions; Min altitude 5000m, and the door or ramp need to be leveled or fully open). The function is added to all supportad airframes automatically.
 
 ## See also
 * [[Vehicle Loadouts|Vehicle Loadouts]] 
