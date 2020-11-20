@@ -1,5 +1,3 @@
-Vehicles that we use as well as a select others automatically get functions and systems applied to them
-
 ## Get out side
 The get out actions allow players to exit thru a desired door of a helicopter (Left or Right). This allow for a better and more coordinated insertions in to a AO. The settings is always available when inside of a cargo position of a airframe and is automatically added to all helicopter with two side door exits.
 
