@@ -5,9 +5,9 @@
   * [[Platoon & Squad Insignias|Platoon and Squad Insignias]]
 * [[Vehicle Loadouts]]
 * [[Vehicle Settings and Functions]]
-  * [[Get out side|Vehicle-Settings-and-Functions#jump-action]]
-  * [[Static line jump]]
-  * [[HALO jump]]
+  * [[Get out side|Vehicle-Settings-and-Functions#get-out-actions]]
+  * [[Static line jump|Vehicle-Settings-and-Functions#Static-line-jump]]
+  * [[HALO jump|Vehicle-Settings-and-Functions#HALO-jump]]
 * [[CBA Mission Settings]]
 * [[Garage]] (WIP)
 * [[Gear]] (WIP)
