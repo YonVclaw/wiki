@@ -1,4 +1,4 @@
-cScripts automatically distribute loadouts via a rewritten and vastly simplified version of [Poppy](https://github.com/BaerMitUmlaut/Poppy/). Each loadout is added automatically to a soldier when using  as a unit variable name or on a unit with a matching classname and set as playable. Below you find a list of supported loadouts and its corresponding classname.
+cScripts automatically distribute loadouts via a rewritten and vastly simplified version of [Poppy](https://github.com/BaerMitUmlaut/Poppy/). Each loadout is added automatically to a player when using as a unit variable name or have a matching classname.
 
 ## Loadout change requests
 To make the prosess easy for everyone as well as speed up the process of loadout requests refrain from using names and use classnames. You can use use a ACE Arsenal export or send the individual Classname. This will avoid possible questions of what you meen or what variant of the given item you are requesting. 
