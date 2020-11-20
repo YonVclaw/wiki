@@ -1,7 +1,7 @@
 **Automated Features**
 * [[Help cards and check lists|Diary Records and Documents]]
 * [[Player Loadouts|Player Loadouts]]
-  * [[Player cosmetics and quick deployment features]]
+  * [[Cosmetics and quick features|Player cosmetics and quick deployment features]]
   * [[Platoon & Squad Insignias|Platoon and Squad Insignias]]
 * [[Vehicle Loadouts]]
 * [[Vehicle Settings and Functions]]
