@@ -10,7 +10,7 @@
   * [[HALO jump|Vehicle-Settings-and-Functions#HALO-jump]]
 * [[CBA Mission Settings]]
 * [[Garage]] (WIP)
-* [[Staging]] (WIP)
+* [[Staging]]
 
 ## Mission Controll
 * [[Modules|7Cav Modules]]
