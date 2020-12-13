@@ -1,4 +1,4 @@
-cScripts automatically distribute loadouts via a rewritten and vastly simplified version of [Poppy](https://github.com/BaerMitUmlaut/Poppy/) named [[cScripts Gear|Gear]]. Each loadout is added automatically to a player when using as a unit variable name or have a matching classname.
+cScripts automatically distribute loadouts via a rewritten and vastly simplified version of [Poppy](https://github.com/BaerMitUmlaut/Poppy/) named [[cScripts Gear|Gear]]. Each loadout is added automatically to a player when using as a unit variable name or have a matching classname. Loadouts are also saved apon Starter Crate interactions as well as ACE Arsenal closage making your adjusted loadout reaplied apon respawn.
 
 ## Loadout change requests
 To make the prosess easy for everyone as well as speed up the process of loadout requests refrain from using names and use classnames. You can use use a ACE Arsenal export or send the individual Classname. This will avoid possible questions of what you meen or what variant of the given item you are requesting. 
