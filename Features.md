@@ -9,7 +9,6 @@
   * [[Static line jump|Vehicle-Settings-and-Functions#Static-line-jump]]
   * [[HALO jump|Vehicle-Settings-and-Functions#HALO-jump]]
 * [[CBA Mission Settings]]
-* [[Garage]] (WIP)
 * [[Staging]]
 
 ## Mission Controll
