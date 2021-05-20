@@ -43,6 +43,7 @@ The 7Cav modules system uses the Achilles user custom module framework and are d
 #### Regear Trooper
 ### 7Cav Mission
 #### Call Endex
+The Call Endex module print e ndex chat message and display a hint to all players. The moduel can also; disable all AI units and vehicles, and tell users to hold fire globaly. The module don't end the mission which allow for ingame AAR but render the mission state static and safe making it non playable after it have been triggerd.
 #### Add to alive
 ### 7Cav Misc
 #### Assign Doctor
