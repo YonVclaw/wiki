@@ -30,18 +30,18 @@ class My_Loadout : CommonBlufor {
 };
 ```
 ### Config Properties
-- `Regiment` (*STRING*) Value is not used yet
+- `Regiment` (*STRING*) Style value
 - `Company` (*STRING*) Platoon prefix shown in documents and ACE Arsenal.
-- `displayName` (*STRING*) Loadout name shown in documents and ACE Arsenal.
-- `scope` (*NUMBER*) 0 PRIVATE, 1 PROTECTED, 2 PUBLIC. This is used to destinguish loadout types as well as for the script to know what is allowed to use for ACE Arsenal loadoutd and selectors. `PRIVATE` means that the the loadout will not be applied or used. `PROTECTED` means it can be applied but not added to any selectors. `PUBLIC` means it can be used and will be used by ACE Arsenal and selectors
-- `category[]` (*ARRAY*) Under where the loadout should be placed this values are for the time being hardcoded and are listed below.
-- `loadout` (*STRING ARRAY*) a loadout array with no wrapping quote
+- `displayName` (*STRING*) Loadout name shown in documents Loadout selection menus and ACE Arsenal.
+- `scope` (*NUMBER*) 0 PRIVATE, 1 PROTECTED, 2 PUBLIC. This is used to destinguish loadout types as well as for the script to know what is allowed to use for ACE Arsenal loadout and selectors. `PRIVATE` means that the the loadout will not be applied or used. `PROTECTED` means it can be applied but not added to any selectors. `PUBLIC` means it can be used and will be used by ACE Arsenal and selectors
+- `category[]` (*ARRAY*) Under where the loadout should be placed this values are for the time being hardcoded and can be [found here](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_setupLoadoutCategories.sqf).
+- `loadout` (*STRING ARRAY*) Loadout array with no wrapping quote
 - `insignia` (*STRING*) classname for a insignia
 - `abilityMedic` (*NUMBER*) 0 Nothing, 1 Medic, 2 Doctor
 - `abilityEngineer` (*NUMBER*) 0 Nothing, 1 Repair Specialists, 2 Engineer
 - `abilityEOD` (*NUMBER*) 0 Nothing, 1 EOD Specialist
-- `preLoadout` (*STRING CODE*) 
-- `postLoadout` (*STRING CODE*)
+- `preLoadout` (*STRING CODE*) This gets applied befor loadout and abilities are applied
+- `postLoadout` (*STRING CODE*) This gets applied after loadout and abilities are applied
 
 ## See Also
 - [[Staging]]
