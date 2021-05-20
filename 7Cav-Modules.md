@@ -5,19 +5,22 @@ The 7Cav modules system uses the Achilles user custom module framework and are d
 ***NOTE:** The modules are optional and can be turned off using the [[CBA Mission Settings]] or if you don't have the required mod activated.*
 
 ### Avalible modules
+- **7Cav AI**
+  - [[Enable Unit Simulation]]
 - **7Cav Logistics**
   - [[Starter Crate]]
   - [[Field Hospital]]
   - [[Re-supply Crate|Logistical Crates]]
-  - [[Medical Re-supply Crate]] 
-  - [[Crew-Served Weapons Crate]]
+  - [[Medical Re-supply Crate]] _(Achilles Only)_
+  - [[Crew-Served Weapons Crate]] _(Achilles Only)_
 - **7Cav Vehicle**
-  - [[Add Vehicle Label|Texture Label]]
-  - [[Add Vehicle Inventory]]
+  - [[Add Vehicle Label|Texture Label]] _(Achilles Only)_
+  - [[Add Vehicle Inventory]] _(Achilles Only)_
 - **7Cav Utilities**
   - [[Regear Trooper|Regear Trooper Module]]
 - **7Cav Mission**
   - [[Call Endex|Call Endex Module]]
+  - [[Add to alive]] _(Only when Using ALiVE, Achilles Only)_
 - **7Cav Misc**
   - [[Apply Cav Flag|Flag]]
   - [[Assign Doctor]]
