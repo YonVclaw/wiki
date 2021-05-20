@@ -6,7 +6,7 @@ On mission start the pre init is loaded setting up the global variables. Then In
 
 > _**NOTE** In a single player environment init runs twise. First time before pre init and then after. This means that you need a check to stop this from loading in sp._
 
-When on the map screen more or less everything is setup. When you launch your loadout is properly applied this also have a pre loadout and post loadout system.
+When on the map screen more or less everything is setup. When you launch, your loadout is applied togheter with your abilities.
 
 ## Initialization order
 Here is the basic initialization order when mission is loaded on the server.
