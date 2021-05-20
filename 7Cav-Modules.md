@@ -22,6 +22,5 @@ The 7Cav modules system uses the Achilles user custom module framework and are d
   - [[Call Endex|Call Endex Module]]
   - [[Add to alive]] _(Only when Using ALiVE, Achilles Only)_
 - **7Cav Misc**
-  - [[Apply Cav Flag|Flag]]
-  - [[Assign Doctor]]
-  - [[Assign Engineer]]
+  - [[Assign Doctor]] _(Achilles Only)_
+  - [[Assign Engineer]] _(Achilles Only)_
