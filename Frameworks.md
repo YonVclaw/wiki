@@ -1,4 +1,4 @@
-* [[Loadouts and selectors|How to add a loadout]]
+* [[Loadouts|Gear]]
 * [[Vehicle Permissions|How to setup Vehicle Permissions]]
 * [[Insignia and selectors|How to add a insignia]]
 * [[Player Variables]]
