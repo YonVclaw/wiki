@@ -7,4 +7,4 @@
 * [[Modules|Module Framework]]
 
 **Special adjustments and operations**
-* [[Disable automatic loadout|How-to-add-a-loadout#disable-the-automatic-loadout-system]]
+* [[Disable automatic loadout|Gear]]
