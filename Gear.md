@@ -19,11 +19,14 @@ class My_Loadout : CommonBlufor {
     scope = 0;
     category[] = {};
     loadout = [[],[],[],[],[],[],"","",[],["","","","","",""]];
-    insignia = "";
+
+    role = "";
 
     abilityMedic = 0;
     abilityEngineer = 0;
     abilityEOD = 0;
+
+    insignia = "";
 
     preLoadout = "";
     postLoadout = "";
@@ -36,10 +39,12 @@ class My_Loadout : CommonBlufor {
 - `scope` (*NUMBER*) 0 PRIVATE, 1 PROTECTED, 2 PUBLIC. This is used to destinguish loadout types as well as for the script to know what is allowed to use for ACE Arsenal loadout and selectors. `PRIVATE` means that the the loadout will not be applied or used. `PROTECTED` means it can be applied but not added to any selectors. `PUBLIC` means it can be used and will be used by ACE Arsenal and selectors
 - `category[]` (*ARRAY*) Under where the loadout should be placed this values are for the time being hardcoded and can be [found here](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_setupLoadoutCategories.sqf).
 - `loadout` (*STRING ARRAY*) Loadout array with no wrapping quote
-- `insignia` (*STRING*) classname for a insignia
+- `role` (*STRING*) Loadout role [office, squadleader,  fireteamleader, medic]
 - `abilityMedic` (*NUMBER*) 0 Nothing, 1 Medic, 2 Doctor
 - `abilityEngineer` (*NUMBER*) 0 Nothing, 1 Repair Specialists, 2 Engineer
 - `abilityEOD` (*NUMBER*) 0 Nothing, 1 EOD Specialist
+- `insignia` (*STRING*) classname for a insignia
+- `icon` (*STRING*) classname of icon used for selectors
 - `preLoadout` (*STRING CODE*) This gets applied befor loadout and abilities are applied
 - `postLoadout` (*STRING CODE*) This gets applied after loadout and abilities are applied
 
