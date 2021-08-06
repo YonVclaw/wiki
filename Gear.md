@@ -1,4 +1,4 @@
-cScripts Gear are our loadout script heavenly inspired and talored out of [Poppy](https://github.com/BaerMitUmlaut/Poppy/), our old loadout script. Gear uses similar setup but is more tailored to our community needs and have a extra simplification added to it. The loadout utalized a loadout array obtained from earher a ace export loadout or the bis [`getUnitLoadout`](https://community.bistudio.com/wiki/getUnitLoadout) script command. The config also for custumizing and can handle abilities and unit cosmetics such as rank and insignia.
+cScripts Gear are our loadout script stronly inspired and taken from [Poppy](https://github.com/BaerMitUmlaut/Poppy/), our old loadout script. The gear system is rewritten and is greatly tailored to our community needs and have a extra simplification added to it. The loadout utalized a loadout array obtained from earher a ace export loadout or the bis [`getUnitLoadout`](https://community.bistudio.com/wiki/getUnitLoadout) script command. The config also for custumizing and can handle abilities and unit cosmetics such as rank and insignia.
 
 ### Loadouts
 Loadouts are automatically applied to units on spawn based on the variable, variableName, classname or side. Loadouts are also saved when altered (*See below*). Loadouts using `Public` scope (*[See below](https://github.com/7Cav/cScripts/wiki/Gear#how-to-gear-up)*) in the config will also be pressent in loadout selectors such as ACE Arsenal default loadouts and [[staging]] and [[starter crate]] selectors.
@@ -30,8 +30,8 @@ class My_Loadout : CommonBlufor {
 };
 ```
 ### Config Properties
-- `Regiment` (*STRING*) Style value
-- `Company` (*STRING*) Platoon prefix shown in documents and ACE Arsenal.
+- `regiment` (*STRING*) Style value
+- `company` (*STRING*) Platoon prefix shown in documents and ACE Arsenal.
 - `displayName` (*STRING*) Loadout name shown in documents Loadout selection menus and ACE Arsenal.
 - `scope` (*NUMBER*) 0 PRIVATE, 1 PROTECTED, 2 PUBLIC. This is used to destinguish loadout types as well as for the script to know what is allowed to use for ACE Arsenal loadout and selectors. `PRIVATE` means that the the loadout will not be applied or used. `PROTECTED` means it can be applied but not added to any selectors. `PUBLIC` means it can be used and will be used by ACE Arsenal and selectors
 - `category[]` (*ARRAY*) Under where the loadout should be placed this values are for the time being hardcoded and can be [found here](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_setupLoadoutCategories.sqf).
