@@ -44,7 +44,8 @@ class My_Loadout : CommonBlufor {
 - `postLoadout` (*STRING CODE*) This gets applied after loadout and abilities are applied
 
 ### Loadout applications
-https://raw.githubusercontent.com/7Cav/cScripts/master/resourses/wikigfx/7Cav_Modules.png
+<img align="right" width="300" height="105" src="https://github.com/7Cav/cScripts/blob/master/resourses/wikigfx/gear_applyloadout_examples.png">
+
 Loadouts can be applied in several ways the main system used is the classname based system byt it can also aply to soldiers with specific variableName or setVariable or side.
 
 To apply a loadout via 
