@@ -16,11 +16,11 @@ class My_Loadout : CommonBlufor {
     company = "";
 
     displayName = "";
+    icon = "";
     scope = 0;
     category[] = {};
     loadout = [[],[],[],[],[],[],"","",[],["","","","","",""]];
 
-    icon = "";
     role = "";
 
     abilityMedic = 0;
