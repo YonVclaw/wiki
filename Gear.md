@@ -34,20 +34,30 @@ class My_Loadout : CommonBlufor {
 };
 ```
 ### Config Properties
-- `regiment` (*STRING*) Style value
-- `company` (*STRING*) Platoon prefix shown in documents and ACE Arsenal.
-- `displayName` (*STRING*) Loadout name shown in documents Loadout selection menus and ACE Arsenal.
-- `scope` (*NUMBER*) 0 PRIVATE, 1 PROTECTED, 2 PUBLIC. This is used to destinguish loadout types as well as for the script to know what is allowed to use for ACE Arsenal loadout and selectors. `PRIVATE` means that the the loadout will not be applied or used. `PROTECTED` means it can be applied but not added to any selectors. `PUBLIC` means it can be used and will be used by ACE Arsenal and selectors
-- `category[]` (*ARRAY*) Under where the loadout should be placed this values are for the time being hardcoded and can be [found here](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_setupLoadoutCategories.sqf).
-- `loadout` (*STRING ARRAY*) Loadout array with no wrapping quote
-- `role` (*STRING*) Loadout role [office, squadleader,  fireteamleader, medic]
-- `abilityMedic` (*NUMBER*) 0 Nothing, 1 Medic, 2 Doctor
-- `abilityEngineer` (*NUMBER*) 0 Nothing, 1 Repair Specialists, 2 Engineer
-- `abilityEOD` (*NUMBER*) 0 Nothing, 1 EOD Specialist
-- `insignia` (*STRING*) classname for a insignia
-- `icon` (*STRING*) classname of icon used for selectors
-- `preLoadout` (*STRING CODE*) This gets applied befor loadout and abilities are applied
-- `postLoadout` (*STRING CODE*) This gets applied after loadout and abilities are applied
+```cpp
+class CommonBlufor {};
+class My_Loadout : CommonBlufor {
+    regiment = ""; // Style value
+    company = ""; // Used for selector filter and arsenal loadout name
+
+    displayName = "";    // Selector display name shown in selectors and arsenal
+    icon = "";           // classname of icon
+    scope = 0;           // 0 private: not obtainable. 1 protected: can be used but not selected. 2 public: can be selected and used
+    category[] = {};     // Hardcoded category paths found in ".\cScripts\CavFnc\functions\systems\fn_setupLoadoutCategories.sqf"
+    loadout = [[],[],[],[],[],[],"","",[],["","","","","",""]]; // loadout array none quoted wraped
+
+    role = "";           // Loadout role [office, squadleader,  fireteamleader, medic]
+
+    abilityMedic = 0;    // 0 Nothing, 1 Medic, 2 Doctor
+    abilityEngineer = 0; // 0 Nothing, 1 Repair Specialists, 2 Engineer
+    abilityEOD = 0;      // 0 Nothing, 1 EOD Specialist
+
+    insignia = "";       // classname of a insignia
+
+    preLoadout = "";     // code that gets applied befor loadout and abilities are applied
+    postLoadout = "";    // code that gets applied after loadout and abilities are applied
+};
+```
 
 ## Loadout applications
 <img align="right" width="300" height="105" src="https://github.com/7Cav/cScripts/blob/master/resourses/wikigfx/gear_applyloadout_examples.png">Loadouts can be applied in several ways. The main system used is the classname based system but it can also apply to units with specific **variableName** or **setVariable** or **side**. The loadout also need to be public or private scope inorder to be obtained, public to be selectable via selectors.
