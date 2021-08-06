@@ -43,6 +43,12 @@ class My_Loadout : CommonBlufor {
 - `preLoadout` (*STRING CODE*) This gets applied befor loadout and abilities are applied
 - `postLoadout` (*STRING CODE*) This gets applied after loadout and abilities are applied
 
+### Loadout applications
+
+Loadouts can be applied in several ways the main system used is the classname based system byt it can also aply to soldiers with specific variableName or setVariable or side.
+
+To apply a loadout via 
+
 ## See Also
 - [[Staging]]
 - [[Starter Crate]]
