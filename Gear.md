@@ -37,8 +37,8 @@ class My_Loadout : CommonBlufor {
 ```cpp
 class CommonBlufor {};
 class My_Loadout : CommonBlufor {
-    regiment = ""; // Style value
-    company = ""; // Used for selector filter and arsenal loadout name
+    regiment = "";       // Style value
+    company = "";        // Used for selector filter and arsenal loadout name
 
     displayName = "";    // Selector display name shown in selectors and arsenal
     icon = "";           // classname of icon
