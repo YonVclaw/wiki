@@ -20,6 +20,7 @@ class My_Loadout : CommonBlufor {
     category[] = {};
     loadout = [[],[],[],[],[],[],"","",[],["","","","","",""]];
 
+    icon = "";
     role = "";
 
     abilityMedic = 0;
