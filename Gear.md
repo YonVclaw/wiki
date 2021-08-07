@@ -46,7 +46,7 @@ class My_Loadout : CommonBlufor {
     category[] = {};     // Hardcoded category paths found in ".\cScripts\CavFnc\functions\systems\fn_setupLoadoutCategories.sqf"
     loadout = [[],[],[],[],[],[],"","",[],["","","","","",""]]; // loadout array none quoted wraped
 
-    role = "";           // Loadout role [office, squadleader,  fireteamleader, medic]
+    role = "";           // Loadout role utalized by arsenal to figure out extended items [office, squadleader,  fireteamleader, medic]
 
     abilityMedic = 0;    // 0 Nothing, 1 Medic, 2 Doctor
     abilityEngineer = 0; // 0 Nothing, 1 Repair Specialists, 2 Engineer
