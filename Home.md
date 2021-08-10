@@ -7,6 +7,7 @@ This is cScripts a easy to use mission framework package used by the 7th Cavalry
 cScripts provide a vast array of usefull background features functons for bot mission makers and players alike here are a simple rundown on what cScripts provide; Quick checklists on the mapscreen, loadouts that autmaticly get saved and reaplied, naming cosmetics and autmation for radio setup and squad related graphics, readjusted vehicle inventroies, a get out specific side feature for helicopters, a static line jump as well as HALO jump functionality, easy deployment and mission start and setup.
 
 The script and its systems is maintained and updated by the [7th Cavalry Gaming](https://7cav.us/) S3 - 1BN Scripting Department.
+- [[Mission setup]]
 - [[Features]]
 - [[Function list]]
 - [[Frameworks]] 
