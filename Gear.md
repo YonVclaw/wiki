@@ -69,7 +69,7 @@ You can keep the eden selected loadout by adding the following variable to a pla
 ```cpp
 this setVariable ["cScripts_Gear_LoadoutClass", "CommonBlufor"];
 ```
-Due to `CommonBlufor` being a private scope and does not define a loadout none will be applied. A warning of this will be shown in Eden SP and Eden MP.
+Due to `CommonBlufor` being a `private` scope and does not define a loadout none will be applied. A warning of this will be shown in Eden SP and Eden MP.
 
 ## See Also
 - [[Staging]]
