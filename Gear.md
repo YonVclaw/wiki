@@ -18,6 +18,7 @@ class My_Loadout : CommonBlufor {
     displayName = "";
     icon = "";
     scope = 0;
+
     category[] = {};
     loadout = [[],[],[],[],[],[],"","",[],["","","","","",""]];
 
@@ -43,6 +44,7 @@ class My_Loadout : CommonBlufor {
     displayName = "";    // Selector display name shown in selectors and arsenal
     icon = "";           // classname of icon
     scope = 0;           // 0 private: not obtainable. 1 protected: can be used but not selected. 2 public: can be selected and used
+
     category[] = {};     // Hardcoded category paths found in ".\cScripts\CavFnc\functions\systems\fn_setupLoadoutCategories.sqf"
     loadout = [[],[],[],[],[],[],"","",[],["","","","","",""]]; // loadout array none quoted wraped
 
