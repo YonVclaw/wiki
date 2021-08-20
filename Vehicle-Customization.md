@@ -1,6 +1,6 @@
 **Added in: DEV**
 
-cScripts allow vehicles within, RHSUSAF and vanilla US and British faction, to be changed so to better fits our needs and our way to play. The system changes some texture, appearance and inventory.
+cScripts allow vehicles, defined by the CBA Setting Vehicle faction array, to be changed so to better retrofitted to better fit our needs and our way to play. The system changes vehicle cargo and appearance.
 
 This system also allow for radio to be predefined inside of the vehicles radios.
 
