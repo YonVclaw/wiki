@@ -29,12 +29,9 @@ When writing a script document as much as possible by adding comments and utaliz
 ```
 ## Follow format
 * Use up to date syntax and code.
-* Use CBA and ACE3 code standard. _(Linter will complain)_
+* Use CBA and [ACE3 code guidelines.](https://ace3mod.com/wiki/development/coding-guidelines.html) _(Linter will complain)_ 
 * Use 4 spaces instead of tabs. 
 _(Linter will complain)_
 
 ## Use cba functions and script macros
 All our macros can be found in the [script_macros.hpp](https://github.com/7Cav/cScripts/blob/master/cScripts/script_macros.hpp).
-
-## Avoid edits in description.ext and init.sqf
-Instead use `cScripts_preInit.sqf` and or `cScripts_postInit.sqf` or any of the init scripts. 
