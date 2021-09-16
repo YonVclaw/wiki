@@ -1,5 +1,5 @@
 * [[Loadouts|Gear]]
-* [[Staging|Stageing Zone]]
+* [[Staging|Stageing System]]
 * [[Insignia and selectors|How to add a insignia]]
 * [[Player Variables]]
 * [[Settings|CBA-Mission-Settings]]
