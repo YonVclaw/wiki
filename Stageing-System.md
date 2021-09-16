@@ -4,10 +4,12 @@
 
 # Missions 
 ## Manually Delcare Staging Zone
-```
+```cpp
 cScripts_Staging_ZoneStatus = true;
 cScripts_Staging_ZoneStatus = false;
 ```
 ## Allow all loadouts
+```cpp
 cScripts_Staging_OverrideCompanyVar = true;
 cScripts_Staging_OverrideCompanyVar = false;
+```
