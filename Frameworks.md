@@ -5,6 +5,3 @@
 * [[Settings|CBA-Mission-Settings]]
 * [[Debugging]]
 * [[Modules|Module Framework]]
-
-**Special adjustments and operations**
-* [[Disable automatic loadout|Gear]]
