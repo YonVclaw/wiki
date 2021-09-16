@@ -1,5 +1,4 @@
 * [[Loadouts|Gear]]
-* [[Vehicle Permissions|How to setup Vehicle Permissions]]
 * [[Insignia and selectors|How to add a insignia]]
 * [[Player Variables]]
 * [[Settings|CBA-Mission-Settings]]
