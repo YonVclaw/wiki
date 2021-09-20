@@ -2,6 +2,7 @@
 `./cScripts/functions/documents/*`
 
 `./cScripts/CfgLoadouts.hpp`
+
 `./cScripts/Loadouts/*`
 
 `./cScripts/functions/logistics/fn_doMedicalCrate.sqf`
@@ -11,3 +12,8 @@
 `./cScripts/functions/vehicle/fn_vehicle_addInventory.sqf`
 `./cScripts/functions/vehicle/fn_vehicle_addFunctions.sqf`
 `./cScripts/functions/vehicle/fn_vehicle_addCosmetics.sqf`
+
+`./cScripts/functions/systems/fn_addInsigniaSelectionList.sqf`
+`./cScripts/functions/systems/fn_getVehicleLable.sqf`
+`./cScripts/functions/systems/fn_setupLoadoutCategories.sqf`
+https://github.com/7Cav/cScripts/blob/main/cScripts/functions/systems/fn_getArsenalWhitelist.sqf
