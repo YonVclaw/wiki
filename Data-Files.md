@@ -18,4 +18,4 @@ Here you find paths to files handling or dealing with hard coded names, cargo, i
 `./cScripts/functions/systems/fn_addInsigniaSelectionList.sqf`
 `./cScripts/functions/systems/fn_getVehicleLable.sqf`
 `./cScripts/functions/systems/fn_setupLoadoutCategories.sqf`
-https://github.com/7Cav/cScripts/blob/main/cScripts/functions/systems/fn_getArsenalWhitelist.sqf
+`./cScripts/functions/systems/fn_getArsenalWhitelist.sqf`
