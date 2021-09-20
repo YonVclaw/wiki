@@ -1,3 +1,5 @@
+Here you find paths to files handling or dealing with hard coded names, cargo, items and adjustable values.
+
 `./cScripts/functions/init/fn_init_diary.sqf`
 `./cScripts/functions/documents/*`
 
