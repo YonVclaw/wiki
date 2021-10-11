@@ -62,7 +62,7 @@ class My_Loadout : CommonBlufor {
 ```
 
 ## Loadout applications
-<img align="right" width="300" height="105" src="https://github.com/7Cav/cScripts/blob/master/resourses/wikigfx/gear_applyloadout_examples.png">Loadouts can be applied in several ways. The main system used is the classname based system but it can also apply to units with specific **variableName** or **setVariable** or **side**. The loadout also need to be `public` or `protected` scope inorder to be obtained; `public` to be selectable via selectors.
+<img align="right" width="300" height="105" src="https://github.com/7Cav/cScripts/blob/master/resourses/wikigfx/gear_applyloadout_examples.png">Loadouts can be applied in several ways. The main system used is the **classname** based system but it can also apply to units using **variableName**, **setVariable** or **side**. The loadout also need to be `public` scope to be automatically applied, `public` to be select it via a selector.
 ```cpp
 this setVariable ["cScripts_Gear_LoadoutClass", "Cav_B_C_Rifleman_F"];
 ```
