@@ -4,7 +4,7 @@ cScripts Gear are our loadout script strongly inspired and taken from [Poppy](ht
 Loadouts are automatically applied to units on spawn based on the variable, variableName, classname or side. Loadouts are also saved when altered (*See below*). Loadouts using `Public` scope (*[See below](https://github.com/7Cav/cScripts/wiki/Gear#how-to-gear-up)*) in the config will also be present in loadout selectors such as ACE Arsenal default loadouts and [[staging]] and [[starter crate]] selectors.
 
 ### Loadout Saving
-When you alter your loadout it automatically get saved and reapplied on respawn. The save event is run when you alter the loadout in arsenal or open the starter crate inventory. All gear related functions will honer the saved loadout. Permissions are also kept based on the core loadout used before the save was committed.
+When you alter your loadout it automatically get saved and reapplied on respawn. The save event is run when you alter the loadout in **arsenal** or open the **starter crate** inventory. All gear related functions will honer the saved loadout. Permissions are also kept based on the core loadout used before the save was committed.
 
 ## How to gear up
 The gear system is quite simple it utilized config values to obtain and apply your loadout. The values are inherited from parent classnames.
