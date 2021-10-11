@@ -67,7 +67,7 @@ class My_Loadout : CommonBlufor {
 this setVariable ["cScripts_Gear_LoadoutClass", "Cav_B_C_Rifleman_F"];
 ```
 ### Keep spawn Loadout
-You can keep the eden selected loadout by adding the following variable to a player unit:
+You can keep the EDEN selected loadout by adding the following variable to a player unit:
 ```cpp
 this setVariable ["cScripts_Gear_LoadoutClass", "CommonBlufor"];
 ```
