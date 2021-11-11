@@ -6,7 +6,7 @@ To make the prosess easy for everyone as well as speed up the process of loadout
 If you have the ability edit the config loadout file directly this is the best way. This allows for a even quicker implementation of the requested loadout.
 
 ## See also
-- [[Features]]
+* [[Features]]
 * [[Starter Crate]]
 * [[Regear Trooper Module]]
 * [[How to add a loadout|Gear#how-to-gear-up]]
