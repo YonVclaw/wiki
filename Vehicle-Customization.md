@@ -1,4 +1,4 @@
-**Added in: DEV**
+**Added in: 4.4.0**
 
 cScripts allow vehicles, defined by the CBA Setting Vehicle faction array, to be changed so to better retrofitted to better fit our needs and our way to play. The system changes vehicle cargo and appearance.
 
