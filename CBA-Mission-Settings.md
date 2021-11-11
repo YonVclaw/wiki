@@ -30,5 +30,6 @@ cScripts_Settings_useCustomVehicleSettings = true;
 ```
 
 ## See also
+* [[Features]]
 * [[Starter Crate]]
 * File: [cba_settings.sqf](https://github.com/7Cav/cScripts/blob/master/cba_settings.sqf)
