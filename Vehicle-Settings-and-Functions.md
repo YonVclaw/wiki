@@ -10,5 +10,6 @@ The jump action allow you to make a simulated static combat jump over a DZ. The 
 The HALO jump action allow you to make a simulated HALO combat jump over a DZ. The system will save your equipment apply a parashot and allow you to retreave it once your on the ground. The action is only visible when the conditions have been met (_Default conditions; Min altitude 5000m, and a door or ramp need to be leveled or fully open_). The function is added to all supportad airframes automatically.
 
 ## See also
+* [[Features]]
 * [[Vehicle Customization|Vehicle Customization]] 
 * [[Vehicle Texture Label|Texture Label]] 
