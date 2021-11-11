@@ -6,5 +6,6 @@ Loadouts are automaticly applied, if the [[setting|CBA Mission Settings]] allows
 > This system is being replaced with the system described in [[Vehicle Customization]] article.
 
 ## See also
+* [[Features]]
 * [[Vehicle Settings and Functions|Vehicle Settings and Functions]] 
 * [[Vehicle Texture Label|Texture Label]] 
