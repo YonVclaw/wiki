@@ -6,6 +6,8 @@ This system is meant to eventually replace the starter crate entirely.
 
 ## Adding custom zones
 **Added in 4.4.0**
+
+It is possible to add custom staging zones by calling `cScripts_fnc_addStagingZone` in init.sqf or on a objectInit. The function accept markers and objects.
 ```cpp
 [this, 12] call cScripts_fnc_addStagingZone
 ```
