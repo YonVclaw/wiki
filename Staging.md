@@ -11,5 +11,6 @@ This system is meant to eventually replace the starter crate entirely.
 ```
 
 ## See also
+- [[Features]]
 - [[Starter Crate]]
 - [[Loadout|Gear]]
