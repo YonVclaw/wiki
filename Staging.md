@@ -11,6 +11,16 @@ It is possible to add custom staging zones by calling `cScripts_fnc_addStagingZo
 ```cpp
 [this, 12] call cScripts_fnc_addStagingZone
 ```
+### Trigger zone
+**Added in 4.4.0**
+It is possible to make a trigger to act as a stageing zone. You need to be a little bit carful with this system and follow the guide below carfully so you dont accedently give everyone on the map stageing options mid mission.
+
+- **Type:** `None`
+- **Activation:**: `AnyPlayer`
+- **Activation Type:** `Present`
+- **Condition:** `player inArea thisTrigger`
+- **On Activation:** `cScripts_Staging_ZoneStatus = true;`
+- **On Deactivation:** `cScripts_Staging_ZoneStatus = false;`
 
 ## See also
 - [[Features]]
