@@ -11,10 +11,11 @@ It is possible when you are inside of a staging zone to customize your Abrams. T
 ### Flag
 When turned out it is possible to put up or take down the unit flag.
 
+### Rack Radio
+Radio racks can be set to be initialized on mission init for faction vehicles.
+
 ## Vehicle type
 Per default the type of vehicle is automatically determined by its classname.
-
-### Rack Radio
 
 ### Special vehicle type
 But there are some special classes. Namely `MED` or `EMPTY`. The `MED` is used for setting vehicles to classes them as a medical vehicle and give it medical supplies and `EMPTY` make the inventory blank. 
