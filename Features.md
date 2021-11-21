@@ -3,7 +3,6 @@
 * [[Player Loadouts|Player Loadouts]]
   * [[Cosmetics and quick features|Player cosmetics and quick deployment features]]
   * [[Platoon & Squad Insignias|Platoon and Squad Insignias]]
-* [[Vehicle Loadouts]]
 * [[Vehicle Pylon]]
 * [[Vehicle Customization]]
 * [[Vehicle Settings and Functions]]
