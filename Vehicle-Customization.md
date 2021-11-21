@@ -11,7 +11,7 @@ It is possible when you are inside of a staging zone to customize your Abrams. T
 ### Flag
 When turned out it is possible to put up or take down the unit flag.
 
-### Rack Radio
+## Rack Radio
 Radio racks can be set to be initialized on mission init for faction vehicles.
 
 ## Vehicle type
