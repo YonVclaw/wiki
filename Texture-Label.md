@@ -11,7 +11,7 @@ The function is applied manually via Eden or can be spawned using a [[7Cav Modue
   M2/M3 Bradley      1 PARMS     <SPECIAL>                           (Locations: Side)
 ```
 **Texture library**
-<img align="right" width="300" height="210" src="https://github.com/7Cav/cScripts/blob/master/resourses/wikigfx/Texture_Lable.png">
+<img align="right" width="300" height="210" src="https://github.com/7Cav/cScripts/blob/main/resourses/wikigfx/Texture_Lable.png">
 -  `A`<sup>[1]</sup>
 -  `B`<sup>[1]</sup> 
 -  `C`<sup>[1]</sup>
