@@ -5,7 +5,7 @@ cScripts allow vehicles, defined by the CBA Setting Vehicle faction array, to be
 This system also allow for radio to be predefined inside of the vehicles radios.
 
 ## Vehicle type
-Per default the type of vehicle is automatically determined by its clasnsname. But there are some special classes. Namely `MED` or `EMPTY`. The MED is used for setting vehicles to classes them as a medical vehicle and give it medical supplies and `EMPTY` make the inventory blank. 
+Per default the type of vehicle is automatically determined by its clasnsname. But there are some special classes. Namely `MED` or `EMPTY`. The `MED` is used for setting vehicles to classes them as a medical vehicle and give it medical supplies and `EMPTY` make the inventory blank. 
 
 ```
 this getVariable ["cScripts_Vehicle_Type", typeOf this];
