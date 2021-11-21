@@ -5,6 +5,11 @@ cScripts allow vehicles, defined by the CBA Setting Vehicle faction array, to be
 This system also allow for radio to be predefined inside of the vehicles radios.
 
 ## M1A1 Abrams
+### Tank Aperence
+It is possible when you are inside of a staging zone to customize your Abrams. To do this open the Tank self interactions when occupying a crew seat. Here you can declare a tank callsign as well as a specific barrel art.
+
+### Flag
+When turned out it is possible to put up or take down the unit flag.
 
 ## Vehicle type
 Per default the type of vehicle is automatically determined by its classname.
