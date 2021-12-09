@@ -1,4 +1,4 @@
-<img align="right" width="320" src="https://github.com/7Cav/cScripts/blob/master/resourses/wikigfx/Insignia_Crate.png">To add a image in to Arma you first need to [creation and conversion of an image](#Image-and-format). Upload it to the [7th Cavalry Community Addon](https://github.com/7Cav/7CavAddon) then [add it to the selector](#Image-to-cScripts)
+<img align="right" width="320" src="https://github.com/7Cav/cScripts/blob/main/resourses/wikigfx/Insignia_Crate.png">To add a image in to Arma you first need to [creation and conversion of an image](#Image-and-format). Upload it to the [7th Cavalry Community Addon](https://github.com/7Cav/7CavAddon) then [add it to the selector](#Image-to-cScripts)
 
 ## Image and format
 First off you need the image in a PNG format with a transparent background with the size of 512x512.
