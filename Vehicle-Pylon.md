@@ -4,3 +4,6 @@ The cScripts Pylon system allow for vehicle loadouts, or pylon, to be selected b
 
 ## Access the Loadours
 To access the Loadours simply go to your vehicles self interaction menu when parked in a staging zone.
+
+## Avalible Vehicle Loadouts
+* M1A1 Abrams (Default, Mixed, Soft, Hard)
