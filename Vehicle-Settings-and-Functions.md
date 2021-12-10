@@ -11,5 +11,6 @@ The HALO jump action allow you to make a simulated HALO combat jump over a DZ. T
 
 ## See also
 * [[Features]]
+* [[Vehicle Pylon]] 
 * [[Vehicle Customization|Vehicle Customization]] 
 * [[Vehicle Texture Label|Texture Label]] 
