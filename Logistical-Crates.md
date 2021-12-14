@@ -4,14 +4,7 @@ The functions is applied manually via Eden or can be spawned using a [[7Cav Modu
 
 ### Functions
 ```
-[this,1] call cScripts_fnc_doSupplyCrate;
-
-[this,1] call cScripts_fnc_doAmmoCrate;
-[this,1] call cScripts_fnc_doExplosivesCrate;
-[this,1] call cScripts_fnc_doGrenadesCrate;
-[this,1] call cScripts_fnc_doLaunchersCrate;
-[this,1] call cScripts_fnc_doMedicalCrate;
-[this,1] call cScripts_fnc_doWeaponsCrate;
+[this] call cScripts_fnc_doSupplyCrate;
 
 [this] call cScripts_fnc_doEmptyCrate;
 ```
