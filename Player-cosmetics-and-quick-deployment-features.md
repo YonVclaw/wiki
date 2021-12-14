@@ -1,16 +1,11 @@
 ## Radio channel assignations
-On spawn and respawn your radio channel for short and long-range radio is set to your platoon and squads channel.
+On spawn and respawn your radio channel for short and long-range radios is automatically programed and tuned to your platoon and squads channel.
 
-Your long range radio is also programed to have all our channels pre-setup.
-
-## Name
-Your player name is processed in cScripts to be utalized in documents and functions to reference to you with proper rank and naming. This only happens if you have our rank prefix as well as unit insignia defined. 
-
-## Rank
-Similar to the name functionality your rank prefix is processed. The rank is saved and utalized om messages and documents. In addition your rank is also set to the corresponding Arma rank.
+## Name & Rank
+Your name and rank in cScripts is processed and are made so to correspond with Arma rank system. Your name and rank is also used in documents. To have a the rank and names proper you need to have the 7CAV clan tag and utilize the cav naming convention. `PVT.Doe.J`
 
 ## Team color
-On Spawn you get assign team color based on your slot name, description or variable. Alpha gets assigned Red Bravo gets assigned blue. This color is reapplied on your respawn.
+On Spawn you get assign team color based on your slot name, description or variable. Alpha gets assigned Red and Bravo gets assigned blue. This color is reapplied on your respawn and if you change your team color tour color will be kept.
 
 ## See also
 * [[Player Loadouts]] 
