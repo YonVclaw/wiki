@@ -1,7 +1,16 @@
 cScripts Pylon is a loadout system for vehicles.
 
-## Adding loadouts
-In order to add a loadout it is easiest to export the vehicles default loadout first inorder to get the turret numer.
-```sqf
-magazinesAllTurrets cursorObject;
-```
+## Adding a loadout
+In order to add a loadout it is easiest to export the vehicles default loadout first inorder to get the turret numer. to get this run the following command in the debug console:
+`magazinesAllTurrets cursorObject;`
+
+When you now have this you can now edit this loadout to fit your needs.
+
+
+### Loadout save location 
+https://github.com/7Cav/cScripts/blob/main/cScripts/functions/vehicle/fn_vehicle_getPylon.sqf
+
+### Loadout Staging Selection Menu
+This menu system is not automated. To add a menu item you need to create a pylon list.
+
+https://github.com/7Cav/cScripts/blob/main/cScripts/functions/vehicle/fn_vehicle_setupPylonCategories.sqf
