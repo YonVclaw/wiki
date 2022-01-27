@@ -8,6 +8,8 @@ When you now have this you can now edit this loadout to fit your needs.
 
 
 ### Loadout list
+All loadouts used are handled by the getPylon script file.
+This file is called when you reference the loadout on it's creation or application.
 
 Path:
 https://github.com/7cav/cscripts/blob/main/cScripts/functions/vehicle/fn_vehicle_getPylon.sqf
