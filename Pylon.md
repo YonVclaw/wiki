@@ -7,8 +7,8 @@ In order to add a loadout it is easiest to export the vehicles default loadout f
 When you now have this you can now edit this loadout to fit your needs.
 
 
-### Loadout save location 
-https://github.com/7Cav/cScripts/blob/main/cScripts/functions/vehicle/fn_vehicle_getPylon.sqf
+### Loadout list
+https://github.com/7cav/cscripts/blob/main/cScripts/functions/vehicle/fn_vehicle_getPylon.sqf
 
 ### Loadout Staging Selection Menu
 This menu system is not automated. To add a menu item you need to create a pylon list.
