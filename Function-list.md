@@ -1,10 +1,10 @@
 ## Index
 
-#### Debug
-- [[cScripts_fnc_diag_dumpPlayer|Function-list#fn_diag_dumpPlayer]]
-- [[cScripts_fnc_logError|Function-list#fn_logError]]
-- [[cScripts_fnc_logInfo|Function-list#fn_logInfo]]
-- [[cScripts_fnc_logWarning|Function-list#fn_logWarning]]
+#### Diag
+- [[cScripts_fnc_error|Function-list#fn_error]]
+- [[cScripts_fnc_info|Function-list#fn_info]]
+- [[cScripts_fnc_log|Function-list#fn_log]]
+- [[cScripts_fnc_warning|Function-list#fn_warning]]
 
 #### Documents
 - [[cScripts_fnc_DocChklist_CFF|Function-list#fn_DocChklist_CFF]]
@@ -24,6 +24,8 @@
 - [[cScripts_fnc_gear_applyAbilities|Function-list#fn_gear_applyAbilities]]
 - [[cScripts_fnc_gear_applyCosmetics|Function-list#fn_gear_applyCosmetics]]
 - [[cScripts_fnc_gear_applyLoadout|Function-list#fn_gear_applyLoadout]]
+- [[cScripts_fnc_gear_getCurrentLoadout|Function-list#fn_gear_getCurrentLoadout]]
+- [[cScripts_fnc_gear_getLoadoutRole|Function-list#fn_gear_getLoadoutRole]]
 - [[cScripts_fnc_gear_getSideConfig|Function-list#fn_gear_getSideConfig]]
 - [[cScripts_fnc_gear_hasSavedLoadout|Function-list#fn_gear_hasSavedLoadout]]
 - [[cScripts_fnc_gear_loadLoadout|Function-list#fn_gear_loadLoadout]]
@@ -34,7 +36,6 @@
 - [[cScripts_fnc_gear_saveLoadout|Function-list#fn_gear_saveLoadout]]
 - [[cScripts_fnc_gear_selectLoadout|Function-list#fn_gear_selectLoadout]]
 - [[cScripts_fnc_gear_setupRadios|Function-list#fn_gear_setupRadios]]
-- [[cScripts_fnc_gear_synchGroupIDs|Function-list#fn_gear_synchGroupIDs]]
 
 #### Helpers
 - [[cScripts_fnc_exportContainerToArsenal|Function-list#fn_exportContainerToArsenal]]
@@ -42,59 +43,53 @@
 - [[cScripts_fnc_exportLoadoutToArsenal|Function-list#fn_exportLoadoutToArsenal]]
 
 #### Init
-- [[cScripts_fnc_initACELoadouts|Function-list#fn_initACELoadouts]]
-- [[cScripts_fnc_initAI|Function-list#fn_initAI]]
-- [[cScripts_fnc_initCuratorObjectPlaced|Function-list#fn_initCuratorObjectPlaced]]
-- [[cScripts_fnc_initDocuments|Function-list#fn_initDocuments]]
-- [[cScripts_fnc_initFortify|Function-list#fn_initFortify]]
-- [[cScripts_fnc_initItemReplace|Function-list#fn_initItemReplace]]
-- [[cScripts_fnc_initModulesAchilles|Function-list#fn_initModulesAchilles]]
-- [[cScripts_fnc_initModulesZen|Function-list#fn_initModulesZen]]
-- [[cScripts_fnc_initStaging|Function-list#fn_initStaging]]
-- [[cScripts_fnc_initStartupHint|Function-list#fn_initStartupHint]]
-- [[cScripts_fnc_initTagging|Function-list#fn_initTagging]]
-- [[cScripts_fnc_initVehicle|Function-list#fn_initVehicle]]
+- [[cScripts_fnc_init_aceArsenalDefault|Function-list#fn_init_aceArsenalDefault]]
+- [[cScripts_fnc_init_aceItemReplace|Function-list#fn_init_aceItemReplace]]
+- [[cScripts_fnc_init_aceTagging|Function-list#fn_init_aceTagging]]
+- [[cScripts_fnc_init_chatCommands|Function-list#fn_init_chatCommands]]
+- [[cScripts_fnc_init_diary|Function-list#fn_init_diary]]
+- [[cScripts_fnc_init_eventHandlers|Function-list#fn_init_eventHandlers]]
+- [[cScripts_fnc_init_message|Function-list#fn_init_message]]
+- [[cScripts_fnc_init_skillAdjustment|Function-list#fn_init_skillAdjustment]]
+- [[cScripts_fnc_init_staging|Function-list#fn_init_staging]]
+- [[cScripts_fnc_init_vehicle|Function-list#fn_init_vehicle]]
+- [[cScripts_fnc_init_zenModuels|Function-list#fn_init_zenModuels]]
 
 #### Logistics
+- [[cScripts_fnc_addCargo|Function-list#fn_addCargo]]
+- [[cScripts_fnc_checkItemValidity|Function-list#fn_checkItemValidity]]
+- [[cScripts_fnc_createCargoCrate|Function-list#fn_createCargoCrate]]
 - [[cScripts_fnc_doEmptyCrate|Function-list#fn_doEmptyCrate]]
 - [[cScripts_fnc_doFieldHospital|Function-list#fn_doFieldHospital]]
 - [[cScripts_fnc_doMedicalCrate|Function-list#fn_doMedicalCrate]]
 - [[cScripts_fnc_doStarterCrate|Function-list#fn_doStarterCrate]]
 - [[cScripts_fnc_doStarterCrateSupplies|Function-list#fn_doStarterCrateSupplies]]
 - [[cScripts_fnc_doSupplyCrate|Function-list#fn_doSupplyCrate]]
+- [[cScripts_fnc_setCargoAttributes|Function-list#fn_setCargoAttributes]]
 
 #### Mission
 - [[cScripts_fnc_addGetOutHelo|Function-list#fn_addGetOutHelo]]
 - [[cScripts_fnc_addHaloJump|Function-list#fn_addHaloJump]]
-- [[cScripts_fnc_addJump|Function-list#fn_addJump]]
+- [[cScripts_fnc_addLineJump|Function-list#fn_addLineJump]]
+- [[cScripts_fnc_addLoadoutAction|Function-list#fn_addLoadoutAction]]
+- [[cScripts_fnc_addStagingZone|Function-list#fn_addStagingZone]]
 - [[cScripts_fnc_gate|Function-list#fn_gate]]
 - [[cScripts_fnc_setVehicleLable|Function-list#fn_setVehicleLable]]
 - [[cScripts_fnc_teleport|Function-list#fn_teleport]]
 
 #### Modules
-- [[cScripts_fnc_achillesModuleAddToAlive|Function-list#fn_achillesModuleAddToAlive]]
-- [[cScripts_fnc_achillesModuleApplyVehicleInventory|Function-list#fn_achillesModuleApplyVehicleInventory]]
-- [[cScripts_fnc_achillesModuleApplyVehicleLable|Function-list#fn_achillesModuleApplyVehicleLable]]
-- [[cScripts_fnc_achillesModuleCallEndex|Function-list#fn_achillesModuleCallEndex]]
-- [[cScripts_fnc_achillesModuleCreateFieldHospital|Function-list#fn_achillesModuleCreateFieldHospital]]
-- [[cScripts_fnc_achillesModuleCreateMedicalCrate|Function-list#fn_achillesModuleCreateMedicalCrate]]
-- [[cScripts_fnc_achillesModuleCreateSpecialWeaponsCrate|Function-list#fn_achillesModuleCreateSpecialWeaponsCrate]]
-- [[cScripts_fnc_achillesModuleCreateStarterCrate|Function-list#fn_achillesModuleCreateStarterCrate]]
-- [[cScripts_fnc_achillesModuleCreateSupplyCrate|Function-list#fn_achillesModuleCreateSupplyCrate]]
-- [[cScripts_fnc_achillesModuleEnableUnitSimulation|Function-list#fn_achillesModuleEnableUnitSimulation]]
-- [[cScripts_fnc_achillesModuleMakeDoctor|Function-list#fn_achillesModuleMakeDoctor]]
-- [[cScripts_fnc_achillesModuleMakeEngineer|Function-list#fn_achillesModuleMakeEngineer]]
-- [[cScripts_fnc_achillesModuleRegearTrooper|Function-list#fn_achillesModuleRegearTrooper]]
-- [[cScripts_fnc_zenModuleCallEndex|Function-list#fn_zenModuleCallEndex]]
-- [[cScripts_fnc_zenModuleCreateFieldHospital|Function-list#fn_zenModuleCreateFieldHospital]]
-- [[cScripts_fnc_zenModuleCreateMedicalCrate|Function-list#fn_zenModuleCreateMedicalCrate]]
-- [[cScripts_fnc_zenModuleCreateStarterCrate|Function-list#fn_zenModuleCreateStarterCrate]]
-- [[cScripts_fnc_zenModuleCreateSupplyCrate|Function-list#fn_zenModuleCreateSupplyCrate]]
-- [[cScripts_fnc_zenModuleEnableUnitSimulation|Function-list#fn_zenModuleEnableUnitSimulation]]
-- [[cScripts_fnc_zenModuleRegearTrooper|Function-list#fn_zenModuleRegearTrooper]]
+- [[cScripts_fnc_zenModule_callEndex|Function-list#fn_zenModule_callEndex]]
+- [[cScripts_fnc_zenModule_createFieldHospital|Function-list#fn_zenModule_createFieldHospital]]
+- [[cScripts_fnc_zenModule_createMedicalCrate|Function-list#fn_zenModule_createMedicalCrate]]
+- [[cScripts_fnc_zenModule_createStarterCrate|Function-list#fn_zenModule_createStarterCrate]]
+- [[cScripts_fnc_zenModule_createSupplyCrate|Function-list#fn_zenModule_createSupplyCrate]]
+- [[cScripts_fnc_zenModule_enableUnitSimulation|Function-list#fn_zenModule_enableUnitSimulation]]
+- [[cScripts_fnc_zenModule_regearTrooper|Function-list#fn_zenModule_regearTrooper]]
+- [[cScripts_fnc_zenModule_resetPlayerRadio|Function-list#fn_zenModule_resetPlayerRadio]]
+- [[cScripts_fnc_zenModule_setDamage|Function-list#fn_zenModule_setDamage]]
+- [[cScripts_fnc_zenModule_stagingZones|Function-list#fn_zenModule_stagingZones]]
 
 #### Players
-- [[cScripts_fnc_doPlayerAnnouncement|Function-list#fn_doPlayerAnnouncement]]
 - [[cScripts_fnc_getCompanyVariable|Function-list#fn_getCompanyVariable]]
 - [[cScripts_fnc_getPlayerClan|Function-list#fn_getPlayerClan]]
 - [[cScripts_fnc_getPlayerName|Function-list#fn_getPlayerName]]
@@ -111,109 +106,158 @@
 - [[cScripts_fnc_setTeamColor|Function-list#fn_setTeamColor]]
 
 #### Systems
-- [[cScripts_fnc_addAceCategory|Function-list#fn_addAceCategory]]
 - [[cScripts_fnc_addArsenal|Function-list#fn_addArsenal]]
-- [[cScripts_fnc_addFortifyArea|Function-list#fn_addFortifyArea]]
 - [[cScripts_fnc_addHeal|Function-list#fn_addHeal]]
 - [[cScripts_fnc_addInsigniaSelection|Function-list#fn_addInsigniaSelection]]
 - [[cScripts_fnc_addInsigniaSelectionList|Function-list#fn_addInsigniaSelectionList]]
-- [[cScripts_fnc_addLoadoutAction|Function-list#fn_addLoadoutAction]]
 - [[cScripts_fnc_addLoadoutSelection|Function-list#fn_addLoadoutSelection]]
 - [[cScripts_fnc_addObjectToCurator|Function-list#fn_addObjectToCurator]]
 - [[cScripts_fnc_addReGear|Function-list#fn_addReGear]]
-- [[cScripts_fnc_addStagingZone|Function-list#fn_addStagingZone]]
-- [[cScripts_fnc_checkFile|Function-list#fn_checkFile]]
 - [[cScripts_fnc_checkStagingZone|Function-list#fn_checkStagingZone]]
-- [[cScripts_fnc_checkVehicle|Function-list#fn_checkVehicle]]
+- [[cScripts_fnc_clearRadioIds|Function-list#fn_clearRadioIds]]
 - [[cScripts_fnc_createActionCategory|Function-list#fn_createActionCategory]]
 - [[cScripts_fnc_createVehicleLable|Function-list#fn_createVehicleLable]]
 - [[cScripts_fnc_deleteDroppedObjects|Function-list#fn_deleteDroppedObjects]]
 - [[cScripts_fnc_doGetOutHeloSide|Function-list#fn_doGetOutHeloSide]]
-- [[cScripts_fnc_doHaloJump|Function-list#fn_doHaloJump]]
-- [[cScripts_fnc_doJump|Function-list#fn_doJump]]
+- [[cScripts_fnc_getArsenalWhitelist|Function-list#fn_getArsenalWhitelist]]
+- [[cScripts_fnc_getAttendance|Function-list#fn_getAttendance]]
 - [[cScripts_fnc_getChannelName|Function-list#fn_getChannelName]]
+- [[cScripts_fnc_getIcon|Function-list#fn_getIcon]]
 - [[cScripts_fnc_getServerMetrics|Function-list#fn_getServerMetrics]]
+- [[cScripts_fnc_getUnitArsenalDefault|Function-list#fn_getUnitArsenalDefault]]
 - [[cScripts_fnc_getVehicleLable|Function-list#fn_getVehicleLable]]
-- [[cScripts_fnc_handleJump|Function-list#fn_handleJump]]
+- [[cScripts_fnc_para_backpack|Function-list#fn_para_backpack]]
+- [[cScripts_fnc_para_equipment|Function-list#fn_para_equipment]]
+- [[cScripts_fnc_para_haloJump|Function-list#fn_para_haloJump]]
+- [[cScripts_fnc_para_lineJump|Function-list#fn_para_lineJump]]
 - [[cScripts_fnc_setupLoadoutCategories|Function-list#fn_setupLoadoutCategories]]
 - [[cScripts_fnc_setupLoadoutSelection|Function-list#fn_setupLoadoutSelection]]
-- [[cScripts_fnc_setVehicleInventory|Function-list#fn_setVehicleInventory]]
-- [[cScripts_fnc_setVehicleSettings|Function-list#fn_setVehicleSettings]]
+- [[cScripts_fnc_training_addHitIndicator|Function-list#fn_training_addHitIndicator]]
+- [[cScripts_fnc_training_clearhitIndicator|Function-list#fn_training_clearhitIndicator]]
+
+#### Testing
+- [[cScripts_fnc_testing_loadoutArrays|Function-list#fn_testing_loadoutArrays]]
+
+#### Vehicle
+- [[cScripts_fnc_vehicle_addCosmetics|Function-list#fn_vehicle_addCosmetics]]
+- [[cScripts_fnc_vehicle_addCosmeticSelection|Function-list#fn_vehicle_addCosmeticSelection]]
+- [[cScripts_fnc_vehicle_addFlagAction|Function-list#fn_vehicle_addFlagAction]]
+- [[cScripts_fnc_vehicle_addFunctions|Function-list#fn_vehicle_addFunctions]]
+- [[cScripts_fnc_vehicle_addInventory|Function-list#fn_vehicle_addInventory]]
+- [[cScripts_fnc_vehicle_addPylonLoadout|Function-list#fn_vehicle_addPylonLoadout]]
+- [[cScripts_fnc_vehicle_addPylonSelection|Function-list#fn_vehicle_addPylonSelection]]
+- [[cScripts_fnc_vehicle_addRadio|Function-list#fn_vehicle_addRadio]]
+- [[cScripts_fnc_vehicle_addRegearAction|Function-list#fn_vehicle_addRegearAction]]
+- [[cScripts_fnc_vehicle_addRepairAction|Function-list#fn_vehicle_addRepairAction]]
+- [[cScripts_fnc_vehicle_addStagingActions|Function-list#fn_vehicle_addStagingActions]]
+- [[cScripts_fnc_vehicle_applyLoadout|Function-list#fn_vehicle_applyLoadout]]
+- [[cScripts_fnc_vehicle_getPylon|Function-list#fn_vehicle_getPylon]]
+- [[cScripts_fnc_vehicle_setRadio|Function-list#fn_vehicle_setRadio]]
+- [[cScripts_fnc_vehicle_setupPylonCategories|Function-list#fn_vehicle_setupPylonCategories]]
 
 # Functions
 
-## Debug
-### fn_diag_dumpPlayer
-[Go to cScripts_fnc_diag_dumpPlayer](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/debug/fn_diag_dumpPlayer.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+## Diag
+### fn_error
+[Go to cScripts_fnc_error](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/diag/fn_error.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
-This function dump all player data that cScripts uses
+This function print a formated rpt message.
 
 **Arguments:**
 
-None
+0: message <STRING>
+
+1: componant <STRING>
+
+2: showInChat <BOOL>
+
+3: sendToServer <BOOL>
 
 
 **Exsamples:**
 
 ```cpp
- call cScripts_fnc_diag_dumpPlayer
+["Something is wrong here."] call FUNC(error)
+```
+```cpp
+[format["%1 is a player.", player]] call FUNC(error)
 ```
 
-### fn_logError
-[Go to cScripts_fnc_logError](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/debug/fn_logError.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_info
+[Go to cScripts_fnc_info](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/diag/fn_info.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
-This function print debug information in the RPT log and in the system chat in eden multiplayer
+This function print a formated rpt message.
 
 **Arguments:**
 
-0: Message <STRING>
+0: message <STRING>
+
+1: componant <STRING>
+
+2: showInChat <BOOL>
+
+3: sendToServer <BOOL>
 
 
 **Exsamples:**
 
 ```cpp
-["Something is wrong here."] call cScripts_fnc_logError
+["Something is wrong here."] call FUNC(info)
 ```
 ```cpp
-[formatText["%1 is a player.", player]] call cScripts_fnc_logError
+[format["%1 is a player.", player]] call FUNC(info)
 ```
 
-### fn_logInfo
-[Go to cScripts_fnc_logInfo](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/debug/fn_logInfo.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_log
+[Go to cScripts_fnc_log](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/diag/fn_log.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
-This function print debug information in the RPT log
+This function print a formated rpt message.
 
 **Arguments:**
 
-0: Message <STRING>
+0: message <STRING>
+
+1: componant <STRING>
+
+2: showInChat <BOOL>
+
+3: sendToServer <BOOL>
+
+4: typePrefix <STRING>
 
 
 **Exsamples:**
 
 ```cpp
-["Something is wrong here."] call cScripts_fnc_logInfo
+["Something is wrong here."] call FUNC(log)
 ```
 ```cpp
-[formatText["%1 is a player.", player]] call cScripts_fnc_logInfo
+[format["%1 is a player.", player]] call FUNC(log)
 ```
 
-### fn_logWarning
-[Go to cScripts_fnc_logWarning](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/debug/fn_logWarning.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_warning
+[Go to cScripts_fnc_warning](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/diag/fn_warning.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
-This function print debug information in the RPT log
+This function print a formated rpt message.
 
 **Arguments:**
 
-0: Message <STRING>
+0: message <STRING>
+
+1: componant <STRING>
+
+2: showInChat <BOOL>
+
+3: sendToServer <BOOL>
 
 
 **Exsamples:**
 
 ```cpp
-["Something is wrong here."] call cScripts_fnc_logWarning
+["Something is wrong here."] call FUNC(warning)
 ```
 ```cpp
-[formatText["%1 is a player.", player]] call cScripts_fnc_logWarning
+[format["%1 is a player.", player]] call FUNC(warning)
 ```
 
 
@@ -413,7 +457,7 @@ call cScripts_fnc_Doc_Radio
 
 ## Gear
 ### fn_gear_applyAbilities
-[Go to cScripts_fnc_gear_applyAbilities](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/gear/fn_gear_applyAbilities.sqf), Written by: BaerMitUmlaut, CPL.[Brostrom.A](https://github.com/ColdEvul)
+[Go to cScripts_fnc_gear_applyAbilities](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/gear/fn_gear_applyAbilities.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function apply abilities to a player based on config entries
 
@@ -455,6 +499,8 @@ This function apply a player loadout
 
 0: Unit <OBJECT>
 
+1: Loadout <CLASSNAME / VARIABLE / LOADOUT ARRAY>
+
 
 **Exsamples:**
 
@@ -466,6 +512,38 @@ This function apply a player loadout
 ```
 ```cpp
 [player, [[],[],[],[],[],[],"","",[],["","","","","",""]]] call cScripts_fnc_gear_applyLoadout
+```
+
+### fn_gear_getCurrentLoadout
+[Go to cScripts_fnc_gear_getCurrentLoadout](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/gear/fn_gear_getCurrentLoadout.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function return your current loadout.
+
+**Arguments:**
+
+None
+
+
+**Exsamples:**
+
+```cpp
+[] call cScripts_fnc_gear_getCurrentLoadout
+```
+
+### fn_gear_getLoadoutRole
+[Go to cScripts_fnc_gear_getLoadoutRole](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/gear/fn_gear_getLoadoutRole.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function return your role
+
+**Arguments:**
+
+0: Loadout <STRING>
+
+
+**Exsamples:**
+
+```cpp
+[player] call cScripts_fnc_gear_getLoadoutRole
 ```
 
 ### fn_gear_getSideConfig
@@ -500,7 +578,7 @@ This function return true or false if you have a loadout stored.
 **Exsamples:**
 
 ```cpp
-["bob"] call cScripts_fnc_gear_hasSaveLoadout
+["bob"] call cScripts_fnc_gear_hasSavedLoadout
 ```
 
 ### fn_gear_loadLoadout
@@ -600,35 +678,18 @@ This function save players loadout
 ### fn_gear_setupRadios
 [Go to cScripts_fnc_gear_setupRadios](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/gear/fn_gear_setupRadios.sqf), Written by: BaerMitUmlaut, CPL.[Brostrom.A](https://github.com/ColdEvul)
 
-This function setup radio preset and apply a set radio channel to them.
+This function setup radios and apply radio channel to them on server and player.
+Needs to be in init.sqf
 
 **Arguments:**
 
-0: Unit <OBJECT>
-
-1: Loadout <STRING / ARRAY>
+Nothing
 
 
 **Exsamples:**
 
 ```cpp
-[player] call cScripts_fnc_setupRadios
-```
-
-### fn_gear_synchGroupIDs
-[Go to cScripts_fnc_gear_synchGroupIDs](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/gear/fn_gear_synchGroupIDs.sqf), Written by: BaerMitUmlaut
-
-Sync all Group ids in the mission
-
-**Arguments:**
-
-none
-
-
-**Exsamples:**
-
-```cpp
-call cScripts_fnc_gear_groupIDsSynched
+[] call cScripts_fnc_gear_setupRadios
 ```
 
 
@@ -686,26 +747,24 @@ call cScripts_fnc_exportLoadoutToArsenal
 
 
 ## Init
-### fn_initACELoadouts
-[Go to cScripts_fnc_initACELoadouts](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initACELoadouts.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_init_aceArsenalDefault
+[Go to cScripts_fnc_init_aceArsenalDefault](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_init_aceArsenalDefault.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function initzialise ace arsenal default loadouts in eden and in mission.
 
 **Arguments:**
 
-None
-
 
 **Exsamples:**
 
 ```cpp
-call cScripts_fnc_initAceLoadouts
+call cScripts_fnc_init_aceArsenalDefault
 ```
 
-### fn_initAI
-[Go to cScripts_fnc_initAI](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initAI.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_init_aceItemReplace
+[Go to cScripts_fnc_init_aceItemReplace](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_init_aceItemReplace.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
-This function add eventhandelers to all units.
+This function enables standardization of item use by swaping items to desired item.
 
 **Arguments:**
 
@@ -713,13 +772,97 @@ This function add eventhandelers to all units.
 **Exsamples:**
 
 ```cpp
-call cScripts_fnc_initAI
+call cScripts_fnc_init_aceItemReplace
 ```
 
-### fn_initCuratorObjectPlaced
-[Go to cScripts_fnc_initCuratorObjectPlaced](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initCuratorObjectPlaced.sqf), Written by: SSG.Argus.J, CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_init_aceTagging
+[Go to cScripts_fnc_init_aceTagging](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_init_aceTagging.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
-This function make sure that systems are added to a curator spawned objects.
+This adds custom spray tags to all units.
+
+**Arguments:**
+
+
+**Exsamples:**
+
+```cpp
+call cScripts_fnc_init_aceTagging
+```
+
+### fn_init_chatCommands
+[Go to cScripts_fnc_init_chatCommands](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_init_chatCommands.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function handle all our custom chat commands
+
+**Arguments:**
+
+
+**Exsamples:**
+
+```cpp
+call cScripts_fnc_init_ChatCommands
+```
+
+### fn_init_diary
+[Go to cScripts_fnc_init_diary](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_init_diary.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function add diary records.
+
+**Arguments:**
+
+
+**Exsamples:**
+
+```cpp
+call cScripts_fnc_init_diary
+```
+
+### fn_init_eventHandlers
+[Go to cScripts_fnc_init_eventHandlers](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_init_eventHandlers.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function add eventhandlers.
+
+**Arguments:**
+
+
+**Exsamples:**
+
+```cpp
+call cScripts_fnc_init_eventHandlers
+```
+
+### fn_init_message
+[Go to cScripts_fnc_init_message](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_init_message.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function print messages on player connect.
+
+**Arguments:**
+
+
+**Exsamples:**
+
+```cpp
+call cScripts_fnc_init_message
+```
+
+### fn_init_skillAdjustment
+[Go to cScripts_fnc_init_skillAdjustment](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_init_skillAdjustment.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function changes AI skill values
+
+**Arguments:**
+
+
+**Exsamples:**
+
+```cpp
+call cScripts_fnc_init_skillAdjustment
+```
+
+### fn_init_staging
+[Go to cScripts_fnc_init_staging](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_init_staging.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function setup the staging system and automaticly creates respawn marker staging zones.
 
 **Arguments:**
 
@@ -729,76 +872,25 @@ None
 **Exsamples:**
 
 ```cpp
-call cScripts_fnc_initCuratorObjectPlaced
+call cScripts_fnc_init_staging
 ```
 
-### fn_initDocuments
-[Go to cScripts_fnc_initDocuments](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initDocuments.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_init_vehicle
+[Go to cScripts_fnc_init_vehicle](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_init_vehicle.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
-This function add diary records for all players.
+This function add eventhandelers adding cav functionality to all vehicles.
 
 **Arguments:**
-
-None
 
 
 **Exsamples:**
 
 ```cpp
-call cScripts_fnc_initDocuments
+call cScripts_fnc_init_vehicle
 ```
 
-### fn_initFortify
-[Go to cScripts_fnc_initFortify](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initFortify.sqf), Written by: SGT.[Brostrom.A](https://github.com/ColdEvul)
-
-This function is partly based on Bojan and PFC.Vex.W Fortify system.
-This function handles Fortify regeistrated objects.
-
-**Arguments:**
-
-None
-
-
-**Exsamples:**
-
-```cpp
-call cScripts_fnc_handleFortify
-```
-
-### fn_initItemReplace
-[Go to cScripts_fnc_initItemReplace](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initItemReplace.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-Thius function handle item convertions
-
-**Arguments:**
-
-None
-
-
-**Exsamples:**
-
-```cpp
-call cScripts_fnc_initItemReplace
-```
-
-### fn_initModulesAchilles
-[Go to cScripts_fnc_initModulesAchilles](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initModulesAchilles.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This function load all Cav modules. Requires Achilles to run propperly will not load this function otherwise.
-
-**Arguments:**
-
-None
-
-
-**Exsamples:**
-
-```cpp
-call cScripts_fnc_initModulesAchilles
-```
-
-### fn_initModulesZen
-[Go to cScripts_fnc_initModulesZen](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initModulesZen.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_init_zenModuels
+[Go to cScripts_fnc_init_zenModuels](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_init_zenModuels.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function load all Cav modules. Requires Zen Mod to run propperly. The function will terminate if not.
 
@@ -810,82 +902,89 @@ None
 **Exsamples:**
 
 ```cpp
-call cScripts_fnc_initModulesZen
-```
-
-### fn_initStaging
-[Go to cScripts_fnc_initStaging](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initStaging.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This function setup the stageing system and automaticly creates respawn marker stageing zones.
-
-**Arguments:**
-
-None
-
-
-**Exsamples:**
-
-```cpp
-call cScripts_fnc_initStaging
-```
-
-### fn_initStartupHint
-[Go to cScripts_fnc_initStartupHint](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initStartupHint.sqf), Written by: SGT.[Brostrom.A](https://github.com/ColdEvul), CPL.[Citarelli.D](https://github.com/davidcit646)
-
-This function give all players a hint on mission start or every join. Based on mission type.
-
-**Arguments:**
-
-0: Time          <NUMBER>    (Default; 30)
-
-1: Mission type  <NUMBER>    (Default; 1)
-
-2: Custom Topic  <STRING>    (Default; "My custom Mission!")
-
-3: Custom Text   <STRING>    (Default; "I have design this mission!")
-
-
-**Exsamples:**
-
-```cpp
-call cScripts_fnc_initStartupHint
-```
-```cpp
-[60,1,"My custom Mission!","I have design this mission!"] call cScripts_fnc_initStartupHint
-```
-
-### fn_initTagging
-[Go to cScripts_fnc_initTagging](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initTagging.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This adds custom spray tags to all units.
-
-**Arguments:**
-
-None
-
-
-**Exsamples:**
-
-```cpp
-call cScripts_fnc_initTagging
-```
-
-### fn_initVehicle
-[Go to cScripts_fnc_initVehicle](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/init/fn_initVehicle.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This function add eventhandelers adding cav functionality to all vehicles.
-
-**Arguments:**
-
-
-**Exsamples:**
-
-```cpp
-call cScripts_fnc_initVehicle
+call cScripts_fnc_init_zenModuels
 ```
 
 
 ## Logistics
+### fn_addCargo
+[Go to cScripts_fnc_addCargo](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_addCargo.sqf), Written by: Whitsel.M
+
+This function add given supplies to a container.
+If nothing in the array is defined the container will be empty.
+
+**Arguments:**
+
+0: Vehicle or Crate  <OBJECT>
+
+1: Inventory         <ARRAY>
+
+
+**Exsamples:**
+
+```cpp
+[MyCrate, [["ACE_EarPlugs", 60]]] call cScripts_fnc_addCargo;
+```
+```cpp
+[MyTruck, [["ACE_personalAidKit", 8], ["ACE_tourniquet", 10]]] call cScripts_fnc_addCargo;
+```
+
+### fn_checkItemValidity
+[Go to cScripts_fnc_checkItemValidity](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_checkItemValidity.sqf), Written by: Whitsel.M
+
+This function checks if a item are usable and valid.
+
+**Arguments:**
+
+0: Item <OBJECT>
+
+
+**Exsamples:**
+
+```cpp
+["ACE_EarPlugs"] call cScripts_fnc_checkItemValidity;
+```
+
+### fn_createCargoCrate
+[Go to cScripts_fnc_createCargoCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_createCargoCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function creates a cargo crate with defined loadout and load or places it in a location
+
+**Arguments:**
+
+0: Classname             <STRING>
+
+1: Inventory             <ARRAY/BOOL>
+
+2: Vehicle or Position   <OBJECT, ARRAY>
+
+3: Crate Size            <NUMBER> (Optional)
+
+
+**Exsamples:**
+
+```cpp
+["B_supplyCrate_F"] call cScripts_fnc_createCargoCrate;
+```
+```cpp
+["B_supplyCrate_F", false] call cScripts_fnc_createCargoCrate;
+```
+```cpp
+["B_supplyCrate_F", false, MyTruck] call cScripts_fnc_createCargoCrate;
+```
+```cpp
+["B_supplyCrate_F", false, [255,300,2]] call cScripts_fnc_createCargoCrate;
+```
+```cpp
+["B_supplyCrate_F", [["ACE_personalAidKit", 8], ["ACE_tourniquet", 10]]] call cScripts_fnc_createCargoCrate;
+```
+```cpp
+["B_supplyCrate_F", [["ACE_personalAidKit", 8], ["ACE_tourniquet", 10]], MyTruck] call cScripts_fnc_createCargoCrate;
+```
+```cpp
+["B_supplyCrate_F", [["ACE_personalAidKit", 8], ["ACE_tourniquet", 10]], [255,300,2]] call cScripts_fnc_createCargoCrate;
+```
+
 ### fn_doEmptyCrate
 [Go to cScripts_fnc_doEmptyCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_doEmptyCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
@@ -1036,6 +1135,42 @@ Use for mission resupplies.
 [this,1] call cScripts_fnc_doSupplyCrate;
 ```
 
+### fn_setCargoAttributes
+[Go to cScripts_fnc_setCargoAttributes](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/logistics/fn_setCargoAttributes.sqf), Written by: Whitsel.M
+
+This function allow you to set the cargo space and size of the given object.
+
+**Arguments:**
+
+0: Vehicle       <OBJECT>
+
+1: Cargo Space   <NUMBER> (nil to keep default value)
+
+2: Cargo Size    <NUMBER> (nil to keep default value)
+
+3: Draggable     <BOOLEAN> (Default; true)
+
+4: Carryable     <BOOLEAN> (Default; true)
+
+
+**Exsamples:**
+
+```cpp
+[myTruck] call cScripts_fnc_setCargoAttributes;
+```
+```cpp
+[myTruck, 30, -1] call cScripts_fnc_setCargoAttributes;
+```
+```cpp
+[myCrate, -1, 2] call cScripts_fnc_setCargoAttributes;
+```
+```cpp
+[myCrate, -1, 2, true, false] call cScripts_fnc_setCargoAttributes;
+```
+```cpp
+[myCrate, nil, nil, true, false] call cScripts_fnc_setCargoAttributes;
+```
+
 
 ## Mission
 ### fn_addGetOutHelo
@@ -1069,7 +1204,7 @@ This function adds a HALO Jump out option to a vehicle.
 
 0: Vehicle             <OBJECT>
 
-1: Minimum altetude    <NUMBER> (Optional) (Default; 180)
+1: Minimum altetude    <NUMBER> (Optional) (Default; 5000)
 
 4: Chute Vehicle Class <OBJECT> (Optional) (Default; "B_Parachute")
 
@@ -1086,8 +1221,8 @@ This function adds a HALO Jump out option to a vehicle.
 ["my_c130", 5000, "B_Parachute"] call cScripts_fnc_addHaloJump
 ```
 
-### fn_addJump
-[Go to cScripts_fnc_addJump](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/mission/fn_addJump.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_addLineJump
+[Go to cScripts_fnc_addLineJump](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/mission/fn_addLineJump.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function adds a Jump out option to a vehicle.
 
@@ -1107,16 +1242,76 @@ This function adds a Jump out option to a vehicle.
 **Exsamples:**
 
 ```cpp
-["my_c130"] call cScripts_fnc_addJump
+["my_c130"] call cScripts_fnc_addLineJump
 ```
 ```cpp
-["my_c130", 180] call cScripts_fnc_addJump
+["my_c130", 180] call cScripts_fnc_addLineJump
 ```
 ```cpp
-["my_c130", 180, 350, 300] call cScripts_fnc_addJump
+["my_c130", 180, 350, 300] call cScripts_fnc_addLineJump
 ```
 ```cpp
-["my_c130", 180, 350, 300, "rhs_d6_Parachute"] call cScripts_fnc_addJump
+["my_c130", 180, 350, 300, "rhs_d6_Parachute"] call cScripts_fnc_addLineJump
+```
+
+### fn_addLoadoutAction
+[Go to cScripts_fnc_addLoadoutAction](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/mission/fn_addLoadoutAction.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This adds a addAction option to the given item for a given loadout.
+
+**Arguments:**
+
+0: Object <OBJECT>
+
+1: Lable <STRING>
+
+2: Loadout <CLASSNAME / VARIABLE / LOADOUT ARRAY>
+
+
+**Exsamples:**
+
+```cpp
+[this, "My Custom Loadout", "My_Loadout_Classname"] call cScripts_fnc_addLoadoutAction
+```
+```cpp
+[this, "Rifleman", "B_Soldier_F"] call cScripts_fnc_addLoadoutAction
+```
+```cpp
+[this, "Apply a special variable loadout", "Variable_Name"] call cScripts_fnc_addLoadoutAction
+```
+```cpp
+[this, "Go Nude", [[],[],[],[],[],[],"","",[],["","","","","",""]]] call cScripts_fnc_addLoadoutAction
+```
+
+### fn_addStagingZone
+[Go to cScripts_fnc_addStagingZone](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/mission/fn_addStagingZone.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function adds a given object or marker to the missionNamespace listing staging zones.
+
+**Arguments:**
+
+0: Zone <OBJECT/STRING>
+
+1: Zone Size <NUMBER> (Optional) [Default; 12]
+
+Return:
+
+Nothing
+
+
+**Exsamples:**
+
+```cpp
+[this] call cScripts_fnc_addStagingZone
+```
+```cpp
+[bob, 2] call cScripts_fnc_addStagingZone
+```
+```cpp
+[TruckMcTruckFace, 12] call cScripts_fnc_addStagingZone
+```
+```cpp
+["respawn_west", 12] call cScripts_fnc_addStagingZone
 ```
 
 ### fn_gate
@@ -1233,219 +1428,8 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 
 
 ## Modules
-### fn_achillesModuleAddToAlive
-[Go to cScripts_fnc_achillesModuleAddToAlive](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_achillesModuleAddToAlive.sqf), Written by: AR.Zlobin.N, 1LT.Sweetwater.I
-
-This module function add object to Alive
-Grants unit authorization to speak to civilians
-
-**Arguments:**
-
-0: Unit <OBJECT>
-
-
-**Exsamples:**
-
-```cpp
-bob call cScripts_fnc_moduleAddToAlive
-```
-
-### fn_achillesModuleApplyVehicleInventory
-[Go to cScripts_fnc_achillesModuleApplyVehicleInventory](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_achillesModuleApplyVehicleInventory.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This module function allow you to retrofitt a given vehicle to utalize a better and more awesome inventory.
-
-**Arguments:**
-
-0: Object <OBJECT>
-
-
-**Exsamples:**
-
-```cpp
-this call cScripts_fnc_moduleApplyVehicleInventory
-```
-
-### fn_achillesModuleApplyVehicleLable
-[Go to cScripts_fnc_achillesModuleApplyVehicleLable](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_achillesModuleApplyVehicleLable.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This module function allow you to apply a texture lable to a given vehicle.
-
-**Arguments:**
-
-0: Object <OBJECT>
-
-
-**Exsamples:**
-
-```cpp
-this call cScripts_fnc_moduleApplyVehicleLable
-```
-
-### fn_achillesModuleCallEndex
-[Go to cScripts_fnc_achillesModuleCallEndex](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_achillesModuleCallEndex.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul), CPL.[Dunn.W](https://github.com/VinoEtCaseus)
-
-This module function can disable ai set player weapon to safe and print some hints and spam the chat with ENDEX. 
-
-**Arguments:**
-
-Nothing
-
-
-**Exsamples:**
-
-```cpp
-call cScripts_fnc_moduleCallEndex;
-```
-
-### fn_achillesModuleCreateFieldHospital
-[Go to cScripts_fnc_achillesModuleCreateFieldHospital](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_achillesModuleCreateFieldHospital.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This module function spawn a 7th Cavalry Fieald Hostpital.
-
-**Arguments:**
-
-0: Object <OBJECT>
-
-
-**Exsamples:**
-
-```cpp
-this call cScripts_fnc_moduleCreateFieldHostpital
-```
-
-### fn_achillesModuleCreateMedicalCrate
-[Go to cScripts_fnc_achillesModuleCreateMedicalCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_achillesModuleCreateMedicalCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This module function spawn a supply medical crate.
-
-**Arguments:**
-
-0: Object <OBJECT>
-
-
-**Exsamples:**
-
-```cpp
-this call cScripts_fnc_moduleCreateMedicalCrate
-```
-
-### fn_achillesModuleCreateSpecialWeaponsCrate
-[Go to cScripts_fnc_achillesModuleCreateSpecialWeaponsCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_achillesModuleCreateSpecialWeaponsCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This module function spawn a special weapons crate.
-
-**Arguments:**
-
-0: Object <OBJECT>
-
-
-**Exsamples:**
-
-```cpp
-this call cScripts_fnc_moduleCreateSupplyCrate
-```
-
-### fn_achillesModuleCreateStarterCrate
-[Go to cScripts_fnc_achillesModuleCreateStarterCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_achillesModuleCreateStarterCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-Modified by: PVT.Schouten.M
-This module function spawn a 7th Cavalry Starter Crate.
-
-**Arguments:**
-
-0: Object <OBJECT>
-
-
-**Exsamples:**
-
-```cpp
-this call cScripts_fnc_moduleCreateStarterCrate;
-```
-
-### fn_achillesModuleCreateSupplyCrate
-[Go to cScripts_fnc_achillesModuleCreateSupplyCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_achillesModuleCreateSupplyCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This module function spawn a supply crate.
-
-**Arguments:**
-
-0: Object <OBJECT>
-
-
-**Exsamples:**
-
-```cpp
-this call cScripts_fnc_moduleCreateSupplyCrate
-```
-
-### fn_achillesModuleEnableUnitSimulation
-[Go to cScripts_fnc_achillesModuleEnableUnitSimulation](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_achillesModuleEnableUnitSimulation.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This module function enables adn unhide a units, vehicle and its group;
-that have been hidden and disabled by simulation manager and dynamic simulation.
-
-**Arguments:**
-
-0: objectPos <OBJECT>
-
-
-**Exsamples:**
-
-```cpp
-this call cScripts_fnc_achillesModuleEnableUnitSimulation
-```
-
-### fn_achillesModuleMakeDoctor
-[Go to cScripts_fnc_achillesModuleMakeDoctor](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_achillesModuleMakeDoctor.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This module function apply the doctor ability to a given unit.
-
-**Arguments:**
-
-0: Unit <OBJECT>
-
-
-**Exsamples:**
-
-```cpp
-this call cScripts_fnc_moduleMakeDoctor
-```
-
-### fn_achillesModuleMakeEngineer
-[Go to cScripts_fnc_achillesModuleMakeEngineer](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_achillesModuleMakeEngineer.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This module function apply the doctor ability to a given unit.
-
-**Arguments:**
-
-0: Unit <OBJECT>
-
-
-**Exsamples:**
-
-```cpp
-this call cScripts_fnc_moduleMakeEngineer
-```
-
-### fn_achillesModuleRegearTrooper
-[Go to cScripts_fnc_achillesModuleRegearTrooper](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_achillesModuleRegearTrooper.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This module function regear to a given unit.
-
-**Arguments:**
-
-0: Unit <OBJECT>
-
-
-**Exsamples:**
-
-```cpp
-this call cScripts_fnc_moduleRegearTrooper
-```
-
-### fn_zenModuleCallEndex
-[Go to cScripts_fnc_zenModuleCallEndex](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_zenModuleCallEndex.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul), CPL.[Dunn.W](https://github.com/VinoEtCaseus)
+### fn_zenModule_callEndex
+[Go to cScripts_fnc_zenModule_callEndex](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_zenModule_callEndex.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul), CPL.[Dunn.W](https://github.com/VinoEtCaseus)
 
 This module function can disable ai set player weapon to safe and print some hints and spam the chat with ENDEX. 
 
@@ -1459,11 +1443,11 @@ This module function can disable ai set player weapon to safe and print some hin
 **Exsamples:**
 
 ```cpp
-call cScripts_fnc_moduleCallEndex;
+[getPos logic, this] call cScripts_fnc_zenModule_callEndex;
 ```
 
-### fn_zenModuleCreateFieldHospital
-[Go to cScripts_fnc_zenModuleCreateFieldHospital](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_zenModuleCreateFieldHospital.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_zenModule_createFieldHospital
+[Go to cScripts_fnc_zenModule_createFieldHospital](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_zenModule_createFieldHospital.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This module function spawn a 7th Cavalry Fieald Hostpital.
 
@@ -1477,11 +1461,11 @@ This module function spawn a 7th Cavalry Fieald Hostpital.
 **Exsamples:**
 
 ```cpp
-[getPos logic, this] call cScripts_fnc_zenModuleCreateFieldHospitale
+[getPos logic, this] call cScripts_fnc_zenModule_createFieldHospital
 ```
 
-### fn_zenModuleCreateMedicalCrate
-[Go to cScripts_fnc_zenModuleCreateMedicalCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_zenModuleCreateMedicalCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_zenModule_createMedicalCrate
+[Go to cScripts_fnc_zenModule_createMedicalCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_zenModule_createMedicalCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This module function spawn a supply medical crate.
 
@@ -1495,11 +1479,11 @@ This module function spawn a supply medical crate.
 **Exsamples:**
 
 ```cpp
-[getPos logic, this] call cScripts_fnc_moduleCreateSupplyCrate
+[getPos logic, this] call cScripts_fnc_zenModule_createFieldHospital
 ```
 
-### fn_zenModuleCreateStarterCrate
-[Go to cScripts_fnc_zenModuleCreateStarterCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_zenModuleCreateStarterCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_zenModule_createStarterCrate
+[Go to cScripts_fnc_zenModule_createStarterCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_zenModule_createStarterCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 Modified by: PVT.Schouten.M
 This module function spawn a 7th Cavalry Starter Crate.
@@ -1514,11 +1498,11 @@ This module function spawn a 7th Cavalry Starter Crate.
 **Exsamples:**
 
 ```cpp
-[getPos logic, this] call cScripts_fnc_moduleCreateStarterCrate;
+[getPos logic, this] call cScripts_fnc_zenModule_createStarterCrate;
 ```
 
-### fn_zenModuleCreateSupplyCrate
-[Go to cScripts_fnc_zenModuleCreateSupplyCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_zenModuleCreateSupplyCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_zenModule_createSupplyCrate
+[Go to cScripts_fnc_zenModule_createSupplyCrate](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_zenModule_createSupplyCrate.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This module function spawn a supply crate.
 
@@ -1532,11 +1516,11 @@ This module function spawn a supply crate.
 **Exsamples:**
 
 ```cpp
-[getPos logic, this] call cScripts_fnc_moduleCreateSupplyCrate
+[getPos logic, this] call cScripts_fnc_zenModule_createSupplyCrate
 ```
 
-### fn_zenModuleEnableUnitSimulation
-[Go to cScripts_fnc_zenModuleEnableUnitSimulation](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_zenModuleEnableUnitSimulation.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_zenModule_enableUnitSimulation
+[Go to cScripts_fnc_zenModule_enableUnitSimulation](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_zenModule_enableUnitSimulation.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This module function enables adn unhide a units, vehicle and its group;
 that have been hidden and disabled by simulation manager and dynamic simulation.
@@ -1551,11 +1535,11 @@ that have been hidden and disabled by simulation manager and dynamic simulation.
 **Exsamples:**
 
 ```cpp
-[getPos logic, this] call cScripts_fnc_zenModuleEnableUnitSimulation
+[getPos logic, this] call cScripts_fnc_zenModule_enableUnitSimulation
 ```
 
-### fn_zenModuleRegearTrooper
-[Go to cScripts_fnc_zenModuleRegearTrooper](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_zenModuleRegearTrooper.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_zenModule_regearTrooper
+[Go to cScripts_fnc_zenModule_regearTrooper](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_zenModule_regearTrooper.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This module function regear to a given unit.
 
@@ -1569,27 +1553,65 @@ This module function regear to a given unit.
 **Exsamples:**
 
 ```cpp
-[getPos logic, this] call cScripts_fnc_moduleRegearTrooper
+[getPos logic, this] call cScripts_fnc_zenModule_regearTrooper
+```
+
+### fn_zenModule_resetPlayerRadio
+[Go to cScripts_fnc_zenModule_resetPlayerRadio](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_zenModule_resetPlayerRadio.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This module resets the player radio.
+
+**Arguments:**
+
+0: modulePos <POSITION>
+
+1: objectPos <OBJECT>
+
+
+**Exsamples:**
+
+```cpp
+[getPos logic, this] call cScripts_fnc_zenModule_resetPlayerRadio;
+```
+
+### fn_zenModule_setDamage
+[Go to cScripts_fnc_zenModule_setDamage](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_zenModule_setDamage.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This module function spawn a supply crate.
+
+**Arguments:**
+
+0: modulePos <POSITION>
+
+1: objectPos <OBJECT>
+
+
+**Exsamples:**
+
+```cpp
+[getPos logic, this] call cScripts_fnc_zenModule_createSupplyCrate
+```
+
+### fn_zenModule_stagingZones
+[Go to cScripts_fnc_zenModule_stagingZones](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/modules/fn_zenModule_stagingZones.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This module function can disable the staging zones mid mission.
+
+**Arguments:**
+
+0: modulePos <POSITION>
+
+1: objectPos <OBJECT>
+
+
+**Exsamples:**
+
+```cpp
+[getPos logic, this] call cScripts_fnc_zenModule_stagingZones;
 ```
 
 
 ## Players
-### fn_doPlayerAnnouncement
-[Go to cScripts_fnc_doPlayerAnnouncement](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_doPlayerAnnouncement.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This function announce the player once on mission join when the loadout is set.
-
-**Arguments:**
-
-0: Player <STRING>
-
-
-**Exsamples:**
-
-```cpp
-[this] call cScripts_fnc_doPlayerAnnouncement;
-```
-
 ### fn_getCompanyVariable
 [Go to cScripts_fnc_getCompanyVariable](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/players/fn_getCompanyVariable.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
@@ -1597,7 +1619,7 @@ Show you your current company variable.
 
 **Arguments:**
 
-0: player <STRING>
+none
 
 
 **Exsamples:**
@@ -1824,35 +1846,6 @@ call cScripts_fnc_setTeamColor
 
 
 ## Systems
-### fn_addAceCategory
-[Go to cScripts_fnc_addAceCategory](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addAceCategory.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This script auto generates the selections.
-
-**Arguments:**
-
-0: Object <OBJECT>
-
-1: actionName <STRING>
-
-2: Lable <STRING>
-
-3: Path to icon <STRING>
-
-4: Categorys <ARRAY> (Optional)
-
-5: Condition <CODE> (Optional)
-
-
-**Exsamples:**
-
-```cpp
-[this,"MyCategory","Insignia","icon.paa",["ACE_MainActions"]] call cScripts_fnc_addAceCategory;
-```
-```cpp
-[this,"MySecondCategory","Misc","data/icon.paa",["ACE_MainActions","MyCategory"]] call cScripts_fnc_addAceCategory;
-```
-
 ### fn_addArsenal
 [Go to cScripts_fnc_addArsenal](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addArsenal.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
@@ -1869,27 +1862,7 @@ If full, none, or empty value is given the arsenal will be "full".
 **Exsamples:**
 
 ```cpp
-["box","full"] call cScripts_fnc_addArsenal
-```
-
-### fn_addFortifyArea
-[Go to cScripts_fnc_addFortifyArea](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addFortifyArea.sqf), Written by: SGT.[Brostrom.A](https://github.com/ColdEvul)
-
-This function is partly based on Bojan and PFC.Vex.W Fortify system.
-This function setup a aria around the given vehicle to alow construction of fortification structures
-
-**Arguments:**
-
-0: Vehicle <OBJECT>
-
-
-**Exsamples:**
-
-```cpp
-["myTruck"] call cScripts_fnc_addFortifyArea
-```
-```cpp
-["myTruck", 50] call cScripts_fnc_addFortifyArea
+["box", "full"] call cScripts_fnc_addArsenal
 ```
 
 ### fn_addHeal
@@ -1956,26 +1929,6 @@ This function sets up a list of insignias as aceAction or addAction on a given o
 ["my_box"] call cScripts_fnc_addInsigniaSelectionList;
 ```
 
-### fn_addLoadoutAction
-[Go to cScripts_fnc_addLoadoutAction](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addLoadoutAction.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This adds a addAction option to the given item for a given loadout defined in cfgLoadouts.
-
-**Arguments:**
-
-0: Object <OBJECT>
-
-1: Lable <STRING>
-
-1: Loadout classname <CLASSNAME>
-
-
-**Exsamples:**
-
-```cpp
-[this,"My Custom Loadout", "My_Loadout_Classname"] call cScripts_fnc_addLoadoutAction
-```
-
 ### fn_addLoadoutSelection
 [Go to cScripts_fnc_addLoadoutSelection](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addLoadoutSelection.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul) (With help from Commy2)
 
@@ -2029,15 +1982,13 @@ Add object to all curators on next frame.
 ### fn_addReGear
 [Go to cScripts_fnc_addReGear](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addReGear.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
-This adds a reGear selection option. The script reApplyes the players start loadout. But may also heal you if option is allowed.
+This adds a reGear selection option. The script reApplyes the players start loadout.
 
 **Arguments:**
 
 0: Object <OBJECT>
 
-1: Allow Heal <BOOL> (Optional)
-
-2: ACE Category <ARRAY> (Optional)
+1: ACE Category <ARRAY> (Optional)
 
 
 **Exsamples:**
@@ -2046,57 +1997,10 @@ This adds a reGear selection option. The script reApplyes the players start load
 [this] call cScripts_fnc_addReGear
 ```
 ```cpp
-[this, true] call cScripts_fnc_addReGear
+[this] call cScripts_fnc_addReGear
 ```
 ```cpp
-[this, true, ["ACE_MainActions"]] call cScripts_fnc_addReGear
-```
-
-### fn_addStagingZone
-[Go to cScripts_fnc_addStagingZone](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_addStagingZone.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This function adds a given object or marker to the missionNamespace listing staging zones.
-
-**Arguments:**
-
-0: Zone <OBJECT/STRING>
-
-1: Zone Size <NUMBER> (Optional) [Default; 12]
-
-Return:
-
-Nothing
-
-
-**Exsamples:**
-
-```cpp
-[this] call cScripts_fnc_addStagingZone
-```
-```cpp
-[bob, 2] call cScripts_fnc_addStagingZone
-```
-```cpp
-[TruckMcTruckFace, 12] call cScripts_fnc_addStagingZone
-```
-```cpp
-["respawn_west", 12] call cScripts_fnc_addStagingZone
-```
-
-### fn_checkFile
-[Go to cScripts_fnc_checkFile](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_checkFile.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
-
-This function return true or false if a file exist or not.
-
-**Arguments:**
-
-0: FileNamePath <STRING>
-
-
-**Exsamples:**
-
-```cpp
-["myFile.txt"] call cScripts_fnc_checkFile
+[this, ["ACE_MainActions"]] call cScripts_fnc_addReGear
 ```
 
 ### fn_checkStagingZone
@@ -2119,21 +2023,20 @@ True or False <BOOL>
 call cScripts_fnc_checkStagingZone
 ```
 
-### fn_checkVehicle
-[Go to cScripts_fnc_checkVehicle](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_checkVehicle.sqf), Written by: 
+### fn_clearRadioIds
+[Go to cScripts_fnc_clearRadioIds](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_clearRadioIds.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
-This function checks if hte vehicle have a given setting set to it.
-If it does it return a local messages for the user telling you about them.
+This function return a funtion icon path or path provided.
 
 **Arguments:**
 
-0: Object
+nothing
 
 
 **Exsamples:**
 
 ```cpp
-[BotyMcBotface] call cScripts_fnc_checkVehicle
+[player] call cScripts_fnc_clearRadioIds
 ```
 
 ### fn_createActionCategory
@@ -2178,20 +2081,29 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 
 1: Position <ARRAY>
 
-2: Rotation <NUMBER>
+2: Rotation <NUMBER or BOOL>
 
 3: Texture <STRING>
 
 4: Vector <ARRAY> (Optional) (Default; [0,0,1])
 
+4: VectorDirAndUp (Alternative; if Rotation is False)
+
+   1: vectorDir [x1, y1, z1]
+
+   2: vectorUp [x2, y2, z2]
+
 
 **Exsamples:**
 
 ```cpp
-["UH60",[-0.49,-2.45,-1.3],87,"path/to/texture.paa"] call cScripts_fnc_createVehicleLable
+["UH60", [-0.49,-2.45,-1.3], 87, "path/to/texture.paa"] call cScripts_fnc_createVehicleLable
 ```
 ```cpp
-["C130",[0.205,-11.9,8.920],-90,"path/to/texture.paa",[-0.05,0,1]] call cScripts_fnc_createVehicleLable
+["C130", [0.205,-11.9,8.920],-90,  "path/to/texture.paa", [-0.05,0,1]] call cScripts_fnc_createVehicleLable
+```
+```cpp
+["Stryker", [1.666,-1.32,-0.42] , false, "path/to/texture.paa", [[-1,0,-0.152], [0,0,1]]] call cScripts_fnc_createVehicleLable;
 ```
 
 ### fn_deleteDroppedObjects
@@ -2233,50 +2145,41 @@ Move the player outside the passanger door on the left or right side.
 [this, true] call cScripts_fnc_doGetOutHeloSide;
 ```
 
-### fn_doHaloJump
-[Go to cScripts_fnc_doHaloJump](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_doHaloJump.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_getArsenalWhitelist
+[Go to cScripts_fnc_getArsenalWhitelist](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_getArsenalWhitelist.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul) 
 
-This jump throw a player out of a aircraft and ataches a parashoot.
+This function return a list of items used for arsenal
 
 **Arguments:**
 
-0: Player <PLAYER>
+None
 
-1: Vehicle <OBJECT>
+Return:
 
-1: Chute Vehicle <OBJECT> (Optional) [Default; "NonSteerable_Parachute_F"]
+ARRAY of items
 
 
 **Exsamples:**
 
 ```cpp
-["bob","my_C130"] call cScripts_fnc_doHaloJump
-```
-```cpp
-["bob","my_C130", "NonSteerable_Parachute_F"] call cScripts_fnc_doHaloJump
+[] call cScripts_fnc_getArsenalWhitelist;
 ```
 
-### fn_doJump
-[Go to cScripts_fnc_doJump](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_doJump.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_getAttendance
+[Go to cScripts_fnc_getAttendance](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_getAttendance.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
-This jump throw a player out of a aircraft and ataches a parashoot.
+This function return players that haev connected to the server.
+It will print it to your RPT and add it to your clipboard.
 
 **Arguments:**
 
-0: Player <PLAYER>
-
-1: Vehicle <OBJECT>
-
-1: Chute Vehicle <OBJECT> (Optional) [Default; "NonSteerable_Parachute_F"]
+None
 
 
 **Exsamples:**
 
 ```cpp
-["bob","my_C130"] call cScripts_fnc_doJump
-```
-```cpp
-["bob","my_C130", "NonSteerable_Parachute_F"] call cScripts_fnc_doJump
+call cScripts_fnc_getAttendance
 ```
 
 ### fn_getChannelName
@@ -2299,6 +2202,25 @@ Radio name as string
 [1] call cScripts_fnc_getChannelName;
 ```
 
+### fn_getIcon
+[Go to cScripts_fnc_getIcon](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_getIcon.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function return a funtion icon path or path provided.
+
+**Arguments:**
+
+0: Unit <OBJECT>
+
+
+**Exsamples:**
+
+```cpp
+["\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa"] call cScripts_fnc_getIcon
+```
+```cpp
+["iconManLeader"] call cScripts_fnc_getIcon
+```
+
 ### fn_getServerMetrics
 [Go to cScripts_fnc_getServerMetrics](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_getServerMetrics.sqf), Written by: Liber.N
 
@@ -2313,6 +2235,26 @@ This function allow you to get statistics from the server.
 
 ```cpp
 [owner player] call cScripts_fnc_getServerMetrics
+```
+
+### fn_getUnitArsenalDefault
+[Go to cScripts_fnc_getUnitArsenalDefault](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_getUnitArsenalDefault.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul) 
+
+This function creates a defualt loadout based on your current selected loadout class
+
+**Arguments:**
+
+None
+
+Return:
+
+Nothing
+
+
+**Exsamples:**
+
+```cpp
+[] call cScripts_fnc_getUnitArsenalDefault;
 ```
 
 ### fn_getVehicleLable
@@ -2333,8 +2275,30 @@ You can read more about this function [here](https://github.com/7Cav/cScripts/wi
 ["MyExsampleTexture"] call cScripts_fnc_getVehicleLable
 ```
 
-### fn_handleJump
-[Go to cScripts_fnc_handleJump](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_handleJump.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_para_backpack
+[Go to cScripts_fnc_para_backpack](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_para_backpack.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This save your current objects inside of your backpack as a variable
+And simulate a packpack on your chest. Action is added to allow you to swap back.
+
+**Arguments:**
+
+0: Player             <PLAYER>
+
+1: ChuteBackpackClass <OBJECT> (Optional) (Default; "B_Parachute")
+
+
+**Exsamples:**
+
+```cpp
+["bob"] call cScripts_fnc_para_backpack
+```
+```cpp
+["bob", "B_Parachute"] call cScripts_fnc_para_backpack
+```
+
+### fn_para_equipment
+[Go to cScripts_fnc_para_equipment](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_para_equipment.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
 This function run a para jump simulation on a given player. 
 
@@ -2346,7 +2310,53 @@ This function run a para jump simulation on a given player.
 **Exsamples:**
 
 ```cpp
-["bob"] call cScripts_fnc_handleJump
+["bob"] call cScripts_fnc_para_equipment
+```
+
+### fn_para_haloJump
+[Go to cScripts_fnc_para_haloJump](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_para_haloJump.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function throw a player out from a airplane and replaces their current backpack with a parachute.
+
+**Arguments:**
+
+0: Player <player>
+
+1: Vehicle <OBJECT>
+
+2: Chute Vehicle <OBJECT> (Optional) [Default; "NonSteerable_Parachute_F"]
+
+
+**Exsamples:**
+
+```cpp
+["bob","my_C130"] call cScripts_fnc_para_haloJump
+```
+```cpp
+["bob","my_C130", "NonSteerable_Parachute_F"] call cScripts_fnc_para_haloJump
+```
+
+### fn_para_lineJump
+[Go to cScripts_fnc_para_lineJump](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_para_lineJump.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This jump throw a player out of a aircraft and attaches a parashoot.
+
+**Arguments:**
+
+0: Player <PLAYER>
+
+1: Vehicle <OBJECT>
+
+2: Chute Vehicle <OBJECT> (Optional) [Default; "NonSteerable_Parachute_F"]
+
+
+**Exsamples:**
+
+```cpp
+["bob","my_C130"] call cScripts_fnc_para_lineJump
+```
+```cpp
+["bob","my_C130", "NonSteerable_Parachute_F"] call cScripts_fnc_para_lineJump
 ```
 
 ### fn_setupLoadoutCategories
@@ -2393,10 +2403,71 @@ This function setup a quick loadout selection bases on config
 [this, "Charlie", true, "ACE_SelfActions"] call cScripts_fnc_setupLoadoutSelection;
 ```
 
-### fn_setVehicleInventory
-[Go to cScripts_fnc_setVehicleInventory](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_setVehicleInventory.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_training_addHitIndicator
+[Go to cScripts_fnc_training_addHitIndicator](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_training_addHitIndicator.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul), Ocean.M
 
-This function changes the inventory of defined vehicles.
+This object add tiny hit markers to the target you are firing on indikating where you fired.
+
+**Arguments:**
+
+0: Object <OBJECT>
+
+1: Indikator <OBJECT> (Optional)
+
+
+**Exsamples:**
+
+```cpp
+[this] call cScripts_fnc_training_addHitIndicator;
+```
+```cpp
+[this, myOtherTarget] call cScripts_fnc_training_addHitIndicator;
+```
+```cpp
+[this, myOtherTarget, "#(argb,8,8,3)color(1,0.6,0.1,1.0,ca)"] call cScripts_fnc_training_addHitIndicator;
+```
+```cpp
+[this, myOtherTarget, "#(argb,8,8,3)color(1,0.1,0.6,1.0,ca)"] call cScripts_fnc_training_addHitIndicator;
+```
+
+### fn_training_clearhitIndicator
+[Go to cScripts_fnc_training_clearhitIndicator](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_training_clearhitIndicator.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul), Ocean.M
+
+This function clear a hitIndicator objects markers.
+
+**Arguments:**
+
+0: Object <OBJECT>
+
+
+**Exsamples:**
+
+```cpp
+[cursorTarget] call cScripts_fnc_training_clearhitIndicator;
+```
+
+
+## Testing
+### fn_testing_loadoutArrays
+[Go to cScripts_fnc_testing_loadoutArrays](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/testing/fn_testing_loadoutArrays.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function test all loadout arrays
+
+**Arguments:**
+
+
+**Exsamples:**
+
+```cpp
+call cScripts_fnc_testing_loadoutArrays
+```
+
+
+## Vehicle
+### fn_vehicle_addCosmetics
+[Go to cScripts_fnc_vehicle_addCosmetics](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/vehicle/fn_vehicle_addCosmetics.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function changes appearence of the given vehicle within bluefor us objects
 
 **Arguments:**
 
@@ -2406,13 +2477,13 @@ This function changes the inventory of defined vehicles.
 **Exsamples:**
 
 ```cpp
-["vic"] call cScripts_fnc_setVehicleInventory;
+["vic"] call cScripts_fnc_vehicle_addCosmetics;
 ```
 
-### fn_setVehicleSettings
-[Go to cScripts_fnc_setVehicleSettings](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/systems/fn_setVehicleSettings.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+### fn_vehicle_addCosmeticSelection
+[Go to cScripts_fnc_vehicle_addCosmeticSelection](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/vehicle/fn_vehicle_addCosmeticSelection.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
 
-This function apply settigns to vehicles.
+This function add cosmetic options to vehicles
 
 **Arguments:**
 
@@ -2422,6 +2493,239 @@ This function apply settigns to vehicles.
 **Exsamples:**
 
 ```cpp
-["vic"] call cScripts_fnc_setVehicleSettings
+["truckMcTruckLoad"] call cScripts_fnc_vehicle_addCosmeticSelection
 ```
 
+### fn_vehicle_addFlagAction
+[Go to cScripts_fnc_vehicle_addFlagAction](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/vehicle/fn_vehicle_addFlagAction.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function adds a takedown and put up flag action to the given vehicle.
+
+**Arguments:**
+
+0: Vehicle <OBJECT>
+
+
+**Exsamples:**
+
+```cpp
+[this] call cScripts_fnc_vehicle_addFlagAction;
+```
+
+### fn_vehicle_addFunctions
+[Go to cScripts_fnc_vehicle_addFunctions](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/vehicle/fn_vehicle_addFunctions.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function apply functions to vehicles.
+
+**Arguments:**
+
+0: Vehicle <OBJECT>
+
+
+**Exsamples:**
+
+```cpp
+["vic"] call cScripts_fnc_vehicle_addFunctions
+```
+
+### fn_vehicle_addInventory
+[Go to cScripts_fnc_vehicle_addInventory](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/vehicle/fn_vehicle_addInventory.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function changes the inventory of the given vehicle.
+
+**Arguments:**
+
+0: Vehicle <OBJECT>
+
+
+**Exsamples:**
+
+```cpp
+["vic"] call cScripts_fnc_vehicle_addInventory;
+```
+
+### fn_vehicle_addPylonLoadout
+[Go to cScripts_fnc_vehicle_addPylonLoadout](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/vehicle/fn_vehicle_addPylonLoadout.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function apply loadouts to vehicles.
+
+**Arguments:**
+
+0: Vehicle <OBJECT>
+
+
+**Exsamples:**
+
+```cpp
+["vic"] call cScripts_fnc_vehicle_addPylonLoadout
+```
+
+### fn_vehicle_addPylonSelection
+[Go to cScripts_fnc_vehicle_addPylonSelection](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/vehicle/fn_vehicle_addPylonSelection.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function add a stagion loadout selection ace action.
+
+**Arguments:**
+
+0: Vehicle       <OBJECT>
+
+1: DisplayName   <STRING>
+
+2: VehicleKind   <STRING>
+
+3: LoadoutName   <STRING>
+
+4: PylonArray    <ARRAY>
+
+5: Icon          <STRING>
+
+6: Category      <ARRAY>
+
+
+**Exsamples:**
+
+```cpp
+[this, "Default Loadout", "rhsusf_m1a1tank_base", "default", [], ""] call cScripts_fnc_vehicle_addPylonSelection;
+```
+```cpp
+[_vehicle, _displayName, _vehicleKind, _loadoutName, _pylon, _icon] call cScripts_fnc_vehicle_addPylonSelection;
+```
+```cpp
+[_vehicle, "Default Loadout", "rhsusf_m1a1tank_base", "default", [_vehicle, "rhsusf_m1a1tank_base", "default"] call cScripts_fnc_vehicle_getPylon, ""] call cScripts_fnc_vehicle_addPylonSelection;
+```
+
+### fn_vehicle_addRadio
+[Go to cScripts_fnc_vehicle_addRadio](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/vehicle/fn_vehicle_addRadio.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function changes the inventory of the given vehicle.
+
+**Arguments:**
+
+0: Vehicle <OBJECT>
+
+
+**Exsamples:**
+
+```cpp
+["vic"] call cScripts_fnc_vehicle_addRadio;
+```
+
+### fn_vehicle_addRegearAction
+[Go to cScripts_fnc_vehicle_addRegearAction](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/vehicle/fn_vehicle_addRegearAction.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function add a regear action to a vehicle inside of a staging zone.
+
+**Arguments:**
+
+0: Vehicle <OBJECT>
+
+
+**Exsamples:**
+
+```cpp
+["truckMcTruckLoad"] call cScripts_fnc_vehicle_addRegearAction
+```
+
+### fn_vehicle_addRepairAction
+[Go to cScripts_fnc_vehicle_addRepairAction](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/vehicle/fn_vehicle_addRepairAction.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function add a repair action to a vehicle inside of a staging zone.
+
+**Arguments:**
+
+0: Vehicle <OBJECT>
+
+
+**Exsamples:**
+
+```cpp
+["truckMcTruckLoad"] call cScripts_fnc_vehicle_addRepairAction
+```
+
+### fn_vehicle_addStagingActions
+[Go to cScripts_fnc_vehicle_addStagingActions](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/vehicle/fn_vehicle_addStagingActions.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function add stadgeing to vehicles
+
+**Arguments:**
+
+0: Vehicle <OBJECT>
+
+
+**Exsamples:**
+
+```cpp
+["truckMcTruckLoad"] call cScripts_fnc_vehicle_addStagingActions
+```
+
+### fn_vehicle_applyLoadout
+[Go to cScripts_fnc_vehicle_applyLoadout](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/vehicle/fn_vehicle_applyLoadout.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function apply a loadout to a vehicle and save it as a variable.
+
+**Arguments:**
+
+0: Vehicle <OBJECT>
+
+1: LoadoutName <OBJECT>
+
+2: VehicleLoadout <OBJECT>
+
+
+**Exsamples:**
+
+```cpp
+["vic", "default", []] call cScripts_fnc_vehicle_applyLoadout;
+```
+
+### fn_vehicle_getPylon
+[Go to cScripts_fnc_vehicle_getPylon](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/vehicle/fn_vehicle_getPylon.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function return a vehicle loadout based on loadout name and vehicle kind.
+
+**Arguments:**
+
+0: VehicleKind <STRING>
+
+1: LoadoutName <STRING> (Default; "default")
+
+
+**Exsamples:**
+
+```cpp
+["rhsusf_m1a1tank_base", "default"] call cScripts_fnc_vehicle_getPylon;
+```
+
+### fn_vehicle_setRadio
+[Go to cScripts_fnc_vehicle_setRadio](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/vehicle/fn_vehicle_setRadio.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function changes the inventory of the given vehicle.
+
+**Arguments:**
+
+0: Vehicle <OBJECT>
+
+1: Channel <NUMBER>
+
+
+**Exsamples:**
+
+```cpp
+["vic"] call cScripts_fnc_vehicle_setRadio;
+```
+
+### fn_vehicle_setupPylonCategories
+[Go to cScripts_fnc_vehicle_setupPylonCategories](https://github.com/7Cav/cScripts/blob/master/cScripts/CavFnc/functions/vehicle/fn_vehicle_setupPylonCategories.sqf), Written by: CPL.[Brostrom.A](https://github.com/ColdEvul)
+
+This function setup a loadout categories
+
+**Arguments:**
+
+0: Vehicle/Object/Crate <OBJECT>
+
+
+**Exsamples:**
+
+```cpp
+[this] call cScripts_fnc_vehicle_setupPylonCategories;
+``´
