@@ -2728,4 +2728,4 @@ This function setup a loadout categories
 
 ```cpp
 [this] call cScripts_fnc_vehicle_setupPylonCategories;
-``´
+```
