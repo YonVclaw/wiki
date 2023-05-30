@@ -20,7 +20,7 @@
 ## Mission Makers
 * [[Gear]]
 * [[Vehicle Labels|Texture Label]]
-* [[Starter Crate]] | [[Base Crate|Starter Crate]]
+* [[Starter Crate]] | [[Base Crate|Starter-Crate#alternative-base-crate]]
 * [[Field Hospital]]
 * [[Logistical Crates]]
 * [[Teleporter function|Teleport]]
