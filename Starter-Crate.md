@@ -1,4 +1,4 @@
-<img align="right" width="300" height="166" src="https://github.com/7Cav/cScripts/blob/main/resourses/wikigfx/Starter_Crate.png">The starter crate function transform a given object to a **7th Cavalry Start Crate** that allow you at the start of a mission, hence the name, to customize your gear, select a new loadout and/or add a insignia. The starter crate now creates a staging zone around it.
+<img align="right" width="300" height="166" src="https://github.com/7Cav/cScripts/blob/main/resourses/wikigfx/Starter_Crate.png">The starter crate function transform a given object to a **7th Cavalry Start Crate** that allow you at the start of a mission, hence the name, to customize your gear, select a new loadout and/or add a insignia. The starter crate now creates a staging zone around it allowing for the same functionality as the create.
 
 The crate inventory, as well as loadout selections, is based around a given platoon and, as default, only members of the given platoon will be able to select loadouts from this crate. (A player spawned in as Charlie trooper will only be able to access a charlie crate loadouts. (This does not affect the crate inventory, jet.))
 
