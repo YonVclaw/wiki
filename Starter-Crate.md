@@ -20,7 +20,7 @@ The function is applied manually via Eden or can be spawned using a [[7Cav Modue
 ```
 **Return Value:** ```Nothing```
 
-## Alternative
+## Alternative: Base Crate
 There are a alternative function called Base Crate this have exsactly the same functionality to the startercrate with less parameters.
 
 ### Syntax
