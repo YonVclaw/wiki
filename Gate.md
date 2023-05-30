@@ -2,7 +2,7 @@
 
 <img align="right" width="0" height="0" src="">The gate function creates a automated open and close gate system without requirement of setting up triggers.
 
-The function is applied manually via Eden.
+The function is applied manually via Eden on the object init.
 
 ### Syntax
 **Syntax:** `[this,"WEST", 30] call cScripts_fnc_gate`
