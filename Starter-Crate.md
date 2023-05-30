@@ -20,6 +20,20 @@ The function is applied manually via Eden or can be spawned using a [[7Cav Modue
 ```
 **Return Value:** ```Nothing```
 
+## Alternative
+There are a alternative function called Base Crate this have exsactly the same functionality to the startercrate with less parameters.
+
+### Syntax
+**Syntax:** `[this, "all"] call cScripts_fnc_addBaseCrate;`
+
+**Parameters:**
+```
+0: Object <OBJECT>
+1: Crate Type <STRING>       (Default: "none")
+```
+
+**Return Value:** ```true or false <BOOLEAN>```
+
 ## See also
 * [[Field Hospital]]
 * [[Logistical Crates]]
