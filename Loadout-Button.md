@@ -11,7 +11,7 @@ The function is useful for temporarily loadouts.
 [this, "Apply a special variable loadout", "Variable_Name"] call cScripts_fnc_addLoadoutAction;
 [this, "Go Nude", [[],[],[],[],[],[],"","",[],["","","","","",""]]] call cScripts_fnc_addLoadoutAction;
 ```
-
+The function is applied manually via Eden on the objects init.
 
 ## See also,
 - [fn_addLoadoutAction.sqf](https://github.com/7Cav/cScripts/blob/main/cScripts/functions/mission/fn_addLoadoutAction.sqf) _(Function)_
