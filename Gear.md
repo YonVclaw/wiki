@@ -74,5 +74,5 @@ this setVariable ["cScripts_Gear_LoadoutClass", "CommonBlufor"];
 _In our current setup `CommonBlufor` is set to `private` scope and does not have a defined loadout. This means it will not be applied. A warning of this will be shown in Eden SP and Eden MP._
 
 ## See Also
-- [[Staging Zones]] _(Mission makers)_
+- [[Staging Zone]]
 - [[Starter Crate]]
