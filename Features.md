@@ -27,7 +27,7 @@
 * [[CBA Mission Settings]]
 * **Functions**
   * [[Loadout Button]]
-  * [[Teleporter function|Teleport]]
-  * [[Automated gate function|Gate]]
+  * [[Teleporter Button|Teleport]]
+  * [[Automated Gate|Gate]]
 
 *Functions usually require you to manually add them to the object or vehicles init line in Eden.*
