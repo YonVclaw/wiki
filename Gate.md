@@ -17,8 +17,4 @@ The function is applied manually via Eden on the objects init.
 ## See also,
 - [fn_gate.sqf](https://github.com/7Cav/cScripts/blob/main/cScripts/functions/mission/fn_gate.sqf) _(Function)_
 - [[Staging Zone]] _(Mission Makers)_
-
-## See also
-fn_gate
-* [[Starter Crate]]
 * [[Teleport]]
