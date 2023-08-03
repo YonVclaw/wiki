@@ -7,7 +7,7 @@ Ofcause you sometimes need or whant more logging during development. But after r
 There are three [diagnostics functions](https://github.com/7Cav/cScripts/tree/main/cScripts/functions/diag) in cScripts; `error`, `warning` and `info`. Mainly what this functions do is to format your error message and add a prefix. In the rpt log. Exsample:
 ```
 >>> private _var = 'exsample';
->>> [format['I am a %1 warning.', _var]] call FUNC(warning)
+>>> [format['I am a %1 warning.', _var]] call FUNC(warning);
 13:36:59 [cScripts] WARNING: I am a exsample warning.
 ```
 This allow you to easy see and follow  your function in the rpt log.
