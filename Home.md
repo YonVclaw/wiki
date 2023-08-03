@@ -7,7 +7,6 @@ This is cScripts a easy to use mission framework package used by the 7th Cavalry
 The script and its systems is maintained and updated by the [7th Cavalry Gaming](https://7cav.us/) S3 - 1BN Scripting Department.
 - [[Mission Maker|Features#mission-makers]]
 - [[Features]]
-- [[Function list]]
-- [[Frameworks]] 
+- [[Frameworks|Features#framework]]
 - [[Development]] 
 - [[Compositions]] 
