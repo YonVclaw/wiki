@@ -12,3 +12,8 @@ This function can be declared in `init.sqf` if you declare a VariableName of the
 
 You can also place down a marker and name it `zone_staging` (_suffix `_0` up to `_15` does also work_). This will automatically get a zone of 60 meters around them
 
+## See also
+- [[Features]]
+- [[Staging]] _(Feature)_
+- [[Starter Crate]]
+- [[Loadout|Gear]]
