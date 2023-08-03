@@ -21,6 +21,7 @@
 * [[Gear]]
 * [[Vehicle Labels|Texture Label]]
 * [[Starter Crate]] | [[Base Crate|Starter-Crate#alternative-base-crate]]
+* [[Staging Zone]]
 * [[Field Hospital]]
 * [[Logistical Crates]]
 * [[Teleporter function|Teleport]]
