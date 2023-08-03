@@ -5,7 +5,7 @@ You can also manually declare a zone using the following function:
 /* Arguments:
  * 0: Zone <OBJECT/STRING>
  * 1: Zone Size <NUMBER> (Optional) [Default; 12 meter]
-*/
+ */
 [this, 25] call cScripts_fnc_addStagingZone;
 ```
 This function can be declared in `init.sqf` if you declare a VariableName of the object.
