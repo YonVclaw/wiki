@@ -6,6 +6,7 @@ The function is useful for temporarily loadouts.
  * 1: Lable <STRING>
  * 2: Loadout <CLASSNAME / VARIABLE / LOADOUT ARRAY>
  */
+
 [this, "My Custom Loadout", "My_Loadout_Classname"] call cScripts_fnc_addLoadoutAction;
 [this, "Rifleman", "B_Soldier_F"] call cScripts_fnc_addLoadoutAction;
 [this, "Apply a special variable loadout", "Variable_Name"] call cScripts_fnc_addLoadoutAction;
