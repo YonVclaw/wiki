@@ -13,7 +13,8 @@ The function is useful for temporarily loadouts.
 ```
 
 
-## See also
+## See also,
+- [fn_addLoadoutAction.sqf](https://github.com/7Cav/cScripts/blob/main/cScripts/functions/mission/fn_addLoadoutAction.sqf) _(Function)_
 - [[Loadout (Gear)|Gear]]
 - [[Starter Crate]]
 - [[Staging]] _(Feature)_
