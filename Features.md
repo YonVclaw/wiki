@@ -25,7 +25,8 @@
 * [[Field Hospital]]
 * [[Logistical Crates]]
 * [[CBA Mission Settings]]
-* **Ambience functions**
+* **Functions**
+  * [[Loadout Action]]
   * [[Teleporter function|Teleport]]
   * [[Automated gate function|Gate]]
 
