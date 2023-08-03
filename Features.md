@@ -1,5 +1,6 @@
 ## Features
 * [[Help cards and check lists|Diary Records and Documents]]
+* [[Staging Zone|Staging]]
 * [[Player Loadouts|Player Loadouts]]
   * [[Cosmetics and quick features|Player cosmetics and quick deployment features]]
   * [[Platoon & Squad Insignias|Platoon and Squad Insignias]]
@@ -12,7 +13,6 @@
   * [[HALO jump|Vehicle-Settings-and-Functions#HALO-jump]]
   * [[Vehicle Radio Preset|Radio#Vehicle-Radio]]
 * [[CBA Mission Settings]]
-* [[Staging]]
 
 ## Mission Controll
 * [[Modules|7Cav Modules]]
