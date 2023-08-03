@@ -24,8 +24,9 @@
 * [[Staging Zone]]
 * [[Field Hospital]]
 * [[Logistical Crates]]
-* [[Teleporter function|Teleport]]
-* [[Automated gate function|Gate]]
 * [[CBA Mission Settings]]
+* **Ambience functions**
+  * [[Teleporter function|Teleport]]
+  * [[Automated gate function|Gate]]
 
 *Functions usually require you to manually add them to the object or vehicles init line in Eden.*
