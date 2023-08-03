@@ -15,7 +15,7 @@ This allow you to easy see and follow  your function in the rpt log.
 In order to log only when you have debug is enable you write:
 ```
 #ifdef DEBUG_MODE
-    ["Exsample log", "MyFunction"] call FUNC(log);
+    ["Exsample log", "Prefix Example"] call FUNC(log);
 #endif
 ```
 This will allow a message to only be shown when `#define DEBUG_MODE` is defined (written att the top of the file or enabled via [script_component.hpp](https://github.com/7Cav/cScripts/blob/master/cScripts/script_component.hpp#L7).)
