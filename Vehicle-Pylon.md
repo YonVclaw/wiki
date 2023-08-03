@@ -9,3 +9,7 @@ To access the Loadours simply go to your vehicles self interaction menu when par
 * **M1A1 Abrams** (RHS) - (Default, Mixed, Soft, Hard)
 * **AFV-4 Gorgon** (A3) - (Anti-Armor, Anti-Air, Assault, Default)
 * **M1296 Dragoo** (CavAddon) - (Anti-Armor, Anti-Air, Assault, Default)
+
+## See also
+- [[Staging zone]]
+* [[How to add a vehicle loadout|Pylon]]
