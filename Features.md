@@ -26,7 +26,7 @@
 * [[Logistical Crates]]
 * [[CBA Mission Settings]]
 * **Functions**
-  * [[Loadout Action]]
+  * [[Loadout Button]]
   * [[Teleporter function|Teleport]]
   * [[Automated gate function|Gate]]
 
