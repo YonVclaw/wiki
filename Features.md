@@ -30,4 +30,12 @@
   * [[Teleporter Button|Teleport]]
   * [[Automated Gate|Gate]]
 
-*Functions usually require you to manually add them to the object or vehicles init line in Eden.*
+## Framework
+* [[Player Loadouts (cScripts Gear System)|Gear]]
+* [[Vehicle Loadouts (cScripts Pylon System)|Pylon]]
+* [[Staging|Staging System]]
+* [[Insignia and selectors|How to add a insignia]]
+* [[Player Variables]]
+* [[Settings|CBA-Mission-Settings]]
+* [[Debugging]]
+* [[Modules|Module Framework]]
