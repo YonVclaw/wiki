@@ -38,4 +38,4 @@ cScripts_Settings_vehicleFactions = "[""BLU_F"", ""BLU_CTRG_F"", ""BLU_T_F"", ""
 ## See also
 * [[Features]]
 * [[Starter Crate]]
-* File: [cba_settings.sqf](https://github.com/7Cav/cScripts/blob/master/cba_settings.sqf)
+* [cba_settings.sqf](https://github.com/7Cav/cScripts/blob/master/cba_settings.sqf) _(Function)_
