@@ -16,7 +16,6 @@
 * [[CBA Mission Settings]]
 
 ## Mission Makers
-* [[Gear]]
 * [[Vehicle Labels|Texture Label]]
 * [[Starter Crate]] | [[Base Crate|Starter-Crate#alternative-base-crate]]
 * [[Staging Zone]]
