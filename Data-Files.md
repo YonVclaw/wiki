@@ -7,10 +7,6 @@ Here you find paths to files handling or dealing with hard coded names, cargo, i
 
 `./cScripts/Loadouts/*`
 
-`./cScripts/functions/logistics/fn_doMedicalCrate.sqf`
-`./cScripts/functions/logistics/fn_doStarterCrateSupplies.sqf`
-`./cScripts/functions/logistics/fn_doSupplyCrate.sqf`
-
 `./cScripts/functions/vehicle/fn_vehicle_addInventory.sqf`
 `./cScripts/functions/vehicle/fn_vehicle_addFunctions.sqf`
 `./cScripts/functions/vehicle/fn_vehicle_addCosmetics.sqf`
