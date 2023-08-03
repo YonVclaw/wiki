@@ -1,8 +1,0 @@
-* [[Player Loadouts (cScripts Gear System)|Gear]]
-* [[Vehicle Loadouts (cScripts Pylon System)|Pylon]]
-* [[Staging|Staging System]]
-* [[Insignia and selectors|How to add a insignia]]
-* [[Player Variables]]
-* [[Settings|CBA-Mission-Settings]]
-* [[Debugging]]
-* [[Modules|Module Framework]]
