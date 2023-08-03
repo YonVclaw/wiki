@@ -2,7 +2,7 @@
 * [Home](https://github.com/7Cav/cScripts/wiki)
 * **cScripts** 
    * [Features](Features)
-   * [Frameworks](Features#Framework)
+   * [Frameworks](Features#framework)
    * [Development](Development)
    * [Compositions](Compositions)
 * **Documents**
