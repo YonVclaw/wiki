@@ -12,10 +12,8 @@
   * [[Static line jump|Vehicle-Settings-and-Functions#Static-line-jump]]
   * [[HALO jump|Vehicle-Settings-and-Functions#HALO-jump]]
   * [[Vehicle Radio Preset|Radio#Vehicle-Radio]]
+* [[Zeus Modules|7Cav Modules]]
 * [[CBA Mission Settings]]
-
-## Mission Controll
-* [[Modules|7Cav Modules]]
 
 ## Mission Makers
 * [[Gear]]
