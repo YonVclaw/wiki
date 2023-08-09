@@ -8,6 +8,6 @@ You can see cScripts version number in 3 diffrent ways.
 
 ### How do i get the RPT?
 Your RPT logs are located here:
-`%localappdata%\Arma 3` or `C:\Users\[USERNAME]\AppData\Local\Arma 3`
+`%localappdata%\Arma 3` or `C:\Users\[USERNAME]\AppData\Local\Arma 3`.
 
 See also: [ARMA WIKI - Crash files](https://community.bistudio.com/wiki/Crash_Files)
