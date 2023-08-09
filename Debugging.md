@@ -10,6 +10,7 @@ There are three [diagnostics functions](https://github.com/7Cav/cScripts/tree/ma
 >>> [format['I am a %1 warning.', _var]] call FUNC(warning);
 13:36:59 [cScripts] WARNING: I am a exsample warning.
 ```
+<!--asdasd-->
 This allow you to easy see and follow  your function in the rpt log.
 
 In order to log only when you have debug is enable you write:
