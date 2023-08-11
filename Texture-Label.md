@@ -56,7 +56,7 @@ To use other custom textures as a vehicle label by using the full path to the te
 [this] call cScripts_fnc_setVehicleLable;
 [this,"B","5"] call cScripts_fnc_setVehicleLable;
 [this,"RedCross"] call cScripts_fnc_setVehicleLable;
-[this,"RedCross",RedCross,"S","6"] call cScripts_fnc_setVehicleLable;
+[this,"RedCross","RedCross","S","6"] call cScripts_fnc_setVehicleLable;
 ```
 
 ## See also
