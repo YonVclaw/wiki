@@ -12,19 +12,20 @@ The function is applied manually via Eden or can be spawned using a [[7Cav Modue
 ```
 **Texture library**
 <img align="right" width="300" height="210" src="https://github.com/7Cav/cScripts/blob/main/resourses/wikigfx/Texture_Lable.png">
--  `A`<sup>[1]</sup>
--  `B`<sup>[1]</sup> 
--  `C`<sup>[1]</sup>
--  `S`<sup>[1]</sup> 
--  `0` to `9`<sup>[1]</sup><sup>[2]</sup>
--  `line`<sup>[A]</sup> 
--  `stryker`<sup>[B]</sup> 
--  `vic1` 
--  `vic2` 
--  `vic3` 
--  `vic4` 
--  `vic5` 
--  `vic6`
+- `A`<sup>[1]</sup>
+- `B`<sup>[1]</sup> 
+- `C`<sup>[1]</sup>
+- `S`<sup>[1]</sup> 
+- `0` to `9`<sup>[1]</sup><sup>[2]</sup>
+- `line`<sup>[A]</sup> 
+- `stryker`<sup>[B]</sup> 
+- `vic1` 
+- `vic2` 
+- `vic3` 
+- `vic4` 
+- `vic5` 
+- `vic6`
+- `path/to/texture_ca.paa`
 
 <sup>[1]</sup> UH60 Black Hawks have a special variant of this texture when in use. <br>
 <sup>[2]</sup> C-130 have a special variant of this texture when in use. <br>
