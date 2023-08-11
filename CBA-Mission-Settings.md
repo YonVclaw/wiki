@@ -22,6 +22,7 @@ cScripts_Settings_jumpSimulationHat = true;
 cScripts_Settings_jumpSimulationNVG = true;
 cScripts_Settings_primaryClanTag = "7CAV";
 cScripts_Settings_replaceHandGrenades = 1;
+cScripts_Settings_replaceMagazines = 0;
 cScripts_Settings_replaceMedical = 1;
 cScripts_Settings_replaceSmokeGrenades = 1;
 cScripts_Settings_replaceStunGrenades = 1;
