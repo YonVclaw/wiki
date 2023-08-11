@@ -1,5 +1,4 @@
-This function applies a texture to a given supported vehicle (see below). All textures are per default available but any kind of texture can be used. Some textures have multiple behaviours depending on the vehicle. For instance, a UH60 tail number have smaller numbers then a C-130 tail number for instance.
-The function is applied manually via Eden or can be spawned using a [[7Cav Moduel|7Cav-Modules]].
+This function applies a texture to a given supported vehicle (see below). All textures are per default available but any kind of texture can be used. Some textures have multiple behaviours depending on the vehicle. For instance, a UH60 tail number have smaller numbers then a C-130 tail number for instance. The function is applied manually, or sometimes automatic, via Eden or can be spawned using a [[Zeus-Modules]].
 
 #### Supported vehicles
 ```
