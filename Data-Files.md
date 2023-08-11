@@ -17,6 +17,8 @@ Here you find paths to files handling or dealing with hard coded names, cargo, i
 `./cScripts/functions/vehicle/fn_vehicle_addStagingActions.sqf`<br/>
 `./cScripts/functions/vehicle/fn_vehicle_getPylon.sqf`<br/>
 
+`./cScripts/functions/mission/fn_setVehicleLable.sqf`<br/>
+
 `./cScripts/functions/systems/fn_addInsigniaSelectionList.sqf`<br/>
 `./cScripts/functions/systems/fn_getVehicleLable.sqf`<br/>
 `./cScripts/functions/systems/fn_setupLoadoutCategories.sqf`<br/>
