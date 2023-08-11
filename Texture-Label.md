@@ -39,25 +39,24 @@ To use other custom textures as a vehicle label by using the full path to the te
 **Syntax:** `[this,"","","","","","","","",""] call cScripts_fnc_setVehicleLable`
 
 **Parameters:**
-```
- 0: Vehicles <OBJECT>
- 1: Texture <STRING> (Optional)
- 2: Texture <STRING> (Optional)
- 3: Texture <STRING> (Optional)
- 4: Texture <STRING> (Optional)
- 5: Texture <STRING> (Optional)
- 6: Texture <STRING> (Optional)
- 7: Texture <STRING> (Optional)
- 8: Texture <STRING> (Optional)
- 9: Texture <STRING> (Optional)
-```
-**Return Value:** ```Nothing```
+```cpp
+/* Arguments:
+ * 0: Vehicles <OBJECT>
+ * 1: Texture <STRING> (Optional)
+ * 2: Texture <STRING> (Optional)
+ * 3: Texture <STRING> (Optional)
+ * 4: Texture <STRING> (Optional)
+ * 5: Texture <STRING> (Optional)
+ * 6: Texture <STRING> (Optional)
+ * 7: Texture <STRING> (Optional)
+ * 8: Texture <STRING> (Optional)
+ * 9: Texture <STRING> (Optional)
+ */
 
-### Example usage
-```
- [this] call cScripts_fnc_setVehicleLable
- [this,"vic1"]
- [this,"B","5"] call cScripts_fnc_setVehicleLable
+[this] call cScripts_fnc_setVehicleLable;
+[this,"B","5"] call cScripts_fnc_setVehicleLable;
+[this,"RedCross"] call cScripts_fnc_setVehicleLable;
+[this,"RedCross",RedCross,"S","6"] call cScripts_fnc_setVehicleLable;
 ```
 
 ## See also
