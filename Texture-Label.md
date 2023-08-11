@@ -1,7 +1,7 @@
 This function applies a texture to a given supported vehicle (see below). All textures are per default available but any kind of texture can be used. Some textures have multiple behaviours depending on the vehicle. For instance, a UH60 tail number have smaller numbers then a C-130 tail number for instance.
 The function is applied manually via Eden or can be spawned using a [[7Cav Moduel|7Cav-Modules]].
 
-**Supported vehicles**
+#### Supported vehicles
 ```
   C-130              3 PARMS     <LETTER and NUMBER> OR <SPECIAL>    (Locations: Tail)
   UH60 Black Hawks   2 PARMS     <LETTER and NUMBER> OR <SPECIAL>    (Locations: Tail)
@@ -10,8 +10,9 @@ The function is applied manually via Eden or can be spawned using a [[7Cav Modue
   M1A1 Abrams        2 PARMS     <SPECIAL>                           (Locations: Front, Side)
   M2/M3 Bradley      1 PARMS     <SPECIAL>                           (Locations: Side)
 ```
-**Texture library**
+#### Texture library
 <img align="right" width="300" height="210" src="https://github.com/7Cav/cScripts/blob/main/resourses/wikigfx/Texture_Lable.png">
+
 - `A`<sup>[1]</sup>
 - `B`<sup>[1]</sup> 
 - `C`<sup>[1]</sup>
@@ -32,7 +33,7 @@ The function is applied manually via Eden or can be spawned using a [[7Cav Modue
 <sup>[B]</sup> Gets applied to the striker front no arguments required. <br>
 
 
-**Other textures**
+##### Other textures
 
 To use other custom textures as a vehicle label by using the full path to the texture. Exsample: `cScripts\Data\Insignia\1-1-C-17.paa`
 
