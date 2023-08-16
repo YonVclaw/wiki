@@ -9,5 +9,5 @@ If you have the ability edit the config loadout file directly this is the best w
 * [[Features]]
 * [[Starter Crate]]
 * [[Regear Trooper Module]]
-* [[How to add a loadout|Gear#how-to-gear-up]]
+* [[How to add a loadout|Gear#how-to-gear-up]] (Framework)
 * [[How to disable loadout system|Gear]]
