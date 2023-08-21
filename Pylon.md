@@ -27,6 +27,10 @@ getPylonMagazines cursorObject
 ```
 
 ### Loadout format
+Each export return a one liner long array what we do is to reformat it to make it more readable and manageable.
+The loadout system support 2 types of formats the vehicle magazine array with the id and owner part at the end removed. For aircrafts the pylon return a much simpler array with each item (usually) represent left to right wing position.
+
+Below you can find exsample formaring.
 
 #### Ground vehicles
 ```hpp
