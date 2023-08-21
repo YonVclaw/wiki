@@ -120,3 +120,8 @@ if (_vehicle iskindOf "rhsusf_m1a1tank_base") then {
 > In >4.5.2 they are automatically applied.
 
 Loadouts that are named `default` are automatically applied to a vehicle. If non-exist none will be applied.
+
+## See also
+* [[Vehicle Pylon]] (Feature)
+* [[Vehicle Customization|Vehicle Customization]] 
+* [[Vehicle Texture Label|Texture Label]] 
