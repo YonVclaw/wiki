@@ -26,8 +26,8 @@ getPylonMagazines cursorObject
 
 Now when we have a array containing our pylon can now add it or edit it to fit your needs better.
 
-In the file [cScripts/functions/vehicle/fn_vehicle_getPylon.sqf](https://github.com/7cav/cscripts/blob/main/cScripts/functions/vehicle/fn_vehicle_getPylon.sqf)
-We you define the loadout.
+In the file [`cScripts/functions/vehicle/fn_vehicle_getPylon.sqf`](https://github.com/7cav/cscripts/blob/main/cScripts/functions/vehicle/fn_vehicle_getPylon.sqf)
+we define all our loadouts.
 
 ### Loadout list
 All loadouts used are handled by the getPylon script file.
