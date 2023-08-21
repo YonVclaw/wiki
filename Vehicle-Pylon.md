@@ -12,4 +12,4 @@ To access the Loadours simply go to your vehicles self interaction menu when par
 
 ## See also
 - [[Staging zone]]
-* [[How to add a vehicle loadout|Pylon]]
+- [[How to add a vehicle loadout|Pylon]]
