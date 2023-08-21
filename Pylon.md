@@ -117,8 +117,8 @@ if (_vehicle iskindOf "rhsusf_m1a1tank_base") then {
 
 
 ## Defaut Loadout
-> NOTE: Default loadouts in <4.5.1 are manually defined.
->They are defined in [`cScripts/functions/vehicle/fn_vehicle_addDefaultLoadout.sqf`](https://github.com/7Cav/cScripts/blob/main/cScripts/functions/vehicle/fn_vehicle_addDefaultLoadout.sqf)
+> NOTE: Default loadouts in <4.5.1 are manually defined.<br />
+>They are defined in [`cScripts/functions/vehicle/fn_vehicle_addDefaultLoadout.sqf`](https://github.com/7Cav/cScripts/blob/main/cScripts/functions/vehicle/fn_vehicle_addDefaultLoadout.sqf).<br />
 > In >4.5.2 they are automatically applied.
 
 Loadouts that are named `default` are automatically applied to a vehicle. If non-exist none will be applied.
