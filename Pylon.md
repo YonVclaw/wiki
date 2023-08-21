@@ -79,10 +79,8 @@ getPylonMagazines cursorObject
 
 ### Add Loadout
 Now when we have a array containing our pylon can now add it or edit it to fit your needs better.
-
 In the file [`cScripts/functions/vehicle/fn_vehicle_getPylon.sqf`](https://github.com/7cav/cscripts/blob/main/cScripts/functions/vehicle/fn_vehicle_getPylon.sqf)
 we define all our loadouts.
-
 The loadout file have 2 parts the actuall loadouts then the vehicle kind that reference the loadout.
 
 ```cpp
