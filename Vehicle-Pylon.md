@@ -11,5 +11,5 @@ To access the Loadours simply go to your vehicles self interaction menu when par
 * **M1296 Dragoo** (CavAddon) - (Anti-Armor, Anti-Air, Assault, Default)
 
 ## See also
-- [[Staging zone]]
-- [[How to add a vehicle loadout|Pylon]]
+* [[Staging zone]]
+* [[How to add a vehicle loadout|Pylon]]
