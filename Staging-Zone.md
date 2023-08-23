@@ -27,9 +27,10 @@ cScripts_Staging_ZoneStatus = true;
 ```
 ## Mission settings
 ### Disable staging system
-It is possible to disable staging system in the mission settings.
+It is possible to disable staging system in the mission settings under the staging category..
+
 ### Allow all loadouts
-It is possible to removing the company blocker for loadouts in the missing settings.
+It is possible to removing the company blocker for loadouts in the missing settings under the staging category.
 
 ## See also
 - [[Features]]
