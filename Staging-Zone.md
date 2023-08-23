@@ -14,7 +14,7 @@ This function can be declared in `init.sqf` if you declare a VariableName of the
 You can also place down a marker and name it `zone_staging` (_suffix `_0` up to `_15` does also work_). This will automatically get a zone of 60 meters around them
 
 ## Zeus
-### Disable all staging zones
+### Disable/Enable all staging zones
 Zeus can via a module disable access to all staging zones.
 
 ### Enable staging everywere
@@ -25,6 +25,11 @@ Global execution will enable the staging zones for all player JIP players will n
 ```hpp
 cScripts_Staging_ZoneStatus = true;
 ```
+## Mission settings
+### Disable staging system
+It is possible to disable staging system in the mission settings.
+### Allow all loadouts
+It is possible to removing the company blocker for loadouts in the missing settings.
 
 ## See also
 - [[Features]]
