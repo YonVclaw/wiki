@@ -13,6 +13,19 @@ This function can be declared in `init.sqf` if you declare a VariableName of the
 
 You can also place down a marker and name it `zone_staging` (_suffix `_0` up to `_15` does also work_). This will automatically get a zone of 60 meters around them
 
+## Zeus
+### Disable all staging zones
+Zeus can via a module disable access to all staging zones.
+
+### Enable staging everywere
+It is possible as Zeus to enable staging zones for all or targeted soldier using code execution.
+
+Global execution will enable the staging zones for all player JIP players will not be effected.
+
+```hpp
+cScripts_Staging_ZoneStatus = true;
+```
+
 ## See also
 - [[Features]]
 - [[Staging]] _(Feature)_
