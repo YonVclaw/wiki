@@ -12,6 +12,7 @@
   * [[Static line jump|Vehicle-Settings-and-Functions#Static-line-jump]]
   * [[HALO jump|Vehicle-Settings-and-Functions#HALO-jump]]
   * [[Vehicle Radio Preset|Radio#Vehicle-Radio]]
+* [[Simulated Population Centers]] (DEV)
 * [[Zeus Modules]]
 * [[CBA Mission Settings]]
 
