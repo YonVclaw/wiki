@@ -10,11 +10,13 @@ When on the map screen more or less everything is setup. When you launch, your l
 
 ## Initialization order
 Here is the basic initialization order when mission is loaded on the server.
-1. **cScripts Pre-init** (_Parts in eden_)
+1. *Mission load screen*
+1. **cScripts Pre-init**
 1. **Init**
-1. **Unit initfields**
+1. **Object init fields**
 1. **cScripts Post-init**
-1. **cScripts Loadouts is applied**
+1. *Mission map screen*
+1. **Player Loadout is applied**
 
 ### Player init
 Once the mission have reached the mission screen the Poppy loadout system take over for players.
