@@ -16,10 +16,11 @@ Here is the basic initialization order when mission is loaded on the server.
 1. **Object init fields**
 1. **cScripts Post-init**
 1. *Mission map screen*
-1. **Player Loadout is applied**
+1. **Player Loadout is applied** (_First load_)
 
 ### Player init
-Once the mission have reached the mission screen the Poppy loadout system take over for players.
+Once the mission have reached the mission screen the loadout is applied to the players.
+If you join a server mid mission this will be applied once you selected a spawn or when you exit the map.
 
 ## See also
 * [Player variables](https://github.com/7Cav/cScripts/wiki/Player-variables)
