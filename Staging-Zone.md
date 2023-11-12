@@ -7,7 +7,13 @@ You can also manually declare a zone using the following function:
  * 1: Zone Size <NUMBER/STRING> (Optional) [Default; 12]
  */
 
-[this, 25] call cScripts_fnc_addStagingZone;
+[this] call cScripts_fnc_addStagingZone
+[this, 3] call cScripts_fnc_addStagingZone
+["zone_staging", 12] call cScripts_fnc_addStagingZone
+["respawn_west", 12] call cScripts_fnc_addStagingZone
+[[10,25,0], 12] call cScripts_fnc_addStagingZone
+["ShapedZoneMarker", "RECTANGLE"] call cScripts_fnc_addStagingZone
+["ShapedZoneMarker", "ELLIPSE"] call cScripts_fnc_addStagingZone
 ```
 This function can be declared in `init.sqf` if you declare a VariableName of the object.
 
