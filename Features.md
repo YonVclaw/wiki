@@ -22,6 +22,7 @@
 * [[Staging Zone]]
 * [[Field Hospital]]
 * [[Logistical Crates]]
+* [[Simulated Population Centers|Setup Population Centers]] (DEV)
 * [[CBA Mission Settings]]
 * **Functions**
   * [[Loadout Button]]
@@ -32,7 +33,6 @@
 * [[Player Loadouts (cScripts Gear System)|Gear]]
 * [[Vehicle Loadouts (cScripts Pylon System)|Pylon]]
 * [[Staging|Staging System]]
-* [[Simulated Population Centers|Setup Population Centers]] (DEV)
 * [[Insignias and selectors|How to add a insignia]]
 * [[Player Variables]]
 * [[Settings|CBA-Mission-Settings]]
