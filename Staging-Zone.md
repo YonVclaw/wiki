@@ -31,17 +31,22 @@ Global execution will enable the staging zones for all player JIP players will n
 ```hpp
 cScripts_Staging_ZoneStatus = true;
 ```
+
+### Allow all loadouts
+It is possible to show all loadouts for all players for all or targeted soldier using code execution.
+
+Global execution will enable the staging zones for all player JIP players will not be effected.
+```cpp
+cScripts_Staging_showAllLoadouts = true;
+cScripts_Staging_showAllLoadouts = false;
+```
+
 ## Mission settings
 ### Disable staging system
 It is possible to disable staging system in the mission settings under the staging category.
 
 ### Allow all loadouts
-It is possible to show all loadouts for all players.
-This can be switched in the settings menu as well as activated via scripts.
-```cpp
-cScripts_Staging_showAllLoadouts = true;
-cScripts_Staging_showAllLoadouts = false;
-```
+You can toggle to show all loadouts during a mission from the cba settings menu under the staging category.
 
 ## See also
 - [[Features]]
