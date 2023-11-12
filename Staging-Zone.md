@@ -30,6 +30,7 @@ Global execution will enable the staging zones for all player JIP players will n
 
 ```hpp
 cScripts_Staging_ZoneStatus = true;
+cScripts_Staging_ZoneStatus = false;
 ```
 
 ### Allow all loadouts
