@@ -5,7 +5,7 @@
   * [[Cosmetics and quick features|Player cosmetics and quick deployment features]]
   * [[Platoon & Squad Insignias|Platoon and Squad Insignias]]
   * [[Player Radio Preset|Radio#Player-Radio]]
-* [[Vehicle Pylon]]
+* [[Vehicle pylons and loadouts|Vehicle Pylon]]
 * [[Vehicle Customization]]
 * [[Vehicle Settings and Functions]]
   * [[Get out side|Vehicle-Settings-and-Functions#get-out-actions]]
