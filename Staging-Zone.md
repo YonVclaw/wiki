@@ -3,8 +3,8 @@ The staging zone is automatically created around all `respawn_west` (_number suf
 You can also manually declare a zone using the following function:
 ```cpp
 /* Arguments:
- * 0: Zone <OBJECT/STRING>
- * 1: Zone Size <NUMBER> (Optional) [Default; 12 meter]
+ * 0: Zone <OBJECT/STRING/ARRAY>
+ * 1: Zone Size <NUMBER/STRING> (Optional) [Default; 12]
  */
 
 [this, 25] call cScripts_fnc_addStagingZone;
