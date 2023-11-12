@@ -38,6 +38,35 @@ It is possible to disable staging system in the mission settings under the stagi
 ### Allow all loadouts
 It is possible to removing the company blocker for loadouts in the missing settings under the staging category.
 
+
+## Adding custom zones
+**Added in 4.4.0**
+
+It is possible to add custom staging zones by calling `cScripts_fnc_addStagingZone` in init.sqf or on a objectInit. The function accept markers and objects.
+```cpp
+[this, 12] call cScripts_fnc_addStagingZone
+```
+
+### Trigger zone
+**Added in 4.4.0**
+It is possible to make a trigger to act as a stageing zone. You need to be a little bit carful with this system and follow the guide below carfully so you dont accedently give everyone on the map stageing options mid mission.
+
+- **Type:** `None`
+- **Activation:**: `AnyPlayer`
+- **Activation Type:** `Present`
+- **Condition:** `player inArea thisTrigger`
+- **On Activation:** `cScripts_Staging_ZoneStatus = true;`
+- **On Deactivation:** `cScripts_Staging_ZoneStatus = false;`
+
+## Allow all loadouts
+It is possible to show all loadouts for all players.
+This can be switched in the settings menu as well as activated via scripts.
+```cpp
+cScripts_Staging_showAllLoadouts = true;
+cScripts_Staging_showAllLoadouts = false;
+```
+
+
 ## See also
 - [[Features]]
 - [[Staging]] _(Feature)_
