@@ -1,6 +1,6 @@
 ## Make a staging zone
 The staging zone is automatically created around all `respawn_west` (_number suffix `_123` also work_) marker as well as our `Starter crate`. They cover 60 meters around the marker and 25 meter around the create location.
-You can also manually declare a zone using the magic marker name `zone_staging` or by using the following function:
+You can also manually declare a zone using the magic marker name `zone_staging` (see below) or by using the following function:
 ```cpp
 /* Arguments:
  * 0: Zone <OBJECT/STRING/ARRAY>
