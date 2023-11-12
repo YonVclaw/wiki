@@ -7,7 +7,7 @@
 
 ### How to
 * [[Add a insignia|How to add a insignia]]
-* [[Add a module|How to add new modules]]
+* [[Add a module|Module-Framework]]
 * [[Add a loadout|Gear#how-to-gear-up]]
 * [[Add a cba setting|How to add a cba setting]]
 
