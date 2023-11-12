@@ -13,3 +13,4 @@ Default settings don't allow cScripts to init vehicle radios but this can be ena
 
 ## See also
 - [[Features]]
+- [[Setup Radios]] (Framework)
