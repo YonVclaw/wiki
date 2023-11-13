@@ -11,7 +11,7 @@ _Zones can also have a suffix number example: `cscripts_civilan_zone_medium_69`.
 The `high`, `medium` and `low` determine the chance of causing casualties here are the values:
 ```
 high    0.40  (40% Chance)
-medium  0.30  (30% Chance)
+medium  0.25  (25% Chance)
 low     0.1   (10% Chance)
 ```
 
