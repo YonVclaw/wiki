@@ -1,4 +1,5 @@
 ## Features
+* [[AI Behaviour and difficulty|AI Behaviour and difficulty]]
 * [[Help cards and check lists|Diary Records and Documents]]
 * [[Staging Zone|Staging]]
 * [[Player Loadouts|Player Loadouts]]
