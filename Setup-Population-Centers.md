@@ -1,6 +1,6 @@
 **Avalible only on dev branch**
 
-The system is automatically enabled when Zone Markers are placed down in eden editor with the correct naming. The naming are as followed:
+The system is automatically enabled when Zone Markers are placed down in eden editor with the correct naming `cScripts_Civilian_Zone_[DENSITY]_[NrSUFFIX]`. Exsample zones with supported decenty naming are as follow:
 
 * `cscripts_civilan_zone_high`
 * `cscripts_civilan_zone_medium`
