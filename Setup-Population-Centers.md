@@ -9,7 +9,7 @@ Example zones with supported density naming are as follow:
 * `cscripts_civilian_zone_low`
 * `cscripts_civilian_zone_none`
 
-_Zones can also have a suffix number example: `cscripts_civilan_zone_medium_69`._
+_Zones can also have a suffix number example: `cscripts_civilian_zone_medium_69`._
 
 The `extream`, `high`, `medium`, `low` and `none` determine the chance of causing casualties here are the values:
 ```
