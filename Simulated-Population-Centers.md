@@ -1,4 +1,4 @@
-**Avalible only on dev branch**
+**Added in 4.5.10**
 
 The Simulated Population Centers system allow zeus to put soft limitaton on explosion usage inside of a city.
 All Population Centers are listed a diary record avalible in the map screen so you know were to avoid explosives.
