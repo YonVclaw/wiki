@@ -6,10 +6,10 @@ This function allow you to set a teleporter from and to any kind of object takin
  * 2: Destination <MARKER/OBJECT/LOCATION/GROUP/TASK>
  */
 
-[this, "Teleport - Airfield", Airstrip] call cScripts_fnc_teleport;
-[this, "Teleport - Base", MyBase] call cScripts_fnc_teleport;
-[this, "Teleport - Talon", "FOB_Talon"] call cScripts_fnc_teleport;
-[this, "Teleport - Base", "respawn_west"] call cScripts_fnc_telepor;
+[this, "Teleport - Airfield", Airstrip] call Cav_Mission_fnc_teleport;
+[this, "Teleport - Base", MyBase] call Cav_Mission_fnc_teleport;
+[this, "Teleport - Talon", "FOB_Talon"] call Cav_Mission_fnc_teleport;
+[this, "Teleport - Base", "respawn_west"] call Cav_Mission_fnc_teleport;
 
 ```
 The function is applied manually via Eden on the objects init.
