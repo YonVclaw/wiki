@@ -17,7 +17,7 @@ You can also manually declare a zone using the magic marker name `cscripts_stagi
 ```
 This function can be declared in `init.sqf` if you declare a VariableName of the object.
 
-You can also place down a marker and name it `zone_staging` (_number suffix `_123` does also work_). This will automatically get a zone of 60 meters around them.
+You can also place down a marker and name it `cscripts_staging_zone` (_number suffix `_123` does also work_). This will automatically get a zone of 60 meters around them.
 
 ## Zeus
 ### Disable/Enable all staging zones
