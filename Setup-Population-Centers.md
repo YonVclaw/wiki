@@ -1,4 +1,4 @@
-**Avalible only on dev branch**
+**Added in 4.5.10**
 
 The system is automatically enabled when Zone Markers are placed down in eden editor with the correct naming `cScripts_Civilian_Zone_[DENSITY]_[NrSUFFIX]`.
 Example zones with supported density naming are as follow:
@@ -22,4 +22,4 @@ none    0.0   ( 0% Chance)
 
 ## See also
 * [[Features]]
-* [[Simulated Population Centers]]
+* [[Simulated Population Centers]] (Feature)
