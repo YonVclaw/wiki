@@ -7,9 +7,9 @@ The gate function creates a automated open and close gate system without require
  * 2: Distance <STRING> (Optional) (Default; 30)
 */
 
-["gate"] call cScripts_fnc_gate
-["gate","WEST"] call cScripts_fnc_gate
-["gate","WEST", 30] call cScripts_fnc_gate
+["gate"] call Cav_Mission_fnc_gate;
+["gate","WEST"] call Cav_Mission_fnc_gate;
+["gate","WEST", 30] call Cav_Mission_fnc_gate;
 ```
 
 The function is applied manually via Eden on the objects init.
