@@ -13,7 +13,7 @@
   * [[Static line jump|Vehicle-Settings-and-Functions#Static-line-jump]]
   * [[HALO jump|Vehicle-Settings-and-Functions#HALO-jump]]
   * [[Vehicle Radio Preset|Radio#Vehicle-Radio]]
-* [[Simulated Population Centers]] (DEV)
+* [[Simulated Population Centers]]
 * [[Zeus Modules]]
 * [[CBA Mission Settings]]
 
@@ -23,7 +23,7 @@
 * [[Staging Zone]]
 * [[Field Hospital]]
 * [[Logistical Crates]]
-* [[Simulated Population Centers|Setup Population Centers]] (DEV)
+* [[Simulated Population Centers|Setup Population Centers]]
 * [[CBA Mission Settings]]
 * **Functions**
   * [[Loadout Button]]
