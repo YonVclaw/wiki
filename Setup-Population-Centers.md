@@ -3,11 +3,11 @@
 The system is automatically enabled when Zone Markers are placed down in eden editor with the correct naming `cScripts_Civilian_Zone_[DENSITY]_[NrSUFFIX]`.
 Example zones with supported density naming are as follow:
 
-* `cscripts_civilan_zone_extream`
-* `cscripts_civilan_zone_high`
-* `cscripts_civilan_zone_medium`
-* `cscripts_civilan_zone_low`
-* `cscripts_civilan_zone_none`
+* `cscripts_civilian_zone_extream`
+* `cscripts_civilian_zone_high`
+* `cscripts_civilian_zone_medium`
+* `cscripts_civilian_zone_low`
+* `cscripts_civilian_zone_none`
 
 _Zones can also have a suffix number example: `cscripts_civilan_zone_medium_69`._
 
