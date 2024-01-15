@@ -22,4 +22,4 @@ none    0.0   ( 0% Chance)
 
 ## See also
 * [[Features]]
-* [[Simulated Population Centers]] (Feature)
+* [[Simulated Population Centers]] _(Feature)_
