@@ -28,8 +28,8 @@
 * [[CBA Mission Settings]]
 * **Functions**
   * [[Loadout Button]]
-  * [[Teleporter Button|Teleport]] ([7CavAddon](https://github.com/7Cav/CavAddon/wiki/Teleport/))
-  * [[Automated Gate|Gate]] ([7CavAddon](https://github.com/7Cav/CavAddon/wiki/Gate/))
+  * [[Teleporter Button|Teleport]] ([CavAddon](https://github.com/7Cav/7CavAddon/wiki/Teleport/))
+  * [[Automated Gate|Gate]] ([CavAddon](https://github.com/7Cav/7CavAddon/wiki/Gate/))
 
 ## Framework
 * [[Player Loadouts (cScripts Gear System)|Gear]]
