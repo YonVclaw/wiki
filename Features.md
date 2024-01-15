@@ -30,6 +30,7 @@
   * [[Loadout Button]]
   * [[Teleporter Button|Teleport]] ([CavAddon](https://github.com/7Cav/7CavAddon/wiki/Teleport/))
   * [[Automated Gate|Gate]] ([CavAddon](https://github.com/7Cav/7CavAddon/wiki/Gate/))
+  * [[Make Civilian Agent]]
 
 ## Framework
 * [[Player Loadouts (cScripts Gear System)|Gear]]
