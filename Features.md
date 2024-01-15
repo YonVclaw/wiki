@@ -24,13 +24,13 @@
 * [[Field Hospital]]
 * [[Logistical Crates]]
 * [[Simulated Population Centers|Setup Population Centers]]
-* [[Civilian Agent]]
+
 * [[CBA Mission Settings]]
 * **Functions**
   * [[Loadout Button]]
   * [[Teleporter Button|Teleport]] ([CavAddon](https://github.com/7Cav/7CavAddon/wiki/Teleport/))
   * [[Automated Gate|Gate]] ([CavAddon](https://github.com/7Cav/7CavAddon/wiki/Gate/))
-  * [[Make Civilian Agent|Make Agent]]
+  * [[Make Civilian Agent|Civilian Agent]]
 
 ## Framework
 * [[Player Loadouts (cScripts Gear System)|Gear]]
