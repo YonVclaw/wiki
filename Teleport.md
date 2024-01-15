@@ -15,4 +15,7 @@ This function allow you to set a teleporter from and to any kind of object takin
 The function is applied manually via Eden on the objects init.
 
 ## See also
-* [[Features]]
+- [[Features]]
+- [fn_gate.sqf](https://github.com/7Cav/cScripts/blob/main/cScripts/functions/mission/fn_teleport.sqf) _(Function)_
+- [[Staging Zone]] _(Mission Makers)_
+- [[Gate]]
