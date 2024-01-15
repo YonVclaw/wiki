@@ -24,7 +24,6 @@
 * [[Field Hospital]]
 * [[Logistical Crates]]
 * [[Simulated Population Centers|Setup Population Centers]]
-
 * [[CBA Mission Settings]]
 * **Functions**
   * [[Loadout Button]]
