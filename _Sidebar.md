@@ -2,6 +2,7 @@
 * [Home](https://github.com/7Cav/cScripts/wiki)
 * **cScripts** 
    * [Features](Features)
+   * [Mission Makers](Features#Mission-Makers)
    * [Frameworks](Features#framework)
    * [Development](Development)
    * [Compositions](Compositions)
