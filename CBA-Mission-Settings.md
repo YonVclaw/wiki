@@ -5,35 +5,35 @@
 ### Default Values
 ```cpp
 // cScripts Mission Settings
-force cScripts_Settings_addEarplugs = true;
-force cScripts_Settings_allowCustomTagging = true;
-force cScripts_Settings_allowInsigniaApplication = true;
-force cScripts_Settings_allowReplaceItem = true;
-force cScripts_Settings_enable7cavZeusModules = true;
-force cScripts_Settings_enableRadios = true;
-force cScripts_Settings_enableStagingSystem = true;
-force cScripts_Settings_enableVehicleInventory = true;
-force cScripts_Settings_enableVehiclePylon = true;
-force cScripts_Settings_enableVehicleRadios = false;
-force cScripts_Settings_enableVehicleSystem = true;
-force cScripts_Settings_jumpSimulation = 2;
-force cScripts_Settings_jumpSimulationGlasses = true;
-force cScripts_Settings_jumpSimulationHat = true;
-force cScripts_Settings_jumpSimulationNVG = true;
-force cScripts_Settings_primaryClanTag = "7CAV";
-force cScripts_Settings_replaceHandGrenades = 1;
-force cScripts_Settings_replaceMagazines = 0;
-force cScripts_Settings_replaceMedical = 1;
-force cScripts_Settings_replaceSmokeGrenades = 1;
-force cScripts_Settings_replaceStunGrenades = 1;
-force cScripts_Settings_setAiSystemDifficulty = 2;
-force cScripts_Settings_setMissionType = 1;
-force cScripts_Settings_setPlayerRank = true;
-force cScripts_Settings_setRadio = true;
-force cScripts_Settings_setRadioChannelNames = "[""UNUSED"",""AVIATION"",""VIKING"",""LANCER"",""BANSHEE"",""SABRE"",""BANDIT"",""MISFIT"",""HAVOC"",""IDF-1"",""IDF-2"",""CAS-1"",""CAS-2"",""GROUND-TO-AIR"",""ATLAS"",""FARP"",""CONVOY"",""ZEUS"",""CAG"",""COMMAND""]";
-force cScripts_Settings_showAllLoadouts = false;
-force cScripts_Settings_showDiaryRecords = true;
-force cScripts_Settings_vehicleFactions = "[""BLU_F"", ""BLU_CTRG_F"", ""BLU_T_F"", ""BLU_USA_7CAV_F"", ""rhs_faction_usaf"", ""rhs_faction_usarmy"", ""rhs_faction_usarmy_d"", ""rhs_faction_usarmy_wd"", ""rhs_faction_usmc"", ""rhs_faction_usmc_d"", ""rhs_faction_usmc_wd"", ""rhs_faction_usn"",""rhs_faction_socom"",""USAF""]";
+force force cScripts_Settings_addEarplugs = true;
+force force cScripts_Settings_allowCustomTagging = true;
+force force cScripts_Settings_allowInsigniaApplication = true;
+force force cScripts_Settings_allowReplaceItem = true;
+force force cScripts_Settings_enable7cavZeusModules = true;
+force force cScripts_Settings_enableRadios = true;
+force force cScripts_Settings_enableStagingSystem = true;
+force force cScripts_Settings_enableVehicleInventory = true;
+force force cScripts_Settings_enableVehiclePylon = true;
+force force cScripts_Settings_enableVehicleRadios = false;
+force force cScripts_Settings_enableVehicleSystem = true;
+force force cScripts_Settings_jumpSimulation = 2;
+force force cScripts_Settings_jumpSimulationGlasses = true;
+force force cScripts_Settings_jumpSimulationHat = true;
+force force cScripts_Settings_jumpSimulationNVG = true;
+force force cScripts_Settings_primaryClanTag = "7CAV";
+force force cScripts_Settings_replaceHandGrenades = 1;
+force force cScripts_Settings_replaceMagazines = 0;
+force force cScripts_Settings_replaceMedical = 1;
+force force cScripts_Settings_replaceSmokeGrenades = 1;
+force force cScripts_Settings_replaceStunGrenades = 1;
+force force cScripts_Settings_setAiSystemDifficulty = 2;
+force force cScripts_Settings_setMissionType = 1;
+force force cScripts_Settings_setPlayerRank = true;
+force force cScripts_Settings_setRadio = true;
+force force cScripts_Settings_setRadioChannelNames = "[""UNUSED"",""AVIATION"",""VIKING"",""LANCER"",""BANSHEE"",""SABRE"",""BANDIT"",""MISFIT"",""HAVOC"",""IDF-1"",""IDF-2"",""CAS-1"",""CAS-2"",""GROUND-TO-AIR"",""ATLAS"",""FARP"",""CONVOY"",""ZEUS"",""CAG"",""COMMAND""]";
+force force cScripts_Settings_showAllLoadouts = false;
+force force cScripts_Settings_showDiaryRecords = true;
+force force cScripts_Settings_vehicleFactions = "[""BLU_F"", ""BLU_CTRG_F"", ""BLU_T_F"", ""BLU_USA_7CAV_F"", ""rhs_faction_usaf"", ""rhs_faction_usarmy"", ""rhs_faction_usarmy_d"", ""rhs_faction_usarmy_wd"", ""rhs_faction_usmc"", ""rhs_faction_usmc_d"", ""rhs_faction_usmc_wd"", ""rhs_faction_usn"",""rhs_faction_socom"",""USAF""]";
 ```
 
 ## See also
