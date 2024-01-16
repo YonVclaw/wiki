@@ -3,8 +3,7 @@
 **Note:** Settings that you changed in the mission are saved in the mission.sqm file. But are over written by the cba_settings.sqf if they are pressen there.
 
 ### Default Values
-```
-
+```cpp
 // cScripts Mission Settings
 force cScripts_Settings_addEarplugs = true;
 force cScripts_Settings_allowCustomTagging = true;
