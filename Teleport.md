@@ -14,7 +14,7 @@ This function allow you to set a teleporter from and to any kind of object takin
 ```
 The function is applied manually via Eden on the objects init.
 
-***This function has been moved to cavAddons.***
+**This function has been moved to cavAddons.**
 
 ## See also
 - [[Features]]
